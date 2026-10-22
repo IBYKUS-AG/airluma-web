@@ -1,0 +1,664 @@
+/* Inhaltsseiten: Kopf mit Dachzeile und Titel, darunter der Doku-Text (.doc).
+   Gestaltung nach der Seite „Grundlage-Farben“ im Entwurf, mit Ides-Farben. */
+
+.inhaltsseite {
+	box-sizing: border-box;
+	padding: 64px 96px 96px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.inhaltsseite-kopf {
+	max-width: 760px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.inhaltsseite-dachzeile {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: var(--brandPrimary);
+}
+
+.inhaltsseite-dachzeile-strich {
+	width: 24px;
+	height: 2px;
+	background: var(--brandPrimary);
+}
+
+.inhaltsseite h1 {
+	margin: 0;
+	font-size: 51px;
+	line-height: 60px;
+	font-weight: 600;
+	font-stretch: 112.5%;
+	letter-spacing: -0.5px;
+	color: var(--brandPrimary);
+	overflow-wrap: anywhere;
+}
+
+/* Auswahl der Reiter auf Komponentenseiten (Ides Segmented Control) */
+.inhaltsseite-ansicht {
+	align-self: flex-start;
+	margin-top: -8px;
+}
+
+/* Auswahl „Ansicht“: nur unter 480 px, dort statt der Segmented Control */
+.inhaltsseite-ansicht-auswahl {
+	margin-top: -8px;
+}
+
+.inhaltsseite-ansicht-auswahl .ibkSelect {
+	width: 100%;
+}
+
+@media (min-width: 480px) {
+	.inhaltsseite-ansicht-auswahl {
+		display: none;
+	}
+}
+
+@media (max-width: 479px) {
+	.inhaltsseite-ansicht {
+		display: none;
+	}
+}
+
+.inhaltsseite-ansicht-auswahl[hidden] {
+	display: none;
+}
+
+/* Lange Wörter (z. B. „Datenschutzbeauftragter“) in Überschriften trennen, statt die Seite auf schmalen Bildschirmen zu verbreitern */
+.inhaltsseite h1,
+.doc h2,
+.doc h3,
+.doc h4 {
+	overflow-wrap: break-word;
+	hyphens: auto;
+}
+
+.reiter-inhalt[hidden] {
+	display: none;
+}
+
+.inhaltsverzeichnis[hidden],
+.inhaltsverzeichnis li[hidden] {
+	display: none;
+}
+
+/* Text links, Inhaltsverzeichnis rechts */
+
+.inhaltsseite-spalten {
+	display: grid;
+	grid-template-columns: minmax(0, 760px) 240px;
+	gap: 64px;
+	align-items: start;
+}
+
+/* Inhaltsverzeichnis „Auf dieser Seite“ */
+
+.inhaltsverzeichnis {
+	position: sticky;
+	top: 24px;
+	max-height: calc(100vh - 72px - 72px - 48px);
+	overflow-y: auto;
+}
+
+.inhaltsverzeichnis-beschriftung {
+	margin: 0 0 8px;
+	padding: 0 8px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.inhaltsverzeichnis-titel {
+	margin: 0 0 16px;
+	padding: 0 8px;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 600;
+	color: var(--ibk-petrol-14);
+}
+
+.inhaltsverzeichnis ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.inhaltsverzeichnis a {
+	display: block;
+	padding: 8px;
+	border-radius: 2px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-petrol-32);
+	text-decoration: none;
+	transition: background-color .2s ease-in-out;
+}
+
+.inhaltsverzeichnis a:hover {
+	background: var(--ibk-petrol-90);
+}
+
+/* Abschnitt, in dem man gerade liest */
+.inhaltsverzeichnis a[aria-current="true"] {
+	background: var(--ibk-petrol-90);
+	color: var(--ibk-petrol-14);
+	font-weight: 600;
+}
+
+/* Sprungziele nicht direkt an den oberen Rand kleben */
+.doc h2,
+.doc h3 {
+	scroll-margin-top: 24px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.inhalt {
+		scroll-behavior: smooth;
+	}
+}
+
+/* Nicht genug Platz für Text und Verzeichnis nebeneinander */
+@media (max-width: 1279px) {
+	.inhaltsseite-spalten {
+		display: block;
+	}
+
+	.inhaltsverzeichnis {
+		display: none;
+	}
+}
+
+/* Doku-Text */
+
+.doc {
+	max-width: 760px;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--standard-fontcolor);
+}
+
+.doc > :first-child,
+.reiter-inhalt > :first-child {
+	margin-top: 0; /* Inhalt beginnt immer an derselben Stelle, egal ob Überschrift, Absatz oder Abbildung */
+}
+
+.doc h2 {
+	margin: 48px 0 16px;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	color: var(--brandPrimary);
+}
+
+.doc h3 {
+	margin: 32px 0 12px;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 600;
+	color: var(--brandPrimary);
+}
+
+.doc h4,
+.doc h5,
+.doc h6 {
+	margin: 24px 0 8px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: var(--standard-fontcolor);
+}
+
+.doc p {
+	margin: 0 0 16px;
+}
+
+/* Fette Wörter in Überschriften nicht zusätzlich hervorheben */
+.doc :is(h2, h3, h4, h5, h6) :is(strong, b) {
+	font-weight: inherit;
+}
+
+.doc ul,
+.doc ol {
+	margin: 0 0 16px;
+	padding-left: 24px;
+}
+
+.doc ul {
+	list-style: disc;
+}
+
+.doc li {
+	margin: 0 0 6px;
+}
+
+
+.doc hr {
+	margin: 32px 0;
+	border: 0;
+	border-top: 1px solid var(--ibk-petrol-90);
+}
+
+.doc code {
+	font-family: ui-monospace, Menlo, Consolas, monospace;
+	font-size: 14px;
+	padding: 1px 6px;
+	border-radius: 2px;
+	background: var(--ibk-petrol-94);
+	color: var(--ibk-petrol-26);
+}
+
+.doc pre {
+	margin: 0 0 16px;
+	padding: 12px 16px;
+	background: var(--ibk-petrol-94);
+	overflow-x: auto;
+}
+
+.doc pre code {
+	padding: 0;
+	background: none;
+}
+
+.doc blockquote {
+	margin: 24px 0;
+	padding: 16px 24px;
+	background: var(--ibk-sisal-94);
+}
+
+.doc blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* Tabellen: scrollen in sich, wenn sie breiter als die Spalte sind */
+
+.doc-tabelle {
+	margin: 0 0 24px;
+	overflow-x: auto;
+}
+
+.doc table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.doc th {
+	text-align: left;
+	font-weight: 600;
+	/* Ides Table: Kopfzellen mindestens 48 px, übrige Zellen mindestens 40 px (20 px Zeilenhöhe + Innenabstand) */
+	padding: 14px 12px;
+	background: var(--ibk-petrol-94);
+	color: var(--ibk-petrol-14);
+}
+
+.doc td {
+	padding: 10px 12px;
+	border-bottom: 1px solid var(--ibk-petrol-90);
+	vertical-align: top;
+}
+
+/* Farbtabellen */
+
+.farbtabelle td {
+	white-space: nowrap;
+}
+
+/* Farbname als Zeilenkopf, sieht aus wie eine normale Zelle */
+.farbtabelle tbody th {
+	padding: 8px 12px;
+	background: none;
+	font-weight: 400;
+	color: var(--standard-fontcolor);
+	border-bottom: 1px solid var(--ibk-petrol-90);
+}
+
+.farbfeld-zelle {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	white-space: nowrap;
+}
+
+.farbfeld {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+.farbverlauf {
+	height: 48px;
+	margin: 0 0 16px;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+/* Abbildungen: Bild aus der Doku, solange es fehlt ein Platzhalter */
+
+.abbildung {
+	margin: 24px 0;
+}
+
+/* immer so breit wie die Textspalte (Entscheidung 29.09.2026), auch auf dem Handy; Seitenverhältnis aus width/height,
+   damit die Seite beim Laden nicht springt */
+.abbildung img {
+	display: block;
+	box-sizing: border-box; /* Rahmen innerhalb der Breite, genau bündig mit dem Text */
+	width: 100%;
+	height: auto;
+	border: 1px solid var(--ibk-petrol-90);
+}
+
+.abbildung-platzhalter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 160px;
+	border: 1px solid var(--ibk-petrol-90);
+	background: var(--ibk-petrol-98);
+	color: var(--ibk-neutral-grey-42);
+	font-size: 14px;
+}
+
+.abbildung figcaption {
+	margin-top: 8px;
+	font-size: 12px;
+	line-height: 18px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+/* Schriftproben */
+
+.schriftprobe {
+	margin: 0 0 24px;
+	padding: 24px;
+	border: 1px solid var(--ibk-petrol-90);
+}
+
+.schriftprobe-zeichen p {
+	margin: 0;
+	font-size: 21px;
+	line-height: 32px;
+	overflow-wrap: anywhere;
+}
+
+.schriftprobe-zeichen .schriftprobe-gross {
+	font-size: 67px;
+	line-height: 80px;
+}
+
+.schriftprobe figcaption {
+	margin-top: 16px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+/* Download-Buttons (z. B. Iconset vom CDN) */
+.download-leiste {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin: 0 0 24px;
+}
+
+/* Buttons im Doku-Text nicht wie Textlinks unterstreichen */
+.doc a.ibkButton {
+	text-decoration: none;
+}
+
+.doc a.ibkButton-primary,
+.doc a.ibkButton-primary:hover {
+	color: var(--white-100);
+}
+
+.doc a.ibkButton-secondary,
+.doc a.ibkButton-secondary:hover {
+	color: var(--ibk-neutral-grey-18);
+}
+
+/* Zeichenübersicht der Icons */
+
+.iconuebersicht {
+	margin: 0 0 24px;
+	scroll-margin-top: 24px;
+}
+
+.iconuebersicht-suche {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	max-width: 400px;
+}
+
+.iconuebersicht-suche label {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+.iconuebersicht-suche .ibkInputWrapper {
+	position: relative;
+}
+
+.iconuebersicht-suche .ibkIcon {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--ibk-neutral-grey-42);
+	pointer-events: none;
+}
+
+.iconuebersicht-suche input {
+	-webkit-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 40px;
+	margin: 0;
+	padding: 6px 8px 6px 42px;
+	border: 2px solid var(--ibk-neutral-grey-58);
+	border-radius: 6px 0;
+	background: var(--white-100);
+	color: var(--standard-fontcolor);
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.iconuebersicht-suche input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.doc .iconuebersicht-status {
+	margin: 4px 0 16px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.doc .iconuebersicht-liste {
+	margin: 0 0 24px;
+	padding: 0;
+	list-style: none;
+	/* Ides Auto-Grid „narrow“ mit fester Kachelgröße (auto-fill) */
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
+	gap: 24px;
+}
+
+/* Icon als Ides Card */
+.doc .icon-kachel {
+	position: relative;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	min-width: 0;
+	transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.icon-kachel[hidden] {
+	display: none !important;
+}
+
+.doc .icon-kachel:hover {
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+/* Fokusrahmen um die ganze Card, wenn der Kopier-Button den Fokus hat */
+.doc .icon-kachel:has(.icon-kachel-knopf:focus-visible) {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 2px;
+}
+
+.icon-kachel-zeichen.ibkIcon {
+	font-size: 32px;
+	line-height: 32px;
+	margin-bottom: 8px;
+	color: var(--ibk-petrol-14);
+}
+
+/* Name = Button zum Kopieren; die Klickfläche reicht über die ganze Card */
+.icon-kachel-knopf {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	color: var(--standard-fontcolor);
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	text-align: left;
+	overflow-wrap: anywhere;
+	cursor: pointer;
+}
+
+.icon-kachel-knopf::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 10px;
+}
+
+.icon-kachel-knopf:focus-visible {
+	outline: none;
+}
+
+/* Bestätigung nach dem Kopieren */
+.icon-kachel-kopiert {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: none;
+	align-items: center;
+	gap: 4px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 600;
+	color: var(--ibk-petrol-32);
+}
+
+.icon-kachel-kopiert .ibkIcon {
+	font-size: 16px;
+}
+
+.doc .icon-kachel.ist-kopiert {
+	border-color: var(--ibk-petrol-32);
+}
+
+.icon-kachel.ist-kopiert .icon-kachel-kopiert {
+	display: inline-flex;
+}
+
+/* Download als SVG, unten rechts, über der Klickfläche der Card */
+.doc .icon-kachel-download {
+	position: absolute;
+	z-index: 1;
+	right: 8px;
+	bottom: 8px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 2px;
+	color: var(--ibk-petrol-32);
+	text-decoration: none;
+	transition: background-color .2s ease-in-out;
+}
+
+.doc .icon-kachel-download:hover {
+	background: var(--ibk-neutral-grey-90);
+	color: var(--ibk-petrol-14);
+}
+
+.doc .icon-kachel-download:active {
+	background: var(--ibk-neutral-grey-74);
+}
+
+.icon-kachel-download .ibkIcon {
+	font-size: 20px;
+}
+
+.icon-kachel-codepoint {
+	padding-right: 36px;
+}
+
+.icon-kachel-kurzname,
+.icon-kachel-codepoint {
+	font-size: 12px;
+	line-height: 18px;
+	color: var(--ibk-neutral-grey-42);
+	overflow-wrap: anywhere;
+}
+
+.doc .icon-kachel-kurzname code {
+	font-size: 12px;
+}
+
+.doc .iconuebersicht-hinweis {
+	margin: 12px 0 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* Externe Links: Icon hinter dem Linktext */
+
+.doc .link-extern-icon {
+	font-size: 16px;
+	vertical-align: -2px;
+	margin-left: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+@media (max-width: 1023px) {
+	.inhaltsseite {
+		padding: 48px 16px;
+	}
+
+	.inhaltsseite h1 {
+		font-size: 34px;
+		line-height: 40px;
+	}
+}

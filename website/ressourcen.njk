@@ -1,0 +1,32 @@
+---
+layout: rahmen.njk
+titel: Ressourcen
+beschreibung: "Ressourcen für die Arbeit mit Airluma: Schrift, Iconset, Web Components, Figma-Kit und Design Tokens zum Herunterladen, Installieren oder Verknüpfen."
+aktuell: ressourcen
+seitenstil: ressourcen.css
+---
+{#- Übersicht der Ressourcen. Einteilung aus navigation.json (Bereich „ressourcen“), Inhalte aus _data/ressourcen.json;
+    neue Links nur in ressourcen.json eintragen. -#}
+{%- from "makros.njk" import ressourcekachel %}
+		<div class="inhaltsseite uebersichtsseite">
+			<div class="inhaltsseite-kopf">
+				<p class="inhaltsseite-dachzeile"><span class="inhaltsseite-dachzeile-strich" aria-hidden="true"></span>Übersicht</p>
+				<h1>Ressourcen</h1>
+			</div>
+			<div class="uebersicht-text">
+				<p class="uebersicht-einleitung">Hier findest du alles, was du für die Arbeit mit Airluma herunterladen, installieren oder verknüpfen kannst – geordnet nach Design, Development und KI.</p>
+				<p>Schrift und Iconset liegen schon auf dem CDN bereit. Was noch nicht veröffentlicht ist, trägt den Hinweis „folgt“. Wie du am besten einsteigst, zeigt die Seite <a href="erste-schritte.html">Erste Schritte</a>.</p>
+			</div>
+{%- for b in navigation.bereiche %}{% if b.id == 'ressourcen' %}
+{%- for g in b.gruppen %}
+			<section class="kachelgruppe" aria-labelledby="gruppe-{{ g.id }}-titel">
+				<h2 class="kachelgruppe-titel" id="gruppe-{{ g.id }}-titel">{{ g.label }}</h2>
+				<ul class="ressourcen">
+{%- for e in g.eintraege %}{% for r in ressourcen %}{% if r.id == e.id %}
+					{{ ressourcekachel(r, 3) }}
+{%- endif %}{% endfor %}{% endfor %}
+				</ul>
+			</section>
+{%- endfor %}
+{%- endif %}{% endfor %}
+		</div>

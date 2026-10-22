@@ -1,0 +1,363 @@
+{
+	"einstieg": [
+		{
+			"id": "start",
+			"label": "Startseite",
+			"icon": "&#x1f3e0;",
+			"ziel": "index.html"
+		},
+		{
+			"id": "erste-schritte",
+			"label": "Erste Schritte",
+			"icon": "&#x1f680;",
+			"ziel": "erste-schritte.html"
+		}
+	],
+	"bereiche": [
+		{
+			"id": "grundlagen",
+			"label": "Grundlagen",
+			"icon": "&#x1f4d6;",
+			"ziel": "grundlagen.html",
+			"eintraege": [
+				{
+					"id": "farben",
+					"label": "Farben",
+					"icon": "&#x1f3a8;",
+					"ziel": "farben.html"
+				},
+				{
+					"id": "typografie",
+					"label": "Typografie",
+					"icon": "&#xe9fd;",
+					"ziel": "typografie.html"
+				},
+				{
+					"id": "layout",
+					"label": "Layout",
+					"icon": "&#xea3f;",
+					"ziel": "layout.html"
+				},
+				{
+					"id": "icons",
+					"label": "Icons",
+					"icon": "&#xe9f1;",
+					"ziel": "icons.html"
+				},
+				{
+					"id": "taxonomie",
+					"label": "Taxonomie",
+					"icon": "&#xe943;",
+					"ziel": "taxonomie.html"
+				}
+			]
+		},
+		{
+			"id": "komponenten",
+			"label": "Komponenten",
+			"icon": "&#xeaa2;",
+			"ziel": "komponenten.html",
+			"gruppen": [
+				{
+					"id": "base",
+					"label": "Base",
+					"eintraege": [
+						{
+							"id": "fieldset",
+							"label": "Fieldset",
+							"ziel": "fieldset.html"
+						},
+						{
+							"id": "figure",
+							"label": "Figure",
+							"ziel": "figure.html"
+						}
+					]
+				},
+				{
+					"id": "systemfeedback",
+					"label": "Systemfeedback",
+					"eintraege": [
+						{
+							"id": "badge",
+							"label": "Badge",
+							"ziel": "badge.html"
+						},
+						{
+							"id": "badge-counter",
+							"label": "Badge Counter",
+							"ziel": "badge-counter.html"
+						},
+						{
+							"id": "banner",
+							"label": "Banner",
+							"ziel": "banner.html"
+						},
+						{
+							"id": "dialog",
+							"label": "Dialog",
+							"ziel": "dialog.html"
+						},
+						{
+							"id": "meter",
+							"label": "Meter",
+							"ziel": "meter.html"
+						},
+						{
+							"id": "progress",
+							"label": "Progress",
+							"ziel": "progress.html"
+						},
+						{
+							"id": "toast",
+							"label": "Toast",
+							"ziel": "toast.html"
+						},
+						{
+							"id": "tooltip",
+							"label": "Tooltip",
+							"ziel": "tooltip.html"
+						}
+					]
+				},
+				{
+					"id": "navigation",
+					"label": "Navigation",
+					"eintraege": [
+						{
+							"id": "bottom-navigation",
+							"label": "Bottom Navigation",
+							"ziel": "bottom-navigation.html"
+						},
+						{
+							"id": "breadcrumbs",
+							"label": "Breadcrumbs",
+							"ziel": "breadcrumbs.html"
+						},
+						{
+							"id": "button",
+							"label": "Button",
+							"ziel": "button.html"
+						},
+						{
+							"id": "dropdown",
+							"label": "Dropdown",
+							"ziel": "dropdown.html"
+						},
+						{
+							"id": "link",
+							"label": "Link",
+							"ziel": "link.html"
+						},
+						{
+							"id": "navigation-menu-item",
+							"label": "Navigation Menu Item",
+							"ziel": "navigation-menu-item.html"
+						},
+						{
+							"id": "pagination",
+							"label": "Pagination",
+							"ziel": "pagination.html"
+						},
+						{
+							"id": "pagination-dots",
+							"label": "Pagination Dots",
+							"ziel": "pagination-dots.html"
+						},
+						{
+							"id": "select",
+							"label": "Select",
+							"ziel": "select.html"
+						},
+						{
+							"id": "step-button",
+							"label": "Step Button",
+							"ziel": "step-button.html"
+						},
+						{
+							"id": "top-navigation",
+							"label": "Top Navigation",
+							"ziel": "in-arbeit.html"
+						}
+					]
+				},
+				{
+					"id": "content",
+					"label": "Content",
+					"eintraege": [
+						{
+							"id": "accordion",
+							"label": "Accordion",
+							"ziel": "accordion.html"
+						},
+						{
+							"id": "avatar",
+							"label": "Avatar",
+							"ziel": "in-arbeit.html"
+						},
+						{
+							"id": "card",
+							"label": "Card",
+							"ziel": "card.html"
+						},
+						{
+							"id": "checkbox",
+							"label": "Checkbox",
+							"ziel": "checkbox.html"
+						},
+						{
+							"id": "chip",
+							"label": "Chip",
+							"ziel": "chip.html"
+						},
+						{
+							"id": "input-field",
+							"label": "Input Field",
+							"ziel": "input-field.html"
+						},
+						{
+							"id": "password-field",
+							"label": "Password Field",
+							"ziel": "password-field.html"
+						},
+						{
+							"id": "radio-button",
+							"label": "Radio Button",
+							"ziel": "radio-button.html"
+						},
+						{
+							"id": "range-slider",
+							"label": "Range Slider",
+							"ziel": "range-slider.html"
+						},
+						{
+							"id": "rating",
+							"label": "Rating",
+							"ziel": "in-arbeit.html"
+						},
+						{
+							"id": "segmented-control",
+							"label": "Segmented Control",
+							"ziel": "segmented-control.html"
+						},
+						{
+							"id": "switch",
+							"label": "Switch",
+							"ziel": "switch.html"
+						},
+						{
+							"id": "table-item",
+							"label": "Table Item",
+							"ziel": "table-item.html"
+						},
+						{
+							"id": "tabs",
+							"label": "Tabs",
+							"ziel": "tabs.html"
+						},
+						{
+							"id": "text-area",
+							"label": "Text Area",
+							"ziel": "text-area.html"
+						}
+					]
+				},
+				{
+					"id": "layouts",
+					"label": "Layouts",
+					"eintraege": [
+						{
+							"id": "calendar",
+							"label": "Calendar",
+							"ziel": "in-arbeit.html"
+						},
+						{
+							"id": "date-picker",
+							"label": "Date Picker",
+							"ziel": "in-arbeit.html"
+						},
+						{
+							"id": "step-button-bar",
+							"label": "Step Button Bar",
+							"ziel": "step-button-bar.html"
+						},
+						{
+							"id": "time-picker",
+							"label": "Time Picker",
+							"ziel": "in-arbeit.html"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ressourcen",
+			"label": "Ressourcen",
+			"icon": "&#x1f4da;",
+			"ziel": "ressourcen.html",
+			"gruppen": [
+				{
+					"id": "design",
+					"label": "Design",
+					"eintraege": [
+						{
+							"id": "figma-kit",
+							"label": "Figma-Kit",
+							"ziel": "ressourcen.html#ressource-figma-kit"
+						},
+						{
+							"id": "iconset",
+							"label": "Iconset",
+							"ziel": "ressourcen.html#ressource-iconset"
+						},
+						{
+							"id": "schrift",
+							"label": "Schrift Asap",
+							"ziel": "ressourcen.html#ressource-schrift"
+						}
+					]
+				},
+				{
+					"id": "development",
+					"label": "Development",
+					"eintraege": [
+						{
+							"id": "web-components",
+							"label": "Web Components",
+							"ziel": "ressourcen.html#ressource-web-components"
+						},
+						{
+							"id": "design-tokens",
+							"label": "Design Tokens",
+							"ziel": "ressourcen.html#ressource-design-tokens"
+						},
+						{
+							"id": "github",
+							"label": "GitHub",
+							"ziel": "ressourcen.html#ressource-github"
+						}
+					]
+				},
+				{
+					"id": "ki",
+					"label": "KI",
+					"eintraege": [
+						{
+							"id": "claude-artefakt",
+							"label": "Claude-Artefakt",
+							"ziel": "ressourcen.html#ressource-claude-artefakt"
+						}
+					]
+				}
+			]
+		}
+	],
+	"abschluss": [
+		{
+			"id": "mitmachen",
+			"label": "Mitmachen",
+			"icon": "&#x1f91d;",
+			"ziel": "mitmachen.html"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+/* Rechtliche Seiten (Impressum, Datenschutz, Barrierefreiheit): Typografie der Inhaltsseiten, dazu Hinweis und Lücken. */
+@import url("inhaltsseite.css");
+
+.pruefhinweis {
+	margin-bottom: 32px;
+}
+
+/* Der Ides Banner ist sonst 330 px schmal */
+.pruefhinweis.ides-komponente .ibkBanner {
+	width: auto;
+	max-width: 640px;
+}
+
+/* Überschrift des Hinweises: h2, damit keine Ebene übersprungen wird (Ides Banner, Barrierefreiheit); Aussehen der
+   Banner-Überschrift (h4) wie bisher. Die Klasse vor der id hält sie aus dem Inhaltsverzeichnis heraus. */
+.pruefhinweis.ides-komponente .ibkBanner h2.pruefhinweis-titel {
+	align-self: stretch;
+	margin: 0;
+	font-size: var(--h4, 21px);
+	line-height: var(--h4-lh, 24px);
+	font-weight: 600;
+	color: var(--standard-fontcolor);
+}
+
+/* Fehlende Angabe: auffällig, damit sie vor dem Livegang nicht übersehen wird */
+.angabe-folgt {
+	padding: 0 4px;
+	background: var(--ibk-sisal-86);
+	color: var(--standard-fontcolor);
+	font-style: italic;
+}
+
+.doc address {
+	font-style: normal;
+}

@@ -1,0 +1,13 @@
+{#- Reiter „Live-Beispiel“ einer Komponentenseite aus dem Storybook des Ides-Teams (website/storybook/, gebaut von
+    werkzeuge/komponenten-bau/storybook.sh): Ansicht „Docs“ der Komponente mit Beispiel, Einstellungen und HTML-Code.
+    Zuordnung in _data/storybook.json. Höhe passt scripts/storybook.js an den Inhalt an; ohne JavaScript feste Höhe. -#}
+{%- set sb = storybook[aktuell] %}
+			<link rel="stylesheet" href="styles/storybook.css">
+			<section class="storybook" aria-labelledby="storybook-titel">
+				<div class="storybook-kopf">
+					<h2 class="storybook-titel" id="storybook-titel">Live-Beispiel<span class="nur-screenreader"> {{ titel }}</span></h2>
+					<p class="storybook-verweis"><a href="storybook/index.html?path=/docs/{{ sb }}">Im Storybook öffnen</a></p>
+				</div>
+				<iframe class="storybook-rahmen" src="storybook/iframe.html?id={{ sb }}&amp;viewMode=docs" title="Storybook: {{ titel }} – Beispiele, Einstellungen und HTML-Code" loading="lazy"></iframe>
+			</section>
+			<script src="scripts/storybook.js" defer></script>

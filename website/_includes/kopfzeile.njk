@@ -1,0 +1,22 @@
+	<header class="kopfzeile">
+		<a class="kopfzeile-marke" href="index.html" aria-label="Airluma – zur Startseite">
+			<span class="kopfzeile-marke-quadrat" aria-hidden="true"></span>
+			<span class="kopfzeile-marke-name">Airluma</span>
+		</a>
+		{#- Nur unter 1024 px und mit JavaScript sichtbar (Klasse mit-menue am html): öffnet Suchfeld und Seitennavigation.
+		    Steht vor dem Suchfeld, damit die Reihenfolge der Tabulatortaste der Anordnung auf dem Bildschirm folgt. #}
+		<button type="button" class="ibkButton ibkButton-regular ibkButton-secondary ibkIcon-leading kopfzeile-menue" aria-expanded="false" aria-controls="suche seitennavigation"><i class="ibkIcon" aria-hidden="true">&#xe912;</i><span class="ibkButtonText">Menü</span></button>
+		{#- Globale Suche (scripts/suche.js, Suchverzeichnis von Pagefind): Das Skript macht das Feld zur Combobox und füllt
+		    die Trefferliste darunter. Kein Formular: Ohne JavaScript nimmt das Feld nur Eingaben an, Enter lädt nichts neu. #}
+		<div class="kopfzeile-suche" id="suche" role="search">
+			<div class="ibkInputWrapper">
+				<span class="ibkIcon" aria-hidden="true">&#x1f50d;</span>
+				<input class="ibkInput" id="suche-feld" type="search" name="suche" placeholder="Suchen" aria-label="Suche" autocomplete="off">
+			</div>
+			<div class="suche-ergebnis" hidden>
+				<ul class="suche-liste" id="suche-treffer" role="listbox" aria-label="Suchtreffer"></ul>
+				<p class="suche-leer" hidden></p>
+			</div>
+			<p class="nur-screenreader" id="suche-status" role="status"></p>
+		</div>
+	</header>

@@ -1,0 +1,64 @@
+[
+	{
+		"id": "web-components",
+		"name": "Web Components",
+		"zweck": "Die Komponenten als fertiger Code, der in jedem Webprojekt funktioniert, unabhängig vom Framework.",
+		"status": "verfuegbar",
+		"links": [
+			{ "text": "npm-Paket", "ziel": "https://www.npmjs.com/package/@airluma/webcomponents" },
+			{ "text": "Quellcode auf GitHub", "ziel": "https://github.com/IBYKUS-AG/airluma-ui" }
+		]
+	},
+	{
+		"id": "figma-kit",
+		"name": "Figma-Kit",
+		"zweck": "Alle Komponenten, Farben und Textstile als Bibliothek zum Gestalten in Figma.",
+		"status": "folgt",
+		"links": []
+	},
+	{
+		"id": "iconset",
+		"name": "Iconset",
+		"zweck": "Die Icons als Schriftdatei, einsetzbar per Unicode oder Ligatur, und einzeln als SVG auf der Seite Icons.",
+		"status": "verfuegbar",
+		"links": [
+			{ "text": "WOFF2", "ziel": "https://airluma-cdn.b-cdn.net/IBYKUS-Iconset.woff2" },
+			{ "text": "WOFF", "ziel": "https://airluma-cdn.b-cdn.net/IBYKUS-Iconset.woff" },
+			{ "text": "TTF", "ziel": "https://airluma-cdn.b-cdn.net/IBYKUS-Iconset.ttf" }
+		]
+	},
+	{
+		"id": "schrift",
+		"name": "Schrift Asap",
+		"zweck": "Die Schrift aller Oberflächen als variable Schrift mit stufenloser Stärke und Breite.",
+		"status": "verfuegbar",
+		"links": [
+			{ "text": "Asap", "ziel": "https://airluma-cdn.b-cdn.net/Asap_wdth-wght.ttf" },
+			{ "text": "Asap Italic", "ziel": "https://airluma-cdn.b-cdn.net/Asap-Italic_wdth-wght.ttf" },
+			{ "text": "Lizenz (SIL Open Font License)", "ziel": "https://airluma-cdn.b-cdn.net/OFL.txt" }
+		]
+	},
+	{
+		"id": "design-tokens",
+		"name": "Design Tokens",
+		"zweck": "Farben, Abstände, Radien und Schriftgrößen als Werte zum Einlesen in Design-Werkzeuge und Code.",
+		"status": "folgt",
+		"links": []
+	},
+	{
+		"id": "claude-artefakt",
+		"name": "Claude-Artefakt",
+		"zweck": "Airluma als Vorlage für Claude, damit Entwürfe und Prototypen direkt im Stil des Designsystems entstehen.",
+		"status": "folgt",
+		"links": []
+	},
+	{
+		"id": "github",
+		"name": "GitHub",
+		"zweck": "Quellcode und Versionen der Web Components.",
+		"status": "verfuegbar",
+		"links": [
+			{ "text": "IBYKUS-AG/airluma-ui", "ziel": "https://github.com/IBYKUS-AG/airluma-ui" }
+		]
+	}
+]

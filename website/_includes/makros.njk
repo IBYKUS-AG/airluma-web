@@ -1,0 +1,45 @@
+{#- Gemeinsame Bausteine für Seiten, die sie mit {% from "makros.njk" import … %} holen. -#}
+
+{#- Externer Link: neuer Tab, Hinweis für Screenreader, Symbol wie in der Doku -#}
+{%- macro extern(text, ziel) -%}
+<a href="{{ ziel }}" target="_blank" rel="noopener noreferrer">{{ text }}<span class="nur-screenreader"> (öffnet in neuem Tab)</span><span class="ibkIcon link-extern-icon" aria-hidden="true">&#x2197;</span></a>
+{%- endmacro -%}
+
+{#- Kachel einer Ressource aus _data/ressourcen.json: große Ides Card mit abstrakter Grafik oben (grafik/ressource-<id>.njk,
+    wie die Grundlagen-Kacheln), darunter Name (Anker), Status als Text, Zweck und Links.
+    Nicht als Ganzes klickbar, weil eine Ressource mehrere Links haben kann. -#}
+{%- macro ressourcekachel(r, ebene) -%}
+<li class="ressource ibkCard ibkCard-bordered ibkCard-delta-10{% if r.status != 'verfuegbar' %} ressource-folgt{% endif %}">
+	<div class="ressource-grafik" aria-hidden="true">{% include "grafik/ressource-" + r.id + ".njk" ignore missing %}</div>
+	<div class="ressource-inhalt">
+	<h{{ ebene }} class="ressource-name" id="ressource-{{ r.id }}">{{ r.name }}</h{{ ebene }}>
+	<p class="ressource-status">{% if r.status == 'verfuegbar' %}<span class="ibkIcon" aria-hidden="true">&#xe91a;</span> verfügbar{% else %}folgt{% endif %}</p>
+	<p class="ressource-zweck">{{ r.zweck }}</p>
+{%- if r.links.length %}
+	<p class="ressource-links">
+{%- for l in r.links %}{{ extern(l.text, l.ziel) }}{% endfor -%}
+	</p>
+{%- endif %}
+	</div>
+</li>
+{%- endmacro -%}
+
+{#- Rechtliche Seiten: Angabe aus _data/rechtliches.json oder – wenn sie fehlt (null) – eine sichtbar markierte Lücke -#}
+{%- macro angabe(wert) -%}
+{%- if wert %}{{ wert }}{% else %}<mark class="angabe-folgt">Angabe folgt</mark>{% endif -%}
+{%- endmacro -%}
+
+{#- Rechtliche Seiten: Hinweis oben, solange die rechtliche Prüfung aussteht (Ides Banner, statisch ohne Schließen) -#}
+{%- macro pruefhinweis(rechtliches) -%}
+{%- if not rechtliches.geprueft %}
+<link rel="stylesheet" href="styles/vorschau.css">
+<div class="ides-komponente pruefhinweis" role="note" aria-labelledby="pruefhinweis-titel">
+	<div class="ibkBanner regular">
+		<div class="ibkBanner-content">
+			<h2 class="pruefhinweis-titel" id="pruefhinweis-titel">Entwurf</h2>
+			<p>Dieser Text wird noch rechtlich geprüft und kann sich bis zur Freigabe ändern.</p>
+		</div>
+	</div>
+</div>
+{%- endif %}
+{%- endmacro -%}

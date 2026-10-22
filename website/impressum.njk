@@ -1,0 +1,60 @@
+---
+layout: inhaltsseite.njk
+titel: Impressum
+beschreibung: "Impressum der Website des Designsystems Airluma mit Angaben zum Anbieter."
+dachzeile: Rechtliches
+aktuell: impressum
+seitenstil: rechtliches.css
+---
+{#- Impressum. Aufbau und Wortlaut nach dem Impressum auf ibykus.de (gelesen 19.10.2026); nicht übernommen:
+    Urheberrechtshinweis (widerspricht der offenen Lizenz), Social-Media-Profile, Kontaktformular.
+    Alle Angaben kommen aus _data/rechtliches.json (einzige Stelle); fehlende Angaben zeigt angabe() als markierte Lücke. Einzige Stelle neben dem Datenschutz, an der IBYKUS genannt wird. -#}
+{%- from "makros.njk" import angabe, pruefhinweis %}
+{%- set a = rechtliches.anbieter %}
+{%- set k = rechtliches.kontakt %}
+{{ pruefhinweis(rechtliches) }}
+<h2 id="anbieter">Anbieter</h2>
+<p>Airluma ist ein Angebot der</p>
+<address>
+	{{ a.firma }}<br>
+	{{ a.strasse }}<br>
+	{{ a.plz }} {{ a.ort }}<br>
+	{{ a.land }}
+</address>
+
+<h2 id="vertretung">Vertreten durch</h2>
+<ul>
+	<li>Vorstand: {{ a.vorstand | join(', ') }}</li>
+	<li>Vorsitzender des Aufsichtsrats: {{ angabe(a.aufsichtsratsvorsitz) }}</li>
+</ul>
+
+<h2 id="kontakt">Kontakt</h2>
+<ul>
+	<li>E-Mail: <a href="mailto:{{ k.email }}">{{ k.email }}</a></li>
+	<li>Telefon: <a href="tel:{{ k.telefon_link }}">{{ k.telefon }}</a></li>
+	<li>Fax: {{ k.fax }}</li>
+</ul>
+
+<h2 id="register">Registereintrag</h2>
+<ul>
+	<li>Handelsregister: {{ angabe(a.registernummer) }}</li>
+	<li>Registergericht: {{ angabe(a.registergericht) }}</li>
+</ul>
+
+<h2 id="umsatzsteuer">Umsatzsteuer-ID</h2>
+<p>{{ angabe(a.ust_id) }}</p>
+
+<h2 id="aufsicht">Angaben zu audiovisuellen Mediendiensten</h2>
+<ul>
+	<li>Sitzland: {{ a.land }}</li>
+	<li>Regulierungs- und Aufsichtsbehörde: {{ angabe(a.aufsichtsbehoerde_medien) }}</li>
+</ul>
+
+<h2 id="streitbeilegung">Verbraucherstreitbeilegung gem. § 36 VSBG</h2>
+<p>Wir nehmen nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.</p>
+
+<h2 id="haftung">Haftungsausschluss</h2>
+<p>Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetze verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlinks auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit. Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.</p>
+
+<h2 id="datenschutzhinweis">Datenschutzhinweis</h2>
+<p>Unsere Datenschutzerklärung finden Sie unter <a href="datenschutz.html">Datenschutz</a>.</p>

@@ -1,0 +1,114 @@
+/* Ressourcen: Übersichtsseite mit Kacheln je Gruppe (Design, Development, KI).
+   Kopf, Einleitung und Gruppenüberschriften wie die Übersichtsseiten; Kachel-Markup in _includes/makros.njk. */
+@import url("uebersichtsseite.css");
+
+/* Ressourcen-Kacheln: Raster, Status als Text mit Symbol, „folgt“ zusätzlich gestrichelt */
+.ressourcen {
+	margin: 0 0 16px;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(26rem, 100%), 1fr));
+	max-width: 1200px;
+	gap: 24px;
+}
+
+.ressource {
+	margin: 0;
+	min-height: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Grafik oben über die ganze Breite, wie die Grundlagen-Kacheln */
+.ressource-grafik {
+	height: 240px;
+	line-height: 0;
+}
+
+.ressource-grafik svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.ressource-inhalt {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 20px 28px 28px;
+}
+
+/* „folgt“: gestrichelte Linie auch zwischen Grafik und Text */
+.ressource.ressource-folgt .ressource-grafik {
+	border-bottom: 1px dashed var(--ibk-neutral-grey-74);
+}
+
+.ressource .ressource-name {
+	margin: 0;
+	font-size: 24px;
+	line-height: 32px;
+	color: var(--standard-fontcolor);
+	scroll-margin-top: 24px;
+}
+
+.ressource-status {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	color: var(--ibk-petrol-32);
+}
+
+.ressource-status .ibkIcon {
+	font-size: 16px;
+}
+
+.ressource-zweck {
+	margin: 4px 0 0;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.ressource-links {
+	margin: 8px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 16px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.ressource.ressource-folgt {
+	border-style: dashed;
+	border-color: var(--ibk-neutral-grey-74);
+}
+
+.ressource-folgt .ressource-status {
+	color: var(--ibk-neutral-grey-42);
+}
+
+.ressource-links .link-extern-icon {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 2px;
+	text-decoration: none;
+}
+
+
+@media (max-width: 599px) {
+	.ressource-grafik {
+		height: 180px;
+	}
+
+	.ressource .ressource-name {
+		font-size: 21px;
+		line-height: 28px;
+	}
+}

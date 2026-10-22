@@ -1,0 +1,10 @@
+	<footer class="fusszeile">
+		<p class="fusszeile-copyright">© 2026 Airluma · Open Source unter der Apache-Lizenz 2.0</p>
+		<nav class="fusszeile-navigation" aria-label="Rechtliches">
+			<ul>
+{%- for r in [["impressum", "Impressum"], ["datenschutz", "Datenschutz"], ["barrierefreiheit", "Barrierefreiheit"]] %}
+				<li><a href="{{ r[0] }}.html"{% if aktuell == r[0] %} aria-current="page"{% endif %}>{{ r[1] }}</a></li>
+{%- endfor %}
+			</ul>
+		</nav>
+	</footer>

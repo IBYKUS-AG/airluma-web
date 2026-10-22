@@ -1,0 +1,6 @@
+{
+	"hinweis": "Ort der Ides-Quellen, relativ zum Projektordner. Einzige Stelle für alle Skripte, den Bau der Komponenten und eleventy.config.js. Beim Umstieg auf das öffentliche GitHub nur hier ändern. Die Quellen werden nur gelesen, nie verändert.",
+	"ides_doku": { "pfad": "Ressourcen/2026 09 04 Ides-Doku/", "stand": "2026-09-04" },
+	"web_components": { "pfad": "Ressourcen/airluma-ui-v0.32.0/", "stand": "GitHub IBYKUS-AG/airluma-ui v0.32.0" },
+	"iconset": { "pfad": "Ressourcen/IBYKUS-Iconset.svg", "version": "2.0 (aus airluma-ui v0.32.0, liegt im Repository, damit der Bau auf GitHub sie findet)" }
+}

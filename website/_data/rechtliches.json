@@ -1,0 +1,41 @@
+{
+	"_hinweis": "Einzige Stelle für Firmen- und Kontaktangaben (Impressum, Datenschutz, Barrierefreiheit). Quelle: Impressum und Datenschutzerklärung auf ibykus.de, gelesen am 29.09.2026 (Datenschutzerklärung dort: Stand 02.09.2026). null = Angabe fehlt, die Seite zeigt eine markierte Lücke. geprueft = true blendet den Hinweis „Entwurf“ auf allen drei Seiten aus (freigegeben 19.10.2026). Datenschutz: Übermittlung USA, Aufsichtsbehörde, Speicherdauer und Bereitstellung nach Prüfung durch den Datenschutzbeauftragten der IBYKUS AG (Antwort vom 19.10.2026).",
+	"geprueft": true,
+	"anbieter": {
+		"firma": "IBYKUS AG für Informationstechnologie",
+		"strasse": "Herman-Hollerith-Straße 1",
+		"plz": "99099",
+		"ort": "Erfurt",
+		"land": "Deutschland",
+		"vorstand": [
+			"Thomas Winter (Vorstandsvorsitzender, CEO)",
+			"Michael Erdmann (COO & CTO)"
+		],
+		"aufsichtsratsvorsitz": "Stephan Behr",
+		"registergericht": "Amtsgericht Jena",
+		"registernummer": "HRB 516855",
+		"ust_id": "DE 299 779 473",
+		"aufsichtsbehoerde_medien": "Thüringer Landesmedienanstalt (TLM)"
+	},
+	"kontakt": {
+		"telefon": "+49 361 44100",
+		"telefon_link": "+4936144100",
+		"fax": "+49 361 4410 410",
+		"email": "info@ibykus.de"
+	},
+	"datenschutz": {
+		"beauftragter": "Datenschutzbeauftragter der IBYKUS AG für Informationstechnologie, Herman-Hollerith-Straße 1, 99099 Erfurt",
+		"email": "datenschutz@ibykus.de",
+		"aufsichtsbehoerde": "Thüringer Landesbeauftragte für den Datenschutz und die Informationsfreiheit (TLfDI), Häßlerstraße 8, 99096 Erfurt",
+		"aufsichtsbehoerde_web": "https://www.tlfdi.de/",
+		"hosting": "GitHub Pages",
+		"dpf_github": "Die Übermittlung personenbezogener Daten in die USA erfolgt auf Grundlage des Angemessenheitsbeschlusses der Europäischen Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO). GitHub Inc. ist entsprechend zertifiziert.",
+		"datenschutz_github": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+		"datenschutz_bunny": "https://bunny.net/gdpr/",
+		"stand": "19.10.2026"
+	},
+	"barrierefreiheit": {
+		"email": null,
+		"stand": "29.09.2026"
+	}
+}

@@ -1,0 +1,897 @@
+{
+	"accordion-01": {
+		"datei": "bilder/doku/accordion-01.svg",
+		"breite": 736,
+		"hoehe": 273
+	},
+	"accordion-02": {
+		"datei": "bilder/doku/accordion-02.svg",
+		"breite": 330,
+		"hoehe": 416
+	},
+	"badge-02": {
+		"datei": "bilder/doku/badge-02.svg",
+		"breite": 745,
+		"hoehe": 250
+	},
+	"badge-03": {
+		"datei": "bilder/doku/badge-03.svg",
+		"breite": 432,
+		"hoehe": 72
+	},
+	"badge-01": {
+		"datei": "bilder/doku/badge-01.svg",
+		"breite": 642,
+		"hoehe": 102
+	},
+	"banner-01": {
+		"datei": "bilder/doku/banner-01.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"banner-02": {
+		"datei": "bilder/doku/banner-02.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"bottom-navigation-01": {
+		"datei": "bilder/doku/bottom-navigation-01.svg",
+		"breite": 309,
+		"hoehe": 186
+	},
+	"bottom-navigation-02": {
+		"datei": "bilder/doku/bottom-navigation-02.svg",
+		"breite": 743,
+		"hoehe": 186
+	},
+	"bottom-navigation-03": {
+		"datei": "bilder/doku/bottom-navigation-03.svg",
+		"breite": 500,
+		"hoehe": 200
+	},
+	"breadcrumbs-01": {
+		"datei": "bilder/doku/breadcrumbs-01.svg",
+		"breite": 384,
+		"hoehe": 205
+	},
+	"breadcrumbs-06": {
+		"datei": "bilder/doku/breadcrumbs-06.svg",
+		"breite": 380,
+		"hoehe": 205
+	},
+	"breadcrumbs-02": {
+		"datei": "bilder/doku/breadcrumbs-02.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"breadcrumbs-03": {
+		"datei": "bilder/doku/breadcrumbs-03.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"breadcrumbs-04": {
+		"datei": "bilder/doku/breadcrumbs-04.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"breadcrumbs-05": {
+		"datei": "bilder/doku/breadcrumbs-05.svg",
+		"breite": 380,
+		"hoehe": 88
+	},
+	"button-01": {
+		"datei": "bilder/doku/button-01.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-02": {
+		"datei": "bilder/doku/button-02.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-03": {
+		"datei": "bilder/doku/button-03.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-04": {
+		"datei": "bilder/doku/button-04.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-05": {
+		"datei": "bilder/doku/button-05.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-06": {
+		"datei": "bilder/doku/button-06.svg",
+		"breite": 690,
+		"hoehe": 302
+	},
+	"button-09": {
+		"datei": "bilder/doku/button-09.svg",
+		"breite": 865,
+		"hoehe": 112
+	},
+	"button-07": {
+		"datei": "bilder/doku/button-07.svg",
+		"breite": 441,
+		"hoehe": 205
+	},
+	"button-08": {
+		"datei": "bilder/doku/button-08.svg",
+		"breite": 441,
+		"hoehe": 205
+	},
+	"card-01": {
+		"datei": "bilder/doku/card-01.svg",
+		"breite": 429,
+		"hoehe": 274
+	},
+	"card-02": {
+		"datei": "bilder/doku/card-02.svg",
+		"breite": 399,
+		"hoehe": 391
+	},
+	"checkbox-01": {
+		"datei": "bilder/doku/checkbox-01.svg",
+		"breite": 478,
+		"hoehe": 205
+	},
+	"checkbox-02": {
+		"datei": "bilder/doku/checkbox-02.svg",
+		"breite": 211,
+		"hoehe": 182
+	},
+	"checkbox-03": {
+		"datei": "bilder/doku/checkbox-03.svg",
+		"breite": 367,
+		"hoehe": 336
+	},
+	"checkbox-04": {
+		"datei": "bilder/doku/checkbox-04.svg",
+		"breite": 367,
+		"hoehe": 336
+	},
+	"chip-02": {
+		"datei": "bilder/doku/chip-02.svg",
+		"breite": 574,
+		"hoehe": 166
+	},
+	"chip-03": {
+		"datei": "bilder/doku/chip-03.svg",
+		"breite": 502,
+		"hoehe": 212
+	},
+	"chip-01": {
+		"datei": "bilder/doku/chip-01.svg",
+		"breite": 458,
+		"hoehe": 109
+	},
+	"dialog-01": {
+		"datei": "bilder/doku/dialog-01.svg",
+		"breite": 697,
+		"hoehe": 304
+	},
+	"dialog-02": {
+		"datei": "bilder/doku/dialog-02.svg",
+		"breite": 697,
+		"hoehe": 305
+	},
+	"dialog-03": {
+		"datei": "bilder/doku/dialog-03.svg",
+		"breite": 697,
+		"hoehe": 376
+	},
+	"dialog-04": {
+		"datei": "bilder/doku/dialog-04.svg",
+		"breite": 697,
+		"hoehe": 480
+	},
+	"dialog-05": {
+		"datei": "bilder/doku/dialog-05.svg",
+		"breite": 697,
+		"hoehe": 736
+	},
+	"dropdown-01": {
+		"datei": "bilder/doku/dropdown-01.svg",
+		"breite": 697,
+		"hoehe": 352
+	},
+	"dropdown-02": {
+		"datei": "bilder/doku/dropdown-02.svg",
+		"breite": 697,
+		"hoehe": 300
+	},
+	"dropdown-03": {
+		"datei": "bilder/doku/dropdown-03.svg",
+		"breite": 697,
+		"hoehe": 436
+	},
+	"farben-01": {
+		"datei": "bilder/doku/farben-01.png",
+		"breite": 781,
+		"hoehe": 439
+	},
+	"farben-02": {
+		"datei": "bilder/doku/farben-02.png",
+		"breite": 744,
+		"hoehe": 220
+	},
+	"farben-03": {
+		"datei": "bilder/doku/farben-03.svg",
+		"breite": 203,
+		"hoehe": 20
+	},
+	"farben-04": {
+		"datei": "bilder/doku/farben-04.png",
+		"breite": 583,
+		"hoehe": 146
+	},
+	"fieldset-03": {
+		"datei": "bilder/doku/fieldset-03.svg",
+		"breite": 710,
+		"hoehe": 252
+	},
+	"fieldset-01": {
+		"datei": "bilder/doku/fieldset-01.svg",
+		"breite": 710,
+		"hoehe": 76
+	},
+	"fieldset-02": {
+		"datei": "bilder/doku/fieldset-02.svg",
+		"breite": 416,
+		"hoehe": 252
+	},
+	"figure-01": {
+		"datei": "bilder/doku/figure-01.svg",
+		"breite": 666,
+		"hoehe": 382
+	},
+	"figure-02": {
+		"datei": "bilder/doku/figure-02.svg",
+		"breite": 666,
+		"hoehe": 378
+	},
+	"figure-03": {
+		"datei": "bilder/doku/figure-03.svg",
+		"breite": 666,
+		"hoehe": 396
+	},
+	"icons-01": {
+		"datei": "bilder/doku/icons-01.svg",
+		"breite": 590,
+		"hoehe": 175
+	},
+	"icons-02": {
+		"datei": "bilder/doku/icons-02.svg",
+		"breite": 633,
+		"hoehe": 129
+	},
+	"input-field-02": {
+		"datei": "bilder/doku/input-field-02.svg",
+		"breite": 546,
+		"hoehe": 470
+	},
+	"input-field-03": {
+		"datei": "bilder/doku/input-field-03.svg",
+		"breite": 420,
+		"hoehe": 268
+	},
+	"input-field-04": {
+		"datei": "bilder/doku/input-field-04.svg",
+		"breite": 420,
+		"hoehe": 268
+	},
+	"input-field-05": {
+		"datei": "bilder/doku/input-field-05.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-06": {
+		"datei": "bilder/doku/input-field-06.svg",
+		"breite": 400,
+		"hoehe": 226
+	},
+	"input-field-07": {
+		"datei": "bilder/doku/input-field-07.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-08": {
+		"datei": "bilder/doku/input-field-08.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-09": {
+		"datei": "bilder/doku/input-field-09.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-10": {
+		"datei": "bilder/doku/input-field-10.svg",
+		"breite": 400,
+		"hoehe": 210
+	},
+	"input-field-11": {
+		"datei": "bilder/doku/input-field-11.svg",
+		"breite": 400,
+		"hoehe": 224
+	},
+	"input-field-01": {
+		"datei": "bilder/doku/input-field-01.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"input-field-36": {
+		"datei": "bilder/doku/input-field-36.svg",
+		"breite": 500,
+		"hoehe": 448
+	},
+	"input-field-37": {
+		"datei": "bilder/doku/input-field-37.svg",
+		"breite": 500,
+		"hoehe": 456
+	},
+	"input-field-12": {
+		"datei": "bilder/doku/input-field-12.svg",
+		"breite": 400,
+		"hoehe": 284
+	},
+	"input-field-13": {
+		"datei": "bilder/doku/input-field-13.svg",
+		"breite": 400,
+		"hoehe": 284
+	},
+	"input-field-14": {
+		"datei": "bilder/doku/input-field-14.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-15": {
+		"datei": "bilder/doku/input-field-15.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-16": {
+		"datei": "bilder/doku/input-field-16.svg",
+		"breite": 400,
+		"hoehe": 312
+	},
+	"input-field-17": {
+		"datei": "bilder/doku/input-field-17.svg",
+		"breite": 400,
+		"hoehe": 312
+	},
+	"input-field-18": {
+		"datei": "bilder/doku/input-field-18.svg",
+		"breite": 400,
+		"hoehe": 284
+	},
+	"input-field-19": {
+		"datei": "bilder/doku/input-field-19.svg",
+		"breite": 400,
+		"hoehe": 284
+	},
+	"input-field-20": {
+		"datei": "bilder/doku/input-field-20.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-21": {
+		"datei": "bilder/doku/input-field-21.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-22": {
+		"datei": "bilder/doku/input-field-22.svg",
+		"breite": 400,
+		"hoehe": 370
+	},
+	"input-field-23": {
+		"datei": "bilder/doku/input-field-23.svg",
+		"breite": 400,
+		"hoehe": 370
+	},
+	"input-field-24": {
+		"datei": "bilder/doku/input-field-24.svg",
+		"breite": 400,
+		"hoehe": 608
+	},
+	"input-field-25": {
+		"datei": "bilder/doku/input-field-25.svg",
+		"breite": 400,
+		"hoehe": 608
+	},
+	"input-field-26": {
+		"datei": "bilder/doku/input-field-26.svg",
+		"breite": 400,
+		"hoehe": 486
+	},
+	"input-field-27": {
+		"datei": "bilder/doku/input-field-27.svg",
+		"breite": 400,
+		"hoehe": 486
+	},
+	"input-field-28": {
+		"datei": "bilder/doku/input-field-28.svg",
+		"breite": 400,
+		"hoehe": 290
+	},
+	"input-field-29": {
+		"datei": "bilder/doku/input-field-29.svg",
+		"breite": 400,
+		"hoehe": 290
+	},
+	"input-field-30": {
+		"datei": "bilder/doku/input-field-30.svg",
+		"breite": 400,
+		"hoehe": 446
+	},
+	"input-field-31": {
+		"datei": "bilder/doku/input-field-31.svg",
+		"breite": 400,
+		"hoehe": 446
+	},
+	"input-field-32": {
+		"datei": "bilder/doku/input-field-32.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-33": {
+		"datei": "bilder/doku/input-field-33.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"input-field-34": {
+		"datei": "bilder/doku/input-field-34.svg",
+		"breite": 442,
+		"hoehe": 302
+	},
+	"input-field-35": {
+		"datei": "bilder/doku/input-field-35.svg",
+		"breite": 381,
+		"hoehe": 302
+	},
+	"input-field-38": {
+		"datei": "bilder/doku/input-field-38.svg",
+		"breite": 400,
+		"hoehe": 356
+	},
+	"input-field-39": {
+		"datei": "bilder/doku/input-field-39.svg",
+		"breite": 400,
+		"hoehe": 356
+	},
+	"input-field-40": {
+		"datei": "bilder/doku/input-field-40.svg",
+		"breite": 400,
+		"hoehe": 362
+	},
+	"input-field-41": {
+		"datei": "bilder/doku/input-field-41.svg",
+		"breite": 400,
+		"hoehe": 362
+	},
+	"layout-01": {
+		"datei": "bilder/doku/layout-01.svg",
+		"breite": 849,
+		"hoehe": 195
+	},
+	"layout-02": {
+		"datei": "bilder/doku/layout-02.svg",
+		"breite": 632,
+		"hoehe": 240
+	},
+	"layout-03": {
+		"datei": "bilder/doku/layout-03.svg",
+		"breite": 632,
+		"hoehe": 240
+	},
+	"layout-04": {
+		"datei": "bilder/doku/layout-04.svg",
+		"breite": 632,
+		"hoehe": 240
+	},
+	"layout-05": {
+		"datei": "bilder/doku/layout-05.svg",
+		"breite": 632,
+		"hoehe": 240
+	},
+	"link-14": {
+		"datei": "bilder/doku/link-14.svg",
+		"breite": 896,
+		"hoehe": 200
+	},
+	"link-15": {
+		"datei": "bilder/doku/link-15.svg",
+		"breite": 896,
+		"hoehe": 200
+	},
+	"link-01": {
+		"datei": "bilder/doku/link-01.svg",
+		"breite": 380,
+		"hoehe": 205
+	},
+	"link-12": {
+		"datei": "bilder/doku/link-12.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"link-13": {
+		"datei": "bilder/doku/link-13.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"link-02": {
+		"datei": "bilder/doku/link-02.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"link-03": {
+		"datei": "bilder/doku/link-03.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"link-04": {
+		"datei": "bilder/doku/link-04.svg",
+		"breite": 380,
+		"hoehe": 80
+	},
+	"link-05": {
+		"datei": "bilder/doku/link-05.svg",
+		"breite": 380,
+		"hoehe": 152
+	},
+	"link-06": {
+		"datei": "bilder/doku/link-06.svg",
+		"breite": 380,
+		"hoehe": 56
+	},
+	"link-07": {
+		"datei": "bilder/doku/link-07.svg",
+		"breite": 380,
+		"hoehe": 80
+	},
+	"link-08": {
+		"datei": "bilder/doku/link-08.svg",
+		"breite": 380,
+		"hoehe": 160
+	},
+	"link-09": {
+		"datei": "bilder/doku/link-09.svg",
+		"breite": 380,
+		"hoehe": 152
+	},
+	"link-10": {
+		"datei": "bilder/doku/link-10.svg",
+		"breite": 388,
+		"hoehe": 228
+	},
+	"link-11": {
+		"datei": "bilder/doku/link-11.svg",
+		"breite": 388,
+		"hoehe": 228
+	},
+	"meter-01": {
+		"datei": "bilder/doku/meter-01.svg",
+		"breite": 680,
+		"hoehe": 139
+	},
+	"meter-02": {
+		"datei": "bilder/doku/meter-02.svg",
+		"breite": 639,
+		"hoehe": 138
+	},
+	"meter-03": {
+		"datei": "bilder/doku/meter-03.svg",
+		"breite": 600,
+		"hoehe": 132
+	},
+	"navigation-menu-item-01": {
+		"datei": "bilder/doku/navigation-menu-item-01.svg",
+		"breite": 820,
+		"hoehe": 186
+	},
+	"navigation-menu-item-02": {
+		"datei": "bilder/doku/navigation-menu-item-02.svg",
+		"breite": 228,
+		"hoehe": 200
+	},
+	"navigation-menu-item-04": {
+		"datei": "bilder/doku/navigation-menu-item-04.svg",
+		"breite": 228,
+		"hoehe": 200
+	},
+	"navigation-menu-item-03": {
+		"datei": "bilder/doku/navigation-menu-item-03.svg",
+		"breite": 433,
+		"hoehe": 237
+	},
+	"pagination-dots-01": {
+		"datei": "bilder/doku/pagination-dots-01.svg",
+		"breite": 856,
+		"hoehe": 186
+	},
+	"pagination-dots-02": {
+		"datei": "bilder/doku/pagination-dots-02.svg",
+		"breite": 856,
+		"hoehe": 186
+	},
+	"pagination-03": {
+		"datei": "bilder/doku/pagination-03.svg",
+		"breite": 861,
+		"hoehe": 186
+	},
+	"pagination-01": {
+		"datei": "bilder/doku/pagination-01.svg",
+		"breite": 856,
+		"hoehe": 186
+	},
+	"pagination-02": {
+		"datei": "bilder/doku/pagination-02.svg",
+		"breite": 856,
+		"hoehe": 186
+	},
+	"password-field-01": {
+		"datei": "bilder/doku/password-field-01.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"password-field-02": {
+		"datei": "bilder/doku/password-field-02.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"password-field-03": {
+		"datei": "bilder/doku/password-field-03.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"password-field-04": {
+		"datei": "bilder/doku/password-field-04.svg",
+		"breite": 400,
+		"hoehe": 198
+	},
+	"password-field-05": {
+		"datei": "bilder/doku/password-field-05.svg",
+		"breite": 400,
+		"hoehe": 266
+	},
+	"password-field-06": {
+		"datei": "bilder/doku/password-field-06.svg",
+		"breite": 400,
+		"hoehe": 266
+	},
+	"progress-01": {
+		"datei": "bilder/doku/progress-01.svg",
+		"breite": 716,
+		"hoehe": 139
+	},
+	"progress-02": {
+		"datei": "bilder/doku/progress-02.png",
+		"breite": 680,
+		"hoehe": 160
+	},
+	"progress-03": {
+		"datei": "bilder/doku/progress-03.svg",
+		"breite": 639,
+		"hoehe": 138
+	},
+	"progress-04": {
+		"datei": "bilder/doku/progress-04.svg",
+		"breite": 600,
+		"hoehe": 132
+	},
+	"radio-button-01": {
+		"datei": "bilder/doku/radio-button-01.svg",
+		"breite": 441,
+		"hoehe": 205
+	},
+	"radio-button-02": {
+		"datei": "bilder/doku/radio-button-02.svg",
+		"breite": 211,
+		"hoehe": 182
+	},
+	"radio-button-03": {
+		"datei": "bilder/doku/radio-button-03.svg",
+		"breite": 367,
+		"hoehe": 336
+	},
+	"radio-button-04": {
+		"datei": "bilder/doku/radio-button-04.svg",
+		"breite": 367,
+		"hoehe": 336
+	},
+	"range-slider-01": {
+		"datei": "bilder/doku/range-slider-01.svg",
+		"breite": 647,
+		"hoehe": 136
+	},
+	"range-slider-02": {
+		"datei": "bilder/doku/range-slider-02.svg",
+		"breite": 589,
+		"hoehe": 211
+	},
+	"segmented-control-01": {
+		"datei": "bilder/doku/segmented-control-01.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"segmented-control-02": {
+		"datei": "bilder/doku/segmented-control-02.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"select-01": {
+		"datei": "bilder/doku/select-01.svg",
+		"breite": 690,
+		"hoehe": 353
+	},
+	"select-02": {
+		"datei": "bilder/doku/select-02.svg",
+		"breite": 700,
+		"hoehe": 363
+	},
+	"select-03": {
+		"datei": "bilder/doku/select-03.svg",
+		"breite": 460,
+		"hoehe": 314
+	},
+	"select-04": {
+		"datei": "bilder/doku/select-04.svg",
+		"breite": 460,
+		"hoehe": 311
+	},
+	"select-05": {
+		"datei": "bilder/doku/select-05.svg",
+		"breite": 350,
+		"hoehe": 132
+	},
+	"select-06": {
+		"datei": "bilder/doku/select-06.svg",
+		"breite": 350,
+		"hoehe": 159
+	},
+	"select-07": {
+		"datei": "bilder/doku/select-07.svg",
+		"breite": 350,
+		"hoehe": 132
+	},
+	"select-08": {
+		"datei": "bilder/doku/select-08.svg",
+		"breite": 350,
+		"hoehe": 159
+	},
+	"step-button-bar-02": {
+		"datei": "bilder/doku/step-button-bar-02.svg",
+		"breite": 381,
+		"hoehe": 150
+	},
+	"step-button-bar-01": {
+		"datei": "bilder/doku/step-button-bar-01.svg",
+		"breite": 381,
+		"hoehe": 106
+	},
+	"step-button-bar-03": {
+		"datei": "bilder/doku/step-button-bar-03.svg",
+		"breite": 517,
+		"hoehe": 158
+	},
+	"step-button-bar-04": {
+		"datei": "bilder/doku/step-button-bar-04.svg",
+		"breite": 517,
+		"hoehe": 166
+	},
+	"step-button-bar-05": {
+		"datei": "bilder/doku/step-button-bar-05.svg",
+		"breite": 517,
+		"hoehe": 166
+	},
+	"step-button-03": {
+		"datei": "bilder/doku/step-button-03.svg",
+		"breite": 381,
+		"hoehe": 218
+	},
+	"step-button-01": {
+		"datei": "bilder/doku/step-button-01.svg",
+		"breite": 381,
+		"hoehe": 106
+	},
+	"step-button-02": {
+		"datei": "bilder/doku/step-button-02.svg",
+		"breite": 381,
+		"hoehe": 200
+	},
+	"switch-01": {
+		"datei": "bilder/doku/switch-01.svg",
+		"breite": 478,
+		"hoehe": 205
+	},
+	"switch-02": {
+		"datei": "bilder/doku/switch-02.svg",
+		"breite": 211,
+		"hoehe": 182
+	},
+	"switch-05": {
+		"datei": "bilder/doku/switch-05.svg",
+		"breite": 600,
+		"hoehe": 132
+	},
+	"switch-03": {
+		"datei": "bilder/doku/switch-03.svg",
+		"breite": 367,
+		"hoehe": 411
+	},
+	"switch-04": {
+		"datei": "bilder/doku/switch-04.svg",
+		"breite": 367,
+		"hoehe": 411
+	},
+	"table-item-01": {
+		"datei": "bilder/doku/table-item-01.svg",
+		"breite": 697,
+		"hoehe": 428
+	},
+	"tabs-01": {
+		"datei": "bilder/doku/tabs-01.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"tabs-02": {
+		"datei": "bilder/doku/tabs-02.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"tabs-03": {
+		"datei": "bilder/doku/tabs-03.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"text-area-01": {
+		"datei": "bilder/doku/text-area-01.svg",
+		"breite": 400,
+		"hoehe": 328
+	},
+	"text-area-02": {
+		"datei": "bilder/doku/text-area-02.svg",
+		"breite": 411,
+		"hoehe": 380
+	},
+	"text-area-03": {
+		"datei": "bilder/doku/text-area-03.svg",
+		"breite": 400,
+		"hoehe": 424
+	},
+	"text-area-04": {
+		"datei": "bilder/doku/text-area-04.svg",
+		"breite": 411,
+		"hoehe": 424
+	},
+	"toast-01": {
+		"datei": "bilder/doku/toast-01.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"toast-02": {
+		"datei": "bilder/doku/toast-02.svg",
+		"breite": 697,
+		"hoehe": 186
+	},
+	"tooltip-01": {
+		"datei": "bilder/doku/tooltip-01.svg",
+		"breite": 309,
+		"hoehe": 136
+	},
+	"tooltip-02": {
+		"datei": "bilder/doku/tooltip-02.svg",
+		"breite": 309,
+		"hoehe": 200
+	},
+	"typografie-01": {
+		"datei": "bilder/doku/typografie-01.svg",
+		"breite": 743,
+		"hoehe": 137
+	}
+}

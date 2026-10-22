@@ -1,0 +1,85 @@
+/* Erste Schritte: Inhaltsseite mit Einleitung, Rollen-Karten und Ressourcen-Kacheln.
+   Karten und Kacheln sind Ides Cards (bordered, delta-10) wie auf den Übersichtsseiten; Grafiken wie die Grundlagen-Kacheln. */
+@import url("inhaltsseite.css");
+
+/* Einleitung: erster Absatz größer, wie auf Startseite und Übersichtsseiten */
+.doc .uebersicht-einleitung {
+	font-size: 21px;
+	line-height: 32px;
+}
+
+.doc .nutzung li {
+	margin-bottom: 12px;
+}
+
+.folgt-hinweis {
+	color: var(--ibk-neutral-grey-42);
+}
+
+/* Rollen-Karten: untereinander, breit mit Grafik links; nicht als Ganzes klickbar, weil sie mehrere Links enthalten */
+.doc ul.rollen {
+	margin: 0 0 16px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.doc ul.rollen > li.rolle {
+	margin: 0;
+	padding: 0;
+	min-height: 0;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 200px minmax(0, 1fr);
+}
+
+.rolle-grafik {
+	line-height: 0;
+}
+
+.rolle-grafik svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.rolle-inhalt {
+	padding: 20px 24px 20px;
+}
+
+.doc .rolle-inhalt h3 {
+	margin: 0 0 4px;
+	color: var(--standard-fontcolor);
+}
+
+.doc .rolle-fuer {
+	margin: 0 0 12px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.doc ol.rolle-schritte {
+	margin: 0;
+	padding-left: 24px;
+}
+
+.doc ol.rolle-schritte li {
+	margin-bottom: 8px;
+}
+
+.doc ol.rolle-schritte li:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 599px) {
+	.doc ul.rollen > li.rolle {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.rolle-grafik {
+		height: 160px;
+	}
+}

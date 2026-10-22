@@ -1,0 +1,4951 @@
+/* Erzeugt von werkzeuge/vorschau-styles.py aus Ressourcen/web-components-main/src/styles/components/ – nicht von Hand bearbeiten.
+   Alle Regeln gelten nur innerhalb von .kachel-vorschau, .ides-komponente (dunkle Variante: .ides-komponente-dunkel). */
+
+/* Ides-Variablen (global.css) */
+.kachel-vorschau, .ides-komponente, .ides-komponente-dunkel {
+
+	
+
+	
+
+	
+	--ibk-red-73: rgb(255, 117, 158);
+	--ibk-red-49: rgb(250, 0, 74);
+	--ibk-red-41: rgb(207, 0, 61);
+	
+	--ibk-red-33: rgb(168, 0, 50);
+	--ibk-red-18: rgb(92, 0, 27);
+	--ibk-red-14: rgb(71, 0, 21);
+	--ibk-red-10: rgb(51, 0, 15);
+	--ibk-red-6: rgb(31, 0, 9);
+
+	
+	--ibk-sisal-98: rgb(251, 250, 249);
+	--ibk-sisal-94: rgb(243, 241, 236);
+	--ibk-sisal-90: rgb(236, 232, 224);
+	--ibk-sisal-86: rgb(228, 222, 211);
+	--ibk-sisal-82: rgb(220, 213, 198);
+	--ibk-sisal-80: rgb(216, 208, 192);
+	
+	--ibk-sisal-78: rgb(212, 203, 186);
+	--ibk-sisal-18: rgb(57, 49, 35);
+	--ibk-sisal-14: rgb(44, 39, 27);
+	--ibk-sisal-10: rgb(32, 28, 19);
+	--ibk-sisal-6: rgb(19, 17, 12);
+
+	
+	--ibk-petrol-98: rgb(249, 250, 251);
+	--ibk-petrol-94: rgb(237, 240, 243);
+	--ibk-petrol-90: rgb(224, 230, 235);
+	--ibk-petrol-86: rgb(212, 220, 226);
+	--ibk-petrol-82: rgb(200, 210, 218);
+	--ibk-petrol-78: rgb(188, 201, 210);
+	--ibk-petrol-40: rgb(82, 105, 122);
+	--ibk-petrol-32: rgb(66, 85, 99);
+	
+	--ibk-petrol-26: rgb(53, 68, 79);
+	--ibk-petrol-18: rgb(37, 47, 55);
+	--ibk-petrol-14: rgb(29, 37, 43);
+	--ibk-petrol-10: rgb(20, 26, 31);
+	--ibk-petrol-6: rgb(12, 16, 18);
+
+
+
+	
+
+	--ibk-alert-2: rgb(10, 3, 0);
+	--ibk-alert-6: rgb(31, 8, 0);
+	--ibk-alert-10: rgb(51, 14, 0);
+	--ibk-alert-14: rgb(71, 19, 0);
+	--ibk-alert-18: rgb(92, 24, 0);
+	--ibk-alert-22: rgb(112, 30, 0);
+	--ibk-alert-26: rgb(133, 35, 0);
+	--ibk-alert-34: rgb(173, 46, 0);
+	--ibk-alert-42: rgb(214, 57, 0);
+	--ibk-alert-50: rgb(255, 68, 0);
+	
+	--ibk-alert-58: rgb(255, 98, 41);
+	--ibk-alert-66: rgb(255, 128, 82);
+	--ibk-alert-74: rgb(255, 158, 122);
+	--ibk-alert-78: rgb(255, 173, 143);
+	--ibk-alert-82: rgb(255, 188, 163);
+	--ibk-alert-86: rgb(255, 203, 184);
+	--ibk-alert-90: rgb(255, 218, 204);
+	--ibk-alert-94: rgb(255, 233, 224);
+	--ibk-alert-98: rgb(255, 248, 245);
+
+	--ibk-warning-2: rgb(10, 8, 0);
+	--ibk-warning-6: rgb(31, 23, 0);
+	--ibk-warning-10: rgb(51, 38, 0);
+	--ibk-warning-14: rgb(71, 54, 0);
+	--ibk-warning-18: rgb(92, 69, 0);
+	--ibk-warning-22: rgb(112, 84, 0);
+	--ibk-warning-26: rgb(133, 99, 0);
+	--ibk-warning-34: rgb(173, 130, 0);
+	--ibk-warning-42: rgb(214, 161, 0);
+	--ibk-warning-50: rgb(255, 191, 0);
+	
+	--ibk-warning-58: rgb(255, 201, 41);
+	--ibk-warning-66: rgb(255, 212, 82);
+	--ibk-warning-74: rgb(255, 224, 122);
+	--ibk-warning-78: rgb(255, 229, 143);
+	--ibk-warning-82: rgb(255, 232, 163);
+	--ibk-warning-86: rgb(255, 237, 184);
+	--ibk-warning-90: rgb(255, 242, 204);
+	--ibk-warning-94: rgb(255, 247, 224);
+	--ibk-warning-98: rgb(255, 252, 245);
+
+	--ibk-success-2: rgb(1, 9, 4);
+	--ibk-success-6: rgb(3, 28, 13);
+	--ibk-success-10: rgb(5, 46, 22);
+	--ibk-success-14: rgb(7, 64, 31);
+	--ibk-success-18: rgb(9, 83, 40);
+	--ibk-success-22: rgb(11, 101, 19);
+	--ibk-success-26: rgb(13, 119, 57);
+	--ibk-success-34: rgb(17, 156, 75);
+	--ibk-success-42: rgb(21, 193, 93);
+	--ibk-success-50: rgb(25, 230, 111);
+	
+	--ibk-success-58: rgb(62, 234, 134);
+	--ibk-success-66: rgb(99, 238, 157);
+	--ibk-success-74: rgb(136, 242, 180);
+	--ibk-success-78: rgb(154, 244, 191);
+	--ibk-success-82: rgb(172, 246, 203);
+	--ibk-success-86: rgb(191, 248, 215);
+	--ibk-success-90: rgb(209, 250, 226);
+	--ibk-success-94: rgb(227, 252, 238);
+	--ibk-success-98: rgb(246, 254, 249);
+
+	--ibk-info-2: rgb(0, 6, 10);
+	--ibk-info-6: rgb(0, 18, 31);
+	--ibk-info-10: rgb(0, 30, 51);
+	--ibk-info-14: rgb(0, 42, 71);
+	--ibk-info-18: rgb(0, 54, 92);
+	--ibk-info-22: rgb(0, 65, 112);
+	--ibk-info-26: rgb(0, 77, 133);
+	--ibk-info-34: rgb(0, 101, 173);
+	--ibk-info-42: rgb(0, 125, 214);
+	--ibk-info-50: rgb(0, 149, 255);
+	
+	--ibk-info-58: rgb(41, 166, 255);
+	--ibk-info-66: rgb(82, 183, 255);
+	--ibk-info-74: rgb(122, 200, 255);
+	--ibk-info-78: rgb(143, 208, 255);
+	--ibk-info-82: rgb(163, 217, 255);
+	--ibk-info-86: rgb(184, 225, 255);
+	--ibk-info-90: rgb(204, 234, 255);
+	--ibk-info-94: rgb(224, 242, 255);
+	--ibk-info-98: rgb(245, 251, 255);
+
+	--ibk-neutral-grey-2: rgb(5, 5, 5);
+	--ibk-neutral-grey-6: rgb(15, 15, 15);
+	--ibk-neutral-grey-10: rgb(26, 26, 26);
+	--ibk-neutral-grey-14: rgb(36, 36, 36);
+	--ibk-neutral-grey-18: rgb(46, 46, 46);
+	--ibk-neutral-grey-22: rgb(56, 56, 56);
+	--ibk-neutral-grey-26: rgb(66, 66, 66);
+	--ibk-neutral-grey-34: rgb(87, 87, 87);
+	--ibk-neutral-grey-42: rgb(107, 107, 107);
+	--ibk-neutral-grey-50: rgb(127, 127, 127);
+	--ibk-neutral-grey-58: rgb(148, 148, 148);
+	--ibk-neutral-grey-66: rgb(168, 168, 168);
+	--ibk-neutral-grey-74: rgb(189, 189, 189);
+	--ibk-neutral-grey-78: rgb(199, 199, 199);
+	--ibk-neutral-grey-82: rgb(209, 209, 209);
+	--ibk-neutral-grey-86: rgb(219, 219, 219);
+	--ibk-neutral-grey-90: rgb(230, 230, 230);
+	--ibk-neutral-grey-94: rgb(240, 240, 240);
+	--ibk-neutral-grey-98: rgb(250, 250, 250);
+
+	--ibk-rich-grey-2: rgb(10, 0, 3);
+	--ibk-rich-grey-6: rgb(25, 4, 10);
+	--ibk-rich-grey-10: rgb(34, 15, 21);
+	--ibk-rich-grey-14: rgb(45, 26, 32);
+	--ibk-rich-grey-18: rgb(53, 39, 42);
+	--ibk-rich-grey-22: rgb(63, 49, 54);
+	--ibk-rich-grey-26: rgb(73, 60, 64);
+	--ibk-rich-grey-34: rgb(94, 81, 85);
+	--ibk-rich-grey-42: rgb(114, 101, 105);
+	--ibk-rich-grey-50: rgb(132, 122, 125);
+	--ibk-rich-grey-58: rgb(153, 143, 146);
+	--ibk-rich-grey-66: rgb(172, 164, 166);
+	--ibk-rich-grey-74: rgb(192, 185, 188);
+	--ibk-rich-grey-78: rgb(202, 196, 198);
+	--ibk-rich-grey-82: rgb(212, 206, 207);
+	--ibk-rich-grey-86: rgb(221, 217, 218);
+	--ibk-rich-grey-90: rgb(232, 227, 230);
+	--ibk-rich-grey-94: rgb(241, 238, 240);
+	--ibk-rich-grey-98: rgb(250, 248, 248);
+
+
+
+
+	
+
+	
+	--standard-fontcolor: var(--ibk-neutral-grey-18);
+	--black-0: rgb(0, 0, 0);
+	--white-100: rgb(255, 255, 255);
+
+	
+	--brandPrimary: var(--ibk-red-41);
+	--brandSecondary: var(--ibk-sisal-80);
+	--brandTertiary: var(--ibk-petrol-32);
+
+	
+	--ibk-alert: var(--ibk-alert-50);
+	--ibk-warning: var(--ibk-warning-50);
+	--ibk-success: var(--ibk-success-50);
+	--ibk-info: var(--ibk-info-50);
+	--ibk-focusstroke: var(--ibk-info-34);
+
+
+
+
+	
+
+	--ibk-spacing-2: calc(1.0rem * 0.125);
+	--ibk-spacing-4: calc(1.0rem * 0.25);
+	--ibk-spacing-6: calc(1.0rem * 0.375);
+	--ibk-spacing-8: calc(1.0rem * 0.5);
+	--ibk-spacing-10: calc(1.0rem * 0.625);
+	--ibk-spacing-12: calc(1.0rem * 0.75);
+	--ibk-spacing-14: calc(1.0rem * 0.875);
+	--ibk-spacing-16: 1.0rem;
+	--ibk-spacing-24: calc(1.0rem * 1.5);
+	--ibk-spacing-32: calc(1.0rem * 2.0);
+	--ibk-spacing-40: calc(1.0rem * 2.5);
+	--ibk-spacing-48: calc(1.0rem * 3.0);
+
+	
+
+	--ibk-radius-2: calc(1.0rem * 0.125);
+	--ibk-radius-4: calc(1.0rem * 0.25);
+	--ibk-radius-6: calc(1.0rem * 0.375);
+	--ibk-radius-8: calc(1.0rem * 0.5);
+	--ibk-radius-10: calc(1.0rem * 0.625);
+	--ibk-radius-14: calc(1.0rem * 0.875);
+	--ibk-radius-16: 1.0rem;
+	--ibk-radius-24: calc(1.0rem * 1.5);
+
+	
+
+	--ibk-shadow-1: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+	
+
+	--ibk-transition-default: 0.2s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+.kachel-vorschau, .ides-komponente, .ides-komponente-dunkel {
+		--ibk-transition-default: 0s ease-in-out;
+}
+}
+
+/* Ides-Grundregel (global.css): Breite und Höhe schließen Innenabstand und Rahmen ein */
+.kachel-vorschau *,
+.kachel-vorschau *::before,
+.kachel-vorschau *::after,
+.ides-komponente *,
+.ides-komponente *::before,
+.ides-komponente *::after,
+.ides-komponente-dunkel *,
+.ides-komponente-dunkel *::before,
+.ides-komponente-dunkel *::after {
+	box-sizing: border-box;
+}
+
+/* Ides-Grundregeln für Icons (global.css): u. a. Icons nie kursiv, obwohl <i> sonst kursiv ist */
+.kachel-vorschau .ibkIcon, .ides-komponente .ibkIcon, .ides-komponente-dunkel .ibkIcon {
+	font-family: "IBYKUS-Iconset" !important;
+	font-style: inherit;
+	font-size: 1.5rem;
+	line-height: 1.0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* htmlelements.css */
+.kachel-vorschau ::selection, .ides-komponente ::selection {
+  background: var(--ibk-info-94);
+}
+
+.kachel-vorschau b, .ides-komponente b,
+.kachel-vorschau strong, .ides-komponente strong {
+	font-weight: 600;
+}
+
+.kachel-vorschau blockquote, .ides-komponente blockquote {
+	font-style: italic;
+	margin: 2rem;
+}
+
+.kachel-vorschau caption, .ides-komponente caption,
+.kachel-vorschau figcaption, .ides-komponente figcaption {
+	color: var(--standard-fontcolor);
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.125rem;
+	letter-spacing: 0.01875rem;
+}
+
+.kachel-vorschau div.content, .ides-komponente div.content {
+	margin: 0 0 1.875rem 0;
+}
+
+.kachel-vorschau figcaption.top, .ides-komponente figcaption.top {
+	margin-bottom: 0.500rem;
+}
+
+.kachel-vorschau figcaption.bottom, .ides-komponente figcaption.bottom {
+	margin-top: 0rem;
+}
+
+.kachel-vorschau cite, .ides-komponente cite,
+.kachel-vorschau dfn, .ides-komponente dfn,
+.kachel-vorschau em, .ides-komponente em,
+.kachel-vorschau i, .ides-komponente i,
+.kachel-vorschau var, .ides-komponente var {
+	font-style: italic;
+}
+
+.kachel-vorschau code, .ides-komponente code,
+.kachel-vorschau pre, .ides-komponente pre,
+.kachel-vorschau samp, .ides-komponente samp {
+	font-family: monospace;
+}
+
+.kachel-vorschau hr, .ides-komponente hr {
+	border: 1px solid var(--ibk-neutral-grey-74);
+	height: 0;
+	margin: 2rem 0 2rem 0;
+	width: 100%;
+}
+
+.kachel-vorschau kbd, .ides-komponente kbd {
+	border: 0;
+	border-radius: 0.375rem;
+	background-color: var(--standard-fontcolor);
+	color: var(--white-100);
+	font-weight: 400;
+	padding: 0.1875rem 0.5rem;
+}
+
+.kachel-vorschau kbd::selection, .ides-komponente kbd::selection {
+  color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau mark, .ides-komponente mark {
+	color: var(--standard-fontcolor);
+	background-color: var(--ibk-sisal-90);
+}
+
+.kachel-vorschau mark::before, .ides-komponente mark::before,
+.kachel-vorschau mark::after, .ides-komponente mark::after {
+	content: "\00a0";
+	background-color: var(--ibk-sisal-90);
+}
+
+.kachel-vorschau html[lang="de"] q, .ides-komponente html[lang="de"] q {
+	quotes: "„" "“" "‚" "‘" "»" "«" "›" "‹";
+}
+
+.kachel-vorschau q[lang="de"], .ides-komponente q[lang="de"] {
+	quotes: "„" "“" "‚" "‘" "»" "«" "›" "‹" !important;
+}
+
+.kachel-vorschau html[lang="ch"] q, .ides-komponente html[lang="ch"] q,
+.kachel-vorschau html[lang="fr"] q, .ides-komponente html[lang="fr"] q {
+	quotes: "«" "»" "‹" "›";
+}
+
+.kachel-vorschau q[lang="ch"], .ides-komponente q[lang="ch"],
+.kachel-vorschau q[lang="fr"], .ides-komponente q[lang="fr"] {
+	quotes: "«" "»" "‹" "›" !important;
+}
+
+.kachel-vorschau q, .ides-komponente q {
+	quotes: "“" "”" "‘" "’";
+}
+
+.kachel-vorschau p, .ides-komponente p {
+	margin: 0 0 var(--ibk-spacing-8) 0;
+}
+
+/* label.css */
+.kachel-vorschau .ibkLabel, .ides-komponente .ibkLabel {
+	display: block;
+	line-height: 1.25rem;
+}
+
+.kachel-vorschau label .ibkLabelText, .ides-komponente label .ibkLabelText,
+.kachel-vorschau .ibkLabel .ibk-switch-label, .ides-komponente .ibkLabel .ibk-switch-label {
+	font-weight: 500 !important;
+	line-height: 1.25rem;
+	letter-spacing: var(--label-l-ls, 0.01563rem);
+}
+
+.kachel-vorschau .ibkLabel .ibkLabelText, .ides-komponente .ibkLabel .ibkLabelText {
+	display: inline-block;
+	line-height: 1.5rem;
+	vertical-align: middle;
+}
+
+.kachel-vorschau .ibkLabel .ibkIcon, .ides-komponente .ibkLabel .ibkIcon {
+	color: var(--ibk-info-34);
+	cursor: pointer;
+	display: inline-block;
+	
+	position: inherit;
+	vertical-align: middle;
+}
+
+.kachel-vorschau .ibkLabel .ibkIcon:hover, .ides-komponente .ibkLabel .ibkIcon:hover {
+	color: var(--ibk-info-42) !important;
+}
+
+.kachel-vorschau .ibkLabel .ibkIcon:focus-visible, .ides-komponente .ibkLabel .ibkIcon:focus-visible {
+	border-radius: 0.0625rem;
+	color: var(--ibk-info-34);
+	outline-offset: 0;
+}
+
+.kachel-vorschau .ibkLabel .ibkIcon:active, .ides-komponente .ibkLabel .ibkIcon:active {
+	color: var(--ibk-info-26) !important;
+}
+
+/* supportingtext.css */
+.kachel-vorschau .supportingText, .ides-komponente .supportingText {
+	color: var(--ibk-neutral-grey-42);
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.kachel-vorschau .supportingText .ibkIcon, .ides-komponente .supportingText .ibkIcon {
+	float: left !important;
+	font-size: 1.25rem !important;
+	margin: 0 0.25rem 0.5rem 0; 			
+	position: inherit !important;
+	text-align: inherit !important;
+	top: inherit !important;
+}
+
+.kachel-vorschau .supportingText .content, .ides-komponente .supportingText .content {
+	float: left;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	max-width: 90%;
+}
+
+.kachel-vorschau .supportingText .content br, .ides-komponente .supportingText .content br {
+	line-height: 1.0;
+}
+
+.kachel-vorschau .supportingText.disabled, .ides-komponente .supportingText.disabled {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .supportingText.alert, .ides-komponente .supportingText.alert {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .supportingText.warning, .ides-komponente .supportingText.warning {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .supportingText.success, .ides-komponente .supportingText.success {
+	color: var(--ibk-success-22);
+}
+
+/* button.css */
+.kachel-vorschau button.ibkButton, .ides-komponente button.ibkButton {
+    -webkit-border-top-left-radius: var(--ibk-radius-6, 6px);
+    -webkit-border-bottom-right-radius: var(--ibk-radius-6, 6px);
+    -moz-border-radius-topleft: var(--ibk-radius-6, 6px);
+    -moz-border-radius-bottomright: var(--ibk-radius-6, 6px);
+    border-top-left-radius: var(--ibk-radius-6, 6px);
+    border-bottom-right-radius: var(--ibk-radius-6, 6px);
+    position: relative;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--ibk-spacing-8, 8px);
+    font-size: var(--text-button, 1rem);
+    font-weight: 500;
+    line-height: var(--text-button-lh, 24px);
+    min-height: 40px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.kachel-vorschau button.ibkButton:active, .ides-komponente button.ibkButton:active {
+    outline: 0;
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-leading, .ides-komponente button.ibkButton.ibkIcon-leading {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-14, 14px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-10, 10px);
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-trailing, .ides-komponente button.ibkButton.ibkIcon-trailing {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-10, 10px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-14, 14px);
+}
+
+.kachel-vorschau button.ibkButton, .ides-komponente button.ibkButton {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-14, 14px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-14, 14px);
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-button-only, .ides-komponente button.ibkButton.ibkIcon-button-only {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-10, 10);
+    border: 0px;
+}
+
+.kachel-vorschau button.ibkButton .ibkIcon, .ides-komponente button.ibkButton .ibkIcon {
+    text-align: center;
+    font-size: var(--text-button-lh, 24px);
+    font-style: inherit;
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-leading .ibkIcon, .ides-komponente button.ibkButton.ibkIcon-leading .ibkIcon {
+    order: 0;
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-trailing .ibkIcon, .ides-komponente button.ibkButton.ibkIcon-trailing .ibkIcon {
+    order: 1;
+}
+
+.kachel-vorschau button.ibkButton .ibkButtonText, .ides-komponente button.ibkButton .ibkButtonText {
+    font-weight: 500;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-primary, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-primary {
+    background-color: var(--ibk-red-41);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-primary:disabled, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-primary:disabled {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border: 2px solid var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-primary:hover, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-primary:hover {
+    background-color: var(--ibk-red-49);
+    border: 2px solid var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-primary:active, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-primary:active {
+    background-color: var(--ibk-red-33);
+    border: 2px solid var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-secondary, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-secondary {
+    background-color: var(--ibk-neutral-grey-82);
+    color: var(--ibk-neutral-grey-18);
+    border: 2px solid var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-secondary:disabled, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-secondary:disabled {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    color: var(--white-100);
+    border: 2px solid var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-secondary:hover, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-secondary:hover {
+    background-color: var(--ibk-neutral-grey-90);
+    border: 2px solid var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-regular.ibkButton-secondary:active, .ides-komponente .ibkButton.ibkButton-regular.ibkButton-secondary:active {
+    background-color: var(--ibk-neutral-grey-74);
+    border: 2px solid var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-primary, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-primary {
+    background-color: transparent;
+    border: 2px solid var(--ibk-neutral-grey-18);
+    color: var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-primary:disabled, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-primary:disabled {
+    background-color: transparent !important;
+    border: 2px solid var(--ibk-neutral-grey-82) !important;
+    color: var(--ibk-neutral-grey-78);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-primary:hover, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-primary:hover {
+    background-color: var(--ibk-neutral-grey-90);
+    border: 2px solid var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-primary:active, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-primary:active {
+    background-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-primary.ibkIcon-solo, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-primary.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-secondary, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-secondary {
+    background-color: transparent;
+    color: var(--ibk-neutral-grey-18);
+    border: 2px solid transparent;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-secondary:disabled, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-secondary:disabled {
+    background-color: var(--white-100) !important;
+    color: var(--ibk-neutral-grey-78) !important;
+    border: 2px solid var(--white-100) !important;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-secondary:hover, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-secondary:hover {
+    background-color: var(--ibk-neutral-grey-90);
+    border: 2px solid var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-secondary:active, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-secondary:active {
+    background-color: var(--ibk-neutral-grey-74);
+    border: 2px solid var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-decent.ibkButton-secondary.ibkIcon-solo, .ides-komponente .ibkButton.ibkButton-decent.ibkButton-secondary.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-destructive, .ides-komponente .ibkButton.ibkButton-destructive {
+    background-color: var(--ibk-alert-34);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-destructive:disabled, .ides-komponente .ibkButton.ibkButton-destructive:disabled {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border: 2px solid var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-destructive:hover, .ides-komponente .ibkButton.ibkButton-destructive:hover {
+    background-color: var(--ibk-alert-42);
+    border: 2px solid var(--ibk-alert-42);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-destructive:active, .ides-komponente .ibkButton.ibkButton-destructive:active {
+    background-color: var(--ibk-alert-26);
+    border: 2px solid var(--ibk-alert-26);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-success, .ides-komponente .ibkButton.ibkButton-success {
+    background-color: var(--ibk-success-22);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-success:disabled, .ides-komponente .ibkButton.ibkButton-success:disabled {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border: 2px solid var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkButton.ibkButton-success:hover, .ides-komponente .ibkButton.ibkButton-success:hover {
+    background-color: var(--ibk-success-34);
+    border: 2px solid var(--ibk-success-34);
+}
+
+.kachel-vorschau .ibkButton.ibkButton-success:active, .ides-komponente .ibkButton.ibkButton-success:active {
+    background-color: var(--ibk-success-14);
+    border: 2px solid var(--ibk-success-14);
+}
+
+.kachel-vorschau button.ibkButton.ibkIcon-solo, .ides-komponente button.ibkButton.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}
+
+/* card.css */
+.kachel-vorschau .ibkCard, .ides-komponente .ibkCard {
+	display: block;
+	min-width: 8.0rem;
+	min-height: 8.0rem;
+	padding: var(--ibk-spacing-16, 1.0rem);
+	border: 1px solid transparent;
+	border-radius: var(--ibk-radius-10, 0.625rem);
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkCard[delta="0"], .ides-komponente .ibkCard[delta="0"] {
+	background-color: var(--white-100);
+}
+
+.kachel-vorschau .ibkCard[delta="2"], .ides-komponente .ibkCard[delta="2"] {
+	background-color: var(--ibk-neutral-grey-98);
+}
+
+.kachel-vorschau .ibkCard[delta="6"], .ides-komponente .ibkCard[delta="6"] {
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkCard[delta="10"], .ides-komponente .ibkCard[delta="10"] {
+	background-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkCard[variant="elevated"], .ides-komponente .ibkCard[variant="elevated"],
+.kachel-vorschau .ibkCard.elevated, .ides-komponente .ibkCard.elevated {
+	box-shadow: var(--ibk-shadow-1);
+}
+
+.kachel-vorschau .ibkCard[variant="bordered"], .ides-komponente .ibkCard[variant="bordered"] {
+	background-color: transparent;
+	border-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkCard[variant="bordered"][delta="0"], .ides-komponente .ibkCard[variant="bordered"][delta="0"] {
+	border-color: var(--white-100);
+}
+
+.kachel-vorschau .ibkCard[variant="bordered"][delta="2"], .ides-komponente .ibkCard[variant="bordered"][delta="2"] {
+	border-color: var(--ibk-neutral-grey-98);
+}
+
+.kachel-vorschau .ibkCard[variant="bordered"][delta="6"], .ides-komponente .ibkCard[variant="bordered"][delta="6"] {
+	border-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkCard[variant="bordered"][delta="10"], .ides-komponente .ibkCard[variant="bordered"][delta="10"] {
+	border-color: var(--ibk-neutral-grey-90);
+}
+
+/* input.text.css */
+.kachel-vorschau .ibkInputText, .ides-komponente .ibkInputText {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-6, 6px);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau button.ibkIcon, .ides-komponente button.ibkIcon {
+	align-items: center;
+	background: none;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: inherit;
+	font-weight: inherit;
+	justify-content: center;
+	min-height: 1.5rem;
+	min-width: 1.5rem;
+	padding: 0;
+}
+
+.kachel-vorschau button.ibkIcon[disabled], .ides-komponente button.ibkIcon[disabled] {
+	cursor: default;
+}
+
+.kachel-vorschau .ibkInputWrapper, .ides-komponente .ibkInputWrapper {
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkInputText label, .ides-komponente .ibkInputText label {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkInputText .ibkLabel .ibkIcon.label-info {
+	color: var(--ibk-info-34);
+}
+
+.kachel-vorschau .ibkInputText input::placeholder, .ides-komponente .ibkInputText input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputText .ibkIcon.ibkIcon.info-icon {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputText.info-icon .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputText.info-icon .ibkIcon.ibkIcon.info-icon {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.info-icon input, .ides-komponente .ibkInputText.info-icon input {
+	padding-left: 2.625rem;
+}
+
+.kachel-vorschau .ibkInputText input, .ides-komponente .ibkInputText input {
+	background: var(--input-txt-enable-bg, #FFF);
+	border-radius: var(--ibk-radius-6, 6px) 0;
+	border: 2px solid var(--ibk-neutral-grey-58);
+	color: var(--standard-fontcolor);
+	display: inline-block;
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-8, 8px);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkInputWrapper .ibkIcon, .ides-komponente .ibkInputWrapper .ibkIcon {
+	color: var(--ibk-neutral-grey-42);
+	float: left;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkInputWrapper button.ibkIcon > .ibkIcon, .ides-komponente .ibkInputWrapper button.ibkIcon > .ibkIcon {
+	float: none;
+	position: static;
+	transform: none;
+}
+
+.kachel-vorschau .ibkInputText.func-3 input, .ides-komponente .ibkInputText.func-3 input {
+	padding-right: 6.00rem;
+}
+
+.kachel-vorschau .ibkInputText.func-3 .ibkIcon.func.first, .ides-komponente .ibkInputText.func-3 .ibkIcon.func.first,
+.kachel-vorschau .ibkInputText.func-3 .ibkIcon.func.second, .ides-komponente .ibkInputText.func-3 .ibkIcon.func.second,
+.kachel-vorschau .ibkInputText.func-3 .ibkIcon.func.third, .ides-komponente .ibkInputText.func-3 .ibkIcon.func.third {
+	display: block !important;
+}
+
+.kachel-vorschau .ibkInputText.func-2 input, .ides-komponente .ibkInputText.func-2 input {
+	padding-right: 4.25rem;
+}
+
+.kachel-vorschau .ibkInputText.func-2 .ibkIcon.func.first, .ides-komponente .ibkInputText.func-2 .ibkIcon.func.first,
+.kachel-vorschau .ibkInputText.func-2 .ibkIcon.func.second, .ides-komponente .ibkInputText.func-2 .ibkIcon.func.second {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.func-2 .ibkIcon.func.third, .ides-komponente .ibkInputText.func-2 .ibkIcon.func.third {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputText.func-1 input, .ides-komponente .ibkInputText.func-1 input {
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputText.func-1 .ibkIcon.func.first, .ides-komponente .ibkInputText.func-1 .ibkIcon.func.first {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.func-1 .ibkIcon.func.second, .ides-komponente .ibkInputText.func-1 .ibkIcon.func.second,
+.kachel-vorschau .ibkInputText.func-1 .ibkIcon.func.third, .ides-komponente .ibkInputText.func-1 .ibkIcon.func.third {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first, .ides-komponente .ibkInputText .ibkIcon.func.first,
+.kachel-vorschau .ibkInputText .ibkIcon.func.second, .ides-komponente .ibkInputText .ibkIcon.func.second,
+.kachel-vorschau .ibkInputText .ibkIcon.func.third, .ides-komponente .ibkInputText .ibkIcon.func.third {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first, .ides-komponente .ibkInputText .ibkIcon.func.first,
+.kachel-vorschau .ibkInputText .ibkIcon.func.second, .ides-komponente .ibkInputText .ibkIcon.func.second,
+.kachel-vorschau .ibkInputText .ibkIcon.func.third, .ides-komponente .ibkInputText .ibkIcon.func.third {
+	color: var(--ibk-neutral-grey-42);
+	cursor: pointer;
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first:focus-visible, .ides-komponente .ibkInputText .ibkIcon.func.first:focus-visible,
+.kachel-vorschau .ibkInputText .ibkIcon.func.second:focus-visible, .ides-komponente .ibkInputText .ibkIcon.func.second:focus-visible,
+.kachel-vorschau .ibkInputText .ibkIcon.func.third:focus-visible, .ides-komponente .ibkInputText .ibkIcon.func.third:focus-visible {
+	border-radius: 0.0625rem;
+	outline-offset: 0;
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first:hover, .ides-komponente .ibkInputText .ibkIcon.func.first:hover,
+.kachel-vorschau .ibkInputText .ibkIcon.func.second:hover, .ides-komponente .ibkInputText .ibkIcon.func.second:hover,
+.kachel-vorschau .ibkInputText .ibkIcon.func.third:hover, .ides-komponente .ibkInputText .ibkIcon.func.third:hover {
+	color: var(--ibk-neutral-grey-50);
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first:active, .ides-komponente .ibkInputText .ibkIcon.func.first:active,
+.kachel-vorschau .ibkInputText .ibkIcon.func.second:active, .ides-komponente .ibkInputText .ibkIcon.func.second:active,
+.kachel-vorschau .ibkInputText .ibkIcon.func.third:active, .ides-komponente .ibkInputText .ibkIcon.func.third:active {
+	color: var(--ibk-neutral-grey-34);
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.info-icon, .ides-komponente .ibkInputText .ibkIcon.info-icon {
+	left: var(--ibk-spacing-10, 0.625rem);
+	min-width: var(--ibk-spacing-24, 1.5rem);
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.first, .ides-komponente .ibkInputText .ibkIcon.func.first {
+	right: var(--ibk-spacing-10, 0.625rem);
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.second, .ides-komponente .ibkInputText .ibkIcon.func.second {
+	right: calc(var(--ibk-spacing-10, 0.625rem) + var(--ibk-spacing-24, 1.5rem) + var(--ibk-spacing-8, 0.5rem));
+}
+
+.kachel-vorschau .ibkInputText .ibkIcon.func.third, .ides-komponente .ibkInputText .ibkIcon.func.third {
+	right: calc(var(--ibk-spacing-10, 0.625rem) + 2 * (var(--ibk-spacing-24, 1.5rem) + var(--ibk-spacing-8, 0.5rem)));
+}
+
+.kachel-vorschau .ibkInputText .supportingText, .ides-komponente .ibkInputText .supportingText {
+	align-items: flex-start;
+	display: flex;
+	gap: var(--ibk-spacing-4, 4px);
+	width: 100%;
+}
+
+.kachel-vorschau .ibkInputText .supportingText .ibkIcon, .ides-komponente .ibkInputText .supportingText .ibkIcon {
+	color: inherit;
+	float: none !important;
+	margin: 0;
+}
+
+.kachel-vorschau .ibkInputText .supportingText .content, .ides-komponente .ibkInputText .supportingText .content {
+	float: none;
+}
+
+.kachel-vorschau .ibkInputText.disabled .ibkLabel, .ides-komponente .ibkInputText.disabled .ibkLabel,
+.kachel-vorschau .ibkInputText.disabled .ibkLabel .ibkLabelText, .ides-komponente .ibkInputText.disabled .ibkLabel .ibkLabelText,
+.kachel-vorschau .ibkInputText.disabled .ibkLabel .ibkIcon, .ides-komponente .ibkInputText.disabled .ibkLabel .ibkIcon {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputText.disabled input[disabled], .ides-komponente .ibkInputText.disabled input[disabled] {
+	background-color: var(--ibk-neutral-grey-94);
+	border-color: var(--ibk-neutral-grey-82);
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputText.disabled input[disabled]::placeholder, .ides-komponente .ibkInputText.disabled input[disabled]::placeholder {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputText.disabled .ibkInputWrapper .ibkIcon, .ides-komponente .ibkInputText.disabled .ibkInputWrapper .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkInputText.disabled .supportingText, .ides-komponente .ibkInputText.disabled .supportingText,
+.kachel-vorschau .ibkInputText.disabled .supportingText .ibkIcon, .ides-komponente .ibkInputText.disabled .supportingText .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkInputText.disabled .ibkIcon.func.first, .ides-komponente .ibkInputText.disabled .ibkIcon.func.first,
+.kachel-vorschau .ibkInputText.disabled .ibkIcon.func.second, .ides-komponente .ibkInputText.disabled .ibkIcon.func.second,
+.kachel-vorschau .ibkInputText.disabled .ibkIcon.func.third, .ides-komponente .ibkInputText.disabled .ibkIcon.func.third {
+	cursor: default !important;
+}
+
+.kachel-vorschau .ibkInputText.alert input, .ides-komponente .ibkInputText.alert input {
+	background-color: var(--ibk-alert-94);
+	border-color: var(--ibk-alert-34);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputText.alert .supportingText, .ides-komponente .ibkInputText.alert .supportingText {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkInputText.alert .supportingText .ibkIcon, .ides-komponente .ibkInputText.alert .supportingText .ibkIcon {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkInputText.alert .ibkIcon.func.first, .ides-komponente .ibkInputText.alert .ibkIcon.func.first {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.warning input, .ides-komponente .ibkInputText.warning input {
+	border-color: var(--ibk-warning-34);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputText.warning .supportingText, .ides-komponente .ibkInputText.warning .supportingText {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkInputText.warning .supportingText .ibkIcon, .ides-komponente .ibkInputText.warning .supportingText .ibkIcon {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkInputText.warning .ibkIcon.func.first, .ides-komponente .ibkInputText.warning .ibkIcon.func.first {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.readonly input, .ides-komponente .ibkInputText.readonly input {
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkInputText.readonly .supportingText, .ides-komponente .ibkInputText.readonly .supportingText {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputText.success input, .ides-komponente .ibkInputText.success input {
+	border-color: var(--ibk-success-26);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputText.success .supportingText, .ides-komponente .ibkInputText.success .supportingText {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkInputText.success .supportingText .ibkIcon, .ides-komponente .ibkInputText.success .supportingText .ibkIcon {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkInputText.success .ibkIcon.func.first, .ides-komponente .ibkInputText.success .ibkIcon.func.first {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.prominent, .ides-komponente .ibkInputText.prominent {
+	border: 0;
+}
+
+.kachel-vorschau .ibkInputText.prominent input::placeholder, .ides-komponente .ibkInputText.prominent input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.kachel-vorschau .ibkInputText.prominent .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputText.prominent .ibkIcon.ibkIcon.info-icon {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputText.prominent.info-icon .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputText.prominent.info-icon .ibkIcon.ibkIcon.info-icon {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputText.prominent.info-icon input, .ides-komponente .ibkInputText.prominent.info-icon input {
+	padding-left: 2.625rem;
+}
+
+.kachel-vorschau .ibkInputText.prominent input, .ides-komponente .ibkInputText.prominent input {
+	border-radius: var(--ibk-spacing-10, 10px) 0;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	padding-right: 3.50rem;
+}
+
+.kachel-vorschau .ibkInputText.prominent.func-3 input, .ides-komponente .ibkInputText.prominent.func-3 input {
+	padding-right: 6.75rem;
+}
+
+.kachel-vorschau .ibkInputText.prominent.func-2 input, .ides-komponente .ibkInputText.prominent.func-2 input {
+	padding-right: 5.00rem;
+}
+
+.kachel-vorschau .ibkInputText.prominent.func-1 input, .ides-komponente .ibkInputText.prominent.func-1 input {
+	padding-right: 3.50rem;
+}
+
+/* fieldset.css */
+.kachel-vorschau .ibkFieldset, .ides-komponente .ibkFieldset {
+	border: 0;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-12);
+	padding: 0.625rem;
+}
+
+.kachel-vorschau .ibkFieldset legend, .ides-komponente .ibkFieldset legend {
+	float: none;
+	display: block;
+	font-size: 1.3125rem;
+	font-weight: 600;
+	line-height: 1.50rem;
+	
+	padding-left: 0;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkFieldset .supportingText, .ides-komponente .ibkFieldset .supportingText {
+	width: 100%;
+}
+
+.kachel-vorschau .ibkFieldsetContent, .ides-komponente .ibkFieldsetContent {
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-12);
+}
+
+.kachel-vorschau .ibkFieldset:disabled legend, .ides-komponente .ibkFieldset:disabled legend {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkFieldset:disabled *, .ides-komponente .ibkFieldset:disabled * {
+  color: var(--ibk-neutral-grey-82) !important;
+  border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText label, .ides-komponente .ibkFieldset:disabled .ibkInputText label,
+.kachel-vorschau .ibkInputText label i, .ides-komponente .ibkInputText label i {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input, .ides-komponente .ibkFieldset:disabled .ibkInputText input {
+	background-color: var(--ibk-neutral-grey-94);
+	border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input ~ .ibkIcon, .ides-komponente .ibkFieldset:disabled .ibkInputText input ~ .ibkIcon,
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input ~ .supportingText, .ides-komponente .ibkFieldset:disabled .ibkInputText input ~ .supportingText {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input ~ .first, .ides-komponente .ibkFieldset:disabled .ibkInputText input ~ .first,
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input ~ .second, .ides-komponente .ibkFieldset:disabled .ibkInputText input ~ .second,
+.kachel-vorschau .ibkFieldset:disabled .ibkInputText input ~ .third, .ides-komponente .ibkFieldset:disabled .ibkInputText input ~ .third {
+	cursor: default !important;
+}
+
+/* badge.css */
+.kachel-vorschau ibk-badge, .ides-komponente ibk-badge {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkBadge, .ides-komponente .ibkBadge {
+    --ibk-badge-size: 0.5rem;
+
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+}
+
+.kachel-vorschau .ibkBadgeContent, .ides-komponente .ibkBadgeContent {
+    display: inline-block;
+    line-height: 0;
+}
+
+.kachel-vorschau .ibkBadgeContent > .ibkIcon, .ides-komponente .ibkBadgeContent > .ibkIcon {
+    align-items: center;
+    display: inline-flex;
+    height: 1em;
+    justify-content: center;
+    line-height: 1;
+    width: 1em;
+}
+
+.kachel-vorschau .ibkBadge .badgeWrapper, .ides-komponente .ibkBadge .badgeWrapper {
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+}
+
+.kachel-vorschau .ibkBadge .indicator, .ides-komponente .ibkBadge .indicator {
+    background: var(--ibk-red-49);
+    border-radius: 50%;
+    display: block;
+    font-style: inherit;
+    height: var(--ibk-badge-size);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: var(--ibk-badge-size);
+}
+
+.kachel-vorschau .ibkBadge.type-info .indicator, .ides-komponente .ibkBadge.type-info .indicator {
+    background: var(--ibk-info-34);
+}
+
+.kachel-vorschau .ibkBadge.type-success .indicator, .ides-komponente .ibkBadge.type-success .indicator {
+    background: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkBadge.type-warning .indicator, .ides-komponente .ibkBadge.type-warning .indicator {
+    background: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkBadge.type-alert .indicator, .ides-komponente .ibkBadge.type-alert .indicator {
+    background: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkBadge.decent .indicator, .ides-komponente .ibkBadge.decent .indicator {
+    --ibk-badge-size: 0.25rem;
+}
+
+.kachel-vorschau .ibkBadge.regular .indicator, .ides-komponente .ibkBadge.regular .indicator {
+    --ibk-badge-size: 0.5rem;
+}
+
+.kachel-vorschau .ibkBadge.counter .indicator, .ides-komponente .ibkBadge.counter .indicator {
+    align-items: center;
+    background: var(--ibk-red-49);
+    border-radius: 1rem;
+    color: var(--white-100);
+    display: inline-flex;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    height: 1rem;
+    justify-content: flex-start;
+    line-height: 1rem;
+    min-width: 1rem;
+    padding: 0 0.25rem;
+    right: -0.25rem;
+    text-align: left;
+    top: -0.4rem;
+    width: auto;
+}
+
+/* banner.css */
+.kachel-vorschau .ibkBanner, .ides-komponente .ibkBanner {
+    display: flex;
+    width: 330px;
+    padding: var(--ibk-spacing-24) var(--ibk-spacing-16) var(--ibk-spacing-16) var(--ibk-spacing-16);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-12);
+    border-radius: var(--ibk-radius-10);
+    -webkit-border-radius: var(--ibk-radius-10);
+    -moz-border-radius: var(--ibk-radius-10);
+    background-color: var(--white-100);
+    box-shadow: var(--ibk-shadow-1);
+}
+
+.kachel-vorschau .ibkBanner-content, .ides-komponente .ibkBanner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-16);
+    align-self: stretch;
+}
+
+.kachel-vorschau .ibkBanner h4, .ides-komponente .ibkBanner h4 {
+    align-self: stretch;
+    color: var(--standard-fontcolor);
+    font-size: var(--h4, 21px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--h4-lh, 24px);
+    margin: 0 0 0 0 !important;
+}
+
+.kachel-vorschau .ibkBanner p, .ides-komponente .ibkBanner p {
+    align-self: stretch;
+    color: var(--standard-fontcolor);
+    font-size: var(--text-l, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--text-l-lh, 24px);
+    margin: 0 0 0 0 !important;
+}
+
+.kachel-vorschau .ibkBanner.prominent, .ides-komponente .ibkBanner.prominent {
+    position: relative;
+}
+
+.kachel-vorschau .ibkBanner.prominent .ibkButton, .ides-komponente .ibkBanner.prominent .ibkButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: var(--ibk-radius-6, 6px) 0;
+    position: absolute;
+    top: -1.375rem;
+    right: -1.375rem;
+    padding: var(--ibk-spacing-6, 6px);
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.kachel-vorschau .ibkBanner.prominent .ibkButton .ibkIcon, .ides-komponente .ibkBanner.prominent .ibkButton .ibkIcon {
+    color: var(--white-100);
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+.kachel-vorschau .ibkBanner.regular, .ides-komponente .ibkBanner.regular {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kachel-vorschau .ibkBanner.regular .ibkButton-close, .ides-komponente .ibkBanner.regular .ibkButton-close {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.kachel-vorschau .ibkBanner.regular .ibkButton-close .ibkIcon, .ides-komponente .ibkBanner.regular .ibkButton-close .ibkIcon {
+    display: flex;
+    height: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: flex-start;
+    aspect-ratio: 1/1;
+    color: var(--ibk-neutral-grey-18);
+    text-align: center;
+    font-size: var(--icon-support, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--icon-support-lh, 1.5rem);
+}
+
+.kachel-vorschau .ibkBanner.regular .ibkButton-close:hover i, .ides-komponente .ibkBanner.regular .ibkButton-close:hover i {
+    color: var(--ibk-neutral-grey-26);
+}
+
+.kachel-vorschau .ibkBanner.regular .ibkButton-close:active i, .ides-komponente .ibkBanner.regular .ibkButton-close:active i {
+    color: var(--ibk-neutral-grey-10);
+}
+
+/* dialog.css */
+.kachel-vorschau .ibkDialog-backdrop, .ides-komponente .ibkDialog-backdrop {
+	display: none;
+	position: fixed;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	align-items: center;
+	justify-content: center;
+	padding: var(--ibk-spacing-16);
+}
+
+.kachel-vorschau .ibkDialog-backdrop.open, .ides-komponente .ibkDialog-backdrop.open {
+	display: flex;
+}
+
+.kachel-vorschau .ibkDialog, .ides-komponente .ibkDialog {
+	display: flex;
+	flex-direction: column;
+	padding: var(--ibk-spacing-24) var(--ibk-spacing-16) var(--ibk-spacing-16) var(--ibk-spacing-16);
+	background-color: var(--white-100);
+}
+
+.kachel-vorschau .ibkDialog.regular, .ides-komponente .ibkDialog.regular {
+	background-color: var(--white-100);
+}
+
+.kachel-vorschau .ibkDialog.decent, .ides-komponente .ibkDialog.decent {
+	background-color: var(--white-100);
+	border-radius: 0.625rem;
+	box-shadow: none;
+	border: 0;
+}
+
+.kachel-vorschau .ibkDialog.horizontal, .ides-komponente .ibkDialog.horizontal {
+	min-inline-size: min(31.25rem, 100%);
+	max-inline-size: min(45rem, 100%);
+}
+
+.kachel-vorschau .ibkDialog.vertical, .ides-komponente .ibkDialog.vertical {
+	min-inline-size: min(16rem, 100%);
+	max-inline-size: min(31.1875rem, 100%);
+}
+
+.kachel-vorschau .ibkDialog > h4, .ides-komponente .ibkDialog > h4 {
+	margin: 0 0 var(--ibk-spacing-16) 0;
+}
+
+.kachel-vorschau .ibkDialog .ibkDialog-content, .ides-komponente .ibkDialog .ibkDialog-content {
+	font-size: 1rem;
+	margin: 0 0 var(--ibk-spacing-32) 0;
+}
+
+.kachel-vorschau .ibkDialog .ibkDialog-actions, .ides-komponente .ibkDialog .ibkDialog-actions {
+	display: flex;
+	gap: var(--ibk-spacing-16);
+}
+
+.kachel-vorschau .ibkDialog.horizontal .ibkDialog-actions, .ides-komponente .ibkDialog.horizontal .ibkDialog-actions {
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.kachel-vorschau .ibkDialog.vertical .ibkDialog-actions, .ides-komponente .ibkDialog.vertical .ibkDialog-actions {
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.kachel-vorschau .ibkDialog.vertical .ibkDialog-actions > *, .ides-komponente .ibkDialog.vertical .ibkDialog-actions > * {
+	width: 100%;
+}
+
+.kachel-vorschau .ibkDialog.vertical .ibkDialog-actions button, .ides-komponente .ibkDialog.vertical .ibkDialog-actions button {
+	width: 100%;
+}
+
+@keyframes ibkDialogShake {
+	0%, 100% { transform: translateX(0); }
+	15%      { transform: translateX(-8px); }
+	30%      { transform: translateX(8px); }
+	45%      { transform: translateX(-6px); }
+	60%      { transform: translateX(6px); }
+	75%      { transform: translateX(-3px); }
+	90%      { transform: translateX(3px); }
+}
+
+.kachel-vorschau .ibkDialog.shake, .ides-komponente .ibkDialog.shake {
+	animation: ibkDialogShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* meter.css */
+.kachel-vorschau ibk-meter, .ides-komponente ibk-meter {
+	display: block;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkMeter, .ides-komponente .ibkMeter {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-16, 1rem);
+	height: 2.875rem;
+	justify-content: center;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkMeter .ibkMeterLabel, .ides-komponente .ibkMeter .ibkMeterLabel {
+	align-items: center;
+	display: flex;
+	gap: var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkMeter .ibkMeterLabelText, .ides-komponente .ibkMeter .ibkMeterLabelText {
+	color: var(--standard-fontcolor, #2E2E2E);
+	font-family: 'Asap', sans-serif;
+	font-size: var(--label-l, 1rem);
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: var(--label-l-ls, 0.01563rem);
+	line-height: var(--label-l-lh, 1.25rem);
+}
+
+.kachel-vorschau .ibkMeter .ibkIcon.label-info, .ides-komponente .ibkMeter .ibkIcon.label-info {
+	align-items: center;
+	aspect-ratio: 1 / 1;
+	border-radius: var(--ibk-radius-2, 0.125rem);
+	color: var(--ibk-info-34);
+	cursor: pointer;
+	display: flex;
+	flex-shrink: 0;
+	font-size: 1.5rem;
+	height: 1.5rem;
+	justify-content: center;
+	width: 1.5rem;
+}
+
+.kachel-vorschau .ibkMeter .ibkMeterTrack, .ides-komponente .ibkMeter .ibkMeterTrack {
+	background: var(--ibk-neutral-grey-90);
+	border-radius: 0.375rem;
+	display: block;
+	height: 0.375rem;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkMeter .ibkMeterFill, .ides-komponente .ibkMeter .ibkMeterFill {
+	background: var(--ibk-success-34);
+	border-radius: 0.375rem;
+	display: block;
+	height: 100%;
+	transition: width var(--ibk-transition-default, 0.2s ease-in-out);
+}
+
+.kachel-vorschau .ibkMeter-decent .ibkMeterTrack, .ides-komponente .ibkMeter-decent .ibkMeterTrack {
+	background: var(--ibk-neutral-grey-90);
+	height: 0.125rem;
+}
+
+.kachel-vorschau .ibkMeter-decent .ibkMeterFill, .ides-komponente .ibkMeter-decent .ibkMeterFill {
+	height: 100%;
+}
+
+.kachel-vorschau .ibkMeter.level-max .ibkMeterFill, .ides-komponente .ibkMeter.level-max .ibkMeterFill {
+	background: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkMeter.level-highPos .ibkMeterFill, .ides-komponente .ibkMeter.level-highPos .ibkMeterFill {
+	background: var(--ibk-success-34);
+}
+
+.kachel-vorschau .ibkMeter.level-highNeg .ibkMeterFill, .ides-komponente .ibkMeter.level-highNeg .ibkMeterFill {
+	background: var(--ibk-alert-42);
+}
+
+.kachel-vorschau .ibkMeter.level-optimal .ibkMeterFill, .ides-komponente .ibkMeter.level-optimal .ibkMeterFill {
+	background: var(--ibk-success-34);
+}
+
+.kachel-vorschau .ibkMeter.level-low .ibkMeterFill, .ides-komponente .ibkMeter.level-low .ibkMeterFill {
+	background: var(--ibk-warning-42);
+}
+
+.kachel-vorschau .ibkMeter.level-min .ibkMeterFill, .ides-komponente .ibkMeter.level-min .ibkMeterFill {
+	background: transparent;
+}
+
+.kachel-vorschau .ibkMeter.disabled .ibkMeterLabelText, .ides-komponente .ibkMeter.disabled .ibkMeterLabelText,
+.kachel-vorschau .ibkMeter.disabled .ibkIcon.label-info, .ides-komponente .ibkMeter.disabled .ibkIcon.label-info {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkMeter.disabled .ibkIcon.label-info, .ides-komponente .ibkMeter.disabled .ibkIcon.label-info {
+	cursor: default;
+}
+
+.kachel-vorschau .ibkMeter.disabled .ibkMeterTrack, .ides-komponente .ibkMeter.disabled .ibkMeterTrack {
+	background: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkMeter.disabled .ibkMeterFill, .ides-komponente .ibkMeter.disabled .ibkMeterFill {
+	background: var(--ibk-neutral-grey-82);
+}
+
+/* progress.css */
+.kachel-vorschau ibk-progress[type='linear'], .ides-komponente ibk-progress[type='linear'],
+.kachel-vorschau ibk-progress:not([type]), .ides-komponente ibk-progress:not([type]) {
+    display: block;
+    width: 100%;
+}
+
+.kachel-vorschau .ibkProgress, .ides-komponente .ibkProgress {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: var(--ibk-spacing-16, 1rem);
+    justify-content: center;
+}
+
+.kachel-vorschau .ibkProgress-linear, .ides-komponente .ibkProgress-linear {
+    display: flex;
+    min-height: 2.875rem;
+    width: 100%;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressLabel, .ides-komponente .ibkProgress .ibkProgressLabel {
+    align-items: center;
+    display: flex;
+    gap: var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressLabelText, .ides-komponente .ibkProgress .ibkProgressLabelText {
+    color: var(--standard-fontcolor, #2e2e2e);
+    font-family: 'Asap', sans-serif;
+    font-size: var(--label-l, 1rem);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: var(--label-l-ls, 0.01563rem);
+    line-height: var(--label-l-lh, 1.25rem);
+}
+
+.kachel-vorschau .ibkProgress .ibkIcon.label-info, .ides-komponente .ibkProgress .ibkIcon.label-info {
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--ibk-radius-2, 0.125rem);
+    color: var(--ibk-info-34);
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    width: 1.5rem;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressTrack, .ides-komponente .ibkProgress .ibkProgressTrack {
+    background: var(--ibk-neutral-grey-90);
+    border-radius: var(--ibk-radius-10, 0.625rem);
+    display: block;
+    height: 0.375rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressFill, .ides-komponente .ibkProgress .ibkProgressFill {
+    background: var(--ibk-red-49);
+    border-radius: inherit;
+    display: block;
+    height: 100%;
+    transition: width var(--ibk-transition-default, 0.2s ease-in-out);
+}
+
+.kachel-vorschau .ibkProgress-decent .ibkProgressTrack, .ides-komponente .ibkProgress-decent .ibkProgressTrack {
+    height: 0.125rem;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressCircleWrap, .ides-komponente .ibkProgress .ibkProgressCircleWrap {
+    display: block;
+    line-height: 0;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressCircle, .ides-komponente .ibkProgress .ibkProgressCircle {
+    display: block;
+    height: 4.5rem;
+    overflow: visible;
+    width: 4.5rem;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressCircleTrack, .ides-komponente .ibkProgress .ibkProgressCircleTrack,
+.kachel-vorschau .ibkProgress .ibkProgressCircleFill, .ides-komponente .ibkProgress .ibkProgressCircleFill {
+    fill: none;
+    stroke-width: 4;
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressCircleTrack, .ides-komponente .ibkProgress .ibkProgressCircleTrack {
+    stroke: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkProgress .ibkProgressCircleFill, .ides-komponente .ibkProgress .ibkProgressCircleFill {
+    stroke: var(--ibk-red-49);
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset var(--ibk-transition-default, 0.2s ease-in-out);
+}
+
+.kachel-vorschau .ibkProgress-decent .ibkProgressCircle, .ides-komponente .ibkProgress-decent .ibkProgressCircle {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.kachel-vorschau .ibkProgress-decent .ibkProgressCircleTrack, .ides-komponente .ibkProgress-decent .ibkProgressCircleTrack,
+.kachel-vorschau .ibkProgress-decent .ibkProgressCircleFill, .ides-komponente .ibkProgress-decent .ibkProgressCircleFill {
+    stroke-width: 3;
+}
+
+.kachel-vorschau .ibkProgress-spinner .ibkProgressCircleTrack, .ides-komponente .ibkProgress-spinner .ibkProgressCircleTrack {
+    stroke: transparent;
+}
+
+.kachel-vorschau .ibkProgress-spinner .ibkProgressCircleFill, .ides-komponente .ibkProgress-spinner .ibkProgressCircleFill {
+    animation: ibkProgressSpin 1s linear infinite;
+    stroke: var(--standard-fontcolor, #2e2e2e);
+    stroke-dasharray: 32 96;
+    stroke-dashoffset: 0;
+}
+
+@keyframes ibkProgressSpin {
+    from {
+        transform: rotate(-90deg);
+    }
+
+    to {
+        transform: rotate(270deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+.kachel-vorschau .ibkProgress-spinner .ibkProgressCircleFill, .ides-komponente .ibkProgress-spinner .ibkProgressCircleFill {
+        animation-duration: 1.8s;
+}
+}
+
+.kachel-vorschau .ibkProgress.is-empty .ibkProgressFill, .ides-komponente .ibkProgress.is-empty .ibkProgressFill {
+    background: transparent;
+}
+
+.kachel-vorschau .ibkProgress.is-empty .ibkProgressCircleFill, .ides-komponente .ibkProgress.is-empty .ibkProgressCircleFill {
+    stroke: transparent;
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkProgressLabelText, .ides-komponente .ibkProgress.disabled .ibkProgressLabelText,
+.kachel-vorschau .ibkProgress.disabled .ibkIcon.label-info, .ides-komponente .ibkProgress.disabled .ibkIcon.label-info {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkIcon.label-info, .ides-komponente .ibkProgress.disabled .ibkIcon.label-info {
+    cursor: default;
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkProgressTrack, .ides-komponente .ibkProgress.disabled .ibkProgressTrack {
+    background: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkProgressFill, .ides-komponente .ibkProgress.disabled .ibkProgressFill {
+    background: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkProgressCircleTrack, .ides-komponente .ibkProgress.disabled .ibkProgressCircleTrack {
+    stroke: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkProgress.disabled .ibkProgressCircleFill, .ides-komponente .ibkProgress.disabled .ibkProgressCircleFill {
+    stroke: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkProgress.disabled.ibkProgress-spinner .ibkProgressCircleTrack, .ides-komponente .ibkProgress.disabled.ibkProgress-spinner .ibkProgressCircleTrack {
+    stroke: transparent;
+}
+
+.kachel-vorschau .ibkProgress.disabled.ibkProgress-spinner .ibkProgressCircleFill, .ides-komponente .ibkProgress.disabled.ibkProgress-spinner .ibkProgressCircleFill {
+    animation-play-state: paused;
+}
+
+.kachel-vorschau .ibkProgress.disabled.is-empty .ibkProgressFill, .ides-komponente .ibkProgress.disabled.is-empty .ibkProgressFill {
+    background: transparent;
+}
+
+.kachel-vorschau .ibkProgress.disabled.is-empty .ibkProgressCircleFill, .ides-komponente .ibkProgress.disabled.is-empty .ibkProgressCircleFill {
+    stroke: transparent;
+}
+
+/* toast.css */
+.kachel-vorschau .ibkToast, .ides-komponente .ibkToast {
+	align-content: center;
+	align-items: center;
+	border: var(--2, 2px) solid transparent;
+	border-radius: 6.25rem;
+	color: var(--white-100);
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: var(--ibk-spacing-8, 8px);
+	justify-content: center;
+	min-height: 2.5rem;
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-16, 16px);
+}
+
+.kachel-vorschau .ibkToast.regular, .ides-komponente .ibkToast.regular {
+	background: var(--ibk-petrol-26);
+}
+
+.kachel-vorschau .ibkToast.regular.success, .ides-komponente .ibkToast.regular.success {
+	background: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkToast.regular.warning, .ides-komponente .ibkToast.regular.warning {
+	background: var(--ibk-warning-26);
+}
+
+.kachel-vorschau .ibkToast.regular.alert, .ides-komponente .ibkToast.regular.alert {
+	background: var(--ibk-alert-26);
+}
+
+.kachel-vorschau .ibkToast.decent, .ides-komponente .ibkToast.decent {
+	background: var(--ibk-petrol-94);
+	border-color: var(--ibk-petrol-26);
+	color: var(--ibk-petrol-26);
+}
+
+.kachel-vorschau .ibkToast.decent.success, .ides-komponente .ibkToast.decent.success {
+	background: var(--ibk-success-98);
+	border-color: var(--ibk-success-26);
+	color: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkToast.decent.warning, .ides-komponente .ibkToast.decent.warning {
+	background: var(--ibk-warning-98);
+	border-color: var(--ibk-warning-26);
+	color: var(--ibk-warning-26);
+}
+
+.kachel-vorschau .ibkToast.decent.alert, .ides-komponente .ibkToast.decent.alert {
+	background: var(--ibk-alert-98);
+	border-color: var(--ibk-alert-26);
+	color: var(--ibk-alert-26);
+}
+
+.kachel-vorschau .ibkToastContent, .ides-komponente .ibkToastContent {
+	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: var(--ibk-spacing-8, 8px);
+	justify-content: center;
+}
+
+.kachel-vorschau .ibkToastText, .ides-komponente .ibkToastText {
+	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkToast.twoLabel .ibkToastText, .ides-komponente .ibkToast.twoLabel .ibkToastText {
+	gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkToast.twoLabel .ibkToastLabel, .ides-komponente .ibkToast.twoLabel .ibkToastLabel {
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.kachel-vorschau .ibkToast:not(.eIB):not(.twoLabel), .ides-komponente .ibkToast:not(.eIB):not(.twoLabel) {
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-32, 32px);
+	max-width: 12rem;
+}
+
+.kachel-vorschau .ibkToast:not(.eIB):not(.twoLabel) .ibkToastContent, .ides-komponente .ibkToast:not(.eIB):not(.twoLabel) .ibkToastContent,
+.kachel-vorschau .ibkToast:not(.eIB):not(.twoLabel) .ibkToastText, .ides-komponente .ibkToast:not(.eIB):not(.twoLabel) .ibkToastText {
+	justify-content: center;
+	text-align: center;
+}
+
+.kachel-vorschau .ibkToast.eIB:not(.twoLabel), .ides-komponente .ibkToast.eIB:not(.twoLabel) {
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: var(--ibk-spacing-16, 16px) var(--ibk-spacing-16, 16px);
+	justify-content: center;
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-32, 32px) var(--ibk-spacing-6, 6px)
+		var(--ibk-spacing-16, 16px);
+	max-width: 13rem;
+}
+
+.kachel-vorschau .ibkToast.eIB:not(.twoLabel) .ibkToastContent, .ides-komponente .ibkToast.eIB:not(.twoLabel) .ibkToastContent {
+	align-items: center;
+	column-gap: var(--ibk-spacing-16, 16px);
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	row-gap: var(--ibk-spacing-16, 16px);
+	width: 100%;
+}
+
+.kachel-vorschau .ibkToast.eIB:not(.twoLabel) .ibkToastText, .ides-komponente .ibkToast.eIB:not(.twoLabel) .ibkToastText {
+	display: block;
+	max-width: 100%;
+	min-width: 0;
+	overflow-wrap: anywhere;
+	text-align: left;
+	word-break: break-word;
+}
+
+.kachel-vorschau .ibkToast.eIB:not(.twoLabel) .ibkToastLabel, .ides-komponente .ibkToast.eIB:not(.twoLabel) .ibkToastLabel {
+	display: block;
+	max-width: 100%;
+	overflow-wrap: anywhere;
+	text-align: left;
+	white-space: normal;
+	word-break: break-word;
+}
+
+.kachel-vorschau .ibkToastLabel, .ides-komponente .ibkToastLabel,
+.kachel-vorschau .ibkToastSecondary, .ides-komponente .ibkToastSecondary {
+	color: inherit;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5rem;
+	letter-spacing: 0;
+}
+
+.kachel-vorschau .ibkToastSecondary, .ides-komponente .ibkToastSecondary {
+	font-weight: 600;
+}
+
+.kachel-vorschau .ibkToast .ibkToastIcon, .ides-komponente .ibkToast .ibkToastIcon {
+	font-size: 1.25rem;
+}
+
+/* tooltip.css */
+.kachel-vorschau .ibkTooltip, .ides-komponente .ibkTooltip {
+	display: inline-flex;
+	width: 13.75rem;
+	padding: var(--ibk-spacing-4) var(--ibk-spacing-8);
+	align-items: flex-start;
+	gap: var(--ibk-spacing-16);
+	border-radius: var(--ibk-radius-4);
+	background: var(--black-0);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkTooltip .ibkTooltip-text, .ides-komponente .ibkTooltip .ibkTooltip-text {
+	flex: 1 1 auto;
+	min-width: 0;
+	font-size: var(--text-l, 1rem);
+	line-height: var(--text-l-lh, 1.5rem);
+	color: var(--white-100);
+	word-break: break-word;
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close {
+	background: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	border-radius: var(--ibk-radius-2);
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close .ibkIcon, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close .ibkIcon {
+	display: flex;
+	height: 1.5rem;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	align-self: flex-start;
+	aspect-ratio: 1/1;
+	color: var(--white-100);
+	text-align: center;
+	font-size: var(--icon-button, 1.5rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: var(--icon-button-lh, 1.5rem);
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:hover i, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:hover i {
+	color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:active i, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:active i {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:focus-visible, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:focus-visible {
+	outline-offset: 0;
+}
+
+.kachel-vorschau .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:focus-visible i, .ides-komponente .ibkTooltip.ibkTooltip-toggletip .ibkButton-close:focus-visible i {
+	color: var(--white-100);
+}
+
+/* link.css */
+.kachel-vorschau a.ibkLink, .ides-komponente a.ibkLink {
+	-webkit-border-radius: 0.0625rem;
+	-moz-border-radius: 0.0625rem;
+	border-radius: 0.0625rem;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.25rem;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: auto;
+	text-decoration-thickness: 1px;
+	text-underline-offset: -0.5px;
+	text-underline-position: from-font;
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular, .ides-komponente a.ibkLink.ibkLink-regular {
+	color: var(--ibk-red-41);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular:hover, .ides-komponente a.ibkLink.ibkLink-regular:hover {
+	color: var(--ibk-red-49);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular:active, .ides-komponente a.ibkLink.ibkLink-regular:active {
+	color: var(--ibk-red-33);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular:visited, .ides-komponente a.ibkLink.ibkLink-regular:visited {
+	color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent, .ides-komponente a.ibkLink.ibkLink-decent {
+	color: var(--ibk-neutral-grey-10);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent:hover, .ides-komponente a.ibkLink.ibkLink-decent:hover {
+	color: var(--ibk-neutral-grey-26);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent:active, .ides-komponente a.ibkLink.ibkLink-decent:active {
+	color: var(--ibk-neutral-grey-2);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent:visited, .ides-komponente a.ibkLink.ibkLink-decent:visited {
+	color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular:focus-visible, .ides-komponente a.ibkLink.ibkLink-regular:focus-visible {
+	color: var(--ibk-red-41);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent:focus-visible, .ides-komponente a.ibkLink.ibkLink-decent:focus-visible {
+	color: var(--ibk-neutral-grey-10);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-regular:visited:focus-visible, .ides-komponente a.ibkLink.ibkLink-regular:visited:focus-visible {
+	color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau a.ibkLink.ibkLink-decent:visited:focus-visible, .ides-komponente a.ibkLink.ibkLink-decent:visited:focus-visible {
+	color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau a.ibkLink.disabled, .ides-komponente a.ibkLink.disabled,
+.kachel-vorschau a.ibkLink.disabled:visited, .ides-komponente a.ibkLink.disabled:visited,
+.kachel-vorschau a.ibkLink.disabled:hover, .ides-komponente a.ibkLink.disabled:hover,
+.kachel-vorschau a.ibkLink.disabled:active, .ides-komponente a.ibkLink.disabled:active {
+	color: var(--ibk-neutral-grey-82);
+	cursor: default;
+	pointer-events: none;
+	text-decoration-color: var(--ibk-neutral-grey-82);
+}
+
+/* breadcrumb.css */
+.kachel-vorschau .ibkBreadcrumb .breadcrumb-element, .ides-komponente .ibkBreadcrumb .breadcrumb-element {
+	font-size: 1rem;
+	line-height: 1.0;
+}
+
+.kachel-vorschau .ibkBreadcrumb .breadcrumb-element .ibkIcon, .ides-komponente .ibkBreadcrumb .breadcrumb-element .ibkIcon {
+	color: var(--ibk-red-41);
+	
+	display: inline-block;
+	font-size: 1.0rem;
+	font-style: inherit;
+	line-height: 1.0;
+	
+	
+	vertical-align: middle;
+	width: 1.0rem
+}
+
+.kachel-vorschau .ibkBreadcrumb.single .breadcrumb-element .ibkIcon, .ides-komponente .ibkBreadcrumb.single .breadcrumb-element .ibkIcon {
+	margin-left: 0;
+}
+
+/* dropdown.css */
+.kachel-vorschau .ibkDropdownAnchor, .ides-komponente .ibkDropdownAnchor {
+    align-items: flex-start;
+    display: inline-flex;
+    position: relative;
+}
+
+.kachel-vorschau ibk-dropdown, .ides-komponente ibk-dropdown {
+    left: 0;
+    position: absolute;
+    top: 100%;
+    
+    z-index: 100;
+}
+
+.kachel-vorschau ibk-dropdown:not([open]), .ides-komponente ibk-dropdown:not([open]) {
+    display: none;
+}
+
+.kachel-vorschau ibk-dropdown[placement='bottom-end'], .ides-komponente ibk-dropdown[placement='bottom-end'] {
+    left: auto;
+    right: 0;
+}
+
+.kachel-vorschau ibk-dropdown.ibkDropdown-flip-block, .ides-komponente ibk-dropdown.ibkDropdown-flip-block {
+    bottom: 100%;
+    top: auto;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu, .ides-komponente ibk-dropdown .ibkDropdown-menu {
+    background: var(--ibk-neutral-grey-98);
+    border: 2px solid var(--ibk-neutral-grey-74);
+    border-radius: 0 0 var(--ibk-radius-10, 0.625rem) var(--ibk-radius-10, 0.625rem);
+    box-shadow: var(--ibk-shadow-1);
+    display: flex;
+    flex-direction: column;
+    gap: var(--ibk-spacing-6, 0.375rem);
+    padding: var(--ibk-spacing-10, 0.625rem) 0;
+    width: max-content;
+}
+
+.kachel-vorschau ibk-dropdown.ibkDropdown-flip-block > .ibkDropdown-menu, .ides-komponente ibk-dropdown.ibkDropdown-flip-block > .ibkDropdown-menu {
+    border-radius: var(--ibk-radius-10, 0.625rem) var(--ibk-radius-10, 0.625rem) 0 0;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item, .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: var(--standard-fontcolor);
+    cursor: pointer;
+    display: flex;
+    font-size: var(--text-l, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    gap: var(--ibk-spacing-10, 0.625rem);
+    justify-content: space-between;
+    line-height: var(--text-l-lh, 1.5rem);
+    padding: var(--ibk-spacing-4, 0.25rem) var(--ibk-spacing-14, 0.875rem)
+        var(--ibk-spacing-4, 0.25rem) var(--ibk-spacing-10, 0.625rem);
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemMain, .ides-komponente ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemMain {
+    align-items: center;
+    display: flex;
+    gap: var(--ibk-spacing-10, 0.625rem);
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item .ibkIcon, .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item .ibkIcon {
+    color: currentColor;
+    display: block;
+    font-size: var(--icon-button, 1.5rem);
+    font-style: normal;
+    text-align: center;
+    
+    width: var(--icon-button, 1.5rem);
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemLabel, .ides-komponente ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemLabel {
+    font-weight: 500;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemShortcut, .ides-komponente ibk-dropdown .ibkDropdown-menu .ibkDropdown-itemShortcut {
+    font-weight: 400;
+    text-align: right;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:hover:not(:disabled), .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:hover:not(:disabled),
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:active:not(:disabled), .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:active:not(:disabled),
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item.open:not(:disabled), .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item.open:not(:disabled) {
+    background: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:disabled, .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:disabled {
+    background: transparent;
+    color: var(--ibk-neutral-grey-82);
+    cursor: not-allowed;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:focus-visible, .ides-komponente ibk-dropdown .ibkDropdown-menu button.ibkDropdown-item:focus-visible {
+    outline: solid 2px var(--ibk-focusstroke);
+    outline-offset: -2px;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu hr.ibkDropdown-separator, .ides-komponente ibk-dropdown .ibkDropdown-menu hr.ibkDropdown-separator {
+    background: var(--ibk-neutral-grey-74);
+    border: 0;
+    flex: none;
+    height: 1px;
+    margin: var(--ibk-spacing-8, 0.5rem) 0;
+    width: 100%;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu .ibkDropdown-submenuWrapper, .ides-komponente ibk-dropdown .ibkDropdown-menu .ibkDropdown-submenuWrapper {
+    display: flex;
+    position: relative;
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu.ibkDropdown-submenu, .ides-komponente ibk-dropdown .ibkDropdown-menu.ibkDropdown-submenu {
+    
+    border-radius: var(--ibk-radius-10, 0.625rem);
+    left: 100%;
+    position: absolute;
+    right: auto;
+    
+    top: calc(var(--ibk-spacing-10, 0.625rem) * -1);
+}
+
+.kachel-vorschau ibk-dropdown .ibkDropdown-menu.ibkDropdown-submenu-flip-inline, .ides-komponente ibk-dropdown .ibkDropdown-menu.ibkDropdown-submenu-flip-inline {
+    left: auto;
+    right: 100%;
+}
+
+/* select.css */
+.kachel-vorschau .ibkSelect, .ides-komponente .ibkSelect {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-6, 0.375rem);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkSelectWrapper, .ides-komponente .ibkSelectWrapper {
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkSelect label, .ides-komponente .ibkSelect label {
+	display: block;
+}
+
+.kachel-vorschau .ibkSelect .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkSelect .ibkLabel .ibkIcon.label-info {
+	color: var(--ibk-info-34);
+}
+
+.kachel-vorschau .ibkSelect select, .ides-komponente .ibkSelect select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background: var(--ibk-neutral-grey-98);
+	border: 2px solid var(--ibk-neutral-grey-74);
+	border-radius: var(--ibk-radius-6, 0.375rem);
+	color: var(--standard-fontcolor);
+	cursor: pointer;
+	display: inline-block;
+	padding: var(--ibk-spacing-6, 0.375rem) 2.75rem var(--ibk-spacing-6, 0.375rem) var(--ibk-spacing-8, 0.5rem);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkSelect:not(.alert):not(.warning):not(.success) select:hover:not([disabled]), .ides-komponente .ibkSelect:not(.alert):not(.warning):not(.success) select:hover:not([disabled]) {
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkSelect .ibkIcon.dropdown-icon, .ides-komponente .ibkSelect .ibkIcon.dropdown-icon {
+	color: var(--standard-fontcolor);
+	pointer-events: none;
+	position: absolute;
+	right: 0.625rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkSelect .ibkIcon.info-icon, .ides-komponente .ibkSelect .ibkIcon.info-icon {
+	display: none;
+}
+
+.kachel-vorschau .ibkSelect.has-info-icon .ibkIcon.info-icon, .ides-komponente .ibkSelect.has-info-icon .ibkIcon.info-icon {
+	display: block;
+	color: var(--standard-fontcolor);
+	left: 0.625rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkSelect.has-info-icon select, .ides-komponente .ibkSelect.has-info-icon select {
+	padding-left: 2.625rem;
+}
+
+.kachel-vorschau .ibkSelect .supportingText, .ides-komponente .ibkSelect .supportingText {
+	align-items: flex-start;
+	display: flex;
+	gap: var(--ibk-spacing-4, 0.25rem);
+	width: 100%;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkSelect .supportingText .ibkIcon, .ides-komponente .ibkSelect .supportingText .ibkIcon {
+	color: inherit;
+	float: none !important;
+	margin: 0;
+}
+
+.kachel-vorschau .ibkSelect .supportingText .content, .ides-komponente .ibkSelect .supportingText .content {
+	float: none;
+}
+
+.kachel-vorschau .ibkSelect.disabled .ibkLabel, .ides-komponente .ibkSelect.disabled .ibkLabel,
+.kachel-vorschau .ibkSelect.disabled .ibkLabel .ibkLabelText, .ides-komponente .ibkSelect.disabled .ibkLabel .ibkLabelText,
+.kachel-vorschau .ibkSelect.disabled .ibkLabel .ibkIcon, .ides-komponente .ibkSelect.disabled .ibkLabel .ibkIcon {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSelect.disabled select[disabled], .ides-komponente .ibkSelect.disabled select[disabled] {
+	background-color: var(--ibk-neutral-grey-98);
+	border: var(--ibk-spacing-2, 2px) solid var(--select-disable-b, var(--ibk-neutral-grey-82));
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSelect.disabled .ibkSelectWrapper .ibkIcon, .ides-komponente .ibkSelect.disabled .ibkSelectWrapper .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkSelect.disabled .supportingText, .ides-komponente .ibkSelect.disabled .supportingText,
+.kachel-vorschau .ibkSelect.disabled .supportingText .ibkIcon, .ides-komponente .ibkSelect.disabled .supportingText .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkSelect.alert select, .ides-komponente .ibkSelect.alert select {
+	background-color: var(--ibk-alert-94);
+	border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSelect.alert .supportingText, .ides-komponente .ibkSelect.alert .supportingText {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSelect.alert .supportingText .ibkIcon, .ides-komponente .ibkSelect.alert .supportingText .ibkIcon {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSelect.warning select, .ides-komponente .ibkSelect.warning select {
+	border-color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkSelect.warning .supportingText, .ides-komponente .ibkSelect.warning .supportingText {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkSelect.warning .supportingText .ibkIcon, .ides-komponente .ibkSelect.warning .supportingText .ibkIcon {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkSelect.success select, .ides-komponente .ibkSelect.success select {
+	border-color: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkSelect.success .supportingText, .ides-komponente .ibkSelect.success .supportingText {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkSelect.success .supportingText .ibkIcon, .ides-komponente .ibkSelect.success .supportingText .ibkIcon {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkSelect.prominent select, .ides-komponente .ibkSelect.prominent select {
+	border-radius: var(--ibk-spacing-10, 0.625rem);
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+}
+
+.kachel-vorschau .ibkSelect.prominent .ibkIcon.info-icon, .ides-komponente .ibkSelect.prominent .ibkIcon.info-icon {
+	display: none;
+}
+
+.kachel-vorschau .ibkSelect.prominent.has-info-icon .ibkIcon.info-icon, .ides-komponente .ibkSelect.prominent.has-info-icon .ibkIcon.info-icon {
+	display: block;
+}
+
+.kachel-vorschau .ibkSelect.prominent.has-info-icon select, .ides-komponente .ibkSelect.prominent.has-info-icon select {
+	padding-left: 2.625rem;
+}
+
+/* bottom-navigation.css */
+.kachel-vorschau ibk-bottom-navigation, .ides-komponente ibk-bottom-navigation {
+    display: block;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-list, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-list {
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: var(--ibk-spacing-2, 0.125rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-regular .ibkBottomNavigation-list, .ides-komponente .ibkBottomNavigation-regular .ibkBottomNavigation-list {
+    gap: var(--ibk-spacing-8, 0.5rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-decent .ibkBottomNavigation-list, .ides-komponente .ibkBottomNavigation-decent .ibkBottomNavigation-list {
+    gap: var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-listItem, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-listItem {
+    display: flex;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    border-radius: var(--ibk-radius-4, 0.25rem);
+    color: var(--standard-fontcolor);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    justify-content: center;
+    text-align: center;
+    transition:
+        background-color var(--ibk-transition-default, 0.2s ease-in-out),
+        color var(--ibk-transition-default, 0.2s ease-in-out);
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item .ibkIcon, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item .ibkIcon {
+    color: currentColor;
+    display: block;
+    font-style: normal;
+    text-align: center;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-label, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-label {
+    white-space: nowrap;
+}
+
+.kachel-vorschau .ibkBottomNavigation-regular .ibkBottomNavigation-item, .ides-komponente .ibkBottomNavigation-regular .ibkBottomNavigation-item {
+    gap: var(--ibk-spacing-2, 0.125rem);
+    min-height: 4.125rem;
+    min-width: 7.5rem;
+    padding: var(--ibk-spacing-12, 0.75rem) var(--ibk-spacing-8, 0.5rem) var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-regular .ibkBottomNavigation-item .ibkIcon, .ides-komponente .ibkBottomNavigation-regular .ibkBottomNavigation-item .ibkIcon {
+    font-size: var(--icon-button, 1.5rem);
+    line-height: var(--icon-button-lh, 1.5rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-regular .ibkBottomNavigation-label, .ides-komponente .ibkBottomNavigation-regular .ibkBottomNavigation-label {
+    font-size: var(--text-button, 1rem);
+    font-weight: 500;
+    line-height: var(--text-button-lh, 1.5rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-decent .ibkBottomNavigation-item, .ides-komponente .ibkBottomNavigation-decent .ibkBottomNavigation-item {
+    min-height: 3.25rem;
+    min-width: 5.25rem;
+    padding: var(--ibk-spacing-8, 0.5rem) var(--ibk-spacing-8, 0.5rem) var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-decent .ibkBottomNavigation-item .ibkIcon, .ides-komponente .ibkBottomNavigation-decent .ibkBottomNavigation-item .ibkIcon {
+    font-size: var(--icon-support, 1.25rem);
+    line-height: var(--icon-support-lh, 1.25rem);
+}
+
+.kachel-vorschau .ibkBottomNavigation-decent .ibkBottomNavigation-label, .ides-komponente .ibkBottomNavigation-decent .ibkBottomNavigation-label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):hover:not(:disabled), .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):hover:not(:disabled) {
+    background: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):active:not(:disabled), .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):active:not(:disabled) {
+    background: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:disabled, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:disabled {
+    background: transparent;
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:disabled, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:disabled,
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:disabled .ibkIcon, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:disabled .ibkIcon {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item:focus-visible, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item:focus-visible {
+    outline: solid 2px var(--ibk-focusstroke);
+    outline-offset: -2px;
+}
+
+.kachel-vorschau .ibkBottomNavigation .ibkBottomNavigation-item.selected, .ides-komponente .ibkBottomNavigation .ibkBottomNavigation-item.selected {
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkBottomNavigation-dominance-regular .ibkBottomNavigation-item.selected, .ides-komponente .ibkBottomNavigation-dominance-regular .ibkBottomNavigation-item.selected {
+    background: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau .ibkBottomNavigation-dominance-prominent .ibkBottomNavigation-item.selected, .ides-komponente .ibkBottomNavigation-dominance-prominent .ibkBottomNavigation-item.selected {
+    background: var(--ibk-red-41);
+}
+
+/* menu.css */
+.kachel-vorschau .ibkMenu, .ides-komponente .ibkMenu {
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu, .ides-komponente button.ibkButton.ibkButton-menu {
+	border-radius: 0.375rem !important;
+	-webkit-border-radius: 0.375rem !important;
+	-moz-border-radius: 0.375rem !important;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkIcon-leading, .ides-komponente button.ibkButton.ibkButton-menu.ibkIcon-leading {
+	padding: 0.500rem 1.00rem 0.500rem 0.500rem;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkIcon-leading .ibkIcon, .ides-komponente button.ibkButton.ibkButton-menu.ibkIcon-leading .ibkIcon {
+	margin-right: 0.500rem;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu:hover, .ides-komponente button.ibkButton.ibkButton-menu:hover {
+	background-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu:active, .ides-komponente button.ibkButton.ibkButton-menu:active {
+	background-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu:disabled, .ides-komponente button.ibkButton.ibkButton-menu:disabled {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu:disabled:hover, .ides-komponente button.ibkButton.ibkButton-menu:disabled:hover {
+	background-color: transparent;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.selected, .ides-komponente button.ibkButton.ibkButton-menu.selected {
+	background-color: var(--ibk-petrol-32);
+	color: var(--white-100);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.selected:hover, .ides-komponente button.ibkButton.ibkButton-menu.selected:hover {
+	background-color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.selected:active, .ides-komponente button.ibkButton.ibkButton-menu.selected:active {
+	background-color: var(--ibk-petrol-32);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.prominent.selected, .ides-komponente button.ibkButton.ibkButton-menu.prominent.selected {
+	background-color: var(--ibk-red-41);
+	color: var(--white-100);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.prominent.selected:hover, .ides-komponente button.ibkButton.ibkButton-menu.prominent.selected:hover {
+	background-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.prominent.selected:active, .ides-komponente button.ibkButton.ibkButton-menu.prominent.selected:active {
+	background-color: var(--ibk-red-41);
+}
+
+/* navigation-menu-item.css */
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem {
+    align-items: center;
+    display: flex;
+    gap: var(--ibk-spacing-8, 0.5rem);
+    justify-content: flex-start;
+    max-width: 100%;
+    min-height: var(--ibk-spacing-40, 2.5rem);
+    min-width: 0;
+    padding: var(--ibk-spacing-8, 0.5rem);
+    width: max-content;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:not(.selected):not(:disabled), .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:not(.selected):not(:disabled) {
+    color: var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:not(.selected):not(:disabled):hover, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:not(.selected):not(:disabled):hover {
+    color: var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkIcon, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkIcon {
+    flex: 0 0 auto;
+    font-size: var(--text-button-lh, 1.5rem);
+    line-height: 1;
+    margin: 0;
+    order: 0;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkButtonText, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkButtonText {
+    flex: 1 1 auto;
+    min-width: 0;
+    order: 1;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkNavigationMenuItem-leadingIcon, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkNavigationMenuItem-leadingIcon {
+    order: 0;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkNavigationMenuItem-trailingIcon, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem .ibkNavigationMenuItem-trailingIcon {
+    margin-left: auto;
+    order: 2;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem.dropdown, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem.dropdown {
+    -webkit-border-top-left-radius: var(--ibk-radius-6, 0.375rem) !important;
+    -webkit-border-top-right-radius: var(--ibk-radius-6, 0.375rem) !important;
+    -webkit-border-bottom-right-radius: 0 !important;
+    -webkit-border-bottom-left-radius: 0 !important;
+    -moz-border-radius-topleft: var(--ibk-radius-6, 0.375rem) !important;
+    -moz-border-radius-topright: var(--ibk-radius-6, 0.375rem) !important;
+    -moz-border-radius-bottomright: 0 !important;
+    -moz-border-radius-bottomleft: 0 !important;
+    border-radius: var(--ibk-radius-6, 0.375rem) var(--ibk-radius-6, 0.375rem) 0 0 !important;
+}
+
+.kachel-vorschau button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:disabled, .ides-komponente button.ibkButton.ibkButton-menu.ibkNavigationMenuItem:disabled {
+    cursor: default;
+}
+
+/* pagination.css */
+.kachel-vorschau .ibkPagination, .ides-komponente .ibkPagination {
+    --ibk-pagination-active-bg: var(--ibk-petrol-32);
+
+    align-items: center;
+    color: var(--ibk-neutral-grey-18);
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: var(--ibk-spacing-4, 4px);
+}
+
+.kachel-vorschau .ibkPagination.prominent, .ides-komponente .ibkPagination.prominent {
+    --ibk-pagination-active-bg: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button {
+    background-color: transparent;
+    border: var(--ibk-spacing-2, 2px) solid transparent;
+    border-radius: var(--ibk-radius-6, 6px);
+    color: var(--ibk-neutral-grey-18);
+    flex: 0 0 auto;
+    font-size: var(--text-button, 1rem);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    height: var(--ibk-spacing-40, 40px);
+    line-height: var(--text-button-lh, 24px);
+    min-height: var(--ibk-spacing-40, 40px);
+    min-width: var(--ibk-spacing-40, 40px);
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-10, 10px);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-arrow, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-arrow {
+    padding: var(--ibk-spacing-6, 6px);
+    width: var(--ibk-spacing-40, 40px);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button .ibkIcon, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button .ibkIcon {
+    color: currentColor;
+    display: block !important;
+    font-size: var(--text-button-lh, 24px);
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button:not(.current):not(:disabled):hover, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button:not(.current):not(:disabled):hover {
+    background-color: var(--ibk-neutral-grey-90);
+    border-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button:not(.current):not(:disabled):active, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button:not(.current):not(:disabled):active {
+    background-color: var(--ibk-neutral-grey-74);
+    border-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button.current, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button.current {
+    background-color: var(--ibk-pagination-active-bg);
+    border-color: var(--ibk-pagination-active-bg);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkPagination button.ibkButton.ibkPagination-button:disabled, .ides-komponente .ibkPagination button.ibkButton.ibkPagination-button:disabled {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: var(--ibk-neutral-grey-82) !important;
+    cursor: default;
+}
+
+.kachel-vorschau .ibkPagination.disabled button.ibkButton.ibkPagination-button.current:disabled, .ides-komponente .ibkPagination.disabled button.ibkButton.ibkPagination-button.current:disabled {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border-color: var(--ibk-neutral-grey-82) !important;
+    color: var(--white-100) !important;
+}
+
+.kachel-vorschau .ibkPagination-ellipsis, .ides-komponente .ibkPagination-ellipsis {
+    align-items: center;
+    color: var(--ibk-neutral-grey-82);
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: var(--text-button, 1rem);
+    font-weight: 500;
+    height: var(--ibk-spacing-40, 40px);
+    justify-content: center;
+    line-height: var(--text-button-lh, 24px);
+    min-width: var(--ibk-spacing-40, 40px);
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-8, 8px);
+    user-select: none;
+}
+
+.kachel-vorschau .ibkPagination-ellipsis .ibkIcon, .ides-komponente .ibkPagination-ellipsis .ibkIcon {
+    color: currentColor;
+    display: block;
+    float: none;
+    font-size: var(--text-button-lh, 24px);
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+/* paginationdots.css */
+.kachel-vorschau .ibkPaginationDots, .ides-komponente .ibkPaginationDots {
+    --ibk-pagination-dots-button-size: 1.25rem;
+    --ibk-pagination-dots-icon-size: var(--ibk-spacing-16, 1rem);
+    --ibk-pagination-dots-selected-color: var(--ibk-petrol-32);
+
+    align-items: center;
+    display: inline-flex;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkPaginationDots.small, .ides-komponente .ibkPaginationDots.small {
+    --ibk-pagination-dots-icon-size: var(--ibk-spacing-12, 0.75rem);
+}
+
+.kachel-vorschau .ibkPaginationDots.large, .ides-komponente .ibkPaginationDots.large {
+    --ibk-pagination-dots-icon-size: var(--ibk-pagination-dots-button-size);
+}
+
+.kachel-vorschau .ibkPaginationDots.prominent, .ides-komponente .ibkPaginationDots.prominent {
+    --ibk-pagination-dots-selected-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkPaginationDots button.single, .ides-komponente .ibkPaginationDots button.single {
+    align-items: center;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-radius: var(--ibk-radius-4, 4px);
+    color: var(--ibk-neutral-grey-82);
+    cursor: pointer;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: var(--ibk-pagination-dots-button-size);
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: var(--ibk-pagination-dots-button-size);
+}
+
+.kachel-vorschau .ibkPaginationDots button.single .ibkIcon, .ides-komponente .ibkPaginationDots button.single .ibkIcon {
+    color: currentColor;
+    display: block;
+    font-size: var(--ibk-pagination-dots-icon-size);
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.kachel-vorschau .ibkPaginationDots button.single:not(.selected):not(:disabled):hover, .ides-komponente .ibkPaginationDots button.single:not(.selected):not(:disabled):hover {
+    color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkPaginationDots button.single:not(.selected):not(:disabled):active, .ides-komponente .ibkPaginationDots button.single:not(.selected):not(:disabled):active {
+    color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkPaginationDots button.single.selected, .ides-komponente .ibkPaginationDots button.single.selected {
+    color: var(--ibk-pagination-dots-selected-color);
+}
+
+.kachel-vorschau .ibkPaginationDots button.single:focus-visible, .ides-komponente .ibkPaginationDots button.single:focus-visible {
+    outline: solid var(--ibk-spacing-2, 2px) var(--ibk-focusstroke);
+    outline-offset: 0;
+}
+
+.kachel-vorschau .ibkPaginationDots button.single:disabled, .ides-komponente .ibkPaginationDots button.single:disabled {
+    color: var(--ibk-neutral-grey-82);
+    cursor: default;
+}
+
+.kachel-vorschau .ibkPaginationDots.disabled button.single.selected:disabled, .ides-komponente .ibkPaginationDots.disabled button.single.selected:disabled {
+    color: var(--ibk-pagination-dots-selected-color);
+}
+
+/* step-button.css */
+.kachel-vorschau ibk-step-button, .ides-komponente ibk-step-button {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkStepButton, .ides-komponente .ibkStepButton {
+    align-items: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkStepButton .ibkIcon, .ides-komponente .ibkStepButton .ibkIcon {
+    color: inherit;
+    display: block;
+    text-align: center;
+}
+
+.kachel-vorschau .ibkStepButton:disabled, .ides-komponente .ibkStepButton:disabled {
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkStepButton-prominent, .ides-komponente .ibkStepButton-prominent {
+    background: var(--ibk-red-41);
+    border-color: var(--ibk-red-41);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkStepButton-prominent:hover:not(:disabled), .ides-komponente .ibkStepButton-prominent:hover:not(:disabled) {
+    background: var(--ibk-red-49);
+    border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkStepButton-prominent:active:not(:disabled), .ides-komponente .ibkStepButton-prominent:active:not(:disabled) {
+    background: var(--ibk-red-33);
+    border-color: var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkStepButton-prominent:disabled, .ides-komponente .ibkStepButton-prominent:disabled {
+    background: var(--ibk-neutral-grey-82);
+    border-color: var(--ibk-neutral-grey-82);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkStepButton-regular, .ides-komponente .ibkStepButton-regular {
+    background: var(--ibk-petrol-32);
+    border-color: var(--ibk-petrol-32);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkStepButton-regular:hover:not(:disabled), .ides-komponente .ibkStepButton-regular:hover:not(:disabled) {
+    background: var(--ibk-petrol-40, #52697a);
+    border-color: var(--ibk-petrol-40, #52697a);
+}
+
+.kachel-vorschau .ibkStepButton-regular:active:not(:disabled), .ides-komponente .ibkStepButton-regular:active:not(:disabled) {
+    background: var(--ibk-petrol-26);
+    border-color: var(--ibk-petrol-26);
+}
+
+.kachel-vorschau .ibkStepButton-regular:disabled, .ides-komponente .ibkStepButton-regular:disabled {
+    background: var(--ibk-neutral-grey-82);
+    border-color: var(--ibk-neutral-grey-82);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkStepButton-decent, .ides-komponente .ibkStepButton-decent {
+    background: transparent;
+    border-color: transparent;
+    color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkStepButton-decent:hover:not(:disabled), .ides-komponente .ibkStepButton-decent:hover:not(:disabled) {
+    background: var(--ibk-neutral-grey-90);
+    border-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkStepButton-decent:active:not(:disabled), .ides-komponente .ibkStepButton-decent:active:not(:disabled) {
+    background: var(--ibk-neutral-grey-74);
+    border-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkStepButton-decent:disabled, .ides-komponente .ibkStepButton-decent:disabled {
+    background: transparent;
+    border-color: transparent;
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkStepButton-40, .ides-komponente .ibkStepButton-40 {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.kachel-vorschau .ibkStepButton-40 .ibkIcon, .ides-komponente .ibkStepButton-40 .ibkIcon {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.kachel-vorschau .ibkStepButton-20, .ides-komponente .ibkStepButton-20 {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.kachel-vorschau .ibkStepButton-20 .ibkIcon, .ides-komponente .ibkStepButton-20 .ibkIcon {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+.kachel-vorschau .ibkStepButton-round, .ides-komponente .ibkStepButton-round {
+    border-radius: 1.5rem;
+}
+
+.kachel-vorschau .ibkStepButton-quad, .ides-komponente .ibkStepButton-quad {
+    border-radius: 0.375rem;
+}
+
+.kachel-vorschau .ibkStepButton-quad.ibkStepButton-20, .ides-komponente .ibkStepButton-quad.ibkStepButton-20 {
+    border-radius: 0.25rem;
+}
+
+.kachel-vorschau .ibkStepButton-rect, .ides-komponente .ibkStepButton-rect {
+    border-radius: 0.25rem;
+}
+
+.kachel-vorschau .ibkStepButton-rect.ibkStepButton-20, .ides-komponente .ibkStepButton-rect.ibkStepButton-20 {
+    height: 1rem;
+}
+
+.kachel-vorschau .ibkStepButtonBar, .ides-komponente .ibkStepButtonBar {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 0;
+}
+
+.kachel-vorschau .ibkStepButtonBar-horizontal, .ides-komponente .ibkStepButtonBar-horizontal {
+    flex-direction: row;
+    gap: var(--ibk-spacing-4, 0.25rem);
+}
+
+.kachel-vorschau .ibkStepButtonBar-vertical, .ides-komponente .ibkStepButtonBar-vertical {
+    flex-direction: column;
+    gap: 0;
+}
+
+.kachel-vorschau .ibkStepButtonBarFramed, .ides-komponente .ibkStepButtonBarFramed {
+    background: var(--white-100);
+    border: 2px solid var(--ibk-neutral-grey-74);
+    border-radius: 1.5rem;
+    padding: 0.125rem;
+}
+
+/* accordion.css */
+.kachel-vorschau .ibkAccordion, .ides-komponente .ibkAccordion {
+    display: block;
+}
+
+.kachel-vorschau .ibkAccordion-item, .ides-komponente .ibkAccordion-item {
+    border-top: 1px solid var(--ibk-neutral-grey-74);
+    transition:
+        background-color var(--ibk-transition-default),
+        border-color var(--ibk-transition-default);
+}
+
+.kachel-vorschau .ibkAccordion-item:last-child, .ides-komponente .ibkAccordion-item:last-child {
+    border-bottom: 1px solid var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkAccordion-trigger, .ides-komponente .ibkAccordion-trigger {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    gap: var(--ibk-spacing-12);
+    padding: var(--ibk-spacing-16);
+    text-align: left;
+    width: 100%;
+}
+
+.kachel-vorschau .ibkAccordion-trigger.ibkAccordion-leading .ibkAccordion-icon, .ides-komponente .ibkAccordion-trigger.ibkAccordion-leading .ibkAccordion-icon {
+    order: -1;
+}
+
+.kachel-vorschau .ibkAccordion-trigger:focus-visible, .ides-komponente .ibkAccordion-trigger:focus-visible {
+    outline: 2px solid var(--ibk-focusstroke);
+    outline-offset: -2px;
+}
+
+.kachel-vorschau .ibkAccordion-trigger:disabled, .ides-komponente .ibkAccordion-trigger:disabled {
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkAccordion-legend, .ides-komponente .ibkAccordion-legend {
+    color: var(--ibk-neutral-grey-18);
+    flex: 1 0 0;
+    font-size: 1.3125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    min-width: 0;
+}
+
+.kachel-vorschau .ibkAccordion-icon, .ides-komponente .ibkAccordion-icon {
+    color: var(--ibk-neutral-grey-18);
+    flex: 0 0 auto;
+}
+
+.kachel-vorschau .ibkAccordion-panel, .ides-komponente .ibkAccordion-panel {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows var(--ibk-transition-default);
+}
+
+.kachel-vorschau .ibkAccordion-item.active .ibkAccordion-panel, .ides-komponente .ibkAccordion-item.active .ibkAccordion-panel {
+    grid-template-rows: 1fr;
+}
+
+.kachel-vorschau .ibkAccordion-panelInner, .ides-komponente .ibkAccordion-panelInner {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.kachel-vorschau .ibkAccordion-content, .ides-komponente .ibkAccordion-content {
+    color: var(--ibk-neutral-grey-18);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: var(--ibk-spacing-8) var(--ibk-spacing-16) var(--ibk-spacing-24);
+}
+
+@media (prefers-reduced-motion: reduce) {
+.kachel-vorschau .ibkAccordion-item, .ides-komponente .ibkAccordion-item,
+.kachel-vorschau .ibkAccordion-panel, .ides-komponente .ibkAccordion-panel {
+        transition: none;
+}
+}
+
+.kachel-vorschau .ibkAccordion-item.active, .ides-komponente .ibkAccordion-item.active {
+    background-color: var(--ibk-neutral-grey-98);
+    border-top-color: var(--ibk-neutral-grey-98);
+}
+
+.kachel-vorschau .ibkAccordion-item.active:last-child, .ides-komponente .ibkAccordion-item.active:last-child {
+    border-bottom-color: var(--ibk-neutral-grey-98);
+}
+
+.kachel-vorschau .ibkAccordion-item.disabled .ibkAccordion-legend, .ides-komponente .ibkAccordion-item.disabled .ibkAccordion-legend,
+.kachel-vorschau .ibkAccordion-item.disabled .ibkAccordion-icon, .ides-komponente .ibkAccordion-item.disabled .ibkAccordion-icon,
+.kachel-vorschau .ibkAccordion-item.disabled .ibkAccordion-content, .ides-komponente .ibkAccordion-item.disabled .ibkAccordion-content {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkAccordion-item.active.disabled, .ides-komponente .ibkAccordion-item.active.disabled {
+    background-color: transparent;
+    border-top-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkAccordion-item.active.disabled:last-child, .ides-komponente .ibkAccordion-item.active.disabled:last-child {
+    border-bottom-color: var(--ibk-neutral-grey-74);
+}
+
+/* checkbox.css */
+.kachel-vorschau .ibkCheckboxContainer, .ides-komponente .ibkCheckboxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkCheckbox, .ides-komponente .ibkCheckbox {
+    display: inline-flex;
+    align-items: center;
+    height: 1.25rem;
+}
+
+.kachel-vorschau .ibkCheckbox label, .ides-komponente .ibkCheckbox label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--ibk-spacing-8, 8px);
+    cursor: pointer;
+}
+
+.kachel-vorschau .ibkCheckbox label input, .ides-komponente .ibkCheckbox label input {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 0.125rem solid var(--ibk-red-41);
+    border-top-left-radius: var(--ibk-radius-6, 6px);
+    border-bottom-right-radius: var(--ibk-radius-6, 6px);
+    display: inline-grid;
+    place-content: center;
+    flex-shrink: 0;
+}
+
+.kachel-vorschau .ibkCheckbox label input::before, .ides-komponente .ibkCheckbox label input::before {
+    content: 'ChkM';
+    font-family: 'IBYKUS-Iconset';
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkCheckbox label input:checked, .ides-komponente .ibkCheckbox label input:checked {
+    background-color: var(--ibk-red-41);
+    border-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkCheckbox label input:checked::before, .ides-komponente .ibkCheckbox label input:checked::before {
+    transform: scale(1);
+}
+
+.kachel-vorschau .ibkCheckbox label input:indeterminate, .ides-komponente .ibkCheckbox label input:indeterminate {
+    background-color: var(--ibk-red-41);
+    border-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkCheckbox label input:indeterminate::before, .ides-komponente .ibkCheckbox label input:indeterminate::before {
+    content: 'Minus';
+    transform: scale(1.2);
+}
+
+.kachel-vorschau .ibkCheckbox label .ibk-checkbox-label, .ides-komponente .ibkCheckbox label .ibk-checkbox-label {
+    font-weight: 500;
+    color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkCheckbox.alert label input:not([disabled]), .ides-komponente .ibkCheckbox.alert label input:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:hover label input:not([disabled]), .ides-komponente .ibkCheckbox.alert:hover label input:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:active label input:not([disabled]), .ides-komponente .ibkCheckbox.alert:active label input:not([disabled]) {
+    border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkCheckbox.alert label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.alert label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:hover label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.alert:hover label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:active label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.alert:active label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.alert label input:indeterminate:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:hover label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.alert:hover label input:indeterminate:not([disabled]),
+.kachel-vorschau .ibkCheckbox.alert:active label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.alert:active label input:indeterminate:not([disabled]) {
+    background-color: var(--ibk-alert-34);
+    border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkCheckbox.success label input:not([disabled]), .ides-komponente .ibkCheckbox.success label input:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:hover label input:not([disabled]), .ides-komponente .ibkCheckbox.success:hover label input:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:active label input:not([disabled]), .ides-komponente .ibkCheckbox.success:active label input:not([disabled]) {
+    border-color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkCheckbox.success label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.success label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:hover label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.success:hover label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:active label input:checked:not([disabled]), .ides-komponente .ibkCheckbox.success:active label input:checked:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.success label input:indeterminate:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:hover label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.success:hover label input:indeterminate:not([disabled]),
+.kachel-vorschau .ibkCheckbox.success:active label input:indeterminate:not([disabled]), .ides-komponente .ibkCheckbox.success:active label input:indeterminate:not([disabled]) {
+    background-color: var(--ibk-success-22);
+    border-color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkCheckbox label input[disabled], .ides-komponente .ibkCheckbox label input[disabled],
+.kachel-vorschau .ibkCheckbox:hover label input[disabled], .ides-komponente .ibkCheckbox:hover label input[disabled] {
+    border-color: var(--ibk-neutral-grey-82);
+    background-color: transparent;
+}
+
+.kachel-vorschau .ibkCheckbox label input[disabled]:checked, .ides-komponente .ibkCheckbox label input[disabled]:checked,
+.kachel-vorschau .ibkCheckbox:hover label input[disabled]:checked, .ides-komponente .ibkCheckbox:hover label input[disabled]:checked,
+.kachel-vorschau .ibkCheckbox label input[disabled]:indeterminate, .ides-komponente .ibkCheckbox label input[disabled]:indeterminate,
+.kachel-vorschau .ibkCheckbox:hover label input[disabled]:indeterminate, .ides-komponente .ibkCheckbox:hover label input[disabled]:indeterminate {
+    background-color: var(--ibk-neutral-grey-82);
+    border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkCheckbox label.ibkCheckbox-disabled .ibk-checkbox-label, .ides-komponente .ibkCheckbox label.ibkCheckbox-disabled .ibk-checkbox-label {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkCheckbox label.ibkCheckbox-disabled, .ides-komponente .ibkCheckbox label.ibkCheckbox-disabled {
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkCheckbox:hover label input, .ides-komponente .ibkCheckbox:hover label input {
+    border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkCheckbox:hover label input:checked, .ides-komponente .ibkCheckbox:hover label input:checked,
+.kachel-vorschau .ibkCheckbox:hover label input:indeterminate, .ides-komponente .ibkCheckbox:hover label input:indeterminate {
+    background-color: var(--ibk-red-49);
+    border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkCheckbox:active label input, .ides-komponente .ibkCheckbox:active label input {
+    border-color: var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkCheckbox:active label input:checked, .ides-komponente .ibkCheckbox:active label input:checked,
+.kachel-vorschau .ibkCheckbox:active label input:indeterminate, .ides-komponente .ibkCheckbox:active label input:indeterminate {
+    background-color: var(--ibk-red-33);
+    border-color: var(--ibk-red-33);
+}
+
+/* chip.css */
+.kachel-vorschau .ibkChip, .ides-komponente .ibkChip {
+	align-items: center;
+	background: var(--ibk-neutral-grey-90);
+	border: 1px solid var(--ibk-neutral-grey-90);
+	border-radius: var(--ibk-radius-16);
+	color: var(--standard-fontcolor);
+	display: inline-flex;
+	gap: var(--ibk-spacing-4);
+	line-height: 0;
+	vertical-align: middle;
+}
+
+.kachel-vorschau .ibkChip .ibkChipText, .ides-komponente .ibkChip .ibkChipText {
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.03125rem;
+	line-height: 0.875rem;
+	white-space: nowrap;
+}
+
+.kachel-vorschau .ibkChip .ibkIcon, .ides-komponente .ibkChip .ibkIcon {
+	color: inherit;
+	font-size: 1.25rem;
+	line-height: 1;
+}
+
+.kachel-vorschau .ibkChip.info, .ides-komponente .ibkChip.info {
+	background: var(--ibk-info-34);
+	border-color: var(--ibk-info-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.success, .ides-komponente .ibkChip.success {
+	background: var(--ibk-success-26);
+	border-color: var(--ibk-success-26);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.warning, .ides-komponente .ibkChip.warning {
+	background: var(--ibk-warning-34);
+	border-color: var(--ibk-warning-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.alert, .ides-komponente .ibkChip.alert {
+	background: var(--ibk-alert-34);
+	border-color: var(--ibk-alert-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.decent, .ides-komponente .ibkChip.decent {
+	background: transparent;
+	border-color: var(--ibk-neutral-grey-78);
+	color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkChip.decent.info, .ides-komponente .ibkChip.decent.info {
+	border-color: var(--ibk-info-34);
+	color: var(--ibk-info-34);
+}
+
+.kachel-vorschau .ibkChip.decent.success, .ides-komponente .ibkChip.decent.success {
+	border-color: var(--ibk-success-26);
+	color: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkChip.decent.warning, .ides-komponente .ibkChip.decent.warning {
+	border-color: var(--ibk-warning-34);
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkChip.decent.alert, .ides-komponente .ibkChip.decent.alert {
+	border-color: var(--ibk-alert-34);
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkChip.passive, .ides-komponente .ibkChip.passive {
+	padding: 0.1875rem 0.5rem;
+}
+
+.kachel-vorschau .ibkChip.active, .ides-komponente .ibkChip.active {
+	cursor: pointer;
+	padding: 0 0.25rem 0 0.5rem;
+}
+
+.kachel-vorschau .ibkChip.active .ibkIcon, .ides-komponente .ibkChip.active .ibkIcon {
+	cursor: pointer;
+}
+
+.kachel-vorschau .ibkChip.active:focus-visible, .ides-komponente .ibkChip.active:focus-visible {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 1px;
+}
+
+.kachel-vorschau .ibkChip.active:hover, .ides-komponente .ibkChip.active:hover {
+	background: var(--ibk-neutral-grey-82);
+	border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkChip.active.info:hover, .ides-komponente .ibkChip.active.info:hover {
+	background: var(--ibk-info-42);
+	border-color: var(--ibk-info-42);
+}
+
+.kachel-vorschau .ibkChip.active.success:hover, .ides-komponente .ibkChip.active.success:hover {
+	background: var(--ibk-success-34);
+	border-color: var(--ibk-success-34);
+}
+
+.kachel-vorschau .ibkChip.active.warning:hover, .ides-komponente .ibkChip.active.warning:hover {
+	background: var(--ibk-warning-42);
+	border-color: var(--ibk-warning-42);
+}
+
+.kachel-vorschau .ibkChip.active.alert:hover, .ides-komponente .ibkChip.active.alert:hover {
+	background: var(--ibk-alert-42);
+	border-color: var(--ibk-alert-42);
+}
+
+.kachel-vorschau .ibkChip.active:active, .ides-komponente .ibkChip.active:active {
+	background: var(--ibk-neutral-grey-74);
+	border-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkChip.active.info:active, .ides-komponente .ibkChip.active.info:active {
+	background: var(--ibk-info-26);
+	border-color: var(--ibk-info-26);
+}
+
+.kachel-vorschau .ibkChip.active.success:active, .ides-komponente .ibkChip.active.success:active {
+	background: var(--ibk-success-26);
+	border-color: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkChip.active.warning:active, .ides-komponente .ibkChip.active.warning:active {
+	background: var(--ibk-warning-26);
+	border-color: var(--ibk-warning-26);
+}
+
+.kachel-vorschau .ibkChip.active.alert:active, .ides-komponente .ibkChip.active.alert:active {
+	background: var(--ibk-alert-26);
+	border-color: var(--ibk-alert-26);
+}
+
+.kachel-vorschau .ibkChip.active.decent:hover, .ides-komponente .ibkChip.active.decent:hover {
+	background: var(--ibk-neutral-grey-78);
+	border-color: var(--ibk-neutral-grey-78);
+	color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkChip.active.decent:active, .ides-komponente .ibkChip.active.decent:active {
+	background: var(--ibk-neutral-grey-74);
+	border-color: var(--ibk-neutral-grey-74);
+	color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkChip.active.decent.info:hover, .ides-komponente .ibkChip.active.decent.info:hover {
+	background: var(--ibk-info-42);
+	border-color: var(--ibk-info-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.info:active, .ides-komponente .ibkChip.active.decent.info:active {
+	background: var(--ibk-info-26);
+	border-color: var(--ibk-info-26);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.success:hover, .ides-komponente .ibkChip.active.decent.success:hover {
+	background: var(--ibk-success-34);
+	border-color: var(--ibk-success-26);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.success:active, .ides-komponente .ibkChip.active.decent.success:active {
+	background: var(--ibk-success-26);
+	border-color: var(--ibk-success-26);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.warning:hover, .ides-komponente .ibkChip.active.decent.warning:hover {
+	background: var(--ibk-warning-42);
+	border-color: var(--ibk-warning-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.warning:active, .ides-komponente .ibkChip.active.decent.warning:active {
+	background: var(--ibk-warning-26);
+	border-color: var(--ibk-warning-26);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.alert:hover, .ides-komponente .ibkChip.active.decent.alert:hover {
+	background: var(--ibk-alert-42);
+	border-color: var(--ibk-alert-34);
+	color: var(--white-100);
+}
+
+.kachel-vorschau .ibkChip.active.decent.alert:active, .ides-komponente .ibkChip.active.decent.alert:active {
+	background: var(--ibk-alert-26);
+	border-color: var(--ibk-alert-26);
+	color: var(--white-100);
+}
+
+/* input.password.css */
+.kachel-vorschau .ibkInputPassword, .ides-komponente .ibkInputPassword {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-6, 6px);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau button.ibkIcon, .ides-komponente button.ibkIcon {
+	align-items: center;
+	background: none;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: inherit;
+	font-weight: inherit;
+	justify-content: center;
+	min-height: 1.5rem;
+	min-width: 1.5rem;
+	padding: 0;
+}
+
+.kachel-vorschau button.ibkIcon[disabled], .ides-komponente button.ibkIcon[disabled] {
+	cursor: default;
+}
+
+.kachel-vorschau .ibkInputWrapper, .ides-komponente .ibkInputWrapper {
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkInputPassword label, .ides-komponente .ibkInputPassword label {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputPassword input::placeholder, .ides-komponente .ibkInputPassword input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.kachel-vorschau .ibkInputPassword input[type="password"]:not(:placeholder-shown), .ides-komponente .ibkInputPassword input[type="password"]:not(:placeholder-shown) {
+	font-weight: 900;
+	letter-spacing: 0.25rem;
+}
+
+.kachel-vorschau .ibkInputPassword input[type="text"]:not(:placeholder-shown), .ides-komponente .ibkInputPassword input[type="text"]:not(:placeholder-shown) {
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+.kachel-vorschau .ibkInputPassword.info-icon input, .ides-komponente .ibkInputPassword.info-icon input {
+	padding-left: 2.625rem;
+}
+
+.kachel-vorschau .ibkInputPassword input, .ides-komponente .ibkInputPassword input {
+	background: var(--input-txt-enable-bg, #FFF);
+	border-radius: var(--ibk-radius-6, 6px) 0;
+	border: 2px solid var(--ibk-neutral-grey-58);
+	color: var(--standard-fontcolor);
+	display: inline-block;
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-8, 8px);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkInputWrapper .ibkIcon, .ides-komponente .ibkInputWrapper .ibkIcon {
+	color: var(--ibk-neutral-grey-42);
+	float: left;
+	font-size: 1.50rem;
+	font-style: inherit;
+	line-height: 1.0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkInputPassword .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkInputPassword .ibkLabel .ibkIcon.label-info {
+	color: var(--ibk-info-34);
+	float: inherit;
+	position: inherit;
+}
+
+.kachel-vorschau .ibkInputPassword.func-2 input, .ides-komponente .ibkInputPassword.func-2 input {
+	padding-right: 4.25rem;
+}
+
+.kachel-vorschau .ibkInputPassword.func-2 .ibkIcon.func.first, .ides-komponente .ibkInputPassword.func-2 .ibkIcon.func.first,
+.kachel-vorschau .ibkInputPassword.func-2 .ibkIcon.func.second, .ides-komponente .ibkInputPassword.func-2 .ibkIcon.func.second {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputPassword.func-1 input, .ides-komponente .ibkInputPassword.func-1 input {
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputPassword.func-1 .ibkIcon.func.first, .ides-komponente .ibkInputPassword.func-1 .ibkIcon.func.first {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputPassword.func-1 .ibkIcon.func.second, .ides-komponente .ibkInputPassword.func-1 .ibkIcon.func.second {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first, .ides-komponente .ibkInputPassword .ibkIcon.func.first,
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second, .ides-komponente .ibkInputPassword .ibkIcon.func.second {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first, .ides-komponente .ibkInputPassword .ibkIcon.func.first,
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second, .ides-komponente .ibkInputPassword .ibkIcon.func.second {
+	color: var(--ibk-neutral-grey-42);
+	cursor: pointer;
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first:focus-visible, .ides-komponente .ibkInputPassword .ibkIcon.func.first:focus-visible,
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second:focus-visible, .ides-komponente .ibkInputPassword .ibkIcon.func.second:focus-visible {
+	border-radius: 0.0625rem;
+	outline-offset: 0;
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first:hover, .ides-komponente .ibkInputPassword .ibkIcon.func.first:hover,
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second:hover, .ides-komponente .ibkInputPassword .ibkIcon.func.second:hover {
+	color: var(--ibk-neutral-grey-50);
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first:active, .ides-komponente .ibkInputPassword .ibkIcon.func.first:active,
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second:active, .ides-komponente .ibkInputPassword .ibkIcon.func.second:active {
+	color: var(--ibk-neutral-grey-34);
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.info-icon, .ides-komponente .ibkInputPassword .ibkIcon.info-icon {
+	left: var(--ibk-spacing-10, 0.625rem);
+	min-width: var(--ibk-spacing-24, 1.5rem);
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.first, .ides-komponente .ibkInputPassword .ibkIcon.func.first {
+	right: var(--ibk-spacing-10, 0.625rem);
+}
+
+.kachel-vorschau .ibkInputPassword .ibkIcon.func.second, .ides-komponente .ibkInputPassword .ibkIcon.func.second {
+	right: calc(var(--ibk-spacing-10, 0.625rem) + var(--ibk-spacing-24, 1.5rem) + var(--ibk-spacing-8, 0.5rem));
+}
+
+.kachel-vorschau .ibkInputPassword .supportingText, .ides-komponente .ibkInputPassword .supportingText {
+	align-items: flex-start;
+	display: flex;
+	gap: var(--ibk-spacing-4, 4px);
+}
+
+.kachel-vorschau .ibkInputPassword .supportingText .ibkIcon, .ides-komponente .ibkInputPassword .supportingText .ibkIcon {
+	color: inherit;
+	float: none !important;
+	margin: 0;
+}
+
+.kachel-vorschau .ibkInputPassword .supportingText .content, .ides-komponente .ibkInputPassword .supportingText .content {
+	float: none;
+}
+
+.kachel-vorschau .ibkInputPassword.disabled .ibkLabel, .ides-komponente .ibkInputPassword.disabled .ibkLabel,
+.kachel-vorschau .ibkInputPassword.disabled .ibkLabel .ibkLabelText, .ides-komponente .ibkInputPassword.disabled .ibkLabel .ibkLabelText,
+.kachel-vorschau .ibkInputPassword.disabled .ibkLabel .ibkIcon, .ides-komponente .ibkInputPassword.disabled .ibkLabel .ibkIcon {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputPassword.disabled input[disabled], .ides-komponente .ibkInputPassword.disabled input[disabled] {
+	background-color: var(--ibk-neutral-grey-94);
+	border-color: var(--ibk-neutral-grey-82);
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputPassword.disabled input[disabled]::placeholder, .ides-komponente .ibkInputPassword.disabled input[disabled]::placeholder {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputPassword.disabled .ibkInputWrapper .ibkIcon, .ides-komponente .ibkInputPassword.disabled .ibkInputWrapper .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkInputPassword.disabled .supportingText, .ides-komponente .ibkInputPassword.disabled .supportingText,
+.kachel-vorschau .ibkInputPassword.disabled .supportingText .ibkIcon, .ides-komponente .ibkInputPassword.disabled .supportingText .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkInputPassword.disabled .ibkIcon.func.first, .ides-komponente .ibkInputPassword.disabled .ibkIcon.func.first,
+.kachel-vorschau .ibkInputPassword.disabled .ibkIcon.func.second, .ides-komponente .ibkInputPassword.disabled .ibkIcon.func.second {
+	cursor: default !important;
+}
+
+.kachel-vorschau .ibkInputPassword.readonly input, .ides-komponente .ibkInputPassword.readonly input {
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.kachel-vorschau .ibkInputPassword.readonly .supportingText, .ides-komponente .ibkInputPassword.readonly .supportingText {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkInputPassword.alert input, .ides-komponente .ibkInputPassword.alert input {
+	background-color: var(--ibk-alert-94);
+	border-color: var(--ibk-alert-34);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputPassword.alert .supportingText, .ides-komponente .ibkInputPassword.alert .supportingText {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkInputPassword.alert .supportingText .ibkIcon, .ides-komponente .ibkInputPassword.alert .supportingText .ibkIcon {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkInputPassword.warning input, .ides-komponente .ibkInputPassword.warning input {
+	border-color: var(--ibk-warning-34);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputPassword.warning .supportingText, .ides-komponente .ibkInputPassword.warning .supportingText {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkInputPassword.warning .supportingText .ibkIcon, .ides-komponente .ibkInputPassword.warning .supportingText .ibkIcon {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkInputPassword.success input, .ides-komponente .ibkInputPassword.success input {
+	border-color: var(--ibk-success-26);
+	padding-right: 2.75rem;
+}
+
+.kachel-vorschau .ibkInputPassword.success .supportingText, .ides-komponente .ibkInputPassword.success .supportingText {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkInputPassword.success .supportingText .ibkIcon, .ides-komponente .ibkInputPassword.success .supportingText .ibkIcon {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkInputPassword.prominent, .ides-komponente .ibkInputPassword.prominent {
+	border: 0;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent input::placeholder, .ides-komponente .ibkInputPassword.prominent input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputPassword.prominent .ibkIcon.ibkIcon.info-icon {
+	display: none;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent.info-icon .ibkIcon.ibkIcon.info-icon, .ides-komponente .ibkInputPassword.prominent.info-icon .ibkIcon.ibkIcon.info-icon {
+	display: block;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent.info-icon input, .ides-komponente .ibkInputPassword.prominent.info-icon input {
+	padding-left: 2.625rem;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent input, .ides-komponente .ibkInputPassword.prominent input {
+	border-radius: var(--ibk-spacing-10, 10px) 0;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	padding-right: 3.50rem;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent.func-2 input, .ides-komponente .ibkInputPassword.prominent.func-2 input {
+	padding-right: 5.00rem;
+}
+
+.kachel-vorschau .ibkInputPassword.prominent.func-1 input, .ides-komponente .ibkInputPassword.prominent.func-1 input {
+	padding-right: 3.50rem;
+}
+
+/* radio.css */
+.kachel-vorschau .ibkRadioGroup, .ides-komponente .ibkRadioGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkRadio, .ides-komponente .ibkRadio {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+}
+
+.kachel-vorschau .ibkRadio label, .ides-komponente .ibkRadio label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--ibk-spacing-8, 8px);
+    cursor: pointer;
+    height: 20px;
+}
+
+.kachel-vorschau .ibkRadio label input, .ides-komponente .ibkRadio label input {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 0.125rem solid var(--ibk-red-41);
+    border-radius: 50%;
+    display: inline-grid;
+    place-content: center;
+    flex-shrink: 0;
+}
+
+.kachel-vorschau .ibkRadio label input::before, .ides-komponente .ibkRadio label input::before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    transform: scale(0);
+    box-shadow: inset 1em 1em var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkRadio label input:checked::before, .ides-komponente .ibkRadio label input:checked::before {
+    transform: scale(1);
+}
+
+.kachel-vorschau .ibkRadio label .ibk-radio-label, .ides-komponente .ibkRadio label .ibk-radio-label {
+    font-weight: 500;
+    color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkRadio label input[disabled], .ides-komponente .ibkRadio label input[disabled],
+.kachel-vorschau .ibkRadio:hover label input[disabled], .ides-komponente .ibkRadio:hover label input[disabled] {
+    border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRadio label.ibkRadio-disabled .ibk-radio-label, .ides-komponente .ibkRadio label.ibkRadio-disabled .ibk-radio-label {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRadio label input[disabled]::before, .ides-komponente .ibkRadio label input[disabled]::before,
+.kachel-vorschau .ibkRadio:hover label input[disabled]::before, .ides-komponente .ibkRadio:hover label input[disabled]::before {
+    box-shadow: inset 1em 1em var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRadio label.ibkRadio-disabled, .ides-komponente .ibkRadio label.ibkRadio-disabled {
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkRadio:hover label input, .ides-komponente .ibkRadio:hover label input {
+    border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkRadio:hover label input::before, .ides-komponente .ibkRadio:hover label input::before {
+    box-shadow: inset 1em 1em var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkRadio:active label input, .ides-komponente .ibkRadio:active label input {
+    border-color: var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkRadio:active label input::before, .ides-komponente .ibkRadio:active label input::before {
+    box-shadow: inset 1em 1em var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkRadio label.alert input:not([disabled]), .ides-komponente .ibkRadio label.alert input:not([disabled]),
+.kachel-vorschau .ibkRadio:hover label.alert input:not([disabled]), .ides-komponente .ibkRadio:hover label.alert input:not([disabled]),
+.kachel-vorschau .ibkRadio:active label.alert input:not([disabled]), .ides-komponente .ibkRadio:active label.alert input:not([disabled]) {
+    border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkRadio label.alert input:not([disabled])::before, .ides-komponente .ibkRadio label.alert input:not([disabled])::before,
+.kachel-vorschau .ibkRadio:hover label.alert input:not([disabled])::before, .ides-komponente .ibkRadio:hover label.alert input:not([disabled])::before,
+.kachel-vorschau .ibkRadio:active label.alert input:not([disabled])::before, .ides-komponente .ibkRadio:active label.alert input:not([disabled])::before {
+    box-shadow: inset 1em 1em var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkRadio label.success input:not([disabled]), .ides-komponente .ibkRadio label.success input:not([disabled]),
+.kachel-vorschau .ibkRadio:hover label.success input:not([disabled]), .ides-komponente .ibkRadio:hover label.success input:not([disabled]),
+.kachel-vorschau .ibkRadio:active label.success input:not([disabled]), .ides-komponente .ibkRadio:active label.success input:not([disabled]) {
+    border-color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkRadio label.success input:not([disabled])::before, .ides-komponente .ibkRadio label.success input:not([disabled])::before,
+.kachel-vorschau .ibkRadio:hover label.success input:not([disabled])::before, .ides-komponente .ibkRadio:hover label.success input:not([disabled])::before,
+.kachel-vorschau .ibkRadio:active label.success input:not([disabled])::before, .ides-komponente .ibkRadio:active label.success input:not([disabled])::before {
+    box-shadow: inset 1em 1em var(--ibk-success-22);
+}
+
+.kachel-vorschau .supportingText, .ides-komponente .supportingText {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .supportingText, .ides-komponente .supportingText {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    max-width: stretch !important;
+}
+
+.kachel-vorschau .supportingText.alert, .ides-komponente .supportingText.alert {
+    color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .supportingText.success, .ides-komponente .supportingText.success {
+    color: var(--ibk-success-22);
+}
+
+/* range-slider.css */
+.kachel-vorschau ibk-range-slider, .ides-komponente ibk-range-slider {
+	display: block;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider, .ides-komponente .ibkRangeSlider {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-8, 0.5rem);
+	width: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkLabel, .ides-komponente .ibkRangeSlider .ibkLabel {
+	align-items: flex-end;
+	display: flex;
+	gap: var(--ibk-spacing-4, 0.25rem);
+	min-height: 1.5rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkLabel .ibkLabelText, .ides-komponente .ibkRangeSlider .ibkLabel .ibkLabelText {
+	color: var(--standard-fontcolor);
+	font-size: var(--label-l, 1rem);
+	font-weight: 500;
+	letter-spacing: var(--label-l-ls, 0.01563rem);
+	line-height: var(--label-l-lh, 1.5rem);
+	white-space: nowrap;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkRangeSlider .ibkLabel .ibkIcon.label-info {
+	align-items: center;
+	aspect-ratio: 1 / 1;
+	border-radius: var(--ibk-radius-2, 0.125rem);
+	color: var(--ibk-info-34);
+	cursor: pointer;
+	display: flex;
+	flex-shrink: 0;
+	font-size: var(--icon-button, 1.5rem);
+	height: 1.5rem;
+	justify-content: center;
+	user-select: none;
+	width: 1.5rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkLabel .ibkIcon.label-info:focus-visible, .ides-komponente .ibkRangeSlider .ibkLabel .ibkIcon.label-info:focus-visible {
+	outline-offset: 2px;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderControl, .ides-komponente .ibkRangeSlider .ibkRangeSliderControl {
+	align-items: center;
+	display: flex;
+	gap: var(--ibk-spacing-8, 0.5rem);
+	min-height: 1.25rem;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderLeading, .ides-komponente .ibkRangeSlider .ibkRangeSliderLeading,
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderTrailing, .ides-komponente .ibkRangeSlider .ibkRangeSliderTrailing {
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	height: 1.25rem;
+	user-select: none;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderTrailing, .ides-komponente .ibkRangeSlider .ibkRangeSliderTrailing {
+	justify-content: flex-end;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderLeading .ibkIcon, .ides-komponente .ibkRangeSlider .ibkRangeSliderLeading .ibkIcon,
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderTrailing .ibkIcon, .ides-komponente .ibkRangeSlider .ibkRangeSliderTrailing .ibkIcon {
+	color: var(--ibk-neutral-grey-18);
+	font-size: var(--icon-support, 1.25rem);
+	height: 1.25rem;
+	line-height: var(--icon-support-lh, 1.25rem);
+	text-align: center;
+	width: 1.25rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderBoundText, .ides-komponente .ibkRangeSlider .ibkRangeSliderBoundText {
+	color: var(--standard-fontcolor);
+	font-size: var(--text-chip, 0.875rem);
+	font-weight: 500;
+	letter-spacing: var(--text-s-ls, 0.03125rem);
+	line-height: var(--text-badge-lh, 0.875rem);
+	white-space: nowrap;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderTrack, .ides-komponente .ibkRangeSlider .ibkRangeSliderTrack {
+	flex: 1 0 0;
+	height: 1.5rem;
+	min-width: 0;
+	position: relative;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput {
+	appearance: none;
+	-webkit-appearance: none;
+	background: transparent;
+	border: 0;
+	bottom: 0.125rem;
+	cursor: pointer;
+	left: -0.1875rem;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: -0.1875rem;
+	top: 0.125rem;
+	width: auto;
+	z-index: 1;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput:focus, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput:focus {
+	outline: none;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-moz-focus-outer, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-moz-focus-outer {
+	border: 0;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-webkit-slider-runnable-track, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-webkit-slider-runnable-track {
+	background: transparent;
+	border: 0;
+	height: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-moz-range-track, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-moz-range-track {
+	background: transparent;
+	border: 0;
+	height: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-moz-range-progress, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-moz-range-progress {
+	background: transparent;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-webkit-slider-thumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-webkit-slider-thumb {
+	appearance: none;
+	-webkit-appearance: none;
+	background: transparent;
+	border: 0;
+	height: 1.25rem;
+	width: 0.75rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput::-moz-range-thumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput::-moz-range-thumb {
+	background: transparent;
+	border: 0;
+	height: 1.25rem;
+	width: 0.75rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderRail, .ides-komponente .ibkRangeSlider .ibkRangeSliderRail {
+	background: var(--ibk-neutral-grey-90);
+	border-radius: var(--ibk-radius-6, 0.375rem);
+	height: 0.375rem;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderProgress, .ides-komponente .ibkRangeSlider .ibkRangeSliderProgress {
+	background: var(--ibk-red-49);
+	border-radius: var(--ibk-radius-6, 0.375rem);
+	height: 0.375rem;
+	left: 0;
+	min-width: 0.375rem;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderThumb {
+	background: var(--white-100);
+	border: 2px solid var(--ibk-red-41);
+	border-radius: var(--ibk-radius-8, 0.5rem);
+	box-shadow: 0 0 0.14213rem 0 rgba(0, 0, 0, 0.25);
+	height: 1rem;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 1rem;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb {
+	border-color: var(--ibk-red-49);
+	border-width: 4px;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb {
+	border-color: var(--ibk-red-33);
+	border-width: 4px;
+}
+
+.kachel-vorschau .ibkRangeSlider .ibkRangeSliderInput:focus-visible ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider .ibkRangeSliderInput:focus-visible ~ .ibkRangeSliderThumb {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 2px;
+}
+
+.kachel-vorschau .ibkRangeSlider .supportingText, .ides-komponente .ibkRangeSlider .supportingText {
+	align-items: flex-start;
+	display: flex;
+	gap: var(--ibk-spacing-4, 0.25rem);
+	width: 100%;
+}
+
+.kachel-vorschau .ibkRangeSlider .supportingText .ibkIcon, .ides-komponente .ibkRangeSlider .supportingText .ibkIcon {
+	color: inherit;
+	float: none !important;
+	margin: 0;
+}
+
+.kachel-vorschau .ibkRangeSlider .supportingText .content, .ides-komponente .ibkRangeSlider .supportingText .content {
+	flex: 1 0 0;
+	float: none;
+	max-width: none;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderControl, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderControl {
+	gap: 0.5625rem;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderInput, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderInput {
+	bottom: 0;
+	top: 0;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderRail, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderRail {
+	background: var(--ibk-neutral-grey-86);
+	height: 0.125rem;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderProgress, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderProgress {
+	height: 0.125rem;
+	min-width: 0.125rem;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderThumb {
+	background: var(--ibk-red-41);
+	border-color: var(--white-100);
+	border-width: 2px;
+	box-shadow: none;
+	height: 0.875rem;
+	width: 0.375rem;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb,
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb {
+	background: var(--white-100);
+	border-width: 4px;
+	box-shadow: 0 0 0.14213rem 0 rgba(0, 0, 0, 0.25);
+	height: 0.75rem;
+	width: 0.75rem;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:hover ~ .ibkRangeSliderThumb {
+	border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent .ibkRangeSliderInput:enabled:active ~ .ibkRangeSliderThumb {
+	border-color: var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkRangeSlider.warning .supportingText, .ides-komponente .ibkRangeSlider.warning .supportingText,
+.kachel-vorschau .ibkRangeSlider.warning .supportingText .ibkIcon, .ides-komponente .ibkRangeSlider.warning .supportingText .ibkIcon {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel, .ides-komponente .ibkRangeSlider.disabled .ibkLabel,
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel .ibkLabelText, .ides-komponente .ibkRangeSlider.disabled .ibkLabel .ibkLabelText,
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel .ibkIcon, .ides-komponente .ibkRangeSlider.disabled .ibkLabel .ibkIcon {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkRangeSlider.disabled .ibkLabel .ibkIcon.label-info {
+	cursor: default;
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel .ibkIcon:hover, .ides-komponente .ibkRangeSlider.disabled .ibkLabel .ibkIcon:hover,
+.kachel-vorschau .ibkRangeSlider.disabled .ibkLabel .ibkIcon:active, .ides-komponente .ibkRangeSlider.disabled .ibkLabel .ibkIcon:active {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderLeading .ibkIcon, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderLeading .ibkIcon,
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderTrailing .ibkIcon, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderTrailing .ibkIcon,
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderBoundText, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderBoundText {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderInput, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderInput {
+	cursor: default;
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderRail, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderRail {
+	background: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderProgress, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderProgress {
+	background: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider.disabled .ibkRangeSliderThumb {
+	background: var(--ibk-neutral-grey-82);
+	border-color: var(--ibk-neutral-grey-90);
+	box-shadow: none;
+}
+
+.kachel-vorschau .ibkRangeSlider-decent.disabled .ibkRangeSliderThumb, .ides-komponente .ibkRangeSlider-decent.disabled .ibkRangeSliderThumb {
+	border-color: var(--white-100);
+}
+
+.kachel-vorschau .ibkRangeSlider.disabled .supportingText, .ides-komponente .ibkRangeSlider.disabled .supportingText,
+.kachel-vorschau .ibkRangeSlider.disabled .supportingText .ibkIcon, .ides-komponente .ibkRangeSlider.disabled .supportingText .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+/* segmented-control.css */
+.kachel-vorschau ibk-segmented-control, .ides-komponente ibk-segmented-control {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkSegmentedControl, .ides-komponente .ibkSegmentedControl {
+    align-items: center;
+    background: var(--white-100);
+    border: 2px solid var(--ibk-neutral-grey-74);
+    
+    border-radius: 1.5rem;
+    display: inline-flex;
+    
+    gap: var(--ibk-spacing-4, 0.25rem);
+    padding: var(--ibk-spacing-2, 0.125rem);
+    position: relative;
+}
+
+.kachel-vorschau .ibkSegmentedControl .ibkSegmentedControl-thumb, .ides-komponente .ibkSegmentedControl .ibkSegmentedControl-thumb {
+    background: var(--ibk-petrol-32);
+    
+    border-radius: 1.25rem;
+    inset-block: var(--ibk-spacing-2, 0.125rem);
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    transition:
+        transform var(--ibk-transition-default, 0.2s ease-in-out),
+        width var(--ibk-transition-default, 0.2s ease-in-out);
+    z-index: 0;
+}
+
+.kachel-vorschau .ibkSegmentedControl-prominent .ibkSegmentedControl-thumb, .ides-komponente .ibkSegmentedControl-prominent .ibkSegmentedControl-thumb {
+    background: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment, .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    
+    border-radius: 1.25rem;
+    color: var(--standard-fontcolor);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: var(--text-button, 1rem);
+    font-style: normal;
+    font-weight: 500;
+    gap: var(--ibk-spacing-4, 0.25rem);
+    height: 2.5rem;
+    justify-content: center;
+    line-height: var(--text-button-lh, 1.5rem);
+    padding: 0 var(--ibk-spacing-14, 0.875rem);
+    position: relative;
+    
+    transition: color var(--ibk-transition-default, 0.2s ease-in-out);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment .ibkIcon, .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment .ibkIcon {
+    color: currentColor;
+    display: block;
+    font-size: var(--text-button-lh, 1.5rem);
+    font-style: normal;
+    line-height: var(--text-button-lh, 1.5rem);
+    text-align: center;
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment:not(.selected):hover:not(:disabled), .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment:not(.selected):hover:not(:disabled) {
+    background: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment:not(.selected):active:not(:disabled), .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment:not(.selected):active:not(:disabled) {
+    background: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment:disabled, .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment:disabled {
+    background: transparent;
+    color: var(--ibk-neutral-grey-82);
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkSegmentedControl button.ibkSegmentedControl-segment.selected, .ides-komponente .ibkSegmentedControl button.ibkSegmentedControl-segment.selected {
+    color: var(--white-100);
+}
+
+/* switch.css */
+.kachel-vorschau .ibkSwitch, .ides-komponente .ibkSwitch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkSwitch label, .ides-komponente .ibkSwitch label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--ibk-spacing-8, 8px);
+    cursor: pointer;
+    height: 20px;
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox, .ides-komponente .ibkSwitch label .checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+.kachel-vorschau .ibkSwitch label .ibk-switch-toggle, .ides-komponente .ibkSwitch label .ibk-switch-toggle {
+    background-color: var(--ibk-neutral-grey-82);
+    border-radius: 6.25rem;
+    border: 0.125rem solid var(--ibk-neutral-grey-82);
+    display: inline-block;
+    
+    height: 1.25rem;
+    position: relative;
+    width: 2.5rem;
+    flex-shrink: 0;
+    transition: background-color var(--ibk-transition-default), border-color var(--ibk-transition-default);
+}
+
+.kachel-vorschau .ibkSwitch label .ibk-switch-toggle::after, .ides-komponente .ibkSwitch label .ibk-switch-toggle::after {
+    border-radius: 6.25rem;
+    border: 0.25rem solid var(--white-100);
+    background-color: var(--white-100);
+    content: '';
+    
+    height: 0.75rem;
+    margin: 0.125rem 0 0 0.125rem;
+    position: absolute;
+    width: 0.75rem;
+    transition: left var(--ibk-transition-default);
+    left: 0;
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox:checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch label .checkbox:checked + .ibk-switch-toggle {
+    background-color: var(--ibk-red-41);
+    border-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox:checked + .ibk-switch-toggle::after, .ides-komponente .ibkSwitch label .checkbox:checked + .ibk-switch-toggle::after {
+    left: 1.25rem;
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox:focus-visible + .ibk-switch-toggle, .ides-komponente .ibkSwitch label .checkbox:focus-visible + .ibk-switch-toggle {
+    outline: solid 2px var(--ibk-focusstroke);
+    outline-offset: 2px;
+}
+
+.kachel-vorschau .ibkSwitch label .ibk-switch-label, .ides-komponente .ibkSwitch label .ibk-switch-label {
+    font-weight: 500;
+    color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox[disabled] + .ibk-switch-toggle, .ides-komponente .ibkSwitch label .checkbox[disabled] + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label .checkbox[disabled] + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label .checkbox[disabled] + .ibk-switch-toggle {
+    background-color: var(--ibk-neutral-grey-90);
+    border-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox[disabled] + .ibk-switch-toggle::after, .ides-komponente .ibkSwitch label .checkbox[disabled] + .ibk-switch-toggle::after,
+.kachel-vorschau .ibkSwitch:hover label .checkbox[disabled] + .ibk-switch-toggle::after, .ides-komponente .ibkSwitch:hover label .checkbox[disabled] + .ibk-switch-toggle::after {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox[disabled]:checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch label .checkbox[disabled]:checked + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label .checkbox[disabled]:checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label .checkbox[disabled]:checked + .ibk-switch-toggle {
+    background-color: var(--ibk-neutral-grey-90);
+    border-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkSwitch label .checkbox[disabled]:checked + .ibk-switch-toggle::after, .ides-komponente .ibkSwitch label .checkbox[disabled]:checked + .ibk-switch-toggle::after,
+.kachel-vorschau .ibkSwitch:hover label .checkbox[disabled]:checked + .ibk-switch-toggle::after, .ides-komponente .ibkSwitch:hover label .checkbox[disabled]:checked + .ibk-switch-toggle::after {
+    background-color: var(--ibk-neutral-grey-82) !important;
+    border-color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSwitch label.ibkSwitch-disabled .ibk-switch-label, .ides-komponente .ibkSwitch label.ibkSwitch-disabled .ibk-switch-label {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSwitch label.ibkSwitch-disabled, .ides-komponente .ibkSwitch label.ibkSwitch-disabled {
+    cursor: not-allowed;
+}
+
+.kachel-vorschau .ibkSwitch:hover label .checkbox:not(:checked) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label .checkbox:not(:checked) + .ibk-switch-toggle {
+    background-color: var(--ibk-neutral-grey-90);
+    border-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkSwitch:hover label .ibk-switch-toggle::after, .ides-komponente .ibkSwitch:hover label .ibk-switch-toggle::after {
+    background-color: var(--white-100) !important;
+}
+
+.kachel-vorschau .ibkSwitch:hover label .checkbox:checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label .checkbox:checked + .ibk-switch-toggle {
+    background-color: var(--ibk-red-49);
+    border-color: var(--ibk-red-49);
+}
+
+.kachel-vorschau .ibkSwitch:active label .checkbox:not(:checked) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label .checkbox:not(:checked) + .ibk-switch-toggle {
+    background-color: var(--ibk-neutral-grey-74);
+    border-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel-vorschau .ibkSwitch:active label .ibk-switch-toggle::after, .ides-komponente .ibkSwitch:active label .ibk-switch-toggle::after {
+    background-color: var(--white-100) !important;
+}
+
+.kachel-vorschau .ibkSwitch:active label .checkbox:checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label .checkbox:checked + .ibk-switch-toggle {
+    background-color: var(--ibk-red-33);
+    border-color: var(--ibk-red-33);
+}
+
+.kachel-vorschau .ibkSwitch label.alert .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch label.alert .checkbox:not([disabled]) + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label.alert .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label.alert .checkbox:not([disabled]) + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:active label.alert .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label.alert .checkbox:not([disabled]) + .ibk-switch-toggle {
+    border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSwitch label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:active label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label.alert .checkbox:not([disabled]):checked + .ibk-switch-toggle {
+    background-color: var(--ibk-alert-34);
+    border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSwitch label.success .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch label.success .checkbox:not([disabled]) + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label.success .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label.success .checkbox:not([disabled]) + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:active label.success .checkbox:not([disabled]) + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label.success .checkbox:not([disabled]) + .ibk-switch-toggle {
+    border-color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkSwitch label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:hover label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:hover label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle,
+.kachel-vorschau .ibkSwitch:active label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle, .ides-komponente .ibkSwitch:active label.success .checkbox:not([disabled]):checked + .ibk-switch-toggle {
+    background-color: var(--ibk-success-22);
+    border-color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkSwitch + .supportingText, .ides-komponente .ibkSwitch + .supportingText {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--ibk-spacing-8, 8px);
+}
+
+.kachel-vorschau .ibkSwitch + .supportingText, .ides-komponente .ibkSwitch + .supportingText {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    max-width: stretch !important;
+}
+
+.kachel-vorschau .ibkSwitch + .supportingText.disabled, .ides-komponente .ibkSwitch + .supportingText.disabled {
+    color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkSwitch + .supportingText.alert, .ides-komponente .ibkSwitch + .supportingText.alert {
+    color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkSwitch + .supportingText.success, .ides-komponente .ibkSwitch + .supportingText.success {
+    color: var(--ibk-success-22);
+}
+
+/* table.css */
+.kachel-vorschau .ibkTable-container, .ides-komponente .ibkTable-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+.kachel-vorschau .ibkTable, .ides-komponente .ibkTable {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Asap', sans-serif;
+    color: var(--standard-fontcolor, #2E2E2E);
+}
+
+.kachel-vorschau .ibkTable caption, .ides-komponente .ibkTable caption {
+    font-size: var(--text-m, 0.75rem);
+    line-height: var(--text-m-lh, 1.125rem);
+    letter-spacing: var(--text-m-ls, 0.01875rem);
+    text-align: left;
+    padding-bottom: 7px;
+    color: var(--standard-fontcolor, #2E2E2E);
+}
+
+.kachel-vorschau .ibkTable th, .ides-komponente .ibkTable th {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 1rem;
+    height: 56px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--ibk-neutral-grey-86, #DBDBDB);
+    background: var(--white-100, #FFF);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.kachel-vorschau .ibkTable td, .ides-komponente .ibkTable td {
+    font-size: 1rem;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0 1rem;
+    height: 2.75rem;
+    line-height: 1.5;
+    border-top: 1px solid var(--ibk-neutral-grey-90, #E6E6E6);
+    background-color: var(--white-100, #FFF);
+}
+
+.kachel-vorschau .ibkTable tfoot td, .ides-komponente .ibkTable tfoot td {
+    font-size: 1rem;
+    font-weight: 600;
+    vertical-align: middle;
+    background: var(--white-100, #FFF);
+    padding: 0 1rem;
+    height: 56px;
+    line-height: 1.5;
+    border-top: 1px solid var(--standard-fontcolor, #2E2E2E);
+}
+
+.kachel-vorschau .ibkTable-decent th, .ides-komponente .ibkTable-decent th {
+    padding: 0 0.25rem;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkTable-decent tfoot td, .ides-komponente .ibkTable-decent tfoot td {
+    padding: 0 0.25rem;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkTable-decent td, .ides-komponente .ibkTable-decent td {
+    padding: 0 0.25rem;
+    height: 2.6rem;
+    font-size: 0.875rem;
+    vertical-align: middle;
+}
+
+.kachel-vorschau .ibkTable-zebra tbody tr:nth-child(odd)>td, .ides-komponente .ibkTable-zebra tbody tr:nth-child(odd)>td {
+    background-color: var(--ibk-neutral-grey-98, #FAFAFA);
+}
+
+.kachel-vorschau .ibkTable-zebra tbody tr:nth-child(even)>td, .ides-komponente .ibkTable-zebra tbody tr:nth-child(even)>td {
+    background-color: var(--white-100, #FFF);
+}
+
+.kachel-vorschau .ibkTable tbody tr:hover>td, .ides-komponente .ibkTable tbody tr:hover>td {
+    background-color: var(--ibk-neutral-grey-94, #F0F0F0);
+    cursor: pointer;
+}
+
+.kachel-vorschau .ibkTable tbody tr:active>td, .ides-komponente .ibkTable tbody tr:active>td {
+    background-color: var(--ibk-neutral-grey-90, #E6E6E6);
+}
+
+.kachel-vorschau .ibkTable td.hovered-col, .ides-komponente .ibkTable td.hovered-col,
+.kachel-vorschau .ibkTable th.hovered-col, .ides-komponente .ibkTable th.hovered-col {
+    background-color: var(--ibk-neutral-grey-94, #F0F0F0) !important;
+}
+
+.kachel-vorschau .ibkTable td:hover, .ides-komponente .ibkTable td:hover {
+    background-color: var(--ibk-neutral-grey-90, #E6E6E6) !important;
+}
+
+.kachel-vorschau .ibkTable thead th:hover, .ides-komponente .ibkTable thead th:hover {
+    background: var(--ibk-neutral-grey-90, #E6E6E6);
+    cursor: pointer;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.kachel-vorschau .ibkTable .right, .ides-komponente .ibkTable .right {
+    text-align: right;
+}
+
+.kachel-vorschau .ibkTable .center, .ides-komponente .ibkTable .center {
+    text-align: center;
+}
+
+.kachel-vorschau .ibkTable i, .ides-komponente .ibkTable i,
+.kachel-vorschau .ibkTable .ibkIcon, .ides-komponente .ibkTable .ibkIcon {
+    font-family: "IBYKUS-Iconset";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    vertical-align: text-bottom;
+    display: inline-block;
+    
+    color: inherit;
+    line-height: 0.8;
+}
+
+/* tabs.css */
+.kachel-vorschau .ibkTabs .ibkTabs-list, .ides-komponente .ibkTabs .ibkTabs-list {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab, .ides-komponente .ibkTabs button.ibkTab {
+    background-color: transparent;
+    border: 0;
+    border-bottom: var(--ibk-spacing-2, 2px) solid var(--ibk-neutral-grey-74);
+    border-radius: 0;
+    color: var(--ibk-neutral-grey-18);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: var(--ibk-spacing-8, 8px);
+    font-size: var(--text-button, 1rem);
+    font-weight: 500;
+    line-height: var(--text-button-lh, 24px);
+    padding: var(--ibk-spacing-6, 0.375rem) var(--ibk-spacing-14, 0.875rem)
+        var(--ibk-spacing-6, 0.375rem) var(--ibk-spacing-10, 0.625rem);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab .ibkIcon, .ides-komponente .ibkTabs button.ibkTab .ibkIcon {
+    color: currentColor;
+    display: block;
+    font-size: var(--text-button-lh, 24px);
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab .ibkTabText, .ides-komponente .ibkTabs button.ibkTab .ibkTabText {
+    font-weight: 500;
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab ibk-badge .ibkBadge, .ides-komponente .ibkTabs button.ibkTab ibk-badge .ibkBadge {
+    padding-right: var(--ibk-spacing-24, 1.5rem);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab.selected:not(:disabled):hover ibk-badge .indicator, .ides-komponente .ibkTabs button.ibkTab.selected:not(:disabled):hover ibk-badge .indicator {
+    background: var(--white-100);
+    color: var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab:focus-visible, .ides-komponente .ibkTabs button.ibkTab:focus-visible {
+    outline: solid var(--ibk-spacing-2, 2px) var(--ibk-focusstroke);
+    outline-offset: var(--ibk-spacing-2, 2px);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab:not(.selected):not(:disabled):hover, .ides-komponente .ibkTabs button.ibkTab:not(.selected):not(:disabled):hover {
+    background-color: var(--ibk-neutral-grey-90);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab:not(.selected):not(:disabled):active, .ides-komponente .ibkTabs button.ibkTab:not(.selected):not(:disabled):active {
+    background-color: var(--ibk-neutral-grey-74);
+    border-bottom-color: var(--ibk-neutral-grey-58);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab:disabled, .ides-komponente .ibkTabs button.ibkTab:disabled {
+    color: var(--ibk-neutral-grey-82);
+    cursor: default;
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab.selected, .ides-komponente .ibkTabs button.ibkTab.selected {
+    border-bottom-color: var(--ibk-red-41);
+}
+
+.kachel-vorschau .ibkTabs button.ibkTab.selected:not(:disabled):hover, .ides-komponente .ibkTabs button.ibkTab.selected:not(:disabled):hover {
+    background-color: var(--ibk-red-49);
+    color: var(--white-100);
+}
+
+.kachel-vorschau .ibkTabs .ibkTabs-rail, .ides-komponente .ibkTabs .ibkTabs-rail {
+    border-bottom: var(--ibk-spacing-2, 2px) solid var(--ibk-neutral-grey-74);
+    flex: 1 1 auto;
+    min-height: calc(
+        var(--text-button-lh, 24px) + 2 * var(--ibk-spacing-6, 6px) + var(--ibk-spacing-2, 2px)
+    );
+}
+
+.kachel-vorschau .ibkTabs .ibkTabs-content, .ides-komponente .ibkTabs .ibkTabs-content {
+    display: none;
+    padding: var(--ibk-spacing-16, 16px);
+    color: var(--ibk-neutral-grey-18);
+}
+
+.kachel-vorschau .ibkTabs .ibkTabs-content.active, .ides-komponente .ibkTabs .ibkTabs-content.active {
+    display: block;
+}
+
+/* textarea.css */
+.kachel-vorschau .ibkTextarea, .ides-komponente .ibkTextarea {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: var(--ibk-spacing-6, 6px);
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkTextareaWrapper, .ides-komponente .ibkTextareaWrapper {
+	position: relative;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkTextarea label, .ides-komponente .ibkTextarea label {
+	display: block;
+}
+
+.kachel-vorschau .ibkTextarea .ibkLabel .ibkIcon.label-info, .ides-komponente .ibkTextarea .ibkLabel .ibkIcon.label-info {
+	color: var(--ibk-info-34);
+}
+
+.kachel-vorschau .ibkTextarea textarea::placeholder, .ides-komponente .ibkTextarea textarea::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+.kachel-vorschau .ibkTextarea textarea, .ides-komponente .ibkTextarea textarea {
+	background: var(--white-100);
+	border-radius: var(--ibk-radius-6, 6px) 0 0 0;
+	border: 2px solid var(--ibk-neutral-grey-58);
+	color: var(--standard-fontcolor);
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	min-height: 6rem;
+	padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-8, 8px);
+	position: relative;
+	resize: vertical;
+	width: 100%;
+}
+
+.kachel-vorschau .ibkTextarea.fix textarea, .ides-komponente .ibkTextarea.fix textarea {
+	border-radius: var(--ibk-radius-6, 6px) 0 var(--ibk-radius-6, 6px) 0;
+	resize: none;
+}
+
+.kachel-vorschau .ibkTextarea .supportingText, .ides-komponente .ibkTextarea .supportingText {
+	align-items: flex-start;
+	display: flex;
+	gap: var(--ibk-spacing-4, 4px);
+	margin-top: -0.25rem;
+	width: 100%;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkTextarea .supportingText .ibkIcon, .ides-komponente .ibkTextarea .supportingText .ibkIcon {
+	color: inherit;
+	float: none !important;
+	margin: 0;
+}
+
+.kachel-vorschau .ibkTextarea .supportingText .content, .ides-komponente .ibkTextarea .supportingText .content {
+	float: none;
+}
+
+.kachel-vorschau .ibkTextarea.counter .ibkTextareaWrapper .counter, .ides-komponente .ibkTextarea.counter .ibkTextareaWrapper .counter {
+	bottom: 1.25rem;
+	color: var(--ibk-neutral-grey-42);
+	font-size: 0.75rem;
+	font-weight: 500;
+	left: 0.75rem;
+	line-height: 1.125rem;
+	pointer-events: none;
+	position: absolute;
+}
+
+.kachel-vorschau .ibkTextarea.counter textarea, .ides-komponente .ibkTextarea.counter textarea {
+	padding-bottom: 1.875rem;
+}
+
+.kachel-vorschau .ibkTextarea .ibkTextareaWrapper .counter, .ides-komponente .ibkTextarea .ibkTextareaWrapper .counter {
+	display: none;
+}
+
+.kachel-vorschau .ibkTextarea.disabled .ibkLabel, .ides-komponente .ibkTextarea.disabled .ibkLabel,
+.kachel-vorschau .ibkTextarea.disabled .ibkLabel .ibkLabelText, .ides-komponente .ibkTextarea.disabled .ibkLabel .ibkLabelText,
+.kachel-vorschau .ibkTextarea.disabled .ibkLabel .ibkIcon, .ides-komponente .ibkTextarea.disabled .ibkLabel .ibkIcon {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkTextarea.disabled textarea[disabled], .ides-komponente .ibkTextarea.disabled textarea[disabled] {
+	background-color: var(--ibk-neutral-grey-94);
+	border-color: var(--ibk-neutral-grey-82);
+	color: var(--ibk-neutral-grey-82);
+	resize: none;
+}
+
+.kachel-vorschau .ibkTextarea.disabled textarea[disabled]::placeholder, .ides-komponente .ibkTextarea.disabled textarea[disabled]::placeholder {
+	color: var(--ibk-neutral-grey-82);
+}
+
+.kachel-vorschau .ibkTextarea.disabled .supportingText, .ides-komponente .ibkTextarea.disabled .supportingText,
+.kachel-vorschau .ibkTextarea.disabled .supportingText .ibkIcon, .ides-komponente .ibkTextarea.disabled .supportingText .ibkIcon {
+	color: var(--ibk-neutral-grey-82) !important;
+}
+
+.kachel-vorschau .ibkTextarea.alert textarea, .ides-komponente .ibkTextarea.alert textarea {
+	background-color: var(--ibk-alert-94);
+	border-color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkTextarea.alert textarea::placeholder, .ides-komponente .ibkTextarea.alert textarea::placeholder {
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkTextarea.alert .supportingText, .ides-komponente .ibkTextarea.alert .supportingText {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkTextarea.alert .supportingText .ibkIcon, .ides-komponente .ibkTextarea.alert .supportingText .ibkIcon {
+	color: var(--ibk-alert-34);
+}
+
+.kachel-vorschau .ibkTextarea.warning textarea, .ides-komponente .ibkTextarea.warning textarea {
+	border-color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkTextarea.warning .supportingText, .ides-komponente .ibkTextarea.warning .supportingText {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkTextarea.warning .supportingText .ibkIcon, .ides-komponente .ibkTextarea.warning .supportingText .ibkIcon {
+	color: var(--ibk-warning-34);
+}
+
+.kachel-vorschau .ibkTextarea.readonly textarea, .ides-komponente .ibkTextarea.readonly textarea {
+	background-color: var(--ibk-neutral-grey-94);
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkTextarea.readonly textarea::placeholder, .ides-komponente .ibkTextarea.readonly textarea::placeholder {
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkTextarea.readonly .supportingText, .ides-komponente .ibkTextarea.readonly .supportingText {
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau .ibkTextarea.success textarea, .ides-komponente .ibkTextarea.success textarea {
+	border-color: var(--ibk-success-26);
+}
+
+.kachel-vorschau .ibkTextarea.success .supportingText, .ides-komponente .ibkTextarea.success .supportingText {
+	color: var(--ibk-success-22);
+}
+
+.kachel-vorschau .ibkTextarea.success .supportingText .ibkIcon, .ides-komponente .ibkTextarea.success .supportingText .ibkIcon {
+	color: var(--ibk-success-22);
+}
+
+/* button-dark.css */
+.ides-komponente-dunkel button.ibkButton {
+    -webkit-border-top-left-radius: var(--ibk-radius-6, 6px);
+    -webkit-border-bottom-right-radius: var(--ibk-radius-6, 6px);
+    -moz-border-radius-topleft: var(--ibk-radius-6, 6px);
+    -moz-border-radius-bottomright: var(--ibk-radius-6, 6px);
+    border-top-left-radius: var(--ibk-radius-6, 6px);
+    border-bottom-right-radius: var(--ibk-radius-6, 6px);
+    position: relative;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--ibk-spacing-8, 8px);
+    font-size: var(--text-button, 1rem);
+    font-weight: 500;
+    line-height: var(--text-button-lh, 24px);
+    min-height: 40px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.ides-komponente-dunkel button.ibkButton:active {
+    outline: 0;
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-leading {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-14, 14px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-10, 10px);
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-trailing {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-10, 10px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-14, 14px);
+}
+
+.ides-komponente-dunkel button.ibkButton {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-14, 14px) var(--ibk-spacing-6, 6px)
+        var(--ibk-spacing-14, 14px);
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-button-only {
+    padding: var(--ibk-spacing-6, 6px) var(--ibk-spacing-10, 10);
+    border: 0px;
+}
+
+.ides-komponente-dunkel button.ibkButton .ibkIcon {
+    text-align: center;
+    font-size: var(--text-button-lh, 24px);
+    font-style: inherit;
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-leading .ibkIcon {
+    order: 0;
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-trailing .ibkIcon {
+    order: 1;
+}
+
+.ides-komponente-dunkel button.ibkButton .ibkButtonText {
+    font-weight: 500;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-primary {
+    background-color: var(--ibk-red-41);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-red-41);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-primary:disabled {
+    background-color: var(--ibk-neutral-grey-10) !important;
+    color: var(--ibk-neutral-grey-22);
+    border: 2px solid var(--ibk-neutral-grey-10) !important;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-primary:hover {
+    background-color: var(--ibk-red-49);
+    border: 2px solid var(--ibk-red-49);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-primary:active {
+    background-color: var(--ibk-red-33);
+    border: 2px solid var(--ibk-red-33);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-secondary {
+    background-color: var(--ibk-neutral-grey-66);
+    color: var(--ibk-neutral-grey-18);
+    border: 2px solid var(--ibk-neutral-grey-66);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-secondary:disabled {
+    background-color: var(--ibk-neutral-grey-10) !important;
+    color: var(--ibk-neutral-grey-22);
+    border: 2px solid var(--ibk-neutral-grey-10) !important;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-secondary:hover {
+    background-color: var(--ibk-neutral-grey-90);
+    border: 2px solid var(--ibk-neutral-grey-90);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-regular.ibkButton-secondary:active {
+    background-color: var(--ibk-neutral-grey-74);
+    border: 2px solid var(--ibk-neutral-grey-74);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-primary {
+    background-color: transparent;
+    border: 2px solid var(--ibk-neutral-grey-22);
+    color: var(--ibk-neutral-grey-82);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-primary:disabled {
+    background-color: transparent !important;
+    border: 2px solid var(--ibk-neutral-grey-22) !important;
+    color: var(--ibk-neutral-grey-22);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-primary:hover {
+    background-color: var(--ibk-neutral-grey-10);
+    border: 2px solid var(--ibk-neutral-grey-22);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-primary:active {
+    background-color: var(--ibk-neutral-grey-26);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-primary.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-secondary {
+    background-color: transparent;
+    color: var(--ibk-neutral-grey-82);
+    border: 2px solid transparent;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-secondary:disabled {
+    background-color: transparent !important;
+    color: var(--ibk-neutral-grey-22) !important;
+    border: 2px solid transparent !important;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-secondary:hover {
+    background-color: var(--ibk-neutral-grey-10);
+    color: var(--ibk-neutral-grey-82);
+    border: 2px solid var(--ibk-neutral-grey-10);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-secondary:active {
+    background-color: var(--ibk-neutral-grey-26);
+    color: var(--ibk-neutral-grey-82);
+    border: 2px solid var(--ibk-neutral-grey-26);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-decent.ibkButton-secondary.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-destructive {
+    background-color: var(--ibk-alert-34);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-alert-34);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-destructive:disabled {
+    background-color: var(--ibk-neutral-grey-10) !important;
+    color: var(--ibk-neutral-grey-22);
+    border: 2px solid var(--ibk-neutral-grey-10) !important;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-destructive:hover {
+    background-color: var(--ibk-alert-42);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-alert-42);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-destructive:active {
+    background-color: var(--ibk-alert-26);
+    border: 2px solid var(--ibk-alert-26);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-success {
+    background-color: var(--ibk-success-18);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-success-18);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-success:disabled {
+    background-color: var(--ibk-neutral-grey-10) !important;
+    color: var(--ibk-neutral-grey-22);
+    border: 2px solid var(--ibk-neutral-grey-10) !important;
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-success:hover {
+    background-color: var(--ibk-success-26);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-success-26);
+}
+
+.ides-komponente-dunkel .ibkButton.ibkButton-success:active {
+    background-color: var(--ibk-success-10);
+    color: var(--white-100);
+    border: 2px solid var(--ibk-success-10);
+}
+
+.ides-komponente-dunkel button.ibkButton.ibkIcon-solo {
+    padding: var(--ibk-spacing-6, 6px);
+}

@@ -1,0 +1,353 @@
+/* Übersichtsseiten der Bereiche (Grundlagen, Komponenten): Kopf wie Inhaltsseiten, darunter Kacheln.
+   Kacheln wie die der Icon-Übersicht (Ides Card mit eigenem Radius), Trennung durch feine Linien statt Schatten. */
+@import url("inhaltsseite.css");
+@import url("vorschau.css");
+
+/* Einleitung über den Kacheln: erster Absatz größer, wie auf der Startseite */
+.uebersicht-text {
+	max-width: 760px;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--standard-fontcolor);
+}
+
+.uebersicht-text p {
+	margin: 0 0 16px;
+}
+
+.uebersicht-text p:last-child {
+	margin-bottom: 0;
+}
+
+.uebersicht-text .uebersicht-einleitung {
+	font-size: 21px;
+	line-height: 32px;
+}
+
+.kachelgruppe-titel {
+	scroll-margin-top: 24px;
+}
+
+.kachelgruppe {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.kachelgruppe-titel {
+	margin: 0;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	color: var(--brandPrimary);
+}
+
+.kacheln {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* Wie die Icon-Übersicht: Ides Auto-Grid mit fester Kachelgröße (auto-fill), hier breiter wegen des Kurztexts */
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+	gap: 24px;
+	max-width: 1200px;
+}
+
+/* Kachel als Ides Card (bordered, delta-10) wie in der Icon-Übersicht; behält den Radius der Card.
+   Die ganze Fläche ist über den Link in der Überschrift anklickbar (Muster aus der Ides-Doku zur Card). */
+.kachel {
+	position: relative;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	min-width: 0;
+	padding: 0;
+	overflow: hidden;
+	transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.kachel-inhalt {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 16px 20px 20px;
+}
+
+.kachel:not(:has(.kachel-vorschau, .kachel-grafik)) .kachel-inhalt {
+	padding: 16px;
+}
+
+/* Große Kacheln der Grundlagen-Übersicht (Vorbild Material 3): oben eine abstrakte Grafik über die ganze
+   Breite, etwas mehr als die Hälfte der Kachel, in Ides-Farben und kantigen Formen; darunter Name und Kurztext größer */
+.kacheln.kacheln-gross {
+	grid-template-columns: repeat(auto-fill, minmax(min(26rem, 100%), 1fr));
+	gap: 24px;
+}
+
+.kachel-grafik {
+	align-self: stretch;
+	height: 300px;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.kachel-grafik svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.kacheln-gross .kachel-inhalt {
+	gap: 8px;
+	padding: 24px 28px 28px;
+}
+
+.kacheln-gross .kachel-titel {
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.kacheln-gross .kachel-text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+@media (max-width: 599px) {
+	.kachel-grafik {
+		height: 200px;
+	}
+
+	.kacheln-gross .kachel-titel {
+		font-size: 21px;
+		line-height: 28px;
+	}
+}
+
+/* Vorschau oben in der Kachel (Komponenten-Übersicht): ein ruhiges Beispiel der Komponente in ihren Ides-Styles,
+   nur zur Ansicht – keine Klicks, kein Fokus; ein Klick auf die Vorschau öffnet wie überall die Seite */
+.kachel-vorschau {
+	box-sizing: border-box;
+	align-self: stretch;
+	height: 216px;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background: var(--ibk-petrol-94);
+	pointer-events: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.kachel:not(.kachel-in-arbeit) .kachel-vorschau:not(:has(*))::before {
+	content: "Vorschau folgt";
+	font-size: 14px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-in-arbeit .kachel-vorschau {
+	background: transparent;
+	border-bottom: 1px dashed var(--ibk-neutral-grey-74);
+}
+
+/* Wie in den Ides-Grundstilen (global.css): Innenabstand zählt zur Breite */
+.kachel-vorschau *,
+.kachel-vorschau *::before,
+.kachel-vorschau *::after {
+	box-sizing: border-box;
+}
+
+/* Icons nie kursiv: htmlelements.css setzt <i> kursiv, im Original stellt die Icon-Regel aus global.css das zurück */
+.kachel-vorschau .ibkIcon {
+	font-style: normal;
+}
+
+/* Hilfen für die Anordnung in den Vorschauen */
+.vorschau-reihe {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.vorschau-gross .ibkIcon {
+	font-size: 32px;
+}
+
+.vorschau-stapel {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: min(100%, 16rem);
+}
+
+.kachel-vorschau .vorschau-figure {
+	margin: 0;
+	width: min(100%, 14rem);
+}
+
+.vorschau-bild {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 104px;
+	background: var(--ibk-petrol-90);
+	color: var(--ibk-petrol-32);
+}
+
+.vorschau-bild .ibkIcon {
+	font-size: 40px;
+}
+
+.vorschau-tooltip {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.vorschau-tooltip-ausloeser {
+	color: var(--ibk-petrol-32);
+}
+
+.vorschau-mitte {
+	align-items: center;
+}
+
+.vorschau-eng {
+	gap: 12px;
+}
+
+.vorschau-eng-stapel {
+	gap: 12px;
+}
+
+.vorschau-umbruch {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.vorschau-breit {
+	width: min(100%, 18rem);
+}
+
+.vorschau-text {
+	margin: 0;
+	max-width: 16rem;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--standard-fontcolor);
+}
+
+.kachel-vorschau .vorschau-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	width: min(100%, 14rem);
+	min-height: 0;
+	background: #fff;
+}
+
+.vorschau-card-titel {
+	font-weight: 600;
+	color: var(--standard-fontcolor);
+}
+
+.vorschau-card-text {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.kachel-vorschau ibk-dropdown.vorschau-dropdown {
+	position: relative;
+	top: auto;
+	left: auto;
+	display: block;
+	width: min(100%, 15rem);
+}
+
+/* Bottom Navigation: in schmalen Kacheln etwas geringere Mindestbreite je Ziel (Original 7,5 rem), damit drei Ziele passen */
+.kachel-vorschau .vorschau-bottomnav .ibkBottomNavigation-item {
+	min-width: 6rem;
+}
+
+/* Segmented Control: die gleitende Fläche setzt im Original ein Skript; in der ruhenden Vorschau trägt das gewählte
+   Segment die Fläche selbst (gleiche Farbe und Rundung) */
+.kachel-vorschau .vorschau-segmented .ibkSegmentedControl-thumb {
+	display: none;
+}
+
+.kachel-vorschau .vorschau-segmented button.ibkSegmentedControl-segment.selected {
+	background: var(--ibk-petrol-32);
+}
+
+/* Tooltip in der Vorschau einzeilig: feste Breite des Originals aufgehoben */
+.kachel-vorschau .vorschau-tooltip .ibkTooltip {
+	width: auto;
+	white-space: nowrap;
+}
+
+.kachel-vorschau .ibkFieldset,
+.kachel-vorschau .ibkDialog,
+.kachel-vorschau .ibkBanner {
+	width: min(100%, 18rem);
+}
+
+.kachel-titel {
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: var(--standard-fontcolor);
+	overflow-wrap: anywhere;
+}
+
+.kachel-titel a::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	border-radius: 10px;
+}
+
+.kachel-text,
+.kachel-hinweis {
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+/* Darüberfahren: heller Sisal-Ton; Grey 42 darauf hat noch 4,7:1 Kontrast */
+.kachel:hover {
+	background-color: var(--ibk-sisal-94);
+}
+
+/* Fokus: ein Rahmen um die ganze Card statt um den Linktext */
+.kachel-titel a:focus-visible {
+	outline: none;
+}
+
+.kachel:has(a:focus-visible) {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 2px;
+}
+
+/* Noch ohne eigene Seite: kein Link, gestrichelte Linie, grauer Name und der Hinweis „in Arbeit“ */
+.kachel.kachel-in-arbeit {
+	border-style: dashed;
+	border-color: var(--ibk-neutral-grey-74);
+}
+
+.kachel.kachel-in-arbeit:hover {
+	background-color: transparent;
+}
+
+.kachel-in-arbeit .kachel-titel {
+	color: var(--ibk-neutral-grey-42);
+}

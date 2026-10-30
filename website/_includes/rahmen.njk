@@ -1,0 +1,67 @@
+{#- Seitengerüst für alle Seiten.
+    Angaben einer Seite: titel, aktuell (Kennung des aktuellen Navigationseintrags), seitenstil (eigenes CSS),
+    beschreibung (Kurzbeschreibung für Suchmaschinen; ohne Angabe der Kurztext aus _data/kurztexte.json),
+    suche: false (nicht ins Suchverzeichnis, für Suchmaschinen gesperrt), basis (Adresse, gegen die relative Links
+    aufgelöst werden; nur die Fehlerseite braucht sie). -#}
+{%- set kurz = beschreibung or kurztexte[aktuell] %}
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if basis %}
+	<base href="{{ basis }}">
+{%- endif %}
+	<title>AIRLUMA – {{ titel }}</title>
+{%- if kurz %}
+	<meta name="description" content="{{ kurz | escape }}">
+{%- endif %}
+{%- if suche === false %}
+	<meta name="robots" content="noindex">
+{%- endif %}
+	{#- Erkennungszeichen im Browser-Tab und auf Startbildschirmen -#}
+	<link rel="icon" href="bilder/marke/favicon.svg" type="image/svg+xml">
+	<link rel="icon" href="bilder/marke/favicon-32.png" sizes="32x32" type="image/png">
+	<link rel="apple-touch-icon" href="bilder/marke/apple-touch-icon.png">
+	{#- Vorschau beim Teilen (Open Graph); Adressen müssen absolut sein, Basis in _data/seite.json -#}
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="AIRLUMA">
+	<meta property="og:locale" content="de_DE">
+	<meta property="og:title" content="AIRLUMA – {{ titel }}">
+{%- if kurz %}
+	<meta property="og:description" content="{{ kurz | escape }}">
+{%- endif %}
+	<meta property="og:url" content="{{ seite.url }}{{ page.url }}">
+	<meta property="og:image" content="{{ seite.url }}/bilder/marke/vorschau.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="AIRLUMA – offenes Designsystem: Farben, Typografie, Icons und Web Components">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="stylesheet" href="styles/ides.css">
+	<link rel="stylesheet" href="styles/rahmen.css">
+{%- if seitenstil %}
+	<link rel="stylesheet" href="styles/{{ seitenstil }}">
+{%- endif %}
+	{#- Früh setzen, damit auf schmalen Bildschirmen das geschlossene Menü nicht erst kurz offen erscheint -#}
+	<script>document.documentElement.classList.add('mit-menue');</script>
+	<script src="scripts/navigation.js" defer></script>
+	<script src="scripts/suche.js" defer></script>
+	<script src="scripts/rollbereiche.js" defer></script>
+</head>
+<body>
+<div class="seite">
+{% include "kopfzeile.njk" %}
+
+	<div class="seite-mitte">
+{% include "seitennavigation.njk" %}
+
+	{#- data-pagefind-body: nur dieser Bereich kommt ins Suchverzeichnis; Seiten mit suche: false (Platzhalter, Fehlerseite) nicht -#}
+	<main class="inhalt" id="inhalt"{% if suche !== false %} data-pagefind-body{% endif %}>
+{{ content | safe }}
+	</main>
+	</div>
+
+{% include "fusszeile.njk" %}
+</div>
+</body>
+</html>

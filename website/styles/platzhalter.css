@@ -1,0 +1,32 @@
+/* Platzhalterseite für Ziele, die es noch nicht gibt */
+
+.platzhalter {
+	box-sizing: border-box;
+	max-width: 620px;
+	padding: 96px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.platzhalter h1 {
+	margin: 0;
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 400;
+	font-stretch: 112.5%;
+	color: var(--ibk-petrol-14);
+}
+
+.platzhalter p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+@media (max-width: 1023px) {
+	.platzhalter {
+		padding: 48px 16px;
+	}
+}

@@ -1,0 +1,64 @@
+---
+layout: rahmen.njk
+seitenstil: uebersichtsseite.css
+---
+{#- Gerüst für Übersichtsseiten eines Bereichs. Angaben einer Seite: titel, aktuell, uebersicht (id des Bereichs in navigation.json);
+    der Inhalt der Seite ist die Einleitung über den Kacheln.
+    Die Einträge des Bereichs erscheinen als Kacheln mit Kurztext aus _data/kurztexte.json (erzeugt aus dem TL;DR der Ides-Doku).
+    Kacheln wie die der Icon-Übersicht: Ides Card (bordered, delta-10) mit Name und Kurztext, ohne Icon. Ganz anklickbar nach der Ides-Doku zur Card: Link in der
+    Überschrift, über ::after über die Kachel gezogen.
+    Einträge ohne eigene Seite (Ziel in-arbeit.html) stehen ohne Link mit dem Hinweis „in Arbeit“.
+    Auf der Komponenten-Übersicht hat jede Kachel oben eine Vorschau (_includes/vorschau/<id>.njk, Styles in vorschau.css),
+    rein zur Ansicht: aria-hidden und inert, der Link der Kachel liegt darüber. Fehlt eine Vorschau, steht dort „Vorschau folgt“.
+    Die Grundlagen-Übersicht hat große Kacheln mit einer abstrakten Grafik oben (_includes/grafik/<id>.njk, aria-hidden). -#}
+{%- macro kachel(e, ebene, art) -%}
+{%- set fertig = e.ziel != 'in-arbeit.html' %}
+<li class="kachel ibkCard ibkCard-bordered ibkCard-delta-10{% if not fertig %} kachel-in-arbeit{% endif %}">
+{%- if art == 'vorschau' %}
+	<div class="kachel-vorschau" aria-hidden="true" inert>
+		{%- if fertig %}{% include "vorschau/" + e.id + ".njk" ignore missing %}{% endif -%}
+	</div>
+{%- elif art == 'grafik' %}
+	<div class="kachel-grafik" aria-hidden="true">
+		{%- include "grafik/" + e.id + ".njk" ignore missing -%}
+	</div>
+{%- endif %}
+	<div class="kachel-inhalt">
+	<h{{ ebene }} class="kachel-titel">{% if fertig %}<a href="{{ e.ziel }}">{{ e.label }}</a>{% else %}{{ e.label }}{% endif %}</h{{ ebene }}>
+{%- if fertig %}
+	<p class="kachel-text">{{ kurztexte[e.id] | escape }}</p>
+{%- else %}
+	<p class="kachel-hinweis">in Arbeit</p>
+{%- endif %}
+	</div>
+</li>
+{%- endmacro %}
+		<div class="inhaltsseite uebersichtsseite">
+			<div class="inhaltsseite-kopf">
+				<p class="inhaltsseite-dachzeile"><span class="inhaltsseite-dachzeile-strich" aria-hidden="true"></span>Übersicht</p>
+				<h1 data-pagefind-weight="10">{{ titel }}</h1>
+			</div>
+			<div class="uebersicht-text">
+{{ content | safe }}
+			</div>
+{%- for bereich_daten in navigation.bereiche %}{% if bereich_daten.id == uebersicht %}
+{%- if bereich_daten.gruppen %}
+{%- for g in bereich_daten.gruppen %}
+			<section class="kachelgruppe" aria-labelledby="gruppe-{{ g.id }}-titel">
+				<h2 class="kachelgruppe-titel" id="gruppe-{{ g.id }}-titel">{{ g.label }}</h2>
+				<ul class="kacheln">
+{%- for e in g.eintraege %}
+					{{ kachel(e, 3, 'vorschau') }}
+{%- endfor %}
+				</ul>
+			</section>
+{%- endfor %}
+{%- else %}
+			<ul class="kacheln kacheln-gross">
+{%- for e in bereich_daten.eintraege %}
+				{{ kachel(e, 2, 'grafik') }}
+{%- endfor %}
+			</ul>
+{%- endif %}
+{%- endif %}{% endfor %}
+		</div>

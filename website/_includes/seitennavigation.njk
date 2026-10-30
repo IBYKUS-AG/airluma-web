@@ -1,0 +1,70 @@
+{#- Seitennavigation aus website/_data/navigation.json.
+    Erste Leiste: Ides Bottom Navigation, senkrecht. Der aktuelle Eintrag ist nicht mehr interaktiv (kein href).
+    Liegt die Seite in einem Bereich (Angabe bereich), ist dieser Bereich Petrol hinterlegt, bleibt aber Link.
+    Auf Komponentenseiten (Angabe gruppe) ist die Gruppe der Seite aufgeklappt.
+    Nach den Bereichen folgen die Einträge aus abschluss (Mitmachen), einfach wie die Einstiegs-Einträge.
+    Zweite Leiste: steht im Listeneintrag ihres Bereichs und fährt beim Darüberfahren oder Fokus heraus.
+    Unter 1024 px (Menü): Der Button neben dem Bereich klappt seine Seiten im Fluss auf; der Bereich der aktuellen
+    Seite ist aufgeklappt. -#}
+{%- macro bereichslink(eintrag, zusatz, aktuell, bereich) -%}
+{%- if eintrag.id == aktuell -%}
+<a class="ibkBottomNavigation-item selected" aria-current="page"{{ zusatz | safe }}>
+{%- elif eintrag.id == bereich -%}
+<a class="ibkBottomNavigation-item bereich-aktuell" href="{{ eintrag.ziel }}" aria-current="true"{{ zusatz | safe }}>
+{%- else -%}
+<a class="ibkBottomNavigation-item" href="{{ eintrag.ziel }}"{{ zusatz | safe }}>
+{%- endif -%}
+<span class="ibkIcon" aria-hidden="true">{{ eintrag.icon | safe }}</span><span class="ibkBottomNavigation-label">{{ eintrag.label }}</span></a>
+{%- endmacro -%}
+{%- macro eintrag(e, aktuell) -%}
+<li><a class="navigation-eintrag" href="{{ e.ziel }}"{% if e.id == aktuell %} aria-current="page"{% endif %}>
+{%- if e.icon %}<span class="ibkIcon" aria-hidden="true">{{ e.icon | safe }}</span>{% endif -%}
+<span>{{ e.label }}</span></a></li>
+{%- endmacro %}
+	<nav class="seitennavigation" id="seitennavigation" aria-label="Seitennavigation">
+		<div class="bereichsleiste ibkBottomNavigation ibkBottomNavigation-regular ibkBottomNavigation-dominance-regular">
+			<ul class="ibkBottomNavigation-list">
+{%- for e in navigation.einstieg %}
+				<li class="ibkBottomNavigation-listItem">{{ bereichslink(e, "", aktuell, bereich) }}</li>
+{%- endfor %}
+{%- for b in navigation.bereiche %}
+				<li class="ibkBottomNavigation-listItem bereichsleiste-bereich{% if loop.first %} bereichsleiste-erster-bereich{% endif %}">
+					{{ bereichslink(b, ' aria-expanded="false" aria-controls="bereich-' + b.id + '"', aktuell, bereich) }}
+{%- set aufgeklappt = (b.id == bereich or b.id == aktuell) %}
+					<button type="button" class="bereich-schalter" aria-expanded="{{ 'true' if aufgeklappt else 'false' }}" aria-controls="bereich-{{ b.id }}"><span class="nur-screenreader">Seiten von {{ b.label }}</span><span class="ibkIcon navigation-pfeil" aria-hidden="true">&#xe91c;</span></button>
+{%- if b.gruppen %}
+					<div class="bereich{% if aufgeklappt %} aufgeklappt{% endif %}" id="bereich-{{ b.id }}" role="group" aria-label="{{ b.label }}">
+{%- for g in b.gruppen %}
+						<div class="bereich-gruppe">
+							<h2 class="bereich-gruppe-titel">
+{%- set offen = (g.id == gruppe) %}
+								<button type="button" class="navigation-schalter" id="gruppe-{{ g.id }}" aria-expanded="{{ 'true' if offen else 'false' }}" aria-controls="gruppe-{{ g.id }}-liste">
+									<span>{{ g.label }}</span>
+									<span class="ibkIcon navigation-pfeil" aria-hidden="true">&#xe91c;</span>
+								</button>
+							</h2>
+							<ul id="gruppe-{{ g.id }}-liste" aria-labelledby="gruppe-{{ g.id }}"{% if not offen %} hidden{% endif %}>
+{%- for e in g.eintraege %}
+								{{ eintrag(e, aktuell) }}
+{%- endfor %}
+							</ul>
+						</div>
+{%- endfor %}
+					</div>
+{%- else %}
+					<div class="bereich{% if aufgeklappt %} aufgeklappt{% endif %}" id="bereich-{{ b.id }}">
+						<ul aria-label="{{ b.label }}">
+{%- for e in b.eintraege %}
+							{{ eintrag(e, aktuell) }}
+{%- endfor %}
+						</ul>
+					</div>
+{%- endif %}
+				</li>
+{%- endfor %}
+{%- for e in navigation.abschluss %}
+				<li class="ibkBottomNavigation-listItem{% if loop.first %} bereichsleiste-abschluss{% endif %}">{{ bereichslink(e, "", aktuell, bereich) }}</li>
+{%- endfor %}
+			</ul>
+		</div>
+	</nav>

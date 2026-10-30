@@ -1,0 +1,59 @@
+---
+layout: inhaltsseite.njk
+titel: Barrierefreiheit
+beschreibung: "Erklärung zur Barrierefreiheit der Website des Designsystems AIRLUMA: wie gut sie für alle nutzbar ist und wo es noch Lücken gibt."
+dachzeile: Rechtliches
+aktuell: barrierefreiheit
+seitenstil: rechtliches.css
+---
+{#- Erklärung zur Barrierefreiheit. Die Liste „Was noch nicht barrierefrei ist“ entspricht den Befunden in
+    befunde-ides-team.md, die Nutzende betreffen (Stand B-01 bis B-25). Nicht genannt sind Befunde zu Einstellungen
+    der Komponenten (B-09, B-10, B-15, B-17, B-24), B-23 (ARIA-Angaben am inneren Button) und die
+    Sicherheitslücke B-16. Seit 09.10.2026 stammen die Live-Beispiele aus dem Storybook; die Website gleicht dort nichts mehr aus. Ist ein Befund erledigt, hier streichen. Angaben aus _data/rechtliches.json. -#}
+{%- from "makros.njk" import angabe, pruefhinweis %}
+{%- set b = rechtliches.barrierefreiheit %}
+{{ pruefhinweis(rechtliches) }}
+<p>AIRLUMA soll für alle nutzbar sein, auch mit Tastatur, Screenreader oder Vergrößerung. Diese Erklärung sagt, wie gut das gelingt und wo es noch Lücken gibt.</p>
+
+<h2 id="geltungsbereich">Geltungsbereich</h2>
+<p>Die Erklärung gilt für diese Website, die Dokumentation des Designsystems AIRLUMA.</p>
+
+<h2 id="stand-der-vereinbarkeit">Stand der Vereinbarkeit</h2>
+<p>Die Website erfüllt die Anforderungen der Web Content Accessibility Guidelines (WCAG) 2.2 auf Stufe AA <strong>teilweise</strong>. Die Website selbst ist barrierefrei gebaut. Die Lücken stecken in einigen Komponenten des Designsystems, die auf den Komponentenseiten im Reiter „Live-Beispiel“ zu sehen sind, und im Storybook, aus dem diese Beispiele stammen.</p>
+
+<h2 id="was-barrierefrei-ist">Was barrierefrei gebaut ist</h2>
+<ul>
+	<li>Alle Seiten lassen sich vollständig mit der Tastatur bedienen, und der Fokus ist immer deutlich sichtbar.</li>
+	<li>Navigationen sind benannt, die aktuelle Seite ist gekennzeichnet, und jede Seite ist mit Überschriften gegliedert.</li>
+	<li>Links und Buttons sind echte Links und Buttons.</li>
+	<li>Texte der Website nutzen Farben mit ausreichendem Kontrast.</li>
+	<li>Ist im System „Bewegung reduzieren“ eingestellt, entfallen Übergänge.</li>
+</ul>
+
+<h2 id="was-noch-nicht-barrierefrei-ist">Was noch nicht barrierefrei ist</h2>
+<p>Die folgenden Lücken betreffen die Komponenten des Designsystems. Sie zeigen sich in den Live-Beispielen auf den Komponentenseiten und im Storybook. Sie sind an die Entwicklung der Komponenten gemeldet und verschwinden von dieser Liste, sobald sie behoben sind.</p>
+<ul>
+	<li><strong>Button:</strong> Screenreader lesen bei Buttons mit Icon das Kürzel des Icons mit vor. Ein Button, der nur ein Icon zeigt, hat keinen Namen.</li>
+	<li><strong>Switch:</strong> Screenreader sagen ihn als Kontrollkästchen an, nicht als Schalter.</li>
+	<li><strong>Checkbox und Switch:</strong> Der Hinweistext unter dem Feld wird nicht zusammen mit dem Feld vorgelesen.</li>
+	<li><strong>Badge:</strong> Die Bedeutung ergibt sich nur aus der Farbe, und das Kürzel des Icons wird mitgelesen.</li>
+	<li><strong>Radio Button:</strong> Die Gruppe hat keinen Namen, und der Hinweistext wird nicht mit ihr vorgelesen.</li>
+	<li><strong>Meter:</strong> Screenreader erfahren weder den Wert noch seine Bedeutung.</li>
+	<li><strong>Chip:</strong> Die Beschriftung des aktiven Chips ist englisch, der Chip hat keine Rolle, und das Schließen-Icon ist nicht einzeln erreichbar.</li>
+	<li><strong>Banner:</strong> Der Schließen-Button hat keinen Namen. Nach dem Schließen geht der Fokus verloren.</li>
+	<li><strong>Step Button Bar:</strong> Die Buttons haben feste englische Namen, und die Gruppe hat keinen Namen.</li>
+	<li><strong>Navigation Menu Item:</strong> Die Kürzel der Icons werden mitgelesen, und dass ein Eintrag ausgewählt ist, wird nicht angesagt.</li>
+	<li><strong>Pagination und Pagination Dots:</strong> Die Buttons der Seiten haben feste englische Namen.</li>
+	<li><strong>Bottom Navigation:</strong> Auf sehr schmalen Bildschirmen ist sie breiter als der Bildschirm.</li>
+	<li><strong>Breadcrumbs:</strong> Die Navigation heißt fest englisch „Breadcrumb“.</li>
+	<li><strong>Dialog:</strong> Screenreader erkennen ihn nicht als Dialog, und er hat keinen Namen. Der Fokus geht beim Öffnen nicht in den Dialog, bleibt nicht darin und kehrt beim Schließen nicht zurück.</li>
+	<li><strong>Toast:</strong> Warnungen und Fehler werden nicht dringlicher angesagt als andere Meldungen, die Zustände unterscheiden sich nur durch die Farbe, und das Kürzel des Icons wird mitgelesen.</li>
+	<li><strong>Tooltip:</strong> Das Schließen-Icon des Toggletip heißt fest englisch „Close“. Der Tooltip zeigt und verbirgt sich nicht selbst.</li>
+	<li><strong>Live-Beispiele und Storybook:</strong> Die Beispiele mit Einstellungen und Code stammen aus dem Storybook der Komponenten. Sie sind englischsprachig, und die Bedienung des Storybooks ist noch nicht auf Barrierefreiheit geprüft.</li>
+</ul>
+
+<h2 id="erstellung">Wie diese Erklärung entstanden ist</h2>
+<p>Die Einschätzung beruht auf einer Selbstbewertung beim Bau der Website: Lesen des Quellcodes der Komponenten und Bedienung mit Maus und Tastatur. Ein Test mit Screenreadern steht noch aus. Stand: {{ b.stand }}.</p>
+
+<h2 id="rueckmeldung">Barrieren melden</h2>
+<p>Ist Ihnen eine Barriere aufgefallen, oder brauchen Sie einen Inhalt in anderer Form? Schreiben Sie uns: {% if b.email %}<a href="mailto:{{ b.email }}">{{ b.email }}</a>{% else %}{{ angabe(b.email) }}{% endif %}</p>

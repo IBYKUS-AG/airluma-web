@@ -1,0 +1,64 @@
+---
+layout: inhaltsseite.njk
+titel: Datenschutz
+beschreibung: "Datenschutzerklärung der Website des Designsystems AIRLUMA: welche Daten beim Besuch anfallen und wofür."
+dachzeile: Rechtliches
+aktuell: datenschutz
+seitenstil: rechtliches.css
+---
+{#- Datenschutzerklärung. Beschreibt genau, was die Website tut (Stand: Hosting GitHub Pages, keine Cookies, kein Tracking,
+    Schrift und Icons von der eigenen Website, localStorage nur „@storybook/manager/store“ der vollständigen Storybook-Oberfläche unter storybook/ (das eingebettete
+    Live-Beispiel speichert nichts, geprüft 09.10.2026),
+    Downloads über airluma-cdn.b-cdn.net aus _data/ressourcen.json). Ändert sich etwas davon, diese Seite im selben Schritt anpassen.
+    Angaben aus _data/rechtliches.json.
+    Übermittlung USA, Speicherdauer, Aufsichtsbehörde und „Bereitstellung“ nach Prüfung durch den Datenschutzbeauftragten (19.10.2026). -#}
+{%- from "makros.njk" import angabe, pruefhinweis, extern %}
+{%- set a = rechtliches.anbieter %}
+{%- set d = rechtliches.datenschutz %}
+{{ pruefhinweis(rechtliches) }}
+<p>Diese Erklärung beschreibt, welche Daten beim Besuch dieser Website anfallen und wofür. Kurz gesagt: Die Website setzt keine Cookies, misst Ihren Besuch nicht und lädt beim Aufruf nichts von fremden Servern.</p>
+
+<h2 id="verantwortlicher">Verantwortlicher</h2>
+<address>
+	{{ a.firma }}<br>
+	{{ a.strasse }}<br>
+	{{ a.plz }} {{ a.ort }}<br>
+	{{ a.land }}<br>
+	Telefon: <a href="tel:{{ rechtliches.kontakt.telefon_link }}">{{ rechtliches.kontakt.telefon }}</a><br>
+	E-Mail: <a href="mailto:{{ rechtliches.kontakt.email }}">{{ rechtliches.kontakt.email }}</a>
+</address>
+
+<h2 id="datenschutzbeauftragter">Datenschutzbeauftragter</h2>
+<p>{{ d.beauftragter }}<br>
+E-Mail: <a href="mailto:{{ d.email }}">{{ d.email }}</a></p>
+
+<h2 id="hosting">Hosting bei GitHub Pages</h2>
+<p>Die Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub Inc. in den USA. Wenn Sie eine Seite aufrufen, verarbeitet der Server von GitHub technisch notwendige Zugriffsdaten, insbesondere Ihre IP-Adresse, die aufgerufene Seite sowie Datum und Uhrzeit. Das ist nötig, um Ihnen die Seiten auszuliefern und den Dienst vor Missbrauch zu schützen.</p>
+<p>Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO). {{ angabe(d.dpf_github) }}</p>
+<p>GitHub speichert technische Zugriffsdaten insbesondere zu Sicherheitszwecken. Die Aufbewahrung richtet sich nach der Erforderlichkeit für diese Zwecke sowie etwaigen gesetzlichen Aufbewahrungspflichten. Weitere Informationen zur Datenverarbeitung und Speicherdauer finden Sie in der {{ extern("Datenschutzerklärung von GitHub", d.datenschutz_github) }}.</p>
+
+<h2 id="downloads">Downloads von Schrift und Icons</h2>
+<p>Auf der Seite „Ressourcen“ können Sie die Schrift Asap und das Iconset herunterladen. Diese Dateien liegen bei einem Content Delivery Network, dem Dienst bunny.net der BunnyWay d.o.o. in Slowenien. Erst wenn Sie einen dieser Download-Links wählen, fragt Ihr Browser die Datei dort an und übermittelt dabei Ihre IP-Adresse. Beim bloßen Besuch der Website geschieht das nicht.</p>
+<p>Die Verarbeitung erfolgt zur sicheren und zuverlässigen Bereitstellung der angeforderten Dateien. Rechtsgrundlage ist unser berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO. Technische Zugriffsdaten werden nur so lange gespeichert, wie dies für die Bereitstellung der Dateien und die Gewährleistung der Sicherheit des Dienstes erforderlich ist. Weitere Informationen zur Datenverarbeitung finden Sie unter {{ extern("bunny.net – Datenschutz und DSGVO", d.datenschutz_bunny) }}.</p>
+
+<h2 id="suchfunktion">Suche</h2>
+<p>Das Suchfeld oben auf jeder Seite durchsucht die Inhalte der Website. Die Suche läuft vollständig in Ihrem Browser: Sobald Sie in das Suchfeld klicken, lädt Ihr Browser ein Suchverzeichnis von dieser Website, so wie jede andere Datei der Website. Ihr Suchbegriff wird dabei nicht übertragen, weder an uns noch an andere, und nicht gespeichert. Für die Suche werden keine Cookies gesetzt und nichts im Speicher Ihres Browsers abgelegt.</p>
+
+<h2 id="keine-cookies">Keine Cookies, kein Tracking</h2>
+<p>Die Website setzt keine Cookies und verwendet keine Werkzeuge zur Reichweitenmessung oder Werbung. Schrift, Icons und Skripte kommen von der Website selbst, nicht von fremden Servern.</p>
+
+<h2 id="gespeicherte-einstellung">Gespeicherte Einstellungen im Storybook</h2>
+<p>Unter „Storybook“ (erreichbar über die Links „Im Storybook öffnen“ auf den Komponentenseiten) finden Sie alle Komponenten zum Ausprobieren. Diese Oberfläche merkt sich ihre Bedieneinstellungen, etwa Tastenkürzel und die Anordnung ihrer Bereiche, im lokalen Speicher Ihres Browsers (<code>localStorage</code>, Eintrag <code>@storybook/manager/store</code>). Der Eintrag bleibt auf Ihrem Gerät und wird nicht an uns oder andere übertragen. Sie können ihn jederzeit über die Einstellungen Ihres Browsers löschen. Das Speichern ist für die von Ihnen gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Die Live-Beispiele auf den Komponentenseiten speichern nichts.</p>
+
+<h2 id="links">Links zu anderen Websites</h2>
+<p>Die Website enthält Links zu anderen Websites, zum Beispiel zum W3C. Wenn Sie einem solchen Link folgen, gilt dort die Datenschutzerklärung des jeweiligen Anbieters.</p>
+
+<h2 id="bereitstellung">Bereitstellung personenbezogener Daten</h2>
+<p>Die Bereitstellung der IP-Adresse ist weder gesetzlich noch vertraglich vorgeschrieben. Sie ist jedoch technisch erforderlich, um die Website aufzurufen oder die angebotenen Dateien herunterzuladen. Ohne diese Daten können die entsprechenden Inhalte nicht bereitgestellt werden.</p>
+
+<h2 id="ihre-rechte">Ihre Rechte</h2>
+<p>Sie haben das Recht auf Auskunft über die zu Ihrer Person verarbeiteten Daten (Art. 15 DSGVO), auf Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und das Recht, der Verarbeitung aufgrund eines berechtigten Interesses zu widersprechen (Art. 21). Wenden Sie sich dafür an den Datenschutzbeauftragten.</p>
+<p>Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). {% if d.aufsichtsbehoerde %}Zuständige Aufsichtsbehörde ist der {{ d.aufsichtsbehoerde }}, {{ extern("www.tlfdi.de", d.aufsichtsbehoerde_web) }}.{% else %}Zuständig ist: {{ angabe(d.aufsichtsbehoerde) }}{% endif %}</p>
+
+<h2 id="stand">Stand</h2>
+<p>{{ d.stand }}</p>

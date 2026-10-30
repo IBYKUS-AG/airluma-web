@@ -1,0 +1,25 @@
+# Öffentliches Repository: alles ist ausgeschlossen, freigegeben wird nur, was die Website baut.
+# Neue Dateien oder Ordner auf oberster Ebene hier ausdrücklich mit „!“ freigeben.
+# Lokal bleiben (Entscheidung 09.10.2026): Arbeitsunterlagen (CLAUDE.md, openspec/, befunde-ides-team.md, .claude/),
+# die Werkzeuge zum Erzeugen der Seiten (brauchen die lokalen Ides-Kopien) und die Ides-Kopien selbst.
+/*
+!/.gitignore
+!/.github/
+!/README.md
+!/LICENSE
+!/NOTICE
+!/package.json
+!/package-lock.json
+!/eleventy.config.js
+!/website/
+
+# Für den Bau nötig: das Iconset (Zeichenübersicht der Icons-Seite) und der Ort der Quellen
+!/Ressourcen/
+/Ressourcen/*
+!/Ressourcen/IBYKUS-Iconset.svg
+!/werkzeuge/
+/werkzeuge/*
+!/werkzeuge/quellen.json
+
+# Systemdateien
+.DS_Store

@@ -1,0 +1,75 @@
+---
+layout: inhaltsseite.njk
+titel: Erste Schritte
+beschreibung: "Der Einstieg in AIRLUMA: wie die Website aufgebaut ist, welcher Weg für deine Rolle passt und wo du Code, Figma-Kit, Schrift und Icons bekommst."
+dachzeile: Erste Schritte
+aktuell: erste-schritte
+seitenstil: erste-schritte.css
+---
+{#- Einstiegsseite. Ressourcen kommen aus _data/ressourcen.json: neue Links nur dort eintragen,
+    die Rollen-Schritte übernehmen sie; die Kacheln stehen auf der Übersicht „Ressourcen“. Texte sprechen mit „du“ an. -#}
+{%- from "makros.njk" import extern %}
+{#- Verweis auf eine Ressource: verfügbar → Link zu ihrer Kachel in der Übersicht „Ressourcen“, sonst Text mit „(folgt)“ -#}
+{%- macro ressource(id, text) -%}
+{%- for r in ressourcen %}{% if r.id == id %}{% if r.status == 'verfuegbar' %}<a href="ressourcen.html#ressource-{{ id }}">{{ text }}</a>{% else %}{{ text }} <span class="folgt-hinweis">(folgt)</span>{% endif %}{% endif %}{% endfor -%}
+{%- endmacro -%}
+<p class="uebersicht-einleitung">Hier findest du alles, um mit AIRLUMA zu arbeiten: wie diese Website aufgebaut ist, welcher Weg für deine Rolle der richtige ist und wo du Code, Figma-Kit, Schrift und Icons bekommst.</p>
+<p>AIRLUMA ist ein offenes Designsystem für digitale Oberflächen. Barrierefreiheit gehört von Anfang an dazu: Alle Vorgaben orientieren sich an den Web Content Accessibility Guidelines (WCAG) 2.2 auf Stufe AA.</p>
+
+<h2 id="so-nutzt-du-die-website">So nutzt du die Website</h2>
+<ul class="nutzung">
+	<li><strong>Grundlagen</strong> – Farben, Typografie, Layout, Icons und Taxonomie: die Regeln, auf denen alles aufbaut. <a href="grundlagen.html">Zu den Grundlagen</a></li>
+	<li><strong>Komponenten</strong> – jede Komponente mit drei Reitern: <em>Überblick</em> (wofür und wann), <em>Spezifikation</em> (Aufbau, Tastaturbedienung, Barrierefreiheit, Taxonomie) und <em>Do’s &amp; Don’ts</em> (was gut funktioniert und was nicht). <a href="komponenten.html">Zu den Komponenten</a></li>
+	<li><strong>Ressourcen</strong> – Figma-Kit, Web Components, Iconset, Schrift, Design Tokens und mehr, geordnet nach Design, Development und KI. <a href="ressourcen.html">Zu den Ressourcen</a></li>
+	<li><strong>Navigation</strong> – links die erste Leiste mit den Bereichen; fährst du über einen Bereich, zeigt die zweite Leiste alle seine Seiten.</li>
+	<li><strong>Suche</strong> – das Suchfeld oben rechts durchsucht alle Seiten. Schon beim Tippen erscheinen Treffer; ein Klick oder Enter führt direkt zum passenden Abschnitt, auch in einem anderen Reiter.</li>
+</ul>
+
+<h2 id="dein-einstieg">Dein Einstieg</h2>
+<ul class="rollen">
+	<li class="rolle ibkCard ibkCard-bordered ibkCard-delta-10">
+		<div class="rolle-grafik" aria-hidden="true">{% include "grafik/rolle-design.njk" %}</div>
+		<div class="rolle-inhalt">
+			<h3>Design</h3>
+			<p class="rolle-fuer">Für alle, die Oberflächen entwerfen und gestalten.</p>
+			<ol class="rolle-schritte">
+				<li>Lies die <a href="grundlagen.html">Grundlagen</a> – sie sind die gemeinsame Sprache von Design und Entwicklung.</li>
+				<li>Sieh dir die <a href="komponenten.html">Komponenten</a> an; der Reiter Do’s &amp; Don’ts zeigt, worauf es ankommt.</li>
+				<li>Hol dir das {{ ressource('figma-kit', 'Figma-Kit') }} mit allen Komponenten und Stilen.</li>
+				<li>Installiere {{ ressource('schrift', 'Schrift') }} und {{ ressource('iconset', 'Iconset') }}, damit Entwürfe aussehen wie das Ergebnis.</li>
+			</ol>
+		</div>
+	</li>
+	<li class="rolle ibkCard ibkCard-bordered ibkCard-delta-10">
+		<div class="rolle-grafik" aria-hidden="true">{% include "grafik/rolle-entwicklung.njk" %}</div>
+		<div class="rolle-inhalt">
+			<h3>Entwicklung</h3>
+			<p class="rolle-fuer">Für alle, die Oberflächen im Code umsetzen.</p>
+			<ol class="rolle-schritte">
+				<li>Binde {{ ressource('schrift', 'Schrift') }} und {{ ressource('iconset', 'Iconset') }} über das CDN ein – Beispiele stehen auf den Seiten <a href="typografie.html">Typografie</a> und <a href="icons.html">Icons</a>.</li>
+				<li>Installiere die {{ ressource('web-components', 'Web Components') }}: <code>npm install @airluma/webcomponents</code></li>
+				<li>Nutze die {{ ressource('design-tokens', 'Design Tokens') }} für Farben, Abstände und Radien.</li>
+				<li>Beachte auf jeder <a href="komponenten.html">Komponentenseite</a> im Reiter Spezifikation die Abschnitte Tastaturbedienung und Barrierefreiheit.</li>
+			</ol>
+		</div>
+	</li>
+	<li class="rolle ibkCard ibkCard-bordered ibkCard-delta-10">
+		<div class="rolle-grafik" aria-hidden="true">{% include "grafik/rolle-projekt.njk" %}</div>
+		<div class="rolle-inhalt">
+			<h3>Projektverantwortung</h3>
+			<p class="rolle-fuer">Für alle, die über den Einsatz von AIRLUMA entscheiden oder Projekte leiten.</p>
+			<ol class="rolle-schritte">
+				<li>AIRLUMA spart Zeit: Gestaltung und Code entstehen nicht in jedem Projekt neu, und Oberflächen sehen einheitlich aus. Einen ersten Eindruck gibt die <a href="index.html">Startseite</a>.</li>
+				<li>Barrierefreiheit ist eingebaut: Die Vorgaben folgen den {{ extern('WCAG 2.2', 'https://www.w3.org/TR/WCAG22/') }} auf Stufe AA. Sie sind eine gute Grundlage, ersetzen aber nicht die Prüfung des fertigen Produkts.</li>
+				<li>Führe AIRLUMA schrittweise ein: zuerst Schrift, Farben und Icons aus den <a href="grundlagen.html">Grundlagen</a>, dann einzelne Komponenten dort, wo ohnehin neu gebaut wird.</li>
+				<li>Wie du Fragen stellst, Fehler meldest oder Wünsche einbringst, steht bald auf der Seite <a href="mitmachen.html">Mitmachen</a>.</li>
+			</ol>
+		</div>
+	</li>
+</ul>
+
+<h2 id="ressourcen">Ressourcen</h2>
+<p>Alles, was du für die Arbeit mit AIRLUMA brauchst, steht gesammelt unter <a href="ressourcen.html">Ressourcen</a> – geordnet nach Design, Development und KI, mit Status und Download-Links. Schrift und Iconset liegen schon auf dem CDN bereit; was noch nicht veröffentlicht ist, trägt den Hinweis „folgt“.</p>
+
+<h2 id="hilfe-und-mitmachen">Hilfe und Mitmachen</h2>
+<p>AIRLUMA ist offen. Wie du Fragen stellst, Fehler meldest oder selbst etwas beiträgst, beschreiben wir auf der Seite <a href="mitmachen.html">Mitmachen</a>, sobald der Ablauf feststeht.</p>

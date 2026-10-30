@@ -1,0 +1,691 @@
+/* Seitenrahmen: Kopfzeile, Seitennavigation, Fußzeile */
+
+body {
+	margin: 0;
+	background: var(--white-100);
+}
+
+/* Hervorhebungen in Semibold wie in Ides (htmlelements.css), nicht Bold */
+strong,
+b {
+	font-weight: 600;
+}
+
+/* Ides Link (Werte aus link.css der Web Components), immer unterstrichen.
+   Regular für Links im Text, Decent für Fußzeile und Kacheltitel. Nur Links ohne Klasse:
+   Navigation, Buttons und Ides-Komponenten in Vorschauen behalten ihre eigenen Stile.
+   Reihenfolge: besucht vor Hover und Drücken, damit beides auch auf besuchten Links sichtbar ist. */
+:is(.doc, .uebersicht-text, .ressource-links, .platzhalter) a:not([class]) {
+	color: var(--ibk-red-41);
+	text-decoration: underline;
+}
+
+:is(.doc, .uebersicht-text, .ressource-links, .platzhalter) a:not([class]):visited {
+	color: var(--ibk-petrol-32);
+}
+
+:is(.doc, .uebersicht-text, .ressource-links, .platzhalter) a:not([class]):hover {
+	color: var(--ibk-red-49);
+}
+
+:is(.doc, .uebersicht-text, .ressource-links, .platzhalter) a:not([class]):active {
+	color: var(--ibk-red-33);
+}
+
+:is(.fusszeile-navigation, .kachel-titel) a:not([class]) {
+	color: var(--ibk-neutral-grey-10);
+	text-decoration: underline;
+}
+
+:is(.fusszeile-navigation, .kachel-titel) a:not([class]):visited {
+	color: var(--ibk-petrol-32);
+}
+
+:is(.fusszeile-navigation, .kachel-titel) a:not([class]):hover {
+	color: var(--ibk-neutral-grey-26);
+}
+
+:is(.fusszeile-navigation, .kachel-titel) a:not([class]):active {
+	color: var(--ibk-neutral-grey-2);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Aufbau: Kopfzeile oben, Fußzeile unten, dazwischen Navigation und Inhalt */
+
+.seite {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.seite-mitte {
+	flex-grow: 1;
+	display: flex;
+	min-height: 0;
+}
+
+/* Kopfzeile */
+
+.kopfzeile {
+	height: 72px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	padding: 0 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	border-bottom: 1px solid var(--ibk-petrol-90);
+	background: var(--white-100);
+}
+
+.kopfzeile-marke {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	text-decoration: none;
+}
+
+/* Markenzeichen hinter AIRLUMA (Logo und erste Nennung je Seite, Entscheidung 27.10.2026): hochgestellt, ohne die Zeilenhöhe zu verändern */
+.marke-zeichen {
+	font-size: 0.55em;
+	line-height: 0;
+	vertical-align: super;
+	margin-left: 0.05em;
+}
+
+.kopfzeile-marke-quadrat {
+	width: 12px;
+	height: 12px;
+	background: var(--brandPrimary);
+}
+
+.kopfzeile-marke-name {
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 600;
+	font-stretch: 112.5%;
+	letter-spacing: -0.2px;
+	color: var(--ibk-petrol-14);
+}
+
+/* Suchfeld: Ides-Eingabefeld (input.text.css) mit Lupe vorne */
+.kopfzeile-suche {
+	width: 320px;
+	margin: 0;
+}
+
+.kopfzeile-suche .ibkInputWrapper {
+	position: relative;
+}
+
+.kopfzeile-suche .ibkIcon {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--ibk-neutral-grey-42);
+	pointer-events: none;
+}
+
+.kopfzeile-suche input {
+	-webkit-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 40px;
+	margin: 0;
+	padding: 6px 8px 6px 42px;
+	border: 2px solid var(--ibk-neutral-grey-58);
+	border-radius: 6px 0;
+	background: var(--white-100);
+	color: var(--standard-fontcolor);
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.kopfzeile-suche input::placeholder {
+	color: var(--ibk-neutral-grey-42);
+	opacity: 1;
+}
+
+/* Trefferliste der globalen Suche (scripts/suche.js) im Aussehen des Ides Dropdown (dropdown.css, Entscheidung 30.09.2026):
+   Fläche Grey 98 mit 2 px Rahmen Grey 74, unten 10 px rund und oben bündig am Feld, Schatten; Zeilen wie die Einträge
+   (Label mittelfett links – hier die Seite in Rot –, Zusatz rechts wie ein Tastenkürzel – hier der Abschnitt –, Hover Grey 94, Fokus 2 px nach innen). Abweichung:
+   unter jeder Zeile der Textausschnitt mit dem Suchwort. Die Werte stehen hier, weil die Ides-Tokens dafür nur in
+   vorschau.css gelten. */
+.kopfzeile-suche {
+	position: relative;
+}
+
+.suche-ergebnis {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	z-index: 20;
+	box-sizing: border-box;
+	width: max(100%, 440px);
+	max-width: calc(100vw - 32px);
+	max-height: min(70vh, 560px);
+	overflow-y: auto;
+	padding: 10px 0;
+	border: 2px solid var(--ibk-neutral-grey-74);
+	border-radius: 0 0 10px 10px;
+	background: rgb(250, 250, 250);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.suche-ergebnis[hidden] {
+	display: none;
+}
+
+.suche-liste {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.suche-treffer {
+	padding: 4px 14px 4px 10px;
+	cursor: pointer;
+	color: var(--standard-fontcolor);
+}
+
+.suche-treffer:hover,
+.suche-treffer[aria-selected="true"] {
+	background: var(--ibk-neutral-grey-94);
+}
+
+/* Die gewählte Zeile trägt den Fokusrahmen, weil der Fokus selbst im Feld bleibt */
+.suche-treffer[aria-selected="true"] {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: -2px;
+}
+
+.suche-treffer-zeile {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 10px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Links die Seite, rot wie die Seitentitel; rechts der Abschnitt */
+.suche-treffer-seite {
+	flex-shrink: 0;
+	font-weight: 500;
+	color: var(--brandPrimary);
+}
+
+.suche-treffer-abschnitt {
+	font-weight: 400;
+	text-align: right;
+}
+
+.suche-treffer-auszug {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.suche-treffer-auszug mark {
+	background: none;
+	color: var(--standard-fontcolor);
+	font-weight: 600;
+}
+
+.suche-leer {
+	margin: 0;
+	padding: 4px 14px 4px 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+/* Fußzeile */
+
+.fusszeile {
+	min-height: 72px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	padding: 0 32px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px 24px;
+	border-top: 1px solid var(--ibk-petrol-90);
+	background: var(--white-100);
+}
+
+.fusszeile-copyright {
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--ibk-neutral-grey-42);
+}
+
+.fusszeile-navigation ul {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.fusszeile-navigation a {
+	/* mindestens 24 px hoch (WCAG 2.5.8) */
+	display: inline-flex;
+	align-items: center;
+	min-height: 24px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* Seitennavigation: Bereichsleiste (erste Leiste) */
+
+.seitennavigation {
+	position: relative;
+	z-index: 10;
+	display: flex;
+	flex-shrink: 0;
+	min-height: 0;
+}
+
+.bereichsleiste {
+	box-sizing: border-box;
+	padding: 16px 8px;
+	overflow-y: auto;
+	background: var(--ibk-petrol-98);
+	border-right: 1px solid var(--ibk-petrol-90);
+}
+
+/* Ides Bottom Navigation senkrecht gestellt (Abweichung, siehe Plan) */
+.bereichsleiste .ibkBottomNavigation-list {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+/* Feine Linie zwischen Links (Startseite, Erste Schritte), Bereichen und Mitmachen */
+.bereichsleiste-erster-bereich,
+.bereichsleiste-abschluss {
+	margin-top: 8px;
+	padding-top: 16px;
+	border-top: 1px solid var(--ibk-petrol-90);
+}
+
+/* Offener Bereich: dauerhaft der Hover-Grund (Abweichung, siehe Plan) */
+.bereichsleiste .ibkBottomNavigation-item[aria-expanded="true"] {
+	background: var(--ibk-neutral-grey-90);
+}
+
+/* Bereich der aktuellen Seite: Petrol wie „ausgewählt“, bleibt aber Link */
+.bereichsleiste .ibkBottomNavigation-item.bereich-aktuell,
+.bereichsleiste .ibkBottomNavigation-item.bereich-aktuell:hover,
+.bereichsleiste .ibkBottomNavigation-item.bereich-aktuell[aria-expanded="true"] {
+	background: var(--ibk-petrol-32);
+	color: var(--white-100);
+}
+
+/* Fokus auf dem Petrol hinterlegten Bereich: Rahmen außen auf weißem Grund, innen hätte Info 34 auf Petrol 32 nur 1,3 : 1 */
+.bereichsleiste .ibkBottomNavigation-item.bereich-aktuell:focus-visible {
+	outline-offset: 2px;
+}
+
+/* Zweite Leiste: legt sich neben der Bereichsleiste über den Inhalt.
+   Sie steht im HTML im Listeneintrag ihres Bereichs; ihr Bezugsrahmen ist
+   die ganze Seitennavigation, daher reicht sie von oben bis unten. */
+
+/* Zu: hinter der ersten Leiste versteckt, unsichtbar und nicht per Tab erreichbar.
+   Die Sichtbarkeit wechselt erst, wenn das Zurückfahren fertig ist. */
+.bereich {
+	transform: translateX(-100%);
+	visibility: hidden;
+	transition: transform .2s ease-in, visibility 0s linear .2s;
+}
+
+/* Offen: fährt nach rechts heraus */
+.bereich.offen {
+	transform: translateX(0);
+	visibility: visible;
+	transition: transform .25s ease-out, visibility 0s;
+}
+
+/* Beim Wechsel zwischen Bereichen fährt nichts neu heraus */
+.bereich.ohne-animation {
+	transition: none;
+}
+
+.bereich {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	width: 256px;
+	box-sizing: border-box;
+	padding: 24px 16px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	background: var(--white-100);
+	border-right: 1px solid var(--ibk-petrol-90);
+	/* Ides-Schatten zur Seite gedreht – bewusste Ausnahme, siehe Plan.
+	   Oben und unten abgeschnitten, damit er nur auf den Inhalt fällt. */
+	box-shadow: 4px 0 4px 0 rgba(0, 0, 0, 0.25);
+	clip-path: inset(0 -12px 0 0);
+	/* Liegt hinter der ersten Leiste, aber über dem Inhalt */
+	z-index: -1;
+}
+
+/* Komponenten: aufklappbare Gruppen */
+.bereich[role="group"] {
+	gap: 2px;
+}
+
+.bereich-gruppe {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.bereich-gruppe-titel {
+	margin: 0;
+}
+
+.bereich-gruppe ul {
+	padding-bottom: 8px;
+}
+
+.bereich ul[hidden] {
+	display: none;
+}
+
+.navigation-schalter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	width: 100%;
+	min-height: 40px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 8px;
+	border: 0;
+	border-radius: 2px;
+	background: transparent;
+	color: var(--ibk-petrol-32);
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	cursor: pointer;
+	transition: background-color .2s ease-in-out;
+}
+
+.navigation-schalter:hover,
+.navigation-schalter[aria-expanded="true"] {
+	background: var(--ibk-petrol-90);
+}
+
+.navigation-pfeil {
+	flex-shrink: 0;
+	transition: transform .2s ease-in-out;
+}
+
+.navigation-schalter[aria-expanded="false"] .navigation-pfeil {
+	transform: rotate(-90deg);
+}
+
+.bereich ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.navigation-eintrag {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	min-height: 40px;
+	box-sizing: border-box;
+	padding: 8px;
+	border-radius: 2px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: var(--ibk-petrol-32);
+	transition: background-color .2s ease-in-out;
+}
+
+.navigation-eintrag span:not(.ibkIcon) {
+	color: var(--standard-fontcolor);
+}
+
+.navigation-eintrag:not([aria-current]):hover {
+	background: var(--ibk-petrol-90);
+}
+
+/* Aktuelle Seite */
+.navigation-eintrag[aria-current="page"] {
+	background: var(--ibk-petrol-32);
+	color: var(--white-100);
+	font-weight: 600;
+}
+
+.navigation-eintrag[aria-current="page"] span:not(.ibkIcon) {
+	color: var(--white-100);
+}
+
+/* Inhalt */
+
+.inhalt {
+	position: relative; /* Bezugsrahmen für unsichtbare Screenreader-Texte, sonst verlängern sie die Seite */
+	flex-grow: 1;
+	min-width: 0;
+	overflow-y: auto;
+}
+
+/* Menü-Button und Aufklapp-Buttons der Bereiche gibt es nur auf schmalen Bildschirmen */
+.kopfzeile-menue,
+.bereich-schalter {
+	display: none;
+}
+
+/* Schmale Bildschirme: alles untereinander, die Seite scrollt als Ganzes.
+   Ohne JavaScript bleibt es dabei (Navigation sichtbar). Mit JavaScript (Klasse mit-menue am html)
+   ist die Kopfzeile eine Zeile mit Marke und Button „Menü“; der Button öffnet Suchfeld und
+   Seitennavigation im Fluss unter der Kopfzeile (Klasse menue-offen). */
+
+@media (max-width: 1023px) {
+	.seite {
+		height: auto;
+		min-height: 100vh;
+	}
+
+	.seite-mitte {
+		flex-direction: column;
+	}
+
+	.seitennavigation {
+		flex-direction: column;
+	}
+
+	.bereichsleiste {
+		overflow-y: visible;
+		border-right: 0;
+		border-bottom: 1px solid var(--ibk-petrol-90);
+	}
+
+	/* Kein Darüberfahren auf Touch: zweite Leiste bleibt aus */
+	.bereich {
+		display: none;
+	}
+
+	/* Notlösung: Leiste als Zeile, darf hier umbrechen */
+	.bereichsleiste .ibkBottomNavigation-list {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.bereichsleiste-erster-bereich,
+	.bereichsleiste-abschluss {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
+	}
+
+	.inhalt {
+		overflow-y: visible;
+	}
+
+	.kopfzeile {
+		height: auto;
+		min-height: 72px;
+		padding: 12px 16px;
+		flex-wrap: wrap;
+	}
+
+	.kopfzeile-suche {
+		width: 100%;
+	}
+
+	.fusszeile-navigation ul {
+		flex-wrap: wrap;
+		gap: 8px 24px;
+	}
+
+	.fusszeile {
+		padding: 16px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.mit-menue .kopfzeile {
+		min-height: 64px;
+		padding: 12px 16px;
+		row-gap: 12px;
+	}
+
+	.mit-menue .kopfzeile-menue {
+		display: inline-flex;
+	}
+
+	.mit-menue .kopfzeile-suche,
+	.mit-menue .seitennavigation {
+		display: none;
+	}
+
+	.mit-menue.menue-offen .kopfzeile-suche {
+		display: block;
+		width: 100%;
+	}
+
+	/* Im geöffneten Menü steht die Liste im Fluss unter dem Feld und schiebt die Navigation nach unten */
+	.mit-menue .suche-ergebnis {
+		position: static;
+		width: 100%;
+		max-width: none;
+	}
+
+	.mit-menue.menue-offen .seitennavigation {
+		display: flex;
+		border-bottom: 1px solid var(--ibk-petrol-90);
+	}
+
+	/* Bereichsleiste als senkrechte Liste in voller Breite: Icon und Beschriftung nebeneinander */
+	.mit-menue .bereichsleiste {
+		width: 100%;
+		padding: 8px 16px 16px;
+		border-bottom: 0;
+	}
+
+	.mit-menue .bereichsleiste .ibkBottomNavigation-list {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		gap: 2px;
+	}
+
+	.mit-menue .bereichsleiste .ibkBottomNavigation-listItem {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		align-items: center;
+		column-gap: 4px;
+	}
+
+	.mit-menue .bereichsleiste-erster-bereich,
+	.mit-menue .bereichsleiste-abschluss {
+		margin-top: 8px;
+		padding-top: 8px;
+		border-top: 1px solid var(--ibk-petrol-90);
+	}
+
+	.mit-menue .bereichsleiste .ibkBottomNavigation-item {
+		flex-direction: row;
+		justify-content: flex-start;
+		gap: 12px;
+		min-width: 0;
+		min-height: 44px;
+		padding: 8px 12px;
+		border-radius: 2px;
+	}
+
+	/* Button mit Pfeil neben dem Bereich: klappt seine Seiten auf */
+	.mit-menue .bereich-schalter {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 44px;
+		height: 44px;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-radius: 2px;
+		background: transparent;
+		color: var(--ibk-petrol-32);
+		cursor: pointer;
+	}
+
+	.mit-menue .bereich-schalter:hover,
+	.mit-menue .bereich-schalter[aria-expanded="true"] {
+		background: var(--ibk-petrol-90);
+	}
+
+	.mit-menue .bereich-schalter[aria-expanded="false"] .navigation-pfeil {
+		transform: rotate(-90deg);
+	}
+
+	/* Seiten eines Bereichs: im Fluss unter dem Bereich, statt als zweite Leiste daneben */
+	.mit-menue .bereich.aufgeklappt {
+		grid-column: 1 / -1;
+		position: static;
+		display: flex;
+		width: auto;
+		padding: 4px 0 8px 16px;
+		overflow: visible;
+		transform: none;
+		visibility: visible;
+		transition: none;
+		border-right: 0;
+		box-shadow: none;
+		clip-path: none;
+		z-index: auto;
+	}
+
+	.mit-menue .navigation-eintrag,
+	.mit-menue .navigation-schalter {
+		min-height: 44px;
+	}
+}
+

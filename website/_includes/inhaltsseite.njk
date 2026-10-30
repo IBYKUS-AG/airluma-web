@@ -1,0 +1,72 @@
+---
+layout: rahmen.njk
+seitenstil: inhaltsseite.css
+---
+{#- Gerüst für Inhaltsseiten. Angaben einer Seite: titel, bereich (z. B. grundlagen), aktuell; dachzeile ersetzt den Bereichsnamen.
+    Komponentenseiten nennen zusätzlich gruppe und reiter (z. B. [ueberblick, spezifikation, dos-donts]);
+    die Reiter werden als Ides Segmented Control (Radiobuttons im Fieldset) gezeigt.
+    Gibt es für die Seite ein Storybook (_data/storybook.json), kommt als letzter Reiter „Live-Beispiel“ dazu (Entscheidung
+    09.10.2026: die Storybook-Ansicht ist lang und soll den Überblick nicht nach unten schieben).
+    Rechts steht ein Inhaltsverzeichnis „Auf dieser Seite“ aus den Überschriften der zweiten Ebene. -#}
+{%- set bereichsname = dachzeile or (bereich | bereichsname) %}
+{%- set verzeichnis = content | inhaltsverzeichnis %}
+		<div class="inhaltsseite">
+			<div class="inhaltsseite-kopf">
+{%- if bereichsname %}
+				<p class="inhaltsseite-dachzeile"><span class="inhaltsseite-dachzeile-strich" aria-hidden="true"></span>{{ bereichsname }}</p>
+{%- endif %}
+				<h1 data-pagefind-weight="10">{{ titel }}</h1>
+			</div>
+{%- set alleReiter = reiter %}
+{%- if storybook[aktuell] and reiter and reiter.length %}
+{%- set alleReiter = reiter.concat(['live-beispiel']) %}
+{%- endif %}
+{%- if alleReiter and alleReiter.length %}
+			<fieldset class="ibkSegmentedControl inhaltsseite-ansicht" hidden>
+				<legend class="nur-screenreader">Inhalte zu {{ titel }}</legend>
+				<span class="ibkSegmentedControl-thumb" aria-hidden="true"></span>
+{%- for r in alleReiter %}
+				<input class="ibkSegmentedControl-radio nur-screenreader" type="radio" name="ansicht" id="ansicht-{{ r }}" value="{{ r }}" aria-controls="{{ r }}"{% if loop.first %} checked{% endif %}>
+				<label class="ibkSegmentedControl-segment" for="ansicht-{{ r }}">{{ r | reitername }}</label>
+{%- endfor %}
+			</fieldset>
+			{#- Unter 480 px statt der Segmented Control: Ides Select „Ansicht“ (Ides-Empfehlung für schmale Bildschirme), im Takt mit den Reitern -#}
+			<link rel="stylesheet" href="styles/vorschau.css">
+			<div class="ides-komponente inhaltsseite-ansicht-auswahl" hidden>
+				<div class="ibkSelect">
+					<label class="ibkLabel" for="ansicht-auswahl"><span class="ibkLabelText">Ansicht</span></label>
+					<div class="ibkSelectWrapper">
+						<select id="ansicht-auswahl">
+{%- for r in alleReiter %}
+							<option value="{{ r }}">{{ r | reitername }}</option>
+{%- endfor %}
+						</select>
+						<i class="ibkIcon dropdown-icon" aria-hidden="true">ChevD</i>
+					</div>
+				</div>
+			</div>
+			<script src="scripts/reiter.js" defer></script>
+{%- endif %}
+			<div class="inhaltsseite-spalten">
+				<div class="doc">
+{{ content | safe }}
+{%- if alleReiter and 'live-beispiel' in alleReiter %}
+<div class="reiter-inhalt" id="live-beispiel">
+{% include "storybook.njk" %}
+</div>
+{%- endif %}
+				</div>
+{%- if verzeichnis.length >= 2 %}
+				<nav class="inhaltsverzeichnis" aria-label="Auf dieser Seite">
+					<p class="inhaltsverzeichnis-beschriftung">Auf dieser Seite</p>
+					<p class="inhaltsverzeichnis-titel">{{ titel }}</p>
+					<ul>
+{%- for eintrag in verzeichnis %}
+						<li{% if eintrag.reiter %} data-reiter="{{ eintrag.reiter }}"{% endif %}><a href="#{{ eintrag.id }}">{{ eintrag.text }}</a></li>
+{%- endfor %}
+					</ul>
+				</nav>
+				<script src="scripts/inhaltsverzeichnis.js" defer></script>
+{%- endif %}
+			</div>
+		</div>

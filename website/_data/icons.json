@@ -1,0 +1,6993 @@
+[
+	{
+		"name": "6-Dot-Pattern",
+		"codepoint": "283F",
+		"kurznamen": [
+			"6Dot"
+		],
+		"stichwoerter": [
+			"Braille Pattern 6 Dots"
+		]
+	},
+	{
+		"name": "8-Dot-Pattern",
+		"codepoint": "28FF",
+		"kurznamen": [
+			"8Dot"
+		],
+		"stichwoerter": [
+			"Braille Pattern 8 Dots"
+		]
+	},
+	{
+		"name": "Add-DtBase",
+		"codepoint": "EACD",
+		"kurznamen": [
+			"AddDtBase"
+		],
+		"stichwoerter": [
+			"Add",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Adjust",
+		"codepoint": "1F39B",
+		"kurznamen": [
+			"Adjust"
+		],
+		"stichwoerter": [
+			"Adjust"
+		]
+	},
+	{
+		"name": "Aligned-Horizontal-Center",
+		"codepoint": "EA32",
+		"kurznamen": [
+			"AlgnHorC"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"Horizontal",
+			"Center"
+		]
+	},
+	{
+		"name": "Aligned-Left",
+		"codepoint": "EA30",
+		"kurznamen": [
+			"AlgnL"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"Left"
+		]
+	},
+	{
+		"name": "Aligned-Right",
+		"codepoint": "EA31",
+		"kurznamen": [
+			"AlgnR"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"Right"
+		]
+	},
+	{
+		"name": "Aligned-To-Bottom",
+		"codepoint": "EA34",
+		"kurznamen": [
+			"AlgnBot"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"To",
+			"Bottom"
+		]
+	},
+	{
+		"name": "Aligned-To-Top",
+		"codepoint": "EA33",
+		"kurznamen": [
+			"AlgnTop"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"To",
+			"Top"
+		]
+	},
+	{
+		"name": "Aligned-Vertical-Center",
+		"codepoint": "EA35",
+		"kurznamen": [
+			"AlgnVertC"
+		],
+		"stichwoerter": [
+			"Aligned",
+			"Vertical",
+			"Center"
+		]
+	},
+	{
+		"name": "Almost-Equal",
+		"codepoint": "2248",
+		"kurznamen": [
+			"AlmEqual"
+		],
+		"stichwoerter": [
+			"Almost Equal"
+		]
+	},
+	{
+		"name": "Animation",
+		"codepoint": "E906",
+		"kurznamen": [
+			"Animation"
+		],
+		"stichwoerter": [
+			"Animation"
+		]
+	},
+	{
+		"name": "App-Dev",
+		"codepoint": "E93B",
+		"kurznamen": [
+			"AppDev"
+		],
+		"stichwoerter": [
+			"App Dev"
+		]
+	},
+	{
+		"name": "Apple",
+		"codepoint": "1F34E",
+		"kurznamen": [
+			"Apple"
+		],
+		"stichwoerter": [
+			"Apple"
+		]
+	},
+	{
+		"name": "Arrow-Down",
+		"codepoint": "2193",
+		"kurznamen": [
+			"ArrwD"
+		],
+		"stichwoerter": [
+			"Arrow Down"
+		]
+	},
+	{
+		"name": "Arrow-Down-Left",
+		"codepoint": "2199",
+		"kurznamen": [
+			"ArrwDL"
+		],
+		"stichwoerter": [
+			"Arrow Down-Left"
+		]
+	},
+	{
+		"name": "Arrow-Down-Right",
+		"codepoint": "2198",
+		"kurznamen": [
+			"ArrwDR"
+		],
+		"stichwoerter": [
+			"Arrow Down-Right"
+		]
+	},
+	{
+		"name": "Arrow-Left",
+		"codepoint": "2190",
+		"kurznamen": [
+			"ArrwL"
+		],
+		"stichwoerter": [
+			"Arrow Left"
+		]
+	},
+	{
+		"name": "Arrow-Left-Alt",
+		"codepoint": "21A9",
+		"kurznamen": [
+			"ArrwLAlt"
+		],
+		"stichwoerter": [
+			"Arrow Left Alt"
+		]
+	},
+	{
+		"name": "Arrow-Left-Right",
+		"codepoint": "2194",
+		"kurznamen": [
+			"ArrwLR"
+		],
+		"stichwoerter": [
+			"Arrow Left-Right Alt"
+		]
+	},
+	{
+		"name": "Arrow-Left-Right-Alt",
+		"codepoint": "21C6",
+		"kurznamen": [
+			"ArrwLRAlt"
+		],
+		"stichwoerter": [
+			"Arrow Left-Right Alt"
+		]
+	},
+	{
+		"name": "Arrow-Left-Right-Negativ",
+		"codepoint": "E905",
+		"kurznamen": [
+			"ArrwLRNeg"
+		],
+		"stichwoerter": [
+			"Arrow Left-Right Negativ"
+		]
+	},
+	{
+		"name": "Arrow-Right",
+		"codepoint": "2192",
+		"kurznamen": [
+			"ArrwR"
+		],
+		"stichwoerter": [
+			"Arrow Right"
+		]
+	},
+	{
+		"name": "Arrow-Right-Alt",
+		"codepoint": "21AA",
+		"kurznamen": [
+			"ArrwRAlt"
+		],
+		"stichwoerter": [
+			"Arrow Right Alt"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Down",
+		"codepoint": "E907",
+		"kurznamen": [
+			"ArrwTriaD"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Down"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Down-Bold",
+		"codepoint": "23F7",
+		"kurznamen": [
+			"ArrwTriaDB"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Down Bold"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Left",
+		"codepoint": "E908",
+		"kurznamen": [
+			"ArrwTriaL"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Left"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Left-Bold",
+		"codepoint": "23F4",
+		"kurznamen": [
+			"ArrwTriaLB"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Left Bold"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Right",
+		"codepoint": "E909",
+		"kurznamen": [
+			"ArrwTriaR"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Right"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Right-Bold",
+		"codepoint": "23F5",
+		"kurznamen": [
+			"ArrwTriaRB"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Right Bold"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Up",
+		"codepoint": "E90C",
+		"kurznamen": [
+			"ArrwTriaU"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Up"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Up-Bold",
+		"codepoint": "23F6",
+		"kurznamen": [
+			"ArrwTriaUB"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Up Bold"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Up-Down",
+		"codepoint": "E90B",
+		"kurznamen": [
+			"ArrwTriaUD"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Up-Down"
+		]
+	},
+	{
+		"name": "Arrow-Triangle-Up-Down-Bold",
+		"codepoint": "E90A",
+		"kurznamen": [
+			"ArrwTriaUDB"
+		],
+		"stichwoerter": [
+			"Arrow Triangle Up-Down Bold"
+		]
+	},
+	{
+		"name": "Arrow-Up",
+		"codepoint": "2191",
+		"kurznamen": [
+			"ArrwU"
+		],
+		"stichwoerter": [
+			"Arrow Up"
+		]
+	},
+	{
+		"name": "Arrow-Up-Down",
+		"codepoint": "21C5",
+		"kurznamen": [
+			"ArrwUD"
+		],
+		"stichwoerter": [
+			"Arrow Up-Down"
+		]
+	},
+	{
+		"name": "Arrow-Up-Down-Alt",
+		"codepoint": "E90D",
+		"kurznamen": [
+			"ArrwUDAlt"
+		],
+		"stichwoerter": [
+			"Arrow Up-Down Alt"
+		]
+	},
+	{
+		"name": "Arrow-Up-Down-Negativ",
+		"codepoint": "E90E",
+		"kurznamen": [
+			"ArrwUDNeg"
+		],
+		"stichwoerter": [
+			"Arrow Up-Down Negativ"
+		]
+	},
+	{
+		"name": "Arrow-Up-Left",
+		"codepoint": "2196",
+		"kurznamen": [
+			"ArrwUL"
+		],
+		"stichwoerter": [
+			"Arrow Up-Left"
+		]
+	},
+	{
+		"name": "Arrow-Up-Right",
+		"codepoint": "2197",
+		"kurznamen": [
+			"ArrwUR"
+		],
+		"stichwoerter": [
+			"Arrow Up-Right"
+		]
+	},
+	{
+		"name": "Artist-Palette",
+		"codepoint": "1F3A8",
+		"kurznamen": [
+			"ArtPalette"
+		],
+		"stichwoerter": [
+			"Artist Palette"
+		]
+	},
+	{
+		"name": "Assign",
+		"codepoint": "EA6A",
+		"kurznamen": [
+			"Assign"
+		],
+		"stichwoerter": [
+			"Assign"
+		]
+	},
+	{
+		"name": "Asterisk",
+		"codepoint": "2A",
+		"kurznamen": [
+			"Astrsk",
+			"Asterisk"
+		],
+		"stichwoerter": [
+			"Asterisk"
+		]
+	},
+	{
+		"name": "Asterisk-Full",
+		"codepoint": "FF0A",
+		"kurznamen": [
+			"AstrskFull"
+		],
+		"stichwoerter": [
+			"Asterisk",
+			"Full"
+		]
+	},
+	{
+		"name": "Asterisk-Math",
+		"codepoint": "2217",
+		"kurznamen": [
+			"AstrskMid",
+			"AstrskMath"
+		],
+		"stichwoerter": [
+			"Asterisk",
+			"Middle"
+		]
+	},
+	{
+		"name": "Background",
+		"codepoint": "EA3B",
+		"kurznamen": [
+			"BackGrnd"
+		],
+		"stichwoerter": [
+			"Background"
+		]
+	},
+	{
+		"name": "Backlog",
+		"codepoint": "E910",
+		"kurznamen": [
+			"Bklg"
+		],
+		"stichwoerter": [
+			"Backlog"
+		]
+	},
+	{
+		"name": "Backlog-Add",
+		"codepoint": "E90F",
+		"kurznamen": [
+			"BklgAdd"
+		],
+		"stichwoerter": [
+			"Backlog Add"
+		]
+	},
+	{
+		"name": "Backslash",
+		"codepoint": "5C",
+		"kurznamen": [
+			"SlashBack",
+			"Backslash"
+		],
+		"stichwoerter": [
+			"Backslash"
+		]
+	},
+	{
+		"name": "Badge",
+		"codepoint": "1F380",
+		"kurznamen": [
+			"Badge"
+		],
+		"stichwoerter": [
+			"Badge"
+		]
+	},
+	{
+		"name": "Bag-Shop",
+		"codepoint": "1F6CD",
+		"kurznamen": [
+			"BagShop"
+		],
+		"stichwoerter": [
+			"Bag Shop"
+		]
+	},
+	{
+		"name": "Bag-Work",
+		"codepoint": "1F4BC",
+		"kurznamen": [
+			"BagWork"
+		],
+		"stichwoerter": [
+			"Bag Work"
+		]
+	},
+	{
+		"name": "Ball",
+		"codepoint": "1F94E",
+		"kurznamen": [
+			"Ball"
+		],
+		"stichwoerter": [
+			"Ball"
+		]
+	},
+	{
+		"name": "Baseball-Bat",
+		"codepoint": "1F3CF",
+		"kurznamen": [
+			"Baseball"
+		],
+		"stichwoerter": [
+			"Baseball",
+			"Bat"
+		]
+	},
+	{
+		"name": "Battery",
+		"codepoint": "1F50B",
+		"kurznamen": [
+			"Battery"
+		],
+		"stichwoerter": [
+			"Battery"
+		]
+	},
+	{
+		"name": "BAV",
+		"codepoint": "2441",
+		"kurznamen": [
+			"BAV"
+		],
+		"stichwoerter": [
+			"BAV"
+		]
+	},
+	{
+		"name": "Bee",
+		"codepoint": "1F41D",
+		"kurznamen": [
+			"Bee"
+		],
+		"stichwoerter": [
+			"Bee"
+		]
+	},
+	{
+		"name": "Bike",
+		"codepoint": "1F6B4",
+		"kurznamen": [
+			"Bike"
+		],
+		"stichwoerter": [
+			"Bike"
+		]
+	},
+	{
+		"name": "Book-Open",
+		"codepoint": "1F4D6",
+		"kurznamen": [
+			"BkOpen"
+		],
+		"stichwoerter": [
+			"Book",
+			"Open"
+		]
+	},
+	{
+		"name": "Book-Open-Flip",
+		"codepoint": "1F56E",
+		"kurznamen": [
+			"BkOpenFlip"
+		],
+		"stichwoerter": [
+			"Book",
+			"Open",
+			"Flip"
+		]
+	},
+	{
+		"name": "Bookmark",
+		"codepoint": "1F516",
+		"kurznamen": [
+			"BkM"
+		],
+		"stichwoerter": [
+			"Bookmark"
+		]
+	},
+	{
+		"name": "Bookmark-Alt",
+		"codepoint": "E911",
+		"kurznamen": [
+			"BkMAlt"
+		],
+		"stichwoerter": [
+			"Bookmark Alt"
+		]
+	},
+	{
+		"name": "Box",
+		"codepoint": "25A1",
+		"kurznamen": [
+			"Box"
+		],
+		"stichwoerter": [
+			"Box"
+		]
+	},
+	{
+		"name": "Box-Filled",
+		"codepoint": "25A3",
+		"kurznamen": [
+			"BoxFill"
+		],
+		"stichwoerter": [
+			"Box Filled"
+		]
+	},
+	{
+		"name": "Brush",
+		"codepoint": "1F58C",
+		"kurznamen": [
+			"Brush"
+		],
+		"stichwoerter": [
+			"Brush"
+		]
+	},
+	{
+		"name": "BT",
+		"codepoint": "E902",
+		"kurznamen": [
+			"BT"
+		],
+		"stichwoerter": [
+			"BT"
+		]
+	},
+	{
+		"name": "Bug",
+		"codepoint": "1F41B",
+		"kurznamen": [
+			"Bug"
+		],
+		"stichwoerter": [
+			"Bug"
+		]
+	},
+	{
+		"name": "Bulb",
+		"codepoint": "1F4A1",
+		"kurznamen": [
+			"Bulb"
+		],
+		"stichwoerter": [
+			"Bulb"
+		]
+	},
+	{
+		"name": "Burger-Menu",
+		"codepoint": "E912",
+		"kurznamen": [
+			"BrgrMenu"
+		],
+		"stichwoerter": [
+			"Burger Menu"
+		]
+	},
+	{
+		"name": "Bus",
+		"codepoint": "1F68C",
+		"kurznamen": [
+			"Bus"
+		],
+		"stichwoerter": [
+			"Bus"
+		]
+	},
+	{
+		"name": "Calculator",
+		"codepoint": "1F5A9",
+		"kurznamen": [
+			"Calc"
+		],
+		"stichwoerter": [
+			"Calculator"
+		]
+	},
+	{
+		"name": "Calendar",
+		"codepoint": "E914",
+		"kurznamen": [
+			"Cal"
+		],
+		"stichwoerter": [
+			"Calendar"
+		]
+	},
+	{
+		"name": "Calendar-Edit",
+		"codepoint": "E913",
+		"kurznamen": [
+			"CalEdit"
+		],
+		"stichwoerter": [
+			"Calendar Edit"
+		]
+	},
+	{
+		"name": "Calender-Add-Event",
+		"codepoint": "E915",
+		"kurznamen": [
+			"CalAddEvnt"
+		],
+		"stichwoerter": [
+			"Calender Add Event"
+		]
+	},
+	{
+		"name": "Camera",
+		"codepoint": "1F4F7",
+		"kurznamen": [
+			"Cam"
+		],
+		"stichwoerter": [
+			"Camera"
+		]
+	},
+	{
+		"name": "Camera-Off",
+		"codepoint": "E916",
+		"kurznamen": [
+			"CamOff"
+		],
+		"stichwoerter": [
+			"Camera Off"
+		]
+	},
+	{
+		"name": "Camera-Video-Off",
+		"codepoint": "E917",
+		"kurznamen": [
+			"CamVidOff"
+		],
+		"stichwoerter": [
+			"Camera Video Off"
+		]
+	},
+	{
+		"name": "Camera-Video-On",
+		"codepoint": "E918",
+		"kurznamen": [
+			"CamVidOn"
+		],
+		"stichwoerter": [
+			"Camera Video On"
+		]
+	},
+	{
+		"name": "Candy",
+		"codepoint": "1F36C",
+		"kurznamen": [
+			"Candy"
+		],
+		"stichwoerter": [
+			"Candy"
+		]
+	},
+	{
+		"name": "Car-Broken",
+		"codepoint": "26CD",
+		"kurznamen": [
+			"CarBrkn"
+		],
+		"stichwoerter": [
+			"Car",
+			"Broken"
+		]
+	},
+	{
+		"name": "Card-SD",
+		"codepoint": "EA92",
+		"kurznamen": [
+			"CardSD"
+		],
+		"stichwoerter": [
+			"Card",
+			"SD"
+		]
+	},
+	{
+		"name": "Card-SIM",
+		"codepoint": "EA93",
+		"kurznamen": [
+			"CardSIM"
+		],
+		"stichwoerter": [
+			"Card",
+			"SIM"
+		]
+	},
+	{
+		"name": "Carousel-Hor",
+		"codepoint": "EAA0",
+		"kurznamen": [
+			"CarouselHor"
+		],
+		"stichwoerter": [
+			"Carousel-Hor"
+		]
+	},
+	{
+		"name": "Carousel-Vert",
+		"codepoint": "EAA1",
+		"kurznamen": [
+			"CarouselVert"
+		],
+		"stichwoerter": [
+			"Carousel-Vert"
+		]
+	},
+	{
+		"name": "Cash",
+		"codepoint": "E919",
+		"kurznamen": [
+			"Cash"
+		],
+		"stichwoerter": [
+			"Cash"
+		]
+	},
+	{
+		"name": "Category",
+		"codepoint": "EA94",
+		"kurznamen": [
+			"Catgry"
+		],
+		"stichwoerter": [
+			"Category"
+		]
+	},
+	{
+		"name": "Chair",
+		"codepoint": "1F4BA",
+		"kurznamen": [
+			"Chair"
+		],
+		"stichwoerter": [
+			"Chair"
+		]
+	},
+	{
+		"name": "Checkmark",
+		"codepoint": "2713",
+		"kurznamen": [
+			"ChkM"
+		],
+		"stichwoerter": [
+			"Checkmark"
+		]
+	},
+	{
+		"name": "Checkmark-Boxed",
+		"codepoint": "2611",
+		"kurznamen": [
+			"ChkMBox"
+		],
+		"stichwoerter": [
+			"Checkmark Boxed"
+		]
+	},
+	{
+		"name": "Checkmark-Circled",
+		"codepoint": "E91A",
+		"kurznamen": [
+			"ChkMCirc"
+		],
+		"stichwoerter": [
+			"Checkmark Circled"
+		]
+	},
+	{
+		"name": "Chevron-Collapse",
+		"codepoint": "16B7",
+		"kurznamen": [
+			"Collapse",
+			"ChevDU"
+		],
+		"stichwoerter": [
+			"Chevron",
+			"Collapse"
+		]
+	},
+	{
+		"name": "Chevron-Double-Down",
+		"codepoint": "2B87",
+		"kurznamen": [
+			"ChevDoblD"
+		],
+		"stichwoerter": [
+			"Chevron",
+			"Double",
+			"Down"
+		]
+	},
+	{
+		"name": "Chevron-Double-Left",
+		"codepoint": "2B84",
+		"kurznamen": [
+			"ChevDoblL"
+		],
+		"stichwoerter": [
+			"Chevron",
+			"Double",
+			"Left"
+		]
+	},
+	{
+		"name": "Chevron-Double-Right",
+		"codepoint": "2B86",
+		"kurznamen": [
+			"ChevDoblR"
+		],
+		"stichwoerter": [
+			"Chevron",
+			"Double",
+			"Right"
+		]
+	},
+	{
+		"name": "Chevron-Double-Up",
+		"codepoint": "2B85",
+		"kurznamen": [
+			"ChevDoblU"
+		],
+		"stichwoerter": [
+			"Chevron",
+			"Double",
+			"Up"
+		]
+	},
+	{
+		"name": "Chevron-Down",
+		"codepoint": "E91C",
+		"kurznamen": [
+			"ChevD"
+		],
+		"stichwoerter": [
+			"Chevron Down"
+		]
+	},
+	{
+		"name": "Chevron-Down-Big",
+		"codepoint": "E91B",
+		"kurznamen": [
+			"ChevDBig"
+		],
+		"stichwoerter": [
+			"Chevron Down Big"
+		]
+	},
+	{
+		"name": "Chevron-Left",
+		"codepoint": "E91E",
+		"kurznamen": [
+			"ChevL"
+		],
+		"stichwoerter": [
+			"Chevron Left"
+		]
+	},
+	{
+		"name": "Chevron-Left-Big",
+		"codepoint": "E91D",
+		"kurznamen": [
+			"ChevLBig"
+		],
+		"stichwoerter": [
+			"Chevron Left Big"
+		]
+	},
+	{
+		"name": "Chevron-Page-First",
+		"codepoint": "E91F",
+		"kurznamen": [
+			"ChevPageFrst"
+		],
+		"stichwoerter": [
+			"Chevron Page First"
+		]
+	},
+	{
+		"name": "Chevron-Page-Last",
+		"codepoint": "E920",
+		"kurznamen": [
+			"ChevPageLast"
+		],
+		"stichwoerter": [
+			"Chevron Page Last"
+		]
+	},
+	{
+		"name": "Chevron-Right",
+		"codepoint": "E922",
+		"kurznamen": [
+			"ChevR"
+		],
+		"stichwoerter": [
+			"Chevron Right"
+		]
+	},
+	{
+		"name": "Chevron-Right-Big",
+		"codepoint": "E921",
+		"kurznamen": [
+			"ChevRBig"
+		],
+		"stichwoerter": [
+			"Chevron Right Big"
+		]
+	},
+	{
+		"name": "Chevron-Up",
+		"codepoint": "E925",
+		"kurznamen": [
+			"ChevU"
+		],
+		"stichwoerter": [
+			"Chevron Up"
+		]
+	},
+	{
+		"name": "Chevron-Up-Big",
+		"codepoint": "E923",
+		"kurznamen": [
+			"ChevUBig"
+		],
+		"stichwoerter": [
+			"Chevron Up Big"
+		]
+	},
+	{
+		"name": "Chevron-Up-Down",
+		"codepoint": "E924",
+		"kurznamen": [
+			"Expand",
+			"ChevUD"
+		],
+		"stichwoerter": [
+			"Chevron Up-Down"
+		]
+	},
+	{
+		"name": "Chip",
+		"codepoint": "E926",
+		"kurznamen": [
+			"Chip"
+		],
+		"stichwoerter": [
+			"Chip"
+		]
+	},
+	{
+		"name": "Circle",
+		"codepoint": "26AA",
+		"kurznamen": [
+			"Circle"
+		],
+		"stichwoerter": [
+			"Circle"
+		]
+	},
+	{
+		"name": "Close",
+		"codepoint": "1F5D9",
+		"kurznamen": [
+			"Cls",
+			"Close"
+		],
+		"stichwoerter": [
+			"Close"
+		]
+	},
+	{
+		"name": "Close-Boxed",
+		"codepoint": "2612",
+		"kurznamen": [
+			"ClsBox"
+		],
+		"stichwoerter": [
+			"Close Boxed"
+		]
+	},
+	{
+		"name": "Close-Circled",
+		"codepoint": "E927",
+		"kurznamen": [
+			"ClsCirc"
+		],
+		"stichwoerter": [
+			"Close Circled"
+		]
+	},
+	{
+		"name": "Cloud-Checked",
+		"codepoint": "E928",
+		"kurznamen": [
+			"CloudChk"
+		],
+		"stichwoerter": [
+			"Cloud Checked"
+		]
+	},
+	{
+		"name": "Cloud-Download",
+		"codepoint": "E929",
+		"kurznamen": [
+			"CloudDlo"
+		],
+		"stichwoerter": [
+			"Cloud Download"
+		]
+	},
+	{
+		"name": "Cloud-Lightning",
+		"codepoint": "1F329",
+		"kurznamen": [
+			"Lightning"
+		],
+		"stichwoerter": [
+			"Cloud",
+			"Lightning"
+		]
+	},
+	{
+		"name": "Cloud-Storage",
+		"codepoint": "E92A",
+		"kurznamen": [
+			"CloudStor"
+		],
+		"stichwoerter": [
+			"Cloud Storage"
+		]
+	},
+	{
+		"name": "Cloud-Sync",
+		"codepoint": "E92B",
+		"kurznamen": [
+			"CloudSync"
+		],
+		"stichwoerter": [
+			"Cloud Sync"
+		]
+	},
+	{
+		"name": "Cloud-Upload",
+		"codepoint": "E92C",
+		"kurznamen": [
+			"CloudUlo"
+		],
+		"stichwoerter": [
+			"Cloud Upload"
+		]
+	},
+	{
+		"name": "Column-Add-Left",
+		"codepoint": "E92D",
+		"kurznamen": [
+			"ColAddL"
+		],
+		"stichwoerter": [
+			"Column Add Left"
+		]
+	},
+	{
+		"name": "Column-Add-Right",
+		"codepoint": "E92E",
+		"kurznamen": [
+			"ColAddR"
+		],
+		"stichwoerter": [
+			"Column Add Right"
+		]
+	},
+	{
+		"name": "Column-Delete-Left",
+		"codepoint": "E92F",
+		"kurznamen": [
+			"ColDelL"
+		],
+		"stichwoerter": [
+			"Column Delete Left"
+		]
+	},
+	{
+		"name": "Column-Delete-Right",
+		"codepoint": "E930",
+		"kurznamen": [
+			"ColDelR"
+		],
+		"stichwoerter": [
+			"Column Delete Right"
+		]
+	},
+	{
+		"name": "Column-Empty-Delete",
+		"codepoint": "EA62",
+		"kurznamen": [
+			"ColEmptDel"
+		],
+		"stichwoerter": [
+			"Column",
+			"Empty",
+			"Delete"
+		]
+	},
+	{
+		"name": "Column-Empty-Disable",
+		"codepoint": "EA63",
+		"kurznamen": [
+			"ColEmptDis"
+		],
+		"stichwoerter": [
+			"Column",
+			"Empty",
+			"Disable"
+		]
+	},
+	{
+		"name": "Column-Move-Left",
+		"codepoint": "E931",
+		"kurznamen": [
+			"ColMoveL"
+		],
+		"stichwoerter": [
+			"Column Move Left"
+		]
+	},
+	{
+		"name": "Column-Move-Right",
+		"codepoint": "E932",
+		"kurznamen": [
+			"ColMoveR"
+		],
+		"stichwoerter": [
+			"Column Move Right"
+		]
+	},
+	{
+		"name": "Comment",
+		"codepoint": "1F4AC",
+		"kurznamen": [
+			"Comment"
+		],
+		"stichwoerter": [
+			"Comment"
+		]
+	},
+	{
+		"name": "Comment-Add",
+		"codepoint": "E933",
+		"kurznamen": [
+			"ComAdd"
+		],
+		"stichwoerter": [
+			"Comment Add"
+		]
+	},
+	{
+		"name": "Comment-Column",
+		"codepoint": "E934",
+		"kurznamen": [
+			"ComCol"
+		],
+		"stichwoerter": [
+			"Comment Column"
+		]
+	},
+	{
+		"name": "Comment-Delete",
+		"codepoint": "E935",
+		"kurznamen": [
+			"ComDel"
+		],
+		"stichwoerter": [
+			"Comment Delete"
+		]
+	},
+	{
+		"name": "Comment-Edit",
+		"codepoint": "E936",
+		"kurznamen": [
+			"ComEdit"
+		],
+		"stichwoerter": [
+			"Comment Edit"
+		]
+	},
+	{
+		"name": "Commit-DtBase",
+		"codepoint": "EACB",
+		"kurznamen": [
+			"ComDtBase"
+		],
+		"stichwoerter": [
+			"Commit",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Compass",
+		"codepoint": "1F9ED",
+		"kurznamen": [
+			"Compass"
+		],
+		"stichwoerter": [
+			"Compass"
+		]
+	},
+	{
+		"name": "Component",
+		"codepoint": "1F9F1",
+		"kurznamen": [
+			"Cmpt"
+		],
+		"stichwoerter": [
+			"Component"
+		]
+	},
+	{
+		"name": "Cookie",
+		"codepoint": "1F36A",
+		"kurznamen": [
+			"Cookie"
+		],
+		"stichwoerter": [
+			"Cookie"
+		]
+	},
+	{
+		"name": "Copy",
+		"codepoint": "2398",
+		"kurznamen": [
+			"Copy"
+		],
+		"stichwoerter": [
+			"Copy"
+		]
+	},
+	{
+		"name": "Credit-Card",
+		"codepoint": "1F4B3",
+		"kurznamen": [
+			"CrdtCard"
+		],
+		"stichwoerter": [
+			"Credit Card"
+		]
+	},
+	{
+		"name": "Credit-Card-Add",
+		"codepoint": "E937",
+		"kurznamen": [
+			"CrdtCardAdd"
+		],
+		"stichwoerter": [
+			"Credit Card Add"
+		]
+	},
+	{
+		"name": "Criss-Cross",
+		"codepoint": "1F500",
+		"kurznamen": [
+			"CrisCros"
+		],
+		"stichwoerter": [
+			"Criss Cross"
+		]
+	},
+	{
+		"name": "Crop",
+		"codepoint": "E938",
+		"kurznamen": [
+			"Crop"
+		],
+		"stichwoerter": [
+			"Crop"
+		]
+	},
+	{
+		"name": "Cut",
+		"codepoint": "E939",
+		"kurznamen": [
+			"Cut"
+		],
+		"stichwoerter": [
+			"Cut"
+		]
+	},
+	{
+		"name": "Cut-Alt",
+		"codepoint": "1F487",
+		"kurznamen": [
+			"CutAlt"
+		],
+		"stichwoerter": [
+			"Cut",
+			"Alt"
+		]
+	},
+	{
+		"name": "Dashboard",
+		"codepoint": "E93A",
+		"kurznamen": [
+			"Dash"
+		],
+		"stichwoerter": [
+			"Dashboard"
+		]
+	},
+	{
+		"name": "Data-Headset",
+		"codepoint": "1F453",
+		"kurznamen": [
+			"DatHdSet"
+		],
+		"stichwoerter": [
+			"Data Headset"
+		]
+	},
+	{
+		"name": "Deny",
+		"codepoint": "1F6AB",
+		"kurznamen": [
+			"Deny"
+		],
+		"stichwoerter": [
+			"Deny"
+		]
+	},
+	{
+		"name": "Deny-Bold",
+		"codepoint": "1F6C7",
+		"kurznamen": [
+			"DenyB"
+		],
+		"stichwoerter": [
+			"Deny Bold"
+		]
+	},
+	{
+		"name": "Desktop",
+		"codepoint": "1F4BB",
+		"kurznamen": [
+			"Desktop"
+		],
+		"stichwoerter": [
+			"Desktop"
+		]
+	},
+	{
+		"name": "Diagram-DotPlot",
+		"codepoint": "E93C",
+		"kurznamen": [
+			"DgrmDot"
+		],
+		"stichwoerter": [
+			"Diagram DotPlot"
+		]
+	},
+	{
+		"name": "Diagram-Doughnut",
+		"codepoint": "E93D",
+		"kurznamen": [
+			"DgrmDght"
+		],
+		"stichwoerter": [
+			"Diagram Doughnut"
+		]
+	},
+	{
+		"name": "Diagram-Gantt",
+		"codepoint": "E93E",
+		"kurznamen": [
+			"DgrmGantt"
+		],
+		"stichwoerter": [
+			"Diagram Gantt"
+		]
+	},
+	{
+		"name": "Diagram-Graph",
+		"codepoint": "E93F",
+		"kurznamen": [
+			"DgrmGrph"
+		],
+		"stichwoerter": [
+			"Diagram Graph"
+		]
+	},
+	{
+		"name": "Diagram-Graph-Neg",
+		"codepoint": "EAC3",
+		"kurznamen": [
+			"DgrmGrphNeg"
+		],
+		"stichwoerter": [
+			"Diagram",
+			"Graph",
+			"Neg"
+		]
+	},
+	{
+		"name": "Diagram-PieChart",
+		"codepoint": "E940",
+		"kurznamen": [
+			"DgrmPie"
+		],
+		"stichwoerter": [
+			"Diagram PieChart"
+		]
+	},
+	{
+		"name": "Diagram-Pillar",
+		"codepoint": "E941",
+		"kurznamen": [
+			"DgrmPil"
+		],
+		"stichwoerter": [
+			"Diagram Pillar"
+		]
+	},
+	{
+		"name": "Diagram-Tree",
+		"codepoint": "E943",
+		"kurznamen": [
+			"DgrmTree"
+		],
+		"stichwoerter": [
+			"Diagram Tree"
+		]
+	},
+	{
+		"name": "Diagram-Tree-Alt",
+		"codepoint": "E942",
+		"kurznamen": [
+			"DgrmTreeAlt"
+		],
+		"stichwoerter": [
+			"Diagram Tree Alt"
+		]
+	},
+	{
+		"name": "Diagram-Tree-Right",
+		"codepoint": "EA6D",
+		"kurznamen": [
+			"DgrmTreeR"
+		],
+		"stichwoerter": [
+			"Diagram",
+			"Tree",
+			"Right"
+		]
+	},
+	{
+		"name": "Dialboard",
+		"codepoint": "E944",
+		"kurznamen": [
+			"Dial"
+		],
+		"stichwoerter": [
+			"Dialboard"
+		]
+	},
+	{
+		"name": "Dialog",
+		"codepoint": "E945",
+		"kurznamen": [
+			"Dialog"
+		],
+		"stichwoerter": [
+			"Dialog"
+		]
+	},
+	{
+		"name": "Disc",
+		"codepoint": "26AB",
+		"kurznamen": [
+			"Disc"
+		],
+		"stichwoerter": [
+			"Disc"
+		]
+	},
+	{
+		"name": "Distribute-Horizontal",
+		"codepoint": "EA37",
+		"kurznamen": [
+			"DistHor"
+		],
+		"stichwoerter": [
+			"Distribute",
+			"Horizontally"
+		]
+	},
+	{
+		"name": "Distribute-Vertical",
+		"codepoint": "EA36",
+		"kurznamen": [
+			"DistVert"
+		],
+		"stichwoerter": [
+			"Distribute",
+			"Vertically"
+		]
+	},
+	{
+		"name": "Divide",
+		"codepoint": "F7",
+		"kurznamen": [
+			"Divide"
+		],
+		"stichwoerter": [
+			"Divide"
+		]
+	},
+	{
+		"name": "Docker",
+		"codepoint": "1F6A2",
+		"kurznamen": [
+			"Docker"
+		],
+		"stichwoerter": [
+			"Docker"
+		]
+	},
+	{
+		"name": "Doctor",
+		"codepoint": "EAB5",
+		"kurznamen": [
+			"Doctor"
+		],
+		"stichwoerter": [
+			"Doctor"
+		]
+	},
+	{
+		"name": "Dog",
+		"codepoint": "1F415",
+		"kurznamen": [
+			"Dog"
+		],
+		"stichwoerter": [
+			"Dog"
+		]
+	},
+	{
+		"name": "Dollar-Boxed",
+		"codepoint": "E946",
+		"kurznamen": [
+			"USDBox"
+		],
+		"stichwoerter": [
+			"Dollar Boxed"
+		]
+	},
+	{
+		"name": "Dollar-Circled",
+		"codepoint": "E947",
+		"kurznamen": [
+			"USDCirc"
+		],
+		"stichwoerter": [
+			"Dollar Circled"
+		]
+	},
+	{
+		"name": "Double-Point",
+		"codepoint": "3A",
+		"kurznamen": [
+			"DoblPt"
+		],
+		"stichwoerter": [
+			"Double Point"
+		]
+	},
+	{
+		"name": "Download",
+		"codepoint": "1F4E5",
+		"kurznamen": [
+			"Dlo"
+		],
+		"stichwoerter": [
+			"Download"
+		]
+	},
+	{
+		"name": "Downward",
+		"codepoint": "EA3E",
+		"kurznamen": [
+			"DWard"
+		],
+		"stichwoerter": [
+			"Downward"
+		]
+	},
+	{
+		"name": "Droplet",
+		"codepoint": "1F4A7",
+		"kurznamen": [
+			"Drop"
+		],
+		"stichwoerter": [
+			"Droplet"
+		]
+	},
+	{
+		"name": "Droplet-No",
+		"codepoint": "EABD",
+		"kurznamen": [
+			"DropNo"
+		],
+		"stichwoerter": [
+			"Droplet",
+			"No"
+		]
+	},
+	{
+		"name": "Duplicate",
+		"codepoint": "E948",
+		"kurznamen": [
+			"Dup"
+		],
+		"stichwoerter": [
+			"Duplicate"
+		]
+	},
+	{
+		"name": "DVD",
+		"codepoint": "1F4BF",
+		"kurznamen": [
+			"DVD"
+		],
+		"stichwoerter": [
+			"DVD"
+		]
+	},
+	{
+		"name": "Eat",
+		"codepoint": "1F374",
+		"kurznamen": [
+			"Eat"
+		],
+		"stichwoerter": [
+			"Eat"
+		]
+	},
+	{
+		"name": "Edit",
+		"codepoint": "270E",
+		"kurznamen": [
+			"Edit"
+		],
+		"stichwoerter": [
+			"Edit"
+		]
+	},
+	{
+		"name": "Edit-DtBase",
+		"codepoint": "EACF",
+		"kurznamen": [
+			"EditDtBase"
+		],
+		"stichwoerter": [
+			"Edit",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Eject",
+		"codepoint": "23CF",
+		"kurznamen": [
+			"Ejct"
+		],
+		"stichwoerter": [
+			"Eject"
+		]
+	},
+	{
+		"name": "Eject-Circled",
+		"codepoint": "E949",
+		"kurznamen": [
+			"EjctCirc"
+		],
+		"stichwoerter": [
+			"Eject Circled"
+		]
+	},
+	{
+		"name": "Em-Dash",
+		"codepoint": "2014",
+		"kurznamen": [
+			"EmDash"
+		],
+		"stichwoerter": [
+			"Em-Dash"
+		]
+	},
+	{
+		"name": "En-Dash",
+		"codepoint": "2013",
+		"kurznamen": [
+			"EnDash"
+		],
+		"stichwoerter": [
+			"En-Dash"
+		]
+	},
+	{
+		"name": "Envelope",
+		"codepoint": "2709",
+		"kurznamen": [
+			"Envl"
+		],
+		"stichwoerter": [
+			"Envelope"
+		]
+	},
+	{
+		"name": "Envelope-Empty",
+		"codepoint": "E94A",
+		"kurznamen": [
+			"EnvlEmpt"
+		],
+		"stichwoerter": [
+			"Envelope Empty"
+		]
+	},
+	{
+		"name": "Equal",
+		"codepoint": "3D",
+		"kurznamen": [
+			"Equal"
+		],
+		"stichwoerter": [
+			"Equal"
+		]
+	},
+	{
+		"name": "Equal-Height",
+		"codepoint": "EA39",
+		"kurznamen": [
+			"EqlH"
+		],
+		"stichwoerter": [
+			"Equal",
+			"Height"
+		]
+	},
+	{
+		"name": "Equal-HW",
+		"codepoint": "EA3A",
+		"kurznamen": [
+			"EqlHW"
+		],
+		"stichwoerter": [
+			"Equal",
+			"HW"
+		]
+	},
+	{
+		"name": "Equal-Width",
+		"codepoint": "EA38",
+		"kurznamen": [
+			"EqlW"
+		],
+		"stichwoerter": [
+			"Equal",
+			"Width"
+		]
+	},
+	{
+		"name": "Equalizer",
+		"codepoint": "1F39A",
+		"kurznamen": [
+			"EQ"
+		],
+		"stichwoerter": [
+			"Equalizer"
+		]
+	},
+	{
+		"name": "Euro-Boxed",
+		"codepoint": "E94B",
+		"kurznamen": [
+			"EURBox"
+		],
+		"stichwoerter": [
+			"Euro Boxed"
+		]
+	},
+	{
+		"name": "Euro-Circled",
+		"codepoint": "E94C",
+		"kurznamen": [
+			"EURCirc"
+		],
+		"stichwoerter": [
+			"Euro Circled"
+		]
+	},
+	{
+		"name": "Exclamation-Mark",
+		"codepoint": "21",
+		"kurznamen": [
+			"Exclamation"
+		],
+		"stichwoerter": [
+			"Exclamation",
+			"Mark"
+		]
+	},
+	{
+		"name": "Export",
+		"codepoint": "E94D",
+		"kurznamen": [
+			"Export"
+		],
+		"stichwoerter": [
+			"Export"
+		]
+	},
+	{
+		"name": "Extension",
+		"codepoint": "1F9E9",
+		"kurznamen": [
+			"Puzzle",
+			"Ext"
+		],
+		"stichwoerter": [
+			"Extension"
+		]
+	},
+	{
+		"name": "Favourite",
+		"codepoint": "1F496",
+		"kurznamen": [
+			"Fav"
+		],
+		"stichwoerter": [
+			"Favourite"
+		]
+	},
+	{
+		"name": "Filetype-AVI",
+		"codepoint": "EA99",
+		"kurznamen": [
+			"FTypAVI",
+			"AVI"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"AVI"
+		]
+	},
+	{
+		"name": "Filetype-BLOB",
+		"codepoint": "E951",
+		"kurznamen": [
+			"FTypBlob",
+			"BLOB"
+		],
+		"stichwoerter": [
+			"Filetype BLOB"
+		]
+	},
+	{
+		"name": "Filetype-BLOB-Edit",
+		"codepoint": "E94F",
+		"kurznamen": [
+			"FTypBlobEdit"
+		],
+		"stichwoerter": [
+			"Filetype BLOB Edit"
+		]
+	},
+	{
+		"name": "Filetype-BLOB-Show",
+		"codepoint": "E950",
+		"kurznamen": [
+			"FTypBlobShow"
+		],
+		"stichwoerter": [
+			"Filetype BLOB Show"
+		]
+	},
+	{
+		"name": "Filetype-Code",
+		"codepoint": "E952",
+		"kurznamen": [
+			"FTypCode",
+			"Code"
+		],
+		"stichwoerter": [
+			"Filetype Code"
+		]
+	},
+	{
+		"name": "Filetype-CSS",
+		"codepoint": "E953",
+		"kurznamen": [
+			"FTypCss",
+			"CSS"
+		],
+		"stichwoerter": [
+			"Filetype CSS"
+		]
+	},
+	{
+		"name": "Filetype-DB",
+		"codepoint": "EAAA",
+		"kurznamen": [
+			"FTypDb",
+			"DB"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"DB"
+		]
+	},
+	{
+		"name": "Filetype-DOC",
+		"codepoint": "E954",
+		"kurznamen": [
+			"FTypDoc",
+			"DOC"
+		],
+		"stichwoerter": [
+			"Filetype DOC"
+		]
+	},
+	{
+		"name": "Filetype-EXE",
+		"codepoint": "EAA3",
+		"kurznamen": [
+			"FTypExe",
+			"EXE"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"EXE"
+		]
+	},
+	{
+		"name": "Filetype-Generic-Bracket",
+		"codepoint": "E955",
+		"kurznamen": [
+			"FTypGenBra"
+		],
+		"stichwoerter": [
+			"Filetype Generic Bracket"
+		]
+	},
+	{
+		"name": "Filetype-Generic-Code",
+		"codepoint": "E956",
+		"kurznamen": [
+			"GenCode",
+			"FTypGenCode"
+		],
+		"stichwoerter": [
+			"Filetype Generic Code"
+		]
+	},
+	{
+		"name": "Filetype-HEIC",
+		"codepoint": "EA9A",
+		"kurznamen": [
+			"HEIC",
+			"FTypHEIC"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"HEIC"
+		]
+	},
+	{
+		"name": "Filetype-HEIF",
+		"codepoint": "EA9B",
+		"kurznamen": [
+			"HEIF",
+			"FTypHEIF"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"HEIF"
+		]
+	},
+	{
+		"name": "Filetype-HTML",
+		"codepoint": "E957",
+		"kurznamen": [
+			"HTML",
+			"FTypHtml"
+		],
+		"stichwoerter": [
+			"Filetype HTML"
+		]
+	},
+	{
+		"name": "Filetype-JPG",
+		"codepoint": "E958",
+		"kurznamen": [
+			"JPG",
+			"FTypJpg"
+		],
+		"stichwoerter": [
+			"Filetype JPG"
+		]
+	},
+	{
+		"name": "Filetype-JS",
+		"codepoint": "E959",
+		"kurznamen": [
+			"JS",
+			"FTypJs"
+		],
+		"stichwoerter": [
+			"Filetype JS"
+		]
+	},
+	{
+		"name": "Filetype-JSON",
+		"codepoint": "E95A",
+		"kurznamen": [
+			"JSON",
+			"FTypJson"
+		],
+		"stichwoerter": [
+			"Filetype JSON"
+		]
+	},
+	{
+		"name": "Filetype-KT",
+		"codepoint": "EAA6",
+		"kurznamen": [
+			"KT",
+			"FTypKt"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"KT"
+		]
+	},
+	{
+		"name": "Filetype-MD",
+		"codepoint": "EAA4",
+		"kurznamen": [
+			"MD",
+			"FTypMd"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"MD"
+		]
+	},
+	{
+		"name": "Filetype-Mp3",
+		"codepoint": "EA9C",
+		"kurznamen": [
+			"Mp3",
+			"FTypMP3"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"Mp3"
+		]
+	},
+	{
+		"name": "Filetype-Mp4",
+		"codepoint": "EA9D",
+		"kurznamen": [
+			"Mp4",
+			"FTypMP4"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"Mp4"
+		]
+	},
+	{
+		"name": "Filetype-OTF",
+		"codepoint": "E95B",
+		"kurznamen": [
+			"OTF",
+			"FTypOtf"
+		],
+		"stichwoerter": [
+			"Filetype OTF"
+		]
+	},
+	{
+		"name": "Filetype-PDF",
+		"codepoint": "E95C",
+		"kurznamen": [
+			"PDF",
+			"FTypPdf"
+		],
+		"stichwoerter": [
+			"Filetype PDF"
+		]
+	},
+	{
+		"name": "Filetype-PHP",
+		"codepoint": "E95D",
+		"kurznamen": [
+			"PHP",
+			"FTypPhp"
+		],
+		"stichwoerter": [
+			"Filetype PHP"
+		]
+	},
+	{
+		"name": "Filetype-PNG",
+		"codepoint": "E95E",
+		"kurznamen": [
+			"PNG",
+			"FTypPng"
+		],
+		"stichwoerter": [
+			"Filetype PNG"
+		]
+	},
+	{
+		"name": "Filetype-PPT",
+		"codepoint": "E95F",
+		"kurznamen": [
+			"PPT",
+			"FTypPpt"
+		],
+		"stichwoerter": [
+			"Filetype PPT"
+		]
+	},
+	{
+		"name": "Filetype-PSD",
+		"codepoint": "E960",
+		"kurznamen": [
+			"PSD",
+			"FTypPsd"
+		],
+		"stichwoerter": [
+			"Filetype PSD"
+		]
+	},
+	{
+		"name": "Filetype-SCSS",
+		"codepoint": "EAAB",
+		"kurznamen": [
+			"SCSS",
+			"FTypScss"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"SCSS"
+		]
+	},
+	{
+		"name": "Filetype-SQL",
+		"codepoint": "E961",
+		"kurznamen": [
+			"SQL",
+			"FTypSql"
+		],
+		"stichwoerter": [
+			"Filetype SQL"
+		]
+	},
+	{
+		"name": "Filetype-SVG",
+		"codepoint": "E962",
+		"kurznamen": [
+			"SVG",
+			"FTypSvg"
+		],
+		"stichwoerter": [
+			"Filetype SVG"
+		]
+	},
+	{
+		"name": "Filetype-SWIFT",
+		"codepoint": "EAA8",
+		"kurznamen": [
+			"SWIFT",
+			"FTypSwift"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"SWIFT"
+		]
+	},
+	{
+		"name": "Filetype-TIF",
+		"codepoint": "E963",
+		"kurznamen": [
+			"TIF",
+			"FTypTif"
+		],
+		"stichwoerter": [
+			"Filetype TIF"
+		]
+	},
+	{
+		"name": "Filetype-TS",
+		"codepoint": "EAA7",
+		"kurznamen": [
+			"TS",
+			"FTypTs"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"TS"
+		]
+	},
+	{
+		"name": "Filetype-TXT",
+		"codepoint": "E964",
+		"kurznamen": [
+			"TXT",
+			"FTypTxt"
+		],
+		"stichwoerter": [
+			"Filetype TXT"
+		]
+	},
+	{
+		"name": "Filetype-WebM",
+		"codepoint": "EA9E",
+		"kurznamen": [
+			"WebM",
+			"FTypWebM"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"WebM"
+		]
+	},
+	{
+		"name": "Filetype-WebP",
+		"codepoint": "EA9F",
+		"kurznamen": [
+			"WebP",
+			"FTypWebP"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"WebP"
+		]
+	},
+	{
+		"name": "Filetype-XAML",
+		"codepoint": "EAA9",
+		"kurznamen": [
+			"XAML",
+			"FTypXaml"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"XAML"
+		]
+	},
+	{
+		"name": "Filetype-XLS",
+		"codepoint": "E965",
+		"kurznamen": [
+			"XLS",
+			"FTypXls"
+		],
+		"stichwoerter": [
+			"Filetype XLS"
+		]
+	},
+	{
+		"name": "Filetype-XML",
+		"codepoint": "EAA5",
+		"kurznamen": [
+			"XML",
+			"FTypXml"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"XML"
+		]
+	},
+	{
+		"name": "Filetype-YAML",
+		"codepoint": "EAAC",
+		"kurznamen": [
+			"YAML",
+			"FTypYaml"
+		],
+		"stichwoerter": [
+			"Filetype",
+			"YAML"
+		]
+	},
+	{
+		"name": "Filetype-ZIP",
+		"codepoint": "E966",
+		"kurznamen": [
+			"ZIP",
+			"FTypZip"
+		],
+		"stichwoerter": [
+			"Filetype ZIP"
+		]
+	},
+	{
+		"name": "Filetype-CSV",
+		"codepoint": "EAD1",
+		"kurznamen": [
+			"CSV",
+			"FTypCSV"
+		],
+		"stichwoerter": [
+			"Filetype CSV"
+		]
+	},
+	{
+		"name": "Filetype-WOFF",
+		"codepoint": "EAD2",
+		"kurznamen": [
+			"Woff",
+			"FTypWoff"
+		],
+		"stichwoerter": [
+			"Filetype WOFF"
+		]
+	},
+	{
+		"name": "Filetype-WOFF2",
+		"codepoint": "EAD3",
+		"kurznamen": [
+			"Woff2",
+			"FTypWoff2"
+		],
+		"stichwoerter": [
+			"Filetype WOFF2"
+		]
+	},
+	{
+		"name": "Filetype-TTF",
+		"codepoint": "EAD4",
+		"kurznamen": [
+			"TTF",
+			"FTypTTF"
+		],
+		"stichwoerter": [
+			"Filetype TTF"
+		]
+	},
+	{
+		"name": "Fill-Incrementally",
+		"codepoint": "E967",
+		"kurznamen": [
+			"FillInc"
+		],
+		"stichwoerter": [
+			"Fill Incrementally"
+		]
+	},
+	{
+		"name": "Fill-Upside-Down",
+		"codepoint": "E968",
+		"kurznamen": [
+			"FillUD"
+		],
+		"stichwoerter": [
+			"Fill Upside-Down"
+		]
+	},
+	{
+		"name": "Filter",
+		"codepoint": "E969",
+		"kurznamen": [
+			"Filter"
+		],
+		"stichwoerter": [
+			"Filter"
+		]
+	},
+	{
+		"name": "Finger-Tap",
+		"codepoint": "E96A",
+		"kurznamen": [
+			"FngrTap"
+		],
+		"stichwoerter": [
+			"Finger Tap"
+		]
+	},
+	{
+		"name": "Fingerprint",
+		"codepoint": "E96B",
+		"kurznamen": [
+			"FngrPrnt"
+		],
+		"stichwoerter": [
+			"Fingerprint"
+		]
+	},
+	{
+		"name": "Fire",
+		"codepoint": "1F525",
+		"kurznamen": [
+			"Fire"
+		],
+		"stichwoerter": [
+			"Fire"
+		]
+	},
+	{
+		"name": "Fire-No",
+		"codepoint": "EAC2",
+		"kurznamen": [
+			"FireNo"
+		],
+		"stichwoerter": [
+			"Fire",
+			"No"
+		]
+	},
+	{
+		"name": "Fish",
+		"codepoint": "1F41F",
+		"kurznamen": [
+			"Fish"
+		],
+		"stichwoerter": [
+			"Fish"
+		]
+	},
+	{
+		"name": "Flag",
+		"codepoint": "2690",
+		"kurznamen": [
+			"Flag"
+		],
+		"stichwoerter": [
+			"Flag"
+		]
+	},
+	{
+		"name": "Flash",
+		"codepoint": "26A1",
+		"kurznamen": [
+			"Flash"
+		],
+		"stichwoerter": [
+			"Flash"
+		]
+	},
+	{
+		"name": "Flipchart",
+		"codepoint": "E94E",
+		"kurznamen": [
+			"Flipchart"
+		],
+		"stichwoerter": [
+			"Flipchart"
+		]
+	},
+	{
+		"name": "Folder",
+		"codepoint": "1F5C0",
+		"kurznamen": [
+			"Fldr"
+		],
+		"stichwoerter": [
+			"Folder"
+		]
+	},
+	{
+		"name": "Folder-Add",
+		"codepoint": "E96C",
+		"kurznamen": [
+			"FldrAdd"
+		],
+		"stichwoerter": [
+			"Folder Add"
+		]
+	},
+	{
+		"name": "Folder-Delete",
+		"codepoint": "E96D",
+		"kurznamen": [
+			"FldrDel"
+		],
+		"stichwoerter": [
+			"Folder Delete"
+		]
+	},
+	{
+		"name": "Folder-Lock",
+		"codepoint": "E96E",
+		"kurznamen": [
+			"FldrLoc"
+		],
+		"stichwoerter": [
+			"Folder Lock"
+		]
+	},
+	{
+		"name": "Folder-Open",
+		"codepoint": "1F5C1",
+		"kurznamen": [
+			"FldrOpen"
+		],
+		"stichwoerter": [
+			"Folder Open"
+		]
+	},
+	{
+		"name": "Folder-Sync",
+		"codepoint": "E96F",
+		"kurznamen": [
+			"FldrSync"
+		],
+		"stichwoerter": [
+			"Folder Sync"
+		]
+	},
+	{
+		"name": "Foreground",
+		"codepoint": "EA3C",
+		"kurznamen": [
+			"ForeGrnd"
+		],
+		"stichwoerter": [
+			"Foreground"
+		]
+	},
+	{
+		"name": "Globe",
+		"codepoint": "1F310",
+		"kurznamen": [
+			"Globe"
+		],
+		"stichwoerter": [
+			"Globe"
+		]
+	},
+	{
+		"name": "Grad-Cap",
+		"codepoint": "1F393",
+		"kurznamen": [
+			"GradCap"
+		],
+		"stichwoerter": [
+			"Grad",
+			"Cap"
+		]
+	},
+	{
+		"name": "Grid-100",
+		"codepoint": "E975",
+		"kurznamen": [
+			"Grid100"
+		],
+		"stichwoerter": [
+			"Grid 100"
+		]
+	},
+	{
+		"name": "Grid-25-25-25-25",
+		"codepoint": "E970",
+		"kurznamen": [
+			"Grid25"
+		],
+		"stichwoerter": [
+			"Grid 25-25-25-25"
+		]
+	},
+	{
+		"name": "Grid-30-70",
+		"codepoint": "E971",
+		"kurznamen": [
+			"Grid30"
+		],
+		"stichwoerter": [
+			"Grid 30-70"
+		]
+	},
+	{
+		"name": "Grid-33-33-33",
+		"codepoint": "E972",
+		"kurznamen": [
+			"Grid33"
+		],
+		"stichwoerter": [
+			"Grid 33-33-33"
+		]
+	},
+	{
+		"name": "Grid-3x3",
+		"codepoint": "EAA2",
+		"kurznamen": [
+			"Grid3x3"
+		],
+		"stichwoerter": [
+			"Grid-3x3"
+		]
+	},
+	{
+		"name": "Grid-50-50",
+		"codepoint": "E973",
+		"kurznamen": [
+			"Grid50"
+		],
+		"stichwoerter": [
+			"Grid 50-50"
+		]
+	},
+	{
+		"name": "Grid-70-30",
+		"codepoint": "E974",
+		"kurznamen": [
+			"Grid70"
+		],
+		"stichwoerter": [
+			"Grid 70-30"
+		]
+	},
+	{
+		"name": "Grid-New",
+		"codepoint": "E976",
+		"kurznamen": [
+			"GridNew"
+		],
+		"stichwoerter": [
+			"Grid New"
+		]
+	},
+	{
+		"name": "Grid-Show",
+		"codepoint": "EA3F",
+		"kurznamen": [
+			"GridShow"
+		],
+		"stichwoerter": [
+			"Grid",
+			"Show"
+		]
+	},
+	{
+		"name": "Gym",
+		"codepoint": "1F3CB",
+		"kurznamen": [
+			"Gym"
+		],
+		"stichwoerter": [
+			"Gym"
+		]
+	},
+	{
+		"name": "Hand",
+		"codepoint": "1F446",
+		"kurznamen": [
+			"Hand"
+		],
+		"stichwoerter": [
+			"Hand"
+		]
+	},
+	{
+		"name": "Hand-Large",
+		"codepoint": "E977",
+		"kurznamen": [
+			"HandLg"
+		],
+		"stichwoerter": [
+			"Hand Large"
+		]
+	},
+	{
+		"name": "Hand-Rotate",
+		"codepoint": "E9C3",
+		"kurznamen": [
+			"HandRota"
+		],
+		"stichwoerter": [
+			"Rotate"
+		]
+	},
+	{
+		"name": "Handshake",
+		"codepoint": "1F91D",
+		"kurznamen": [
+			"HandShake"
+		],
+		"stichwoerter": [
+			"Handshake"
+		]
+	},
+	{
+		"name": "Harvester-Field",
+		"codepoint": "100CC",
+		"kurznamen": [
+			"HarvField"
+		],
+		"stichwoerter": [
+			"Harvester",
+			"Field"
+		]
+	},
+	{
+		"name": "Headset",
+		"codepoint": "1F3A7",
+		"kurznamen": [
+			"HdSet"
+		],
+		"stichwoerter": [
+			"Headset"
+		]
+	},
+	{
+		"name": "Help-Boxed",
+		"codepoint": "E978",
+		"kurznamen": [
+			"HelpBox"
+		],
+		"stichwoerter": [
+			"Help Boxed"
+		]
+	},
+	{
+		"name": "Help-Circled",
+		"codepoint": "E979",
+		"kurznamen": [
+			"HelpCirc"
+		],
+		"stichwoerter": [
+			"Help Circled"
+		]
+	},
+	{
+		"name": "Help-Database",
+		"codepoint": "E97A",
+		"kurznamen": [
+			"HelpDtBase"
+		],
+		"stichwoerter": [
+			"Help Database"
+		]
+	},
+	{
+		"name": "Help-Keyword",
+		"codepoint": "E97B",
+		"kurznamen": [
+			"HelpKeyWrd"
+		],
+		"stichwoerter": [
+			"Help Keyword"
+		]
+	},
+	{
+		"name": "Help-Online",
+		"codepoint": "E97C",
+		"kurznamen": [
+			"HelpOnline"
+		],
+		"stichwoerter": [
+			"Help Online"
+		]
+	},
+	{
+		"name": "Hit",
+		"codepoint": "1F3AF",
+		"kurznamen": [
+			"Hit"
+		],
+		"stichwoerter": [
+			"Hit"
+		]
+	},
+	{
+		"name": "Home",
+		"codepoint": "1F3E0",
+		"kurznamen": [
+			"Home"
+		],
+		"stichwoerter": [
+			"Home"
+		]
+	},
+	{
+		"name": "Home-Net",
+		"codepoint": "EAB6",
+		"kurznamen": [
+			"HomeNet"
+		],
+		"stichwoerter": [
+			"Home",
+			"Net"
+		]
+	},
+	{
+		"name": "Home-Office",
+		"codepoint": "EAB8",
+		"kurznamen": [
+			"HomeOffice"
+		],
+		"stichwoerter": [
+			"Home",
+			"Office"
+		]
+	},
+	{
+		"name": "Horse",
+		"codepoint": "1F3A0",
+		"kurznamen": [
+			"Horse"
+		],
+		"stichwoerter": [
+			"Horse"
+		]
+	},
+	{
+		"name": "Hybrid-Storage",
+		"codepoint": "E97D",
+		"kurznamen": [
+			"HybStor"
+		],
+		"stichwoerter": [
+			"Hybrid Storage"
+		]
+	},
+	{
+		"name": "Hyphen",
+		"codepoint": "2010",
+		"kurznamen": [
+			"Hyphen"
+		],
+		"stichwoerter": [
+			"Hyphen"
+		]
+	},
+	{
+		"name": "ID-Card",
+		"codepoint": "EABB",
+		"kurznamen": [
+			"IdCard"
+		],
+		"stichwoerter": [
+			"ID",
+			"Card"
+		]
+	},
+	{
+		"name": "Import",
+		"codepoint": "E97E",
+		"kurznamen": [
+			"Import"
+		],
+		"stichwoerter": [
+			"Import"
+		]
+	},
+	{
+		"name": "Infinite",
+		"codepoint": "221E",
+		"kurznamen": [
+			"Infinite"
+		],
+		"stichwoerter": [
+			"Infinite"
+		]
+	},
+	{
+		"name": "Info-Boxed",
+		"codepoint": "E97F",
+		"kurznamen": [
+			"InfoBox"
+		],
+		"stichwoerter": [
+			"Info Boxed"
+		]
+	},
+	{
+		"name": "Info-Circled",
+		"codepoint": "E980",
+		"kurznamen": [
+			"InfoCirc"
+		],
+		"stichwoerter": [
+			"Info Circled"
+		]
+	},
+	{
+		"name": "Internet-Connection",
+		"codepoint": "EAB9",
+		"kurznamen": [
+			"InetCon"
+		],
+		"stichwoerter": [
+			"Internet",
+			"Connection"
+		]
+	},
+	{
+		"name": "Internet-Connection-Paid",
+		"codepoint": "EABA",
+		"kurznamen": [
+			"InetConPaid"
+		],
+		"stichwoerter": [
+			"Internet",
+			"Connection",
+			"Paid"
+		]
+	},
+	{
+		"name": "Jump-Down",
+		"codepoint": "E982",
+		"kurznamen": [
+			"JmpD"
+		],
+		"stichwoerter": [
+			"Jump Down"
+		]
+	},
+	{
+		"name": "Jump-Down-Alt",
+		"codepoint": "E981",
+		"kurznamen": [
+			"JmpDAlt"
+		],
+		"stichwoerter": [
+			"Jump Down Alt"
+		]
+	},
+	{
+		"name": "Jump-Next-Equal",
+		"codepoint": "E983",
+		"kurznamen": [
+			"JmpNxtEql"
+		],
+		"stichwoerter": [
+			"Jump Next Equal"
+		]
+	},
+	{
+		"name": "Jump-Next-Unequal",
+		"codepoint": "E984",
+		"kurznamen": [
+			"JmpNxtUEql"
+		],
+		"stichwoerter": [
+			"Jump Next Unequal"
+		]
+	},
+	{
+		"name": "Jump-Previous-Equal",
+		"codepoint": "E985",
+		"kurznamen": [
+			"JmpPrvEql"
+		],
+		"stichwoerter": [
+			"Jump Previous Equal"
+		]
+	},
+	{
+		"name": "Jump-Previous-Unequal",
+		"codepoint": "E986",
+		"kurznamen": [
+			"JmpPrvUEql"
+		],
+		"stichwoerter": [
+			"Jump Previous Unequal"
+		]
+	},
+	{
+		"name": "Jump-To-Edge",
+		"codepoint": "E987",
+		"kurznamen": [
+			"JmpToEdge"
+		],
+		"stichwoerter": [
+			"Jump To Edge"
+		]
+	},
+	{
+		"name": "Jump-To-Middle",
+		"codepoint": "E988",
+		"kurznamen": [
+			"JmpToMid"
+		],
+		"stichwoerter": [
+			"Jump To Middle"
+		]
+	},
+	{
+		"name": "Jump-Up",
+		"codepoint": "E98A",
+		"kurznamen": [
+			"JmpU"
+		],
+		"stichwoerter": [
+			"Jump Up"
+		]
+	},
+	{
+		"name": "Jump-Up-Alt",
+		"codepoint": "E989",
+		"kurznamen": [
+			"JmpUAlt"
+		],
+		"stichwoerter": [
+			"Jump Up Alt"
+		]
+	},
+	{
+		"name": "Key",
+		"codepoint": "1F511",
+		"kurznamen": [
+			"Key"
+		],
+		"stichwoerter": [
+			"Key"
+		]
+	},
+	{
+		"name": "Key-Command",
+		"codepoint": "2318",
+		"kurznamen": [
+			"KeyCmd"
+		],
+		"stichwoerter": [
+			"Key Command"
+		]
+	},
+	{
+		"name": "Key-Delete-Boxed",
+		"codepoint": "2327",
+		"kurznamen": [
+			"KeyDelBox"
+		],
+		"stichwoerter": [
+			"Key",
+			"Delete",
+			"Boxed"
+		]
+	},
+	{
+		"name": "Key-Delete-Left",
+		"codepoint": "232B",
+		"kurznamen": [
+			"KeyDelL",
+			"Backspace"
+		],
+		"stichwoerter": [
+			"Key Backspace"
+		]
+	},
+	{
+		"name": "Key-Delete-Right",
+		"codepoint": "2326",
+		"kurznamen": [
+			"KeyDelR"
+		],
+		"stichwoerter": [
+			"Key",
+			"Delete",
+			"Right"
+		]
+	},
+	{
+		"name": "Key-Option",
+		"codepoint": "2325",
+		"kurznamen": [
+			"KeyOpt"
+		],
+		"stichwoerter": [
+			"Key Option"
+		]
+	},
+	{
+		"name": "Key-Shift",
+		"codepoint": "21E7",
+		"kurznamen": [
+			"KeyShft"
+		],
+		"stichwoerter": [
+			"Key Shift"
+		]
+	},
+	{
+		"name": "Key-Small",
+		"codepoint": "1F5DD",
+		"kurznamen": [
+			"KeySm"
+		],
+		"stichwoerter": [
+			"Key Small"
+		]
+	},
+	{
+		"name": "Keyboard",
+		"codepoint": "2328",
+		"kurznamen": [
+			"Keybrd"
+		],
+		"stichwoerter": [
+			"Keyboard"
+		]
+	},
+	{
+		"name": "Keyword",
+		"codepoint": "EA2E",
+		"kurznamen": [
+			"Keyword"
+		],
+		"stichwoerter": [
+			"Keyword"
+		]
+	},
+	{
+		"name": "KI",
+		"codepoint": "2363",
+		"kurznamen": [
+			"KI"
+		],
+		"stichwoerter": [
+			"KI"
+		]
+	},
+	{
+		"name": "KI-Brain",
+		"codepoint": "1F9E0",
+		"kurznamen": [
+			"KIBrain"
+		],
+		"stichwoerter": [
+			"KI",
+			"Brain"
+		]
+	},
+	{
+		"name": "KI-Chat",
+		"codepoint": "1F5F1",
+		"kurznamen": [
+			"KIChat"
+		],
+		"stichwoerter": [
+			"KI",
+			"Chat"
+		]
+	},
+	{
+		"name": "KI-Chip",
+		"codepoint": "1F5B7",
+		"kurznamen": [
+			"KIChip"
+		],
+		"stichwoerter": [
+			"KI",
+			"Chip"
+		]
+	},
+	{
+		"name": "Knob",
+		"codepoint": "EAC6",
+		"kurznamen": [
+			"Knob"
+		],
+		"stichwoerter": [
+			"Knob"
+		]
+	},
+	{
+		"name": "Label-Center",
+		"codepoint": "E98B",
+		"kurznamen": [
+			"LablCntr"
+		],
+		"stichwoerter": [
+			"Label Center"
+		]
+	},
+	{
+		"name": "Label-Left",
+		"codepoint": "E98C",
+		"kurznamen": [
+			"LablL"
+		],
+		"stichwoerter": [
+			"Label Left"
+		]
+	},
+	{
+		"name": "Label-Right",
+		"codepoint": "E98D",
+		"kurznamen": [
+			"LablR"
+		],
+		"stichwoerter": [
+			"Label Right"
+		]
+	},
+	{
+		"name": "Language-Easy",
+		"codepoint": "EA53",
+		"kurznamen": [
+			"LangEasy"
+		],
+		"stichwoerter": [
+			"Language",
+			"Easy"
+		]
+	},
+	{
+		"name": "Language-Sign",
+		"codepoint": "EA54",
+		"kurznamen": [
+			"LangSign",
+			"DGS"
+		],
+		"stichwoerter": [
+			"Language",
+			"Sign",
+			"DGS"
+		]
+	},
+	{
+		"name": "Laptop",
+		"codepoint": "E98E",
+		"kurznamen": [
+			"Laptop"
+		],
+		"stichwoerter": [
+			"Laptop"
+		]
+	},
+	{
+		"name": "Layer",
+		"codepoint": "E992",
+		"kurznamen": [
+			"Lay"
+		],
+		"stichwoerter": [
+			"Layer"
+		]
+	},
+	{
+		"name": "Layer-Add",
+		"codepoint": "E98F",
+		"kurznamen": [
+			"LayAdd"
+		],
+		"stichwoerter": [
+			"Layer Add"
+		]
+	},
+	{
+		"name": "Layer-Delete",
+		"codepoint": "E990",
+		"kurznamen": [
+			"LayDel"
+		],
+		"stichwoerter": [
+			"Layer Delete"
+		]
+	},
+	{
+		"name": "Layer-Edit",
+		"codepoint": "E991",
+		"kurznamen": [
+			"LayEdit"
+		],
+		"stichwoerter": [
+			"Layer Edit"
+		]
+	},
+	{
+		"name": "Legal",
+		"codepoint": "E993",
+		"kurznamen": [
+			"Legal"
+		],
+		"stichwoerter": [
+			"Legal"
+		]
+	},
+	{
+		"name": "Library",
+		"codepoint": "1F4DA",
+		"kurznamen": [
+			"Library"
+		],
+		"stichwoerter": [
+			"Library"
+		]
+	},
+	{
+		"name": "License-Plate",
+		"codepoint": "EA6C",
+		"kurznamen": [
+			"LcnsPlt"
+		],
+		"stichwoerter": [
+			"License",
+			"Plate"
+		]
+	},
+	{
+		"name": "Lifebelt",
+		"codepoint": "E994",
+		"kurznamen": [
+			"Life"
+		],
+		"stichwoerter": [
+			"Lifebelt"
+		]
+	},
+	{
+		"name": "Line-Add",
+		"codepoint": "FE31",
+		"kurznamen": [
+			"LineAdd"
+		],
+		"stichwoerter": [
+			"Line",
+			"Add"
+		]
+	},
+	{
+		"name": "Line-Vertical",
+		"codepoint": "7C",
+		"kurznamen": [
+			"LineVert"
+		],
+		"stichwoerter": [
+			"Vertical-Line"
+		]
+	},
+	{
+		"name": "Link",
+		"codepoint": "1F517",
+		"kurznamen": [
+			"Link"
+		],
+		"stichwoerter": [
+			"Link"
+		]
+	},
+	{
+		"name": "List",
+		"codepoint": "E996",
+		"kurznamen": [
+			"List"
+		],
+		"stichwoerter": [
+			"List"
+		]
+	},
+	{
+		"name": "List-Edit",
+		"codepoint": "EA2F",
+		"kurznamen": [
+			"ListEdit"
+		],
+		"stichwoerter": [
+			"List Edit"
+		]
+	},
+	{
+		"name": "List-Numbered",
+		"codepoint": "E995",
+		"kurznamen": [
+			"ListNum"
+		],
+		"stichwoerter": [
+			"List Numbered"
+		]
+	},
+	{
+		"name": "Location",
+		"codepoint": "E997",
+		"kurznamen": [
+			"Loc"
+		],
+		"stichwoerter": [
+			"Location"
+		]
+	},
+	{
+		"name": "Lock-Closed",
+		"codepoint": "1F512",
+		"kurznamen": [
+			"LockCls"
+		],
+		"stichwoerter": [
+			"Lock Closed"
+		]
+	},
+	{
+		"name": "Lock-DtBase",
+		"codepoint": "EACE",
+		"kurznamen": [
+			"LockDtBase"
+		],
+		"stichwoerter": [
+			"Lock",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Lock-Open",
+		"codepoint": "1F513",
+		"kurznamen": [
+			"LockOpen"
+		],
+		"stichwoerter": [
+			"Lock Open"
+		]
+	},
+	{
+		"name": "Login",
+		"codepoint": "E998",
+		"kurznamen": [
+			"Login"
+		],
+		"stichwoerter": [
+			"Login"
+		]
+	},
+	{
+		"name": "Logout",
+		"codepoint": "E999",
+		"kurznamen": [
+			"Logout"
+		],
+		"stichwoerter": [
+			"Logout"
+		]
+	},
+	{
+		"name": "Lotus",
+		"codepoint": "1104D",
+		"kurznamen": [
+			"Lotus"
+		],
+		"stichwoerter": [
+			"Lotus"
+		]
+	},
+	{
+		"name": "Macron-Low",
+		"codepoint": "2CD",
+		"kurznamen": [
+			"MacrLow"
+		],
+		"stichwoerter": [
+			"Low",
+			"Macron"
+		]
+	},
+	{
+		"name": "Mail",
+		"codepoint": "E9A0",
+		"kurznamen": [
+			"Mail"
+		],
+		"stichwoerter": [
+			"Mail"
+		]
+	},
+	{
+		"name": "Mail-Forward",
+		"codepoint": "E99A",
+		"kurznamen": [
+			"MailFW"
+		],
+		"stichwoerter": [
+			"Mail Forward"
+		]
+	},
+	{
+		"name": "Mail-Merge",
+		"codepoint": "EA2D",
+		"kurznamen": [
+			"MailMrg"
+		],
+		"stichwoerter": [
+			"Mail",
+			"Merge"
+		]
+	},
+	{
+		"name": "Mail-Open",
+		"codepoint": "E99B",
+		"kurznamen": [
+			"MailOpen"
+		],
+		"stichwoerter": [
+			"Mail Open"
+		]
+	},
+	{
+		"name": "Mail-Reply",
+		"codepoint": "E99D",
+		"kurznamen": [
+			"MailRpl"
+		],
+		"stichwoerter": [
+			"Mail Reply"
+		]
+	},
+	{
+		"name": "Mail-Reply-All",
+		"codepoint": "E99C",
+		"kurznamen": [
+			"MailRplAll"
+		],
+		"stichwoerter": [
+			"Mail Reply All"
+		]
+	},
+	{
+		"name": "Mail-Send",
+		"codepoint": "E99F",
+		"kurznamen": [
+			"MailSnd"
+		],
+		"stichwoerter": [
+			"Mail Send"
+		]
+	},
+	{
+		"name": "Mail-Send-Alt",
+		"codepoint": "E99E",
+		"kurznamen": [
+			"MailSndAlt"
+		],
+		"stichwoerter": [
+			"Mail Send Alt"
+		]
+	},
+	{
+		"name": "Map",
+		"codepoint": "E9A1",
+		"kurznamen": [
+			"Map"
+		],
+		"stichwoerter": [
+			"Map"
+		]
+	},
+	{
+		"name": "Mark-12-Long",
+		"codepoint": "EACA",
+		"kurznamen": [
+			"Mark12Lng",
+			"Dot12Lng"
+		],
+		"stichwoerter": [
+			"Mark12Long"
+		]
+	},
+	{
+		"name": "Marker-12",
+		"codepoint": "EAC7",
+		"kurznamen": [
+			"Mark12",
+			"Dot12"
+		],
+		"stichwoerter": [
+			"Marker 12"
+		]
+	},
+	{
+		"name": "Marker-16",
+		"codepoint": "EAC8",
+		"kurznamen": [
+			"Mark16",
+			"Dot16"
+		],
+		"stichwoerter": [
+			"Marker 16"
+		]
+	},
+	{
+		"name": "Marker-20",
+		"codepoint": "EAC9",
+		"kurznamen": [
+			"Mark20",
+			"Dot20"
+		],
+		"stichwoerter": [
+			"Marker 20"
+		]
+	},
+	{
+		"name": "Maximize",
+		"codepoint": "1F5D6",
+		"kurznamen": [
+			"Maxi"
+		],
+		"stichwoerter": [
+			"Maximize"
+		]
+	},
+	{
+		"name": "Medical-Kit",
+		"codepoint": "EABF",
+		"kurznamen": [
+			"MedKit"
+		],
+		"stichwoerter": [
+			"Medical",
+			"Kit"
+		]
+	},
+	{
+		"name": "Megaphone",
+		"codepoint": "1F56B",
+		"kurznamen": [
+			"Mega"
+		],
+		"stichwoerter": [
+			"Megaphone"
+		]
+	},
+	{
+		"name": "Microphone",
+		"codepoint": "E9A3",
+		"kurznamen": [
+			"Mic"
+		],
+		"stichwoerter": [
+			"Microphone"
+		]
+	},
+	{
+		"name": "Microphone-Mute",
+		"codepoint": "E9A2",
+		"kurznamen": [
+			"MicMute"
+		],
+		"stichwoerter": [
+			"Microphone Mute"
+		]
+	},
+	{
+		"name": "Minimize",
+		"codepoint": "1F5D5",
+		"kurznamen": [
+			"Mini"
+		],
+		"stichwoerter": [
+			"Minimize"
+		]
+	},
+	{
+		"name": "Minus",
+		"codepoint": "2D",
+		"kurznamen": [
+			"Minus"
+		],
+		"stichwoerter": [
+			"Minus"
+		]
+	},
+	{
+		"name": "Minus-Boxed",
+		"codepoint": "E9A4",
+		"kurznamen": [
+			"MinusBox"
+		],
+		"stichwoerter": [
+			"Minus Boxed"
+		]
+	},
+	{
+		"name": "Minus-Circle",
+		"codepoint": "229D",
+		"kurznamen": [
+			"MinusCirc"
+		],
+		"stichwoerter": [
+			"Minus Circle"
+		]
+	},
+	{
+		"name": "Mobile-Landscape",
+		"codepoint": "E9A5",
+		"kurznamen": [
+			"MobLnd"
+		],
+		"stichwoerter": [
+			"Mobile Landscape"
+		]
+	},
+	{
+		"name": "Mobile-Portrait",
+		"codepoint": "E9A6",
+		"kurznamen": [
+			"MobPor"
+		],
+		"stichwoerter": [
+			"Mobile Portrait"
+		]
+	},
+	{
+		"name": "Moon",
+		"codepoint": "1F315",
+		"kurznamen": [
+			"Moon"
+		],
+		"stichwoerter": [
+			"Moon"
+		]
+	},
+	{
+		"name": "Mouse",
+		"codepoint": "1F5AF",
+		"kurznamen": [
+			"Mouse"
+		],
+		"stichwoerter": [
+			"Mouse"
+		]
+	},
+	{
+		"name": "Move-Down",
+		"codepoint": "E9A7",
+		"kurznamen": [
+			"MoveD"
+		],
+		"stichwoerter": [
+			"Move Down"
+		]
+	},
+	{
+		"name": "Move-Up",
+		"codepoint": "E9A8",
+		"kurznamen": [
+			"MoveU"
+		],
+		"stichwoerter": [
+			"Move Up"
+		]
+	},
+	{
+		"name": "Mug",
+		"codepoint": "2615",
+		"kurznamen": [
+			"Mug"
+		],
+		"stichwoerter": [
+			"Mug"
+		]
+	},
+	{
+		"name": "Multiply",
+		"codepoint": "D7",
+		"kurznamen": [
+			"Multi"
+		],
+		"stichwoerter": [
+			"Multiply"
+		]
+	},
+	{
+		"name": "New",
+		"codepoint": "1F5D4",
+		"kurznamen": [
+			"New"
+		],
+		"stichwoerter": [
+			"New"
+		]
+	},
+	{
+		"name": "Ninja",
+		"codepoint": "1F977",
+		"kurznamen": [
+			"Ninja"
+		],
+		"stichwoerter": [
+			"Ninja"
+		]
+	},
+	{
+		"name": "No-Cloud",
+		"codepoint": "E9A9",
+		"kurznamen": [
+			"NoCloud"
+		],
+		"stichwoerter": [
+			"No Cloud"
+		]
+	},
+	{
+		"name": "Notification",
+		"codepoint": "1F514",
+		"kurznamen": [
+			"Notf"
+		],
+		"stichwoerter": [
+			"Notification"
+		]
+	},
+	{
+		"name": "Notification-Alarm",
+		"codepoint": "E9AA",
+		"kurznamen": [
+			"NotfAlrm"
+		],
+		"stichwoerter": [
+			"Notification Alarm"
+		]
+	},
+	{
+		"name": "Notification-Off",
+		"codepoint": "1F515",
+		"kurznamen": [
+			"NotfOff"
+		],
+		"stichwoerter": [
+			"Notification Off"
+		]
+	},
+	{
+		"name": "Notification-On",
+		"codepoint": "E9AB",
+		"kurznamen": [
+			"NotfOn"
+		],
+		"stichwoerter": [
+			"Notification On"
+		]
+	},
+	{
+		"name": "NutBolt",
+		"codepoint": "1F529",
+		"kurznamen": [
+			"Nut"
+		],
+		"stichwoerter": [
+			"NutBolt"
+		]
+	},
+	{
+		"name": "Office-Building",
+		"codepoint": "1F3E2",
+		"kurznamen": [
+			"Buildings"
+		],
+		"stichwoerter": [
+			"Office Building"
+		]
+	},
+	{
+		"name": "Office-Net",
+		"codepoint": "EAB7",
+		"kurznamen": [
+			"OfficeNet"
+		],
+		"stichwoerter": [
+			"Office",
+			"Net"
+		]
+	},
+	{
+		"name": "Omega",
+		"codepoint": "3A9",
+		"kurznamen": [
+			"Omega"
+		],
+		"stichwoerter": [
+			"Omega"
+		]
+	},
+	{
+		"name": "On-Premises-Storage",
+		"codepoint": "1F5B4",
+		"kurznamen": [
+			"PremStor",
+			"DtBase"
+		],
+		"stichwoerter": [
+			"On-Premises Storage"
+		]
+	},
+	{
+		"name": "OnOff",
+		"codepoint": "23FB",
+		"kurznamen": [
+			"OnOff"
+		],
+		"stichwoerter": [
+			"OnOff"
+		]
+	},
+	{
+		"name": "Origami-Bird",
+		"codepoint": "E9C1",
+		"kurznamen": [
+			"Origami"
+		],
+		"stichwoerter": [
+			"Origami Bird"
+		]
+	},
+	{
+		"name": "P-Boxed",
+		"codepoint": "1F13F",
+		"kurznamen": [
+			"PBox"
+		],
+		"stichwoerter": [
+			"P",
+			"Boxed"
+		]
+	},
+	{
+		"name": "P-Circled",
+		"codepoint": "1F15F",
+		"kurznamen": [
+			"PCirc"
+		],
+		"stichwoerter": [
+			"P",
+			"Circled"
+		]
+	},
+	{
+		"name": "P-Circled-No",
+		"codepoint": "1F1F5",
+		"kurznamen": [
+			"PCircNo"
+		],
+		"stichwoerter": [
+			"P",
+			"Circled",
+			"No"
+		]
+	},
+	{
+		"name": "P-E",
+		"codepoint": "1F50C",
+		"kurznamen": [
+			"PE"
+		],
+		"stichwoerter": [
+			"P",
+			"E"
+		]
+	},
+	{
+		"name": "Pacman",
+		"codepoint": "E904",
+		"kurznamen": [
+			"Pacman"
+		],
+		"stichwoerter": [
+			"Pacman"
+		]
+	},
+	{
+		"name": "Page-Blank",
+		"codepoint": "E9AC",
+		"kurznamen": [
+			"PageBlnk"
+		],
+		"stichwoerter": [
+			"Page Blank"
+		]
+	},
+	{
+		"name": "Page-Check",
+		"codepoint": "1F5F9",
+		"kurznamen": [
+			"PageOk"
+		],
+		"stichwoerter": [
+			"Page",
+			"Check"
+		]
+	},
+	{
+		"name": "Page-Deny",
+		"codepoint": "1F5F7",
+		"kurznamen": [
+			"PageDeny"
+		],
+		"stichwoerter": [
+			"Page",
+			"Deny"
+		]
+	},
+	{
+		"name": "Page-Edit",
+		"codepoint": "1F4DD",
+		"kurznamen": [
+			"PageEdit"
+		],
+		"stichwoerter": [
+			"Page",
+			"Edit"
+		]
+	},
+	{
+		"name": "Page-First",
+		"codepoint": "21E4",
+		"kurznamen": [
+			"PageFrst"
+		],
+		"stichwoerter": [
+			"Page First"
+		]
+	},
+	{
+		"name": "Page-Last",
+		"codepoint": "21E5",
+		"kurznamen": [
+			"PageLast"
+		],
+		"stichwoerter": [
+			"Page Last"
+		]
+	},
+	{
+		"name": "Page-New",
+		"codepoint": "E9AD",
+		"kurznamen": [
+			"PageNew"
+		],
+		"stichwoerter": [
+			"Page New"
+		]
+	},
+	{
+		"name": "Page-Pile",
+		"codepoint": "E9AE",
+		"kurznamen": [
+			"PagePile"
+		],
+		"stichwoerter": [
+			"Page Pile"
+		]
+	},
+	{
+		"name": "Page-Text",
+		"codepoint": "1F4C4",
+		"kurznamen": [
+			"PageTxt"
+		],
+		"stichwoerter": [
+			"Page",
+			"Text"
+		]
+	},
+	{
+		"name": "Paper-Broken",
+		"codepoint": "EABE",
+		"kurznamen": [
+			"PageBrkn"
+		],
+		"stichwoerter": [
+			"Paper",
+			"Broken"
+		]
+	},
+	{
+		"name": "Paper-Clip",
+		"codepoint": "1F4CE",
+		"kurznamen": [
+			"PapClip"
+		],
+		"stichwoerter": [
+			"Paper Clip"
+		]
+	},
+	{
+		"name": "Partypopper",
+		"codepoint": "1F389",
+		"kurznamen": [
+			"Partypopper",
+			"Party"
+		],
+		"stichwoerter": [
+			"Partypopper"
+		]
+	},
+	{
+		"name": "Paste",
+		"codepoint": "E9AF",
+		"kurznamen": [
+			"Paste"
+		],
+		"stichwoerter": [
+			"Paste"
+		]
+	},
+	{
+		"name": "Paste-Alt",
+		"codepoint": "1F5D0",
+		"kurznamen": [
+			"PasteAlt"
+		],
+		"stichwoerter": [
+			"Paste",
+			"Alt"
+		]
+	},
+	{
+		"name": "Patch",
+		"codepoint": "EA2A",
+		"kurznamen": [
+			"Patch"
+		],
+		"stichwoerter": [
+			"Patch"
+		]
+	},
+	{
+		"name": "Pause",
+		"codepoint": "23F8",
+		"kurznamen": [
+			"Pause"
+		],
+		"stichwoerter": [
+			"Pause"
+		]
+	},
+	{
+		"name": "Pause-Circled",
+		"codepoint": "E9B0",
+		"kurznamen": [
+			"PauseCirc"
+		],
+		"stichwoerter": [
+			"Pause Circled"
+		]
+	},
+	{
+		"name": "Phone",
+		"codepoint": "E9B6",
+		"kurznamen": [
+			"Phone"
+		],
+		"stichwoerter": [
+			"Phone"
+		]
+	},
+	{
+		"name": "Phone-Deny",
+		"codepoint": "E9B1",
+		"kurznamen": [
+			"PhoneDeny"
+		],
+		"stichwoerter": [
+			"Phone Deny"
+		]
+	},
+	{
+		"name": "Phone-Handsfree",
+		"codepoint": "E9B2",
+		"kurznamen": [
+			"PhoneHandF"
+		],
+		"stichwoerter": [
+			"Phone Handsfree"
+		]
+	},
+	{
+		"name": "Phone-In",
+		"codepoint": "E9B3",
+		"kurznamen": [
+			"PhoneIn"
+		],
+		"stichwoerter": [
+			"Phone In"
+		]
+	},
+	{
+		"name": "Phone-Off",
+		"codepoint": "E9B4",
+		"kurznamen": [
+			"PhoneOff"
+		],
+		"stichwoerter": [
+			"Phone Off"
+		]
+	},
+	{
+		"name": "Phone-Out",
+		"codepoint": "E9B5",
+		"kurznamen": [
+			"PhoneOut"
+		],
+		"stichwoerter": [
+			"Phone Out"
+		]
+	},
+	{
+		"name": "Photo-Add",
+		"codepoint": "1F4F8",
+		"kurznamen": [
+			"PhotoAdd"
+		],
+		"stichwoerter": [
+			"Photo Add"
+		]
+	},
+	{
+		"name": "Picture",
+		"codepoint": "1F5BB",
+		"kurznamen": [
+			"Pict"
+		],
+		"stichwoerter": [
+			"Picture"
+		]
+	},
+	{
+		"name": "Picture-Broken",
+		"codepoint": "EA95",
+		"kurznamen": [
+			"PictBrkn"
+		],
+		"stichwoerter": [
+			"Picture",
+			"Broken"
+		]
+	},
+	{
+		"name": "Picture-Delete",
+		"codepoint": "1F5BE",
+		"kurznamen": [
+			"PictDel"
+		],
+		"stichwoerter": [
+			"Picture",
+			"Delete"
+		]
+	},
+	{
+		"name": "Picture-Missing",
+		"codepoint": "EA96",
+		"kurznamen": [
+			"PictMiss"
+		],
+		"stichwoerter": [
+			"Picture",
+			"Missing"
+		]
+	},
+	{
+		"name": "Picture-No",
+		"codepoint": "1F5BD",
+		"kurznamen": [
+			"PictNo"
+		],
+		"stichwoerter": [
+			"Picture",
+			"No"
+		]
+	},
+	{
+		"name": "Picture-Pile",
+		"codepoint": "EAAD",
+		"kurznamen": [
+			"PictPile"
+		],
+		"stichwoerter": [
+			"Picture",
+			"Pile"
+		]
+	},
+	{
+		"name": "Plant",
+		"codepoint": "1F331",
+		"kurznamen": [
+			"Plant"
+		],
+		"stichwoerter": [
+			"Plant"
+		]
+	},
+	{
+		"name": "Plant-E",
+		"codepoint": "10095",
+		"kurznamen": [
+			"PlantE"
+		],
+		"stichwoerter": [
+			"Plant",
+			"E"
+		]
+	},
+	{
+		"name": "Play",
+		"codepoint": "E9B8",
+		"kurznamen": [
+			"Play"
+		],
+		"stichwoerter": [
+			"Play"
+		]
+	},
+	{
+		"name": "Play-Circled",
+		"codepoint": "E9B7",
+		"kurznamen": [
+			"PlayCirc"
+		],
+		"stichwoerter": [
+			"Play Circled"
+		]
+	},
+	{
+		"name": "Play-List",
+		"codepoint": "EA6F",
+		"kurznamen": [
+			"PlayList"
+		],
+		"stichwoerter": [
+			"Play",
+			"List"
+		]
+	},
+	{
+		"name": "Plug-E",
+		"codepoint": "EAC5",
+		"kurznamen": [
+			"PlugE"
+		],
+		"stichwoerter": [
+			"Plug",
+			"E"
+		]
+	},
+	{
+		"name": "Plug-E-No",
+		"codepoint": "EAC4",
+		"kurznamen": [
+			"PlugENo"
+		],
+		"stichwoerter": [
+			"Plug",
+			"E",
+			"No"
+		]
+	},
+	{
+		"name": "Plus",
+		"codepoint": "2B",
+		"kurznamen": [
+			"Plus"
+		],
+		"stichwoerter": [
+			"Plus"
+		]
+	},
+	{
+		"name": "Plus-Boxed",
+		"codepoint": "E9B9",
+		"kurznamen": [
+			"PlusBox"
+		],
+		"stichwoerter": [
+			"Plus Boxed"
+		]
+	},
+	{
+		"name": "Plus-Circled",
+		"codepoint": "2295",
+		"kurznamen": [
+			"PlusCirc"
+		],
+		"stichwoerter": [
+			"Plus Circled"
+		]
+	},
+	{
+		"name": "Point-Add",
+		"codepoint": "2E30",
+		"kurznamen": [
+			"PtAdd"
+		],
+		"stichwoerter": [
+			"Point",
+			"Add"
+		]
+	},
+	{
+		"name": "Point-Centered",
+		"codepoint": "2613",
+		"kurznamen": [
+			"PtCenter"
+		],
+		"stichwoerter": [
+			"Point",
+			"Centered"
+		]
+	},
+	{
+		"name": "Poison",
+		"codepoint": "1F571",
+		"kurznamen": [
+			"Poison"
+		],
+		"stichwoerter": [
+			"Poison"
+		]
+	},
+	{
+		"name": "Pound-Boxed",
+		"codepoint": "EA97",
+		"kurznamen": [
+			"PoundBox"
+		],
+		"stichwoerter": [
+			"Pound",
+			"Boxed"
+		]
+	},
+	{
+		"name": "Pound-Circled",
+		"codepoint": "EA98",
+		"kurznamen": [
+			"PoundCirc"
+		],
+		"stichwoerter": [
+			"Pound",
+			"Circled"
+		]
+	},
+	{
+		"name": "Present",
+		"codepoint": "1F381",
+		"kurznamen": [
+			"Present"
+		],
+		"stichwoerter": [
+			"Present"
+		]
+	},
+	{
+		"name": "Preview",
+		"codepoint": "E9BA",
+		"kurznamen": [
+			"Preview"
+		],
+		"stichwoerter": [
+			"Preview"
+		]
+	},
+	{
+		"name": "Printer",
+		"codepoint": "1F5A8",
+		"kurznamen": [
+			"Printer"
+		],
+		"stichwoerter": [
+			"Printer"
+		]
+	},
+	{
+		"name": "Profile",
+		"codepoint": "1F464",
+		"kurznamen": [
+			"Prfl"
+		],
+		"stichwoerter": [
+			"Profile"
+		]
+	},
+	{
+		"name": "Profile-Add",
+		"codepoint": "E9BB",
+		"kurznamen": [
+			"PrflAdd"
+		],
+		"stichwoerter": [
+			"Profile Add"
+		]
+	},
+	{
+		"name": "Profile-Boxed",
+		"codepoint": "E9BC",
+		"kurznamen": [
+			"PrflBox"
+		],
+		"stichwoerter": [
+			"Profile Boxed"
+		]
+	},
+	{
+		"name": "Profile-Circled",
+		"codepoint": "E9BD",
+		"kurznamen": [
+			"PrflCirc"
+		],
+		"stichwoerter": [
+			"Profile Circled"
+		]
+	},
+	{
+		"name": "Profile-Edit",
+		"codepoint": "EA2B",
+		"kurznamen": [
+			"PrflEdit"
+		],
+		"stichwoerter": [
+			"Profile Edit"
+		]
+	},
+	{
+		"name": "Profile-Group",
+		"codepoint": "1F465",
+		"kurznamen": [
+			"PrflGrp"
+		],
+		"stichwoerter": [
+			"Profile Group"
+		]
+	},
+	{
+		"name": "Protection",
+		"codepoint": "1F6E1",
+		"kurznamen": [
+			"Prot"
+		],
+		"stichwoerter": [
+			"Protection"
+		]
+	},
+	{
+		"name": "Protection-Key",
+		"codepoint": "E9BE",
+		"kurznamen": [
+			"ProtKey"
+		],
+		"stichwoerter": [
+			"Protection Key"
+		]
+	},
+	{
+		"name": "Protection-Lock",
+		"codepoint": "E9BF",
+		"kurznamen": [
+			"ProtLock"
+		],
+		"stichwoerter": [
+			"Protection Lock"
+		]
+	},
+	{
+		"name": "QA",
+		"codepoint": "EA2C",
+		"kurznamen": [
+			"QA"
+		],
+		"stichwoerter": [
+			"QA"
+		]
+	},
+	{
+		"name": "Quadcopter",
+		"codepoint": "E9C0",
+		"kurznamen": [
+			"Quad"
+		],
+		"stichwoerter": [
+			"Quadcopter"
+		]
+	},
+	{
+		"name": "Question-Mark",
+		"codepoint": "3F",
+		"kurznamen": [
+			"Question"
+		],
+		"stichwoerter": [
+			"Question Mark"
+		]
+	},
+	{
+		"name": "Quotation-Double-High6-Bold",
+		"codepoint": "EAAE",
+		"kurznamen": [
+			"QuotDh6B"
+		],
+		"stichwoerter": [
+			"Quotation",
+			"Double",
+			"High-6",
+			"Bold"
+		]
+	},
+	{
+		"name": "Quotation-Double-Low9-Bold",
+		"codepoint": "EAAF",
+		"kurznamen": [
+			"QuotDl9B"
+		],
+		"stichwoerter": [
+			"Quotation",
+			"Double",
+			"Low-9",
+			"Bold"
+		]
+	},
+	{
+		"name": "Radiobutton",
+		"codepoint": "25CB",
+		"kurznamen": [
+			"RBtn"
+		],
+		"stichwoerter": [
+			"Radiobutton"
+		]
+	},
+	{
+		"name": "Radiobutton-Filled",
+		"codepoint": "25C9",
+		"kurznamen": [
+			"RBtnFill"
+		],
+		"stichwoerter": [
+			"Radiobutton Filled"
+		]
+	},
+	{
+		"name": "Receipt",
+		"codepoint": "1F9FE",
+		"kurznamen": [
+			"Rcpt"
+		],
+		"stichwoerter": [
+			"Receipt"
+		]
+	},
+	{
+		"name": "Redo",
+		"codepoint": "EA65",
+		"kurznamen": [
+			"Redo"
+		],
+		"stichwoerter": [
+			"Redo"
+		]
+	},
+	{
+		"name": "Redo-All",
+		"codepoint": "EA67",
+		"kurznamen": [
+			"RedoAll"
+		],
+		"stichwoerter": [
+			"Redo",
+			"All"
+		]
+	},
+	{
+		"name": "Redo-Once",
+		"codepoint": "EA66",
+		"kurznamen": [
+			"RedoOnce"
+		],
+		"stichwoerter": [
+			"Redo",
+			"Once"
+		]
+	},
+	{
+		"name": "Refresh",
+		"codepoint": "27F3",
+		"kurznamen": [
+			"Refresh"
+		],
+		"stichwoerter": [
+			"Refresh"
+		]
+	},
+	{
+		"name": "Reload",
+		"codepoint": "1F501",
+		"kurznamen": [
+			"Rlo"
+		],
+		"stichwoerter": [
+			"Reload"
+		]
+	},
+	{
+		"name": "Report-New",
+		"codepoint": "E9C2",
+		"kurznamen": [
+			"RprtNew"
+		],
+		"stichwoerter": [
+			"Report New"
+		]
+	},
+	{
+		"name": "Reset",
+		"codepoint": "EA64",
+		"kurznamen": [
+			"Reset"
+		],
+		"stichwoerter": [
+			"Reset"
+		]
+	},
+	{
+		"name": "Robot",
+		"codepoint": "1F916",
+		"kurznamen": [
+			"Robot"
+		],
+		"stichwoerter": [
+			"Robot"
+		]
+	},
+	{
+		"name": "Rocket",
+		"codepoint": "1F680",
+		"kurznamen": [
+			"Rocket"
+		],
+		"stichwoerter": [
+			"Rocket"
+		]
+	},
+	{
+		"name": "Row-Add-Down",
+		"codepoint": "E9C4",
+		"kurznamen": [
+			"RowAddD"
+		],
+		"stichwoerter": [
+			"Row Add Down"
+		]
+	},
+	{
+		"name": "Row-Add-Up",
+		"codepoint": "E9C5",
+		"kurznamen": [
+			"RowAddU"
+		],
+		"stichwoerter": [
+			"Row Add Up"
+		]
+	},
+	{
+		"name": "Row-Delete-Down",
+		"codepoint": "E9C6",
+		"kurznamen": [
+			"RowDelD"
+		],
+		"stichwoerter": [
+			"Row Delete Down"
+		]
+	},
+	{
+		"name": "Row-Delete-Up",
+		"codepoint": "E9C7",
+		"kurznamen": [
+			"RowDelU"
+		],
+		"stichwoerter": [
+			"Row Delete Up"
+		]
+	},
+	{
+		"name": "Row-Move-Down",
+		"codepoint": "E9C8",
+		"kurznamen": [
+			"RowMoveD"
+		],
+		"stichwoerter": [
+			"Row Move Down"
+		]
+	},
+	{
+		"name": "Row-Move-Up",
+		"codepoint": "E9C9",
+		"kurznamen": [
+			"RowMoveU"
+		],
+		"stichwoerter": [
+			"Row Move Up"
+		]
+	},
+	{
+		"name": "Ruler",
+		"codepoint": "1F4CF",
+		"kurznamen": [
+			"Ruler"
+		],
+		"stichwoerter": [
+			"Ruler"
+		]
+	},
+	{
+		"name": "Safe-Work",
+		"codepoint": "1F477",
+		"kurznamen": [
+			"SafeWork"
+		],
+		"stichwoerter": [
+			"Safe",
+			"Work"
+		]
+	},
+	{
+		"name": "Sandwich",
+		"codepoint": "1F96A",
+		"kurznamen": [
+			"Sandwich"
+		],
+		"stichwoerter": [
+			"Sandwich"
+		]
+	},
+	{
+		"name": "Saturn",
+		"codepoint": "2644",
+		"kurznamen": [
+			"Saturn"
+		],
+		"stichwoerter": [
+			"Saturn"
+		]
+	},
+	{
+		"name": "Save-Local",
+		"codepoint": "E9CA",
+		"kurznamen": [
+			"SaveLoc",
+			"Save"
+		],
+		"stichwoerter": [
+			"Save Local"
+		]
+	},
+	{
+		"name": "Scan-Doc",
+		"codepoint": "E9CB",
+		"kurznamen": [
+			"ScanDoc"
+		],
+		"stichwoerter": [
+			"Scan Doc"
+		]
+	},
+	{
+		"name": "Scan-Mini",
+		"codepoint": "E9CC",
+		"kurznamen": [
+			"ScanMini"
+		],
+		"stichwoerter": [
+			"Scan Mini"
+		]
+	},
+	{
+		"name": "Scan-QR",
+		"codepoint": "E9CD",
+		"kurznamen": [
+			"ScanQR"
+		],
+		"stichwoerter": [
+			"Scan QR"
+		]
+	},
+	{
+		"name": "Scanner",
+		"codepoint": "E9CE",
+		"kurznamen": [
+			"Scan"
+		],
+		"stichwoerter": [
+			"Scanner"
+		]
+	},
+	{
+		"name": "Scroll",
+		"codepoint": "1F4DC",
+		"kurznamen": [
+			"Scroll"
+		],
+		"stichwoerter": [
+			"Scroll"
+		]
+	},
+	{
+		"name": "Search",
+		"codepoint": "1F50D",
+		"kurznamen": [
+			"Search"
+		],
+		"stichwoerter": [
+			"Search"
+		]
+	},
+	{
+		"name": "Search-Backward",
+		"codepoint": "E9CF",
+		"kurznamen": [
+			"SearchBacW"
+		],
+		"stichwoerter": [
+			"Search Backward"
+		]
+	},
+	{
+		"name": "Search-Forward",
+		"codepoint": "E9D0",
+		"kurznamen": [
+			"SearchForW"
+		],
+		"stichwoerter": [
+			"Search Forward"
+		]
+	},
+	{
+		"name": "Seedling-E",
+		"codepoint": "10092",
+		"kurznamen": [
+			"SeedE"
+		],
+		"stichwoerter": [
+			"Seedling",
+			"E"
+		]
+	},
+	{
+		"name": "Send",
+		"codepoint": "E9D1",
+		"kurznamen": [
+			"Snd"
+		],
+		"stichwoerter": [
+			"Send"
+		]
+	},
+	{
+		"name": "Setcard",
+		"codepoint": "1F5BA",
+		"kurznamen": [
+			"Setcard"
+		],
+		"stichwoerter": [
+			"Setcard"
+		]
+	},
+	{
+		"name": "Setting-DtBase",
+		"codepoint": "EAD0",
+		"kurznamen": [
+			"SetDtBase"
+		],
+		"stichwoerter": [
+			"Setting",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Settings",
+		"codepoint": "E9D2",
+		"kurznamen": [
+			"Setting"
+		],
+		"stichwoerter": [
+			"Settings"
+		]
+	},
+	{
+		"name": "Shape-Add",
+		"codepoint": "25B3",
+		"kurznamen": [
+			"ShapeAdd"
+		],
+		"stichwoerter": [
+			"Shape",
+			"Add"
+		]
+	},
+	{
+		"name": "Share",
+		"codepoint": "E9D6",
+		"kurznamen": [
+			"Share"
+		],
+		"stichwoerter": [
+			"Share"
+		]
+	},
+	{
+		"name": "Share-Android",
+		"codepoint": "E9D3",
+		"kurznamen": [
+			"ShareAnd"
+		],
+		"stichwoerter": [
+			"Share Android"
+		]
+	},
+	{
+		"name": "Share-iOS",
+		"codepoint": "E9D4",
+		"kurznamen": [
+			"ShareIOS"
+		],
+		"stichwoerter": [
+			"Share iOS"
+		]
+	},
+	{
+		"name": "Share-Screen",
+		"codepoint": "E9D5",
+		"kurznamen": [
+			"ShareScreen"
+		],
+		"stichwoerter": [
+			"Share Screen"
+		]
+	},
+	{
+		"name": "Ship-Out",
+		"codepoint": "26F4",
+		"kurznamen": [
+			"ShipOut"
+		],
+		"stichwoerter": [
+			"Ship Out"
+		]
+	},
+	{
+		"name": "Shopping-Basket",
+		"codepoint": "E9D7",
+		"kurznamen": [
+			"ShopBask"
+		],
+		"stichwoerter": [
+			"Shopping Basket"
+		]
+	},
+	{
+		"name": "Shopping-Cart",
+		"codepoint": "1F6D2",
+		"kurznamen": [
+			"ShopCart"
+		],
+		"stichwoerter": [
+			"Shopping Cart"
+		]
+	},
+	{
+		"name": "Shopping-Cart-Add",
+		"codepoint": "E9D8",
+		"kurznamen": [
+			"ShopCartAdd"
+		],
+		"stichwoerter": [
+			"Shopping Cart Add"
+		]
+	},
+	{
+		"name": "Sign",
+		"codepoint": "1062E",
+		"kurznamen": [
+			"Sign"
+		],
+		"stichwoerter": [
+			"Sign"
+		]
+	},
+	{
+		"name": "Sign-Post",
+		"codepoint": "2904",
+		"kurznamen": [
+			"SignPost"
+		],
+		"stichwoerter": [
+			"Sign",
+			"Post"
+		]
+	},
+	{
+		"name": "Skip-Backward",
+		"codepoint": "23EE",
+		"kurznamen": [
+			"SkipBacW"
+		],
+		"stichwoerter": [
+			"Skip Backward"
+		]
+	},
+	{
+		"name": "Skip-Backward-Circled",
+		"codepoint": "E9D9",
+		"kurznamen": [
+			"SkipBacWCirc"
+		],
+		"stichwoerter": [
+			"Skip Backward Circled"
+		]
+	},
+	{
+		"name": "Skip-Forward",
+		"codepoint": "23ED",
+		"kurznamen": [
+			"SkipForW"
+		],
+		"stichwoerter": [
+			"Skip Forward"
+		]
+	},
+	{
+		"name": "Skip-Forward-Circled",
+		"codepoint": "E9DA",
+		"kurznamen": [
+			"SkipForWCirc"
+		],
+		"stichwoerter": [
+			"Skip Forward Circled"
+		]
+	},
+	{
+		"name": "Slash",
+		"codepoint": "2F",
+		"kurznamen": [
+			"Slash"
+		],
+		"stichwoerter": [
+			"Slash"
+		]
+	},
+	{
+		"name": "Snowflake",
+		"codepoint": "2744",
+		"kurznamen": [
+			"Snow"
+		],
+		"stichwoerter": [
+			"Snowflake"
+		]
+	},
+	{
+		"name": "Snowflake-Circ",
+		"codepoint": "2746",
+		"kurznamen": [
+			"SnowCirc"
+		],
+		"stichwoerter": [
+			"Snowflake",
+			"Circ"
+		]
+	},
+	{
+		"name": "Sort-1-10-Down",
+		"codepoint": "E9DB",
+		"kurznamen": [
+			"Sort110D"
+		],
+		"stichwoerter": [
+			"Sort 1-10 Down"
+		]
+	},
+	{
+		"name": "Sort-1-10-Up",
+		"codepoint": "E9DC",
+		"kurznamen": [
+			"Sort110U"
+		],
+		"stichwoerter": [
+			"Sort 1-10 Up"
+		]
+	},
+	{
+		"name": "Sort-10-1-Down",
+		"codepoint": "E9DD",
+		"kurznamen": [
+			"Sort101D"
+		],
+		"stichwoerter": [
+			"Sort 10-1 Down"
+		]
+	},
+	{
+		"name": "Sort-AZ-Down",
+		"codepoint": "E9DE",
+		"kurznamen": [
+			"SortAZD"
+		],
+		"stichwoerter": [
+			"Sort AZ Down"
+		]
+	},
+	{
+		"name": "Sort-AZ-Up",
+		"codepoint": "E9DF",
+		"kurznamen": [
+			"SortAZU"
+		],
+		"stichwoerter": [
+			"Sort AZ Up"
+		]
+	},
+	{
+		"name": "Sort-Down",
+		"codepoint": "E9E1",
+		"kurznamen": [
+			"SortD"
+		],
+		"stichwoerter": [
+			"Sort Down"
+		]
+	},
+	{
+		"name": "Sort-Down-Alt",
+		"codepoint": "E9E0",
+		"kurznamen": [
+			"SortDAlt"
+		],
+		"stichwoerter": [
+			"Sort Down Alt"
+		]
+	},
+	{
+		"name": "Sort-Up",
+		"codepoint": "E9E3",
+		"kurznamen": [
+			"SortU"
+		],
+		"stichwoerter": [
+			"Sort Up"
+		]
+	},
+	{
+		"name": "Sort-Up-Alt",
+		"codepoint": "E9E2",
+		"kurznamen": [
+			"SortUAlt"
+		],
+		"stichwoerter": [
+			"Sort Up Alt"
+		]
+	},
+	{
+		"name": "Sort-ZA-Down",
+		"codepoint": "E9E4",
+		"kurznamen": [
+			"SortZAD"
+		],
+		"stichwoerter": [
+			"Sort ZA Down"
+		]
+	},
+	{
+		"name": "Sound",
+		"codepoint": "2669",
+		"kurznamen": [
+			"Sound"
+		],
+		"stichwoerter": [
+			"Sound"
+		]
+	},
+	{
+		"name": "Speak",
+		"codepoint": "1F5E3",
+		"kurznamen": [
+			"Speak"
+		],
+		"stichwoerter": [
+			"Speak"
+		]
+	},
+	{
+		"name": "Speaker-Off",
+		"codepoint": "1F507",
+		"kurznamen": [
+			"SpkrOff"
+		],
+		"stichwoerter": [
+			"Speaker Off"
+		]
+	},
+	{
+		"name": "Speaker-On",
+		"codepoint": "1F508",
+		"kurznamen": [
+			"SpkrOn"
+		],
+		"stichwoerter": [
+			"Speaker On"
+		]
+	},
+	{
+		"name": "SQL-Re-Run",
+		"codepoint": "E9E5",
+		"kurznamen": [
+			"SqlReRun"
+		],
+		"stichwoerter": [
+			"SQL Re-Run"
+		]
+	},
+	{
+		"name": "SQL-Run",
+		"codepoint": "E9E6",
+		"kurznamen": [
+			"SqlRun"
+		],
+		"stichwoerter": [
+			"SQL Run"
+		]
+	},
+	{
+		"name": "SQL-Show",
+		"codepoint": "E9E7",
+		"kurznamen": [
+			"SqlShow"
+		],
+		"stichwoerter": [
+			"SQL Show"
+		]
+	},
+	{
+		"name": "SQL-Stop",
+		"codepoint": "E9E8",
+		"kurznamen": [
+			"SqlStop"
+		],
+		"stichwoerter": [
+			"SQL Stop"
+		]
+	},
+	{
+		"name": "SQL-Timer",
+		"codepoint": "E9E9",
+		"kurznamen": [
+			"SqlTimer"
+		],
+		"stichwoerter": [
+			"SQL Timer"
+		]
+	},
+	{
+		"name": "Square",
+		"codepoint": "2BC0",
+		"kurznamen": [
+			"Square"
+		],
+		"stichwoerter": [
+			"Square"
+		]
+	},
+	{
+		"name": "Star",
+		"codepoint": "E9F1",
+		"kurznamen": [
+			"Star"
+		],
+		"stichwoerter": [
+			"Star"
+		]
+	},
+	{
+		"name": "Star-Filled",
+		"codepoint": "E9EB",
+		"kurznamen": [
+			"StarFill"
+		],
+		"stichwoerter": [
+			"Star Filled"
+		]
+	},
+	{
+		"name": "Star-Filled-Half",
+		"codepoint": "E9EA",
+		"kurznamen": [
+			"StarFillHalf"
+		],
+		"stichwoerter": [
+			"Star Filled Half"
+		]
+	},
+	{
+		"name": "Star-Half",
+		"codepoint": "E9EC",
+		"kurznamen": [
+			"StarHalf"
+		],
+		"stichwoerter": [
+			"Star Half"
+		]
+	},
+	{
+		"name": "Star-Small",
+		"codepoint": "E9F0",
+		"kurznamen": [
+			"StarSm"
+		],
+		"stichwoerter": [
+			"Star Small"
+		]
+	},
+	{
+		"name": "Star-Small-Filled",
+		"codepoint": "E9EE",
+		"kurznamen": [
+			"StarSmFill"
+		],
+		"stichwoerter": [
+			"Star Small Filled"
+		]
+	},
+	{
+		"name": "Star-Small-Filled-Half",
+		"codepoint": "E9ED",
+		"kurznamen": [
+			"StarSmFillHalf"
+		],
+		"stichwoerter": [
+			"Star Small Filled Half"
+		]
+	},
+	{
+		"name": "Star-Small-Half",
+		"codepoint": "E9EF",
+		"kurznamen": [
+			"StarSmHalf"
+		],
+		"stichwoerter": [
+			"Star Small Half"
+		]
+	},
+	{
+		"name": "Statistic-New",
+		"codepoint": "E9F2",
+		"kurznamen": [
+			"StatNew"
+		],
+		"stichwoerter": [
+			"Statistic New"
+		]
+	},
+	{
+		"name": "Stop",
+		"codepoint": "23F9",
+		"kurznamen": [
+			"Stop"
+		],
+		"stichwoerter": [
+			"Stop"
+		]
+	},
+	{
+		"name": "Stop-Circled",
+		"codepoint": "E9F3",
+		"kurznamen": [
+			"StopCirc"
+		],
+		"stichwoerter": [
+			"Stop Circled"
+		]
+	},
+	{
+		"name": "Subject",
+		"codepoint": "EA6E",
+		"kurznamen": [
+			"Subj"
+		],
+		"stichwoerter": [
+			"Subject"
+		]
+	},
+	{
+		"name": "Summary-BE",
+		"codepoint": "EA83",
+		"kurznamen": [
+			"SumBE"
+		],
+		"stichwoerter": [
+			"Summary",
+			"BE"
+		]
+	},
+	{
+		"name": "Summary-BG",
+		"codepoint": "EA7C",
+		"kurznamen": [
+			"SumBG"
+		],
+		"stichwoerter": [
+			"Summary",
+			"BG"
+		]
+	},
+	{
+		"name": "Summary-BR",
+		"codepoint": "EA86",
+		"kurznamen": [
+			"SumBR"
+		],
+		"stichwoerter": [
+			"Summary",
+			"BR"
+		]
+	},
+	{
+		"name": "Summary-CN",
+		"codepoint": "EA85",
+		"kurznamen": [
+			"SumCN"
+		],
+		"stichwoerter": [
+			"Summary",
+			"CN"
+		]
+	},
+	{
+		"name": "Summary-DE",
+		"codepoint": "EA70",
+		"kurznamen": [
+			"SumDE"
+		],
+		"stichwoerter": [
+			"Summary",
+			"DE"
+		]
+	},
+	{
+		"name": "Summary-DK",
+		"codepoint": "EA73",
+		"kurznamen": [
+			"SumDK"
+		],
+		"stichwoerter": [
+			"Summary",
+			"DK"
+		]
+	},
+	{
+		"name": "Summary-EE",
+		"codepoint": "EA7A",
+		"kurznamen": [
+			"SumEE"
+		],
+		"stichwoerter": [
+			"Summary",
+			"EE"
+		]
+	},
+	{
+		"name": "Summary-EN",
+		"codepoint": "EA71",
+		"kurznamen": [
+			"SumEN"
+		],
+		"stichwoerter": [
+			"Summary",
+			"EN"
+		]
+	},
+	{
+		"name": "Summary-ES",
+		"codepoint": "EA81",
+		"kurznamen": [
+			"SumES"
+		],
+		"stichwoerter": [
+			"Summary",
+			"ES"
+		]
+	},
+	{
+		"name": "Summary-FI",
+		"codepoint": "EA76",
+		"kurznamen": [
+			"SumFI"
+		],
+		"stichwoerter": [
+			"Summary",
+			"FI"
+		]
+	},
+	{
+		"name": "Summary-FR",
+		"codepoint": "EA80",
+		"kurznamen": [
+			"SumFR"
+		],
+		"stichwoerter": [
+			"Summary",
+			"FR"
+		]
+	},
+	{
+		"name": "Summary-GR",
+		"codepoint": "EA7D",
+		"kurznamen": [
+			"SumGR"
+		],
+		"stichwoerter": [
+			"Summary",
+			"GR"
+		]
+	},
+	{
+		"name": "Summary-IT",
+		"codepoint": "EA7F",
+		"kurznamen": [
+			"SumIT"
+		],
+		"stichwoerter": [
+			"Summary",
+			"IT"
+		]
+	},
+	{
+		"name": "Summary-KI",
+		"codepoint": "EA8F",
+		"kurznamen": [
+			"SumKI"
+		],
+		"stichwoerter": [
+			"Summary",
+			"KI"
+		]
+	},
+	{
+		"name": "Summary-LT",
+		"codepoint": "EA78",
+		"kurznamen": [
+			"SumLT"
+		],
+		"stichwoerter": [
+			"Summary",
+			"LT"
+		]
+	},
+	{
+		"name": "Summary-LV",
+		"codepoint": "EA79",
+		"kurznamen": [
+			"SumLV"
+		],
+		"stichwoerter": [
+			"Summary",
+			"LV"
+		]
+	},
+	{
+		"name": "Summary-NL",
+		"codepoint": "EA72",
+		"kurznamen": [
+			"SumNL"
+		],
+		"stichwoerter": [
+			"Summary",
+			"NL"
+		]
+	},
+	{
+		"name": "Summary-NO",
+		"codepoint": "EA74",
+		"kurznamen": [
+			"SumNO"
+		],
+		"stichwoerter": [
+			"Summary",
+			"NO"
+		]
+	},
+	{
+		"name": "Summary-PL",
+		"codepoint": "EA77",
+		"kurznamen": [
+			"SumPL"
+		],
+		"stichwoerter": [
+			"Summary",
+			"PL"
+		]
+	},
+	{
+		"name": "Summary-PT",
+		"codepoint": "EA82",
+		"kurznamen": [
+			"SumPT"
+		],
+		"stichwoerter": [
+			"Summary",
+			"PT"
+		]
+	},
+	{
+		"name": "Summary-RU",
+		"codepoint": "EA84",
+		"kurznamen": [
+			"SumRU"
+		],
+		"stichwoerter": [
+			"Summary",
+			"RU"
+		]
+	},
+	{
+		"name": "Summary-SE",
+		"codepoint": "EA75",
+		"kurznamen": [
+			"SumSE"
+		],
+		"stichwoerter": [
+			"Summary",
+			"SE"
+		]
+	},
+	{
+		"name": "Summary-TR",
+		"codepoint": "EA7E",
+		"kurznamen": [
+			"SumTR"
+		],
+		"stichwoerter": [
+			"Summary",
+			"TR"
+		]
+	},
+	{
+		"name": "Summary-UA",
+		"codepoint": "EA7B",
+		"kurznamen": [
+			"SumUA"
+		],
+		"stichwoerter": [
+			"Summary",
+			"UA"
+		]
+	},
+	{
+		"name": "Sun",
+		"codepoint": "263C",
+		"kurznamen": [
+			"Sun"
+		],
+		"stichwoerter": [
+			"Sun"
+		]
+	},
+	{
+		"name": "Sun-Small",
+		"codepoint": "2609",
+		"kurznamen": [
+			"SunSm"
+		],
+		"stichwoerter": [
+			"Sun",
+			"Small"
+		]
+	},
+	{
+		"name": "Swipe-Down",
+		"codepoint": "E9F4",
+		"kurznamen": [
+			"SwipeD"
+		],
+		"stichwoerter": [
+			"Swipe Down"
+		]
+	},
+	{
+		"name": "Swipe-Left",
+		"codepoint": "E9F6",
+		"kurznamen": [
+			"SwipeL"
+		],
+		"stichwoerter": [
+			"Swipe Left"
+		]
+	},
+	{
+		"name": "Swipe-Left-Right",
+		"codepoint": "E9F5",
+		"kurznamen": [
+			"SwipeLR"
+		],
+		"stichwoerter": [
+			"Swipe Left-Right"
+		]
+	},
+	{
+		"name": "Swipe-Right",
+		"codepoint": "E9F7",
+		"kurznamen": [
+			"SwipeR"
+		],
+		"stichwoerter": [
+			"Swipe Right"
+		]
+	},
+	{
+		"name": "Swipe-Up",
+		"codepoint": "E9F8",
+		"kurznamen": [
+			"SwipeU"
+		],
+		"stichwoerter": [
+			"Swipe Up"
+		]
+	},
+	{
+		"name": "Table",
+		"codepoint": "E9F9",
+		"kurznamen": [
+			"Table"
+		],
+		"stichwoerter": [
+			"Table"
+		]
+	},
+	{
+		"name": "Tablet",
+		"codepoint": "E9FA",
+		"kurznamen": [
+			"Tablet"
+		],
+		"stichwoerter": [
+			"Tablet"
+		]
+	},
+	{
+		"name": "Tag",
+		"codepoint": "1F3F7",
+		"kurznamen": [
+			"Tag"
+		],
+		"stichwoerter": [
+			"Tag"
+		]
+	},
+	{
+		"name": "Target",
+		"codepoint": "1F78B",
+		"kurznamen": [
+			"Target"
+		],
+		"stichwoerter": [
+			"Target"
+		]
+	},
+	{
+		"name": "Task-Done",
+		"codepoint": "E9FB",
+		"kurznamen": [
+			"TaskDone"
+		],
+		"stichwoerter": [
+			"Task Done"
+		]
+	},
+	{
+		"name": "Task-Done-Second",
+		"codepoint": "EA60",
+		"kurznamen": [
+			"TaskDone2"
+		],
+		"stichwoerter": [
+			"Task",
+			"Done",
+			"Second"
+		]
+	},
+	{
+		"name": "Task-Done-Third",
+		"codepoint": "EA61",
+		"kurznamen": [
+			"TaskDone3"
+		],
+		"stichwoerter": [
+			"Task",
+			"Done",
+			"Third"
+		]
+	},
+	{
+		"name": "Temperature-High",
+		"codepoint": "EAC0",
+		"kurznamen": [
+			"TempHigh"
+		],
+		"stichwoerter": [
+			"Temperature",
+			"High"
+		]
+	},
+	{
+		"name": "Temperature-Low",
+		"codepoint": "EAC1",
+		"kurznamen": [
+			"TempLow"
+		],
+		"stichwoerter": [
+			"Temperature",
+			"Low"
+		]
+	},
+	{
+		"name": "Temperature-Middle",
+		"codepoint": "1F321",
+		"kurznamen": [
+			"TempMid"
+		],
+		"stichwoerter": [
+			"Temperature",
+			"Middle"
+		]
+	},
+	{
+		"name": "Text-At",
+		"codepoint": "40",
+		"kurznamen": [
+			"TxtAt"
+		],
+		"stichwoerter": [
+			"Text At"
+		]
+	},
+	{
+		"name": "Text-Block-Left",
+		"codepoint": "EA90",
+		"kurznamen": [
+			"TxtBlockL"
+		],
+		"stichwoerter": [
+			"Text",
+			"Block",
+			"Left"
+		]
+	},
+	{
+		"name": "Text-Block-Right",
+		"codepoint": "EA91",
+		"kurznamen": [
+			"TxtBlockR"
+		],
+		"stichwoerter": [
+			"Text",
+			"Block",
+			"Right"
+		]
+	},
+	{
+		"name": "Text-Bold",
+		"codepoint": "E9FC",
+		"kurznamen": [
+			"TxtB"
+		],
+		"stichwoerter": [
+			"Text Bold"
+		]
+	},
+	{
+		"name": "Text-Caps",
+		"codepoint": "E9FD",
+		"kurznamen": [
+			"TxtCaps"
+		],
+		"stichwoerter": [
+			"Text Caps"
+		]
+	},
+	{
+		"name": "Text-Centre",
+		"codepoint": "E9FE",
+		"kurznamen": [
+			"TxtCntr"
+		],
+		"stichwoerter": [
+			"Text Centre"
+		]
+	},
+	{
+		"name": "Text-Code",
+		"codepoint": "E9FF",
+		"kurznamen": [
+			"TxtCode"
+		],
+		"stichwoerter": [
+			"Text Code"
+		]
+	},
+	{
+		"name": "Text-Height",
+		"codepoint": "EA00",
+		"kurznamen": [
+			"TxtHigh"
+		],
+		"stichwoerter": [
+			"Text Height"
+		]
+	},
+	{
+		"name": "Text-Italic",
+		"codepoint": "EA01",
+		"kurznamen": [
+			"TxtItal"
+		],
+		"stichwoerter": [
+			"Text Italic"
+		]
+	},
+	{
+		"name": "Text-Left",
+		"codepoint": "EA02",
+		"kurznamen": [
+			"TxtL"
+		],
+		"stichwoerter": [
+			"Text Left"
+		]
+	},
+	{
+		"name": "Text-Normal",
+		"codepoint": "EA03",
+		"kurznamen": [
+			"TxtNorm"
+		],
+		"stichwoerter": [
+			"Text Normal"
+		]
+	},
+	{
+		"name": "Text-Pilcrow",
+		"codepoint": "B6",
+		"kurznamen": [
+			"TxtPilc"
+		],
+		"stichwoerter": [
+			"Text Pilcrow"
+		]
+	},
+	{
+		"name": "Text-RegEx",
+		"codepoint": "EA05",
+		"kurznamen": [
+			"TxtRegEx"
+		],
+		"stichwoerter": [
+			"Text RegEx"
+		]
+	},
+	{
+		"name": "Text-RegEx-Alt",
+		"codepoint": "EA04",
+		"kurznamen": [
+			"TxtRegExAlt"
+		],
+		"stichwoerter": [
+			"Text RegEx Alt"
+		]
+	},
+	{
+		"name": "Text-Right",
+		"codepoint": "EA06",
+		"kurznamen": [
+			"TxtR"
+		],
+		"stichwoerter": [
+			"Text Right"
+		]
+	},
+	{
+		"name": "Text-Strikethrough",
+		"codepoint": "EA07",
+		"kurznamen": [
+			"TxtStrk"
+		],
+		"stichwoerter": [
+			"Text Strikethrough"
+		]
+	},
+	{
+		"name": "Text-Translate",
+		"codepoint": "EA08",
+		"kurznamen": [
+			"TxtTrnsl"
+		],
+		"stichwoerter": [
+			"Text Translate"
+		]
+	},
+	{
+		"name": "Text-Underline",
+		"codepoint": "EA09",
+		"kurznamen": [
+			"TxtUln"
+		],
+		"stichwoerter": [
+			"Text Underline"
+		]
+	},
+	{
+		"name": "Text-Width",
+		"codepoint": "EA0A",
+		"kurznamen": [
+			"TxtWide"
+		],
+		"stichwoerter": [
+			"Text Width"
+		]
+	},
+	{
+		"name": "Thumb-Down",
+		"codepoint": "1F44E",
+		"kurznamen": [
+			"ThmbD"
+		],
+		"stichwoerter": [
+			"Thumb Down"
+		]
+	},
+	{
+		"name": "Thumb-Up",
+		"codepoint": "1F44D",
+		"kurznamen": [
+			"ThmbU"
+		],
+		"stichwoerter": [
+			"Thumb Up"
+		]
+	},
+	{
+		"name": "Ticket",
+		"codepoint": "1F3AB",
+		"kurznamen": [
+			"Ticket"
+		],
+		"stichwoerter": [
+			"Ticket"
+		]
+	},
+	{
+		"name": "Time",
+		"codepoint": "23F2",
+		"kurznamen": [
+			"Time"
+		],
+		"stichwoerter": [
+			"Time"
+		]
+	},
+	{
+		"name": "Time-Alarm",
+		"codepoint": "23F0",
+		"kurznamen": [
+			"TimeAlrm"
+		],
+		"stichwoerter": [
+			"Time Alarm"
+		]
+	},
+	{
+		"name": "Time-Flex",
+		"codepoint": "EABC",
+		"kurznamen": [
+			"TimeFlex"
+		],
+		"stichwoerter": [
+			"Time",
+			"Flex"
+		]
+	},
+	{
+		"name": "Time-Glass-0",
+		"codepoint": "EAB0",
+		"kurznamen": [
+			"TimeGlass0"
+		],
+		"stichwoerter": [
+			"Time",
+			"Glass",
+			"0"
+		]
+	},
+	{
+		"name": "Time-Glass-1",
+		"codepoint": "EAB1",
+		"kurznamen": [
+			"TimeGlass1"
+		],
+		"stichwoerter": [
+			"Time",
+			"Glass",
+			"1"
+		]
+	},
+	{
+		"name": "Time-Glass-2",
+		"codepoint": "EAB2",
+		"kurznamen": [
+			"TimeGlass2"
+		],
+		"stichwoerter": [
+			"Time",
+			"Glass",
+			"2"
+		]
+	},
+	{
+		"name": "Time-Glass-3",
+		"codepoint": "EAB3",
+		"kurznamen": [
+			"TimeGlass3"
+		],
+		"stichwoerter": [
+			"Time",
+			"Glass",
+			"3"
+		]
+	},
+	{
+		"name": "Time-Glass-4",
+		"codepoint": "EAB4",
+		"kurznamen": [
+			"TimeGlass4"
+		],
+		"stichwoerter": [
+			"Time",
+			"Glass",
+			"4"
+		]
+	},
+	{
+		"name": "Time-History",
+		"codepoint": "EA0B",
+		"kurznamen": [
+			"TimeHist"
+		],
+		"stichwoerter": [
+			"Time History"
+		]
+	},
+	{
+		"name": "Time-Span",
+		"codepoint": "23F3",
+		"kurznamen": [
+			"TimeSpan"
+		],
+		"stichwoerter": [
+			"Time Span"
+		]
+	},
+	{
+		"name": "Time-Span-0",
+		"codepoint": "25EF",
+		"kurznamen": [
+			"TimeSpan0"
+		],
+		"stichwoerter": [
+			"Time Span 0"
+		]
+	},
+	{
+		"name": "Time-Span-3",
+		"codepoint": "25D4",
+		"kurznamen": [
+			"TimeSpan3"
+		],
+		"stichwoerter": [
+			"Time Span 3"
+		]
+	},
+	{
+		"name": "Time-Span-6",
+		"codepoint": "25D1",
+		"kurznamen": [
+			"TimeSpan6"
+		],
+		"stichwoerter": [
+			"Time Span 6"
+		]
+	},
+	{
+		"name": "Time-Span-9",
+		"codepoint": "25D5",
+		"kurznamen": [
+			"TimeSpan9"
+		],
+		"stichwoerter": [
+			"Time Span 9"
+		]
+	},
+	{
+		"name": "Toggle-Middle",
+		"codepoint": "EA0C",
+		"kurznamen": [
+			"TgglMid",
+			"TgglM"
+		],
+		"stichwoerter": [
+			"Toggle Middle"
+		]
+	},
+	{
+		"name": "Toggle-Off",
+		"codepoint": "EA0D",
+		"kurznamen": [
+			"TgglOff",
+			"TgglL"
+		],
+		"stichwoerter": [
+			"Toggle Off"
+		]
+	},
+	{
+		"name": "Toggle-On",
+		"codepoint": "EA0E",
+		"kurznamen": [
+			"TgglR",
+			"TgglOn"
+		],
+		"stichwoerter": [
+			"Toggle On"
+		]
+	},
+	{
+		"name": "Tools",
+		"codepoint": "1F527",
+		"kurznamen": [
+			"Tool"
+		],
+		"stichwoerter": [
+			"Tools"
+		]
+	},
+	{
+		"name": "Trash",
+		"codepoint": "1F5D1",
+		"kurznamen": [
+			"Trash"
+		],
+		"stichwoerter": [
+			"Trash"
+		]
+	},
+	{
+		"name": "Tree",
+		"codepoint": "1F333",
+		"kurznamen": [
+			"Tree"
+		],
+		"stichwoerter": [
+			"Tree"
+		]
+	},
+	{
+		"name": "Tree-E",
+		"codepoint": "100B7",
+		"kurznamen": [
+			"TreeE"
+		],
+		"stichwoerter": [
+			"Tree",
+			"E"
+		]
+	},
+	{
+		"name": "Tripple-Point-1",
+		"codepoint": "EA0F",
+		"kurznamen": [
+			"TriPt1"
+		],
+		"stichwoerter": [
+			"Tripple Point 1"
+		]
+	},
+	{
+		"name": "Tripple-Point-2",
+		"codepoint": "EA10",
+		"kurznamen": [
+			"TriPt2"
+		],
+		"stichwoerter": [
+			"Tripple Point 2"
+		]
+	},
+	{
+		"name": "Tripple-Point-3",
+		"codepoint": "EA11",
+		"kurznamen": [
+			"TriPt3"
+		],
+		"stichwoerter": [
+			"Tripple Point 3"
+		]
+	},
+	{
+		"name": "Tripple-Point-Horizontal",
+		"codepoint": "22EF",
+		"kurznamen": [
+			"TriPtHor"
+		],
+		"stichwoerter": [
+			"Tripple Point Horizontal"
+		]
+	},
+	{
+		"name": "Tripple-Point-Horizontal-Bold",
+		"codepoint": "EA6B",
+		"kurznamen": [
+			"TriPtHorB"
+		],
+		"stichwoerter": [
+			"Tripple",
+			"Point",
+			"Horizontal",
+			"Bold"
+		]
+	},
+	{
+		"name": "Tripple-Point-Vertical",
+		"codepoint": "22EE",
+		"kurznamen": [
+			"TriPtVert"
+		],
+		"stichwoerter": [
+			"Tripple Point Vertical"
+		]
+	},
+	{
+		"name": "Tripple-Point-Vertical-Bold",
+		"codepoint": "2AF6",
+		"kurznamen": [
+			"TriPtVertB"
+		],
+		"stichwoerter": [
+			"Tripple",
+			"Point",
+			"Vertical",
+			"Bold"
+		]
+	},
+	{
+		"name": "Undo",
+		"codepoint": "238C",
+		"kurznamen": [
+			"Undo"
+		],
+		"stichwoerter": [
+			"Undo"
+		]
+	},
+	{
+		"name": "Undo-All",
+		"codepoint": "EA68",
+		"kurznamen": [
+			"UndoAll"
+		],
+		"stichwoerter": [
+			"Undo",
+			"All"
+		]
+	},
+	{
+		"name": "Undo-DtBase",
+		"codepoint": "EACC",
+		"kurznamen": [
+			"UndoDtBase"
+		],
+		"stichwoerter": [
+			"Undo",
+			"DtBase"
+		]
+	},
+	{
+		"name": "Undo-Once",
+		"codepoint": "EA69",
+		"kurznamen": [
+			"UndoOnce"
+		],
+		"stichwoerter": [
+			"Undo",
+			"Once"
+		]
+	},
+	{
+		"name": "Unequal",
+		"codepoint": "2260",
+		"kurznamen": [
+			"Unequal",
+			"UnEql"
+		],
+		"stichwoerter": [
+			"Unequal"
+		]
+	},
+	{
+		"name": "Unfavourite",
+		"codepoint": "1F494",
+		"kurznamen": [
+			"UnFav"
+		],
+		"stichwoerter": [
+			"Unfavourite"
+		]
+	},
+	{
+		"name": "Unlayer",
+		"codepoint": "EA12",
+		"kurznamen": [
+			"UnLay"
+		],
+		"stichwoerter": [
+			"Unlayer"
+		]
+	},
+	{
+		"name": "Unlink",
+		"codepoint": "EA13",
+		"kurznamen": [
+			"UnLink"
+		],
+		"stichwoerter": [
+			"Unlink"
+		]
+	},
+	{
+		"name": "Unvisible",
+		"codepoint": "EA14",
+		"kurznamen": [
+			"UnVis"
+		],
+		"stichwoerter": [
+			"Unvisible"
+		]
+	},
+	{
+		"name": "Upload",
+		"codepoint": "1F4E4",
+		"kurznamen": [
+			"Ulo"
+		],
+		"stichwoerter": [
+			"Upload"
+		]
+	},
+	{
+		"name": "Upward",
+		"codepoint": "EA3D",
+		"kurznamen": [
+			"Upward"
+		],
+		"stichwoerter": [
+			"Upward"
+		]
+	},
+	{
+		"name": "USB",
+		"codepoint": "E903",
+		"kurznamen": [
+			"USB"
+		],
+		"stichwoerter": [
+			"USB"
+		]
+	},
+	{
+		"name": "USB-Device",
+		"codepoint": "EA15",
+		"kurznamen": [
+			"USBDev"
+		],
+		"stichwoerter": [
+			"USB Device"
+		]
+	},
+	{
+		"name": "Visible",
+		"codepoint": "EA16",
+		"kurznamen": [
+			"Visible",
+			"Vis"
+		],
+		"stichwoerter": [
+			"Visible"
+		]
+	},
+	{
+		"name": "Volume-Down",
+		"codepoint": "1F509",
+		"kurznamen": [
+			"VolD"
+		],
+		"stichwoerter": [
+			"Volume Down"
+		]
+	},
+	{
+		"name": "Volume-Mute",
+		"codepoint": "EA17",
+		"kurznamen": [
+			"VolMute"
+		],
+		"stichwoerter": [
+			"Volume Mute"
+		]
+	},
+	{
+		"name": "Volume-Up",
+		"codepoint": "1F50A",
+		"kurznamen": [
+			"VolU"
+		],
+		"stichwoerter": [
+			"Volume Up"
+		]
+	},
+	{
+		"name": "Voucher",
+		"codepoint": "EA18",
+		"kurznamen": [
+			"Voucher"
+		],
+		"stichwoerter": [
+			"Voucher"
+		]
+	},
+	{
+		"name": "Warning-Boxed",
+		"codepoint": "EA19",
+		"kurznamen": [
+			"WarnBox"
+		],
+		"stichwoerter": [
+			"Warning Boxed"
+		]
+	},
+	{
+		"name": "Warning-Circled",
+		"codepoint": "1F6C8",
+		"kurznamen": [
+			"WarnCirc"
+		],
+		"stichwoerter": [
+			"Warning Circled"
+		]
+	},
+	{
+		"name": "Warning-Triangle",
+		"codepoint": "26A0",
+		"kurznamen": [
+			"WarnTria"
+		],
+		"stichwoerter": [
+			"Warning Triangle"
+		]
+	},
+	{
+		"name": "Wheelchair",
+		"codepoint": "267F",
+		"kurznamen": [
+			"WhlChair"
+		],
+		"stichwoerter": [
+			"Wheelchair"
+		]
+	},
+	{
+		"name": "Whirlwind",
+		"codepoint": "1F300",
+		"kurznamen": [
+			"Whirlwind"
+		],
+		"stichwoerter": [
+			"Whirlwind"
+		]
+	},
+	{
+		"name": "Window",
+		"codepoint": "EA25",
+		"kurznamen": [
+			"Win"
+		],
+		"stichwoerter": [
+			"Window"
+		]
+	},
+	{
+		"name": "Window-Close",
+		"codepoint": "EA1A",
+		"kurznamen": [
+			"WinCls"
+		],
+		"stichwoerter": [
+			"Window Close"
+		]
+	},
+	{
+		"name": "Window-Maximize",
+		"codepoint": "EA1B",
+		"kurznamen": [
+			"WinMaxi"
+		],
+		"stichwoerter": [
+			"Window Maximize"
+		]
+	},
+	{
+		"name": "Window-Minimize",
+		"codepoint": "EA1C",
+		"kurznamen": [
+			"WinMini"
+		],
+		"stichwoerter": [
+			"Window Minimize"
+		]
+	},
+	{
+		"name": "Window-New",
+		"codepoint": "EA1D",
+		"kurznamen": [
+			"WinNew"
+		],
+		"stichwoerter": [
+			"Window New"
+		]
+	},
+	{
+		"name": "Window-Next",
+		"codepoint": "EA1E",
+		"kurznamen": [
+			"WinNext"
+		],
+		"stichwoerter": [
+			"Window Next"
+		]
+	},
+	{
+		"name": "Window-Overlaid",
+		"codepoint": "EA1F",
+		"kurznamen": [
+			"WinOLaid"
+		],
+		"stichwoerter": [
+			"Window Overlaid"
+		]
+	},
+	{
+		"name": "Window-Paired",
+		"codepoint": "EA20",
+		"kurznamen": [
+			"WinPair"
+		],
+		"stichwoerter": [
+			"Window Paired"
+		]
+	},
+	{
+		"name": "Window-Previous",
+		"codepoint": "EA21",
+		"kurznamen": [
+			"WinPrev"
+		],
+		"stichwoerter": [
+			"Window Previous"
+		]
+	},
+	{
+		"name": "Window-Script",
+		"codepoint": "EA22",
+		"kurznamen": [
+			"WinScript"
+		],
+		"stichwoerter": [
+			"Window Script"
+		]
+	},
+	{
+		"name": "Window-Stacked",
+		"codepoint": "EA23",
+		"kurznamen": [
+			"WinStack"
+		],
+		"stichwoerter": [
+			"Window Stacked"
+		]
+	},
+	{
+		"name": "Window-Warning",
+		"codepoint": "EA24",
+		"kurznamen": [
+			"WinWarn"
+		],
+		"stichwoerter": [
+			"Window Warning"
+		]
+	},
+	{
+		"name": "Zoom-In",
+		"codepoint": "EA27",
+		"kurznamen": [
+			"ZoomIn"
+		],
+		"stichwoerter": [
+			"Zoom In"
+		]
+	},
+	{
+		"name": "Zoom-In-Map",
+		"codepoint": "EA26",
+		"kurznamen": [
+			"ZoomInMap"
+		],
+		"stichwoerter": [
+			"Zoom In Map"
+		]
+	},
+	{
+		"name": "Zoom-Out",
+		"codepoint": "EA29",
+		"kurznamen": [
+			"ZoomOut"
+		],
+		"stichwoerter": [
+			"Zoom Out"
+		]
+	},
+	{
+		"name": "Zoom-Out-Map",
+		"codepoint": "EA28",
+		"kurznamen": [
+			"ZoomOutMap"
+		],
+		"stichwoerter": [
+			"Zoom Out Map"
+		]
+	}
+]

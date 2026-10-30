@@ -1,0 +1,91 @@
+/* Inhalt der Startseite */
+
+.startseite {
+	min-height: 100%;
+	box-sizing: border-box;
+	padding: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 96px;
+}
+
+.startseite-text {
+	max-width: 620px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.startseite-text p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.startseite-titel {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.startseite-text .startseite-dachzeile {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: var(--brandPrimary);
+}
+
+.startseite-dachzeile-strich {
+	width: 24px;
+	height: 2px;
+	background: var(--brandPrimary);
+}
+
+.startseite h1 {
+	margin: 0;
+	font-size: clamp(40px, 5vw, 67px);
+	line-height: 1.19;
+	font-weight: 300;
+	font-stretch: 112.5%;
+	letter-spacing: -0.5px;
+	color: var(--brandPrimary);
+}
+
+.startseite-text .startseite-einleitung {
+	font-size: 21px;
+	line-height: 32px;
+}
+
+/* Farbmuster: 4 Reihen mit je 5 Ides-Farbstufen, rein dekorativ */
+.startseite-farbmuster {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	width: min(360px, 100%);
+	flex-shrink: 0;
+}
+
+.startseite-farbmuster span {
+	aspect-ratio: 1;
+}
+
+@media (max-width: 1023px) {
+	.startseite {
+		padding: 48px 16px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 48px;
+	}
+}
+
+.startseite-aktion {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding-top: 8px;
+}

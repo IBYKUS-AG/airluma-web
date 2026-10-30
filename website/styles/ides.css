@@ -1,0 +1,434 @@
+/* Ides-Grundlage für die AIRLUMA-Website
+ * Werte übernommen aus Ressourcen/web-components-main/src/styles/components/global.css.
+ * Nur die Werte, die die Website tatsächlich nutzt; Namen wie im Original. */
+
+@font-face {
+	font-family: 'Asap';
+	src: url('../fonts/Asap_wdth-wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Asap';
+	src: url('../fonts/Asap-Italic_wdth-wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'IBYKUS-Iconset';
+	src: url('../fonts/IBYKUS-Iconset.woff2') format('woff2'),
+	     url('../fonts/IBYKUS-Iconset.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+:root {
+	/* Rot (Primärfarbe) */
+	--ibk-red-73: rgb(255, 117, 158);
+	--ibk-red-49: rgb(250, 0, 74);
+	--ibk-red-41: rgb(207, 0, 61);
+	--ibk-red-33: rgb(168, 0, 50);
+	--ibk-red-18: rgb(92, 0, 27);
+
+	/* Sisal */
+	--ibk-sisal-94: rgb(243, 241, 236);
+	--ibk-sisal-86: rgb(228, 222, 211);
+	--ibk-sisal-80: rgb(216, 208, 192);
+	--ibk-sisal-78: rgb(212, 203, 186);
+	--ibk-sisal-18: rgb(57, 49, 35);
+
+	/* Petrol */
+	--ibk-petrol-98: rgb(249, 250, 251);
+	--ibk-petrol-94: rgb(237, 240, 243);
+	--ibk-petrol-90: rgb(224, 230, 235);
+	--ibk-petrol-78: rgb(188, 201, 210);
+	--ibk-petrol-40: rgb(82, 105, 122);
+	--ibk-petrol-32: rgb(66, 85, 99);
+	--ibk-petrol-26: rgb(53, 68, 79);
+	--ibk-petrol-14: rgb(29, 37, 43);
+
+	/* Info (Blau) */
+	--ibk-info-94: rgb(224, 242, 255);
+	--ibk-info-74: rgb(122, 200, 255);
+	--ibk-info-50: rgb(0, 149, 255);
+	--ibk-info-34: rgb(0, 101, 173);
+	--ibk-info-18: rgb(0, 54, 92);
+
+	/* Grautöne */
+	--ibk-neutral-grey-2: rgb(5, 5, 5);
+	--ibk-neutral-grey-10: rgb(26, 26, 26);
+	--ibk-neutral-grey-18: rgb(46, 46, 46);
+	--ibk-neutral-grey-26: rgb(66, 66, 66);
+	--ibk-neutral-grey-42: rgb(107, 107, 107);
+	--ibk-neutral-grey-58: rgb(148, 148, 148);
+	--ibk-neutral-grey-74: rgb(189, 189, 189);
+	--ibk-neutral-grey-82: rgb(209, 209, 209);
+	--ibk-neutral-grey-90: rgb(230, 230, 230);
+	--ibk-neutral-grey-94: rgb(240, 240, 240);
+	--white-100: rgb(255, 255, 255);
+
+	/* Bedeutungen */
+	--standard-fontcolor: var(--ibk-neutral-grey-18);
+	--brandPrimary: var(--ibk-red-41);
+	--brandTertiary: var(--ibk-petrol-32);
+	--ibk-focusstroke: var(--ibk-info-34);
+
+	font-family: 'Asap', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--standard-fontcolor);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Ein Fokusrahmen für alles, wie in Ides */
+:focus-visible {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 2px;
+}
+
+button, input, select, textarea { font: inherit; }
+
+/* Nur für Screenreader lesbar, unsichtbar auf dem Bildschirm */
+.nur-screenreader {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Icons aus der Iconset-Schrift; immer dekorativ (aria-hidden) */
+.ibkIcon {
+	font-family: 'IBYKUS-Iconset' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { transition: none !important; }
+}
+
+/* Ides Button – Regular Primary
+ * Übernommen aus Ressourcen/web-components-main/src/styles/components/button.css.
+ * Behält seine eigene Form (Radius 6 px links oben und rechts unten). */
+.ibkButton {
+	box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 40px;
+	padding: 6px 14px;
+	border: 0;
+	border-top-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 24px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.ibkButton.ibkIcon-trailing {
+	padding: 6px 10px 6px 14px;
+}
+
+.ibkButton .ibkIcon {
+	font-size: 24px;
+}
+
+.ibkButton.ibkButton-regular.ibkButton-primary {
+	background-color: var(--ibk-red-41);
+	color: var(--white-100);
+	border: 2px solid var(--ibk-red-41);
+}
+
+.ibkButton.ibkButton-regular.ibkButton-primary:hover {
+	background-color: var(--ibk-red-49);
+	border-color: var(--ibk-red-49);
+}
+
+.ibkButton.ibkButton-regular.ibkButton-primary:active {
+	background-color: var(--ibk-red-33);
+	border-color: var(--ibk-red-33);
+}
+
+.ibkButton.ibkButton-regular.ibkButton-secondary {
+	background-color: var(--ibk-neutral-grey-82);
+	color: var(--ibk-neutral-grey-18);
+	border: 2px solid var(--ibk-neutral-grey-82);
+}
+
+.ibkButton.ibkButton-regular.ibkButton-secondary:hover {
+	background-color: var(--ibk-neutral-grey-90);
+	border-color: var(--ibk-neutral-grey-90);
+}
+
+.ibkButton.ibkButton-regular.ibkButton-secondary:active {
+	background-color: var(--ibk-neutral-grey-74);
+	border-color: var(--ibk-neutral-grey-74);
+}
+
+/* Ides Bottom Navigation – Regular (Desktop), Dominanz Regular (Petrol)
+ * Übernommen aus Ressourcen/web-components-main/src/styles/components/bottom-navigation.css.
+ * Behält ihre eigene Form (Radius 4 px). */
+.ibkBottomNavigation .ibkBottomNavigation-list {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	margin: 0;
+	padding: 2px;
+	list-style: none;
+}
+
+.ibkBottomNavigation-regular .ibkBottomNavigation-list {
+	gap: 8px;
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-listItem {
+	display: flex;
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-item {
+	box-sizing: border-box;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	border: 0;
+	border-radius: 4px;
+	background: transparent;
+	color: var(--standard-fontcolor);
+	font-family: inherit;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-item .ibkIcon {
+	display: block;
+	color: currentColor;
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-label {
+	white-space: nowrap;
+}
+
+.ibkBottomNavigation-regular .ibkBottomNavigation-item {
+	gap: 2px;
+	min-width: 120px;
+	min-height: 66px;
+	padding: 12px 8px 4px;
+}
+
+.ibkBottomNavigation-regular .ibkBottomNavigation-item .ibkIcon {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.ibkBottomNavigation-regular .ibkBottomNavigation-label {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):hover {
+	background: var(--ibk-neutral-grey-90);
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-item:not(.selected):active {
+	background: var(--ibk-neutral-grey-74);
+}
+
+.ibkBottomNavigation .ibkBottomNavigation-item:focus-visible {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: -2px;
+}
+
+/* Aktuelle Seite: nicht mehr interaktiv */
+.ibkBottomNavigation .ibkBottomNavigation-item.selected {
+	color: var(--white-100);
+	cursor: default;
+}
+
+.ibkBottomNavigation-dominance-regular .ibkBottomNavigation-item.selected {
+	background: var(--ibk-petrol-32);
+}
+
+/* Ides Pagination – Regular
+ * Übernommen aus Ressourcen/web-components-main/src/styles/components/pagination.css. */
+.ibkPagination {
+	--ibk-pagination-active-bg: var(--ibk-petrol-32);
+	align-items: center;
+	color: var(--ibk-neutral-grey-18);
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
+
+.ibkPagination[hidden] {
+	display: none;
+}
+
+.ibkPagination .ibkButton.ibkPagination-button {
+	background-color: transparent;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	color: var(--ibk-neutral-grey-18);
+	flex: 0 0 auto;
+	font-variant-numeric: tabular-nums;
+	height: 40px;
+	min-width: 40px;
+	padding: 6px 10px;
+}
+
+.ibkPagination .ibkButton.ibkPagination-arrow {
+	padding: 6px;
+	width: 40px;
+}
+
+.ibkPagination .ibkPagination-button:not(.current):not(:disabled):hover {
+	background-color: var(--ibk-neutral-grey-90);
+	border-color: var(--ibk-neutral-grey-90);
+}
+
+.ibkPagination .ibkPagination-button:not(.current):not(:disabled):active {
+	background-color: var(--ibk-neutral-grey-74);
+	border-color: var(--ibk-neutral-grey-74);
+}
+
+.ibkPagination .ibkPagination-button.current {
+	background-color: var(--ibk-pagination-active-bg);
+	border-color: var(--ibk-pagination-active-bg);
+	color: var(--white-100);
+}
+
+.ibkPagination .ibkPagination-button:disabled {
+	color: var(--ibk-neutral-grey-82);
+	cursor: default;
+}
+
+.ibkPagination-ellipsis {
+	align-items: center;
+	color: var(--ibk-neutral-grey-82);
+	display: inline-flex;
+	height: 40px;
+	justify-content: center;
+	min-width: 40px;
+	padding: 6px 8px;
+	user-select: none;
+}
+
+/* Ides Card
+ * Übernommen aus Ressourcen/web-components-main/src/styles/components/card.css.
+ * Die Web Component nutzt die Attribute variant und delta; hier als Klassen. Behält ihre Form (Radius 10 px). */
+.ibkCard {
+	display: block;
+	box-sizing: border-box;
+	min-width: 8rem;
+	min-height: 8rem;
+	padding: 16px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: var(--ibk-neutral-grey-94);
+}
+
+.ibkCard.ibkCard-bordered {
+	background-color: transparent;
+	border-color: var(--ibk-neutral-grey-94);
+}
+
+.ibkCard.ibkCard-bordered.ibkCard-delta-10 {
+	border-color: var(--ibk-neutral-grey-90);
+}
+
+/* Ides Segmented Control
+ * Übernommen aus Ressourcen/web-components-main/src/styles/components/segmented-control.css.
+ * Hier nach der Ides-Doku mit nativen Radiobuttons im Fieldset; die Segmente sind deren Labels.
+ * Behält seine Form (Pille). */
+.ibkSegmentedControl {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	min-width: 0;
+	margin: 0;
+	padding: 2px;
+	border: 2px solid var(--ibk-neutral-grey-74);
+	border-radius: 1.5rem;
+	background: var(--white-100);
+}
+
+.ibkSegmentedControl[hidden] {
+	display: none;
+}
+
+/* Petrol-Fläche unter dem gewählten Segment; gleitet beim Wechsel */
+.ibkSegmentedControl .ibkSegmentedControl-thumb {
+	position: absolute;
+	inset-block: 2px;
+	left: 0;
+	z-index: 0;
+	border-radius: 1.25rem;
+	background: var(--ibk-petrol-32);
+	pointer-events: none;
+	transition: transform .2s ease-in-out, width .2s ease-in-out;
+}
+
+.ibkSegmentedControl .ibkSegmentedControl-segment {
+	position: relative;
+	z-index: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	height: 2.5rem;
+	padding: 0 14px;
+	border-radius: 1.25rem;
+	color: var(--standard-fontcolor);
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: color .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.ibkSegmentedControl .ibkSegmentedControl-radio:not(:checked) + .ibkSegmentedControl-segment:hover {
+	background: var(--ibk-neutral-grey-90);
+}
+
+.ibkSegmentedControl .ibkSegmentedControl-radio:not(:checked) + .ibkSegmentedControl-segment:active {
+	background: var(--ibk-neutral-grey-74);
+}
+
+.ibkSegmentedControl .ibkSegmentedControl-radio:checked + .ibkSegmentedControl-segment {
+	color: var(--white-100);
+	cursor: default;
+}
+
+/* Fokusrahmen am Segment, weil der Radiobutton selbst unsichtbar ist */
+.ibkSegmentedControl .ibkSegmentedControl-radio:focus-visible + .ibkSegmentedControl-segment {
+	outline: solid 2px var(--ibk-focusstroke);
+	outline-offset: 2px;
+}

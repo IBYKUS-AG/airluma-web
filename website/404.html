@@ -1,0 +1,16 @@
+---
+layout: rahmen.njk
+titel: Seite nicht gefunden
+seitenstil: platzhalter.css
+suche: false
+eleventyComputed:
+  basis: "{{ seite.url }}/"
+---
+{#- Fehlerseite: GitHub Pages zeigt sie bei jeder unbekannten Adresse, auch in Unterordnern wie /alt/seite.html.
+    basis lässt Styles, Skripte und Links trotzdem vom Hauptordner der Website laden.
+    Die Adresse kommt aus _data/seite.json und muss hier nicht angepasst werden. -#}
+		<div class="platzhalter">
+			<h1>Seite nicht gefunden</h1>
+			<p>Diese Adresse gibt es auf der Website nicht oder nicht mehr. Vielleicht hilft dir die Suche oben weiter oder die Navigation.</p>
+			<p><a href="index.html">Zur Startseite</a></p>
+		</div>

@@ -13,7 +13,7 @@ seitenstil: erste-schritte.css
 {%- macro ressource(id, text) -%}
 {%- for r in ressourcen %}{% if r.id == id %}{% if r.status == 'verfuegbar' %}<a href="ressourcen.html#ressource-{{ id }}">{{ text }}</a>{% else %}{{ text }} <span class="folgt-hinweis">(folgt)</span>{% endif %}{% endif %}{% endfor -%}
 {%- endmacro -%}
-<p class="uebersicht-einleitung">Hier findest du alles, um mit AIRLUMA zu arbeiten: wie diese Website aufgebaut ist, welcher Weg für deine Rolle der richtige ist und wo du Code, Figma-Kit, Schrift und Icons bekommst.</p>
+<p class="uebersicht-einleitung">Hier findest du alles, um mit AIRLUMA<span class="marke-zeichen">®</span> zu arbeiten: wie diese Website aufgebaut ist, welcher Weg für deine Rolle der richtige ist und wo du Code, Figma-Kit, Schrift und Icons bekommst.</p>
 <p>AIRLUMA ist ein offenes Designsystem für digitale Oberflächen. Barrierefreiheit gehört von Anfang an dazu: Alle Vorgaben orientieren sich an den Web Content Accessibility Guidelines (WCAG) 2.2 auf Stufe AA.</p>
 
 <h2 id="so-nutzt-du-die-website">So nutzt du die Website</h2>

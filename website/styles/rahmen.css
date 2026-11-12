@@ -99,10 +99,11 @@ ul {
 	margin-left: 0.05em;
 }
 
-.kopfzeile-marke-quadrat {
-	width: 12px;
-	height: 12px;
-	background: var(--brandPrimary);
+/* Bildzeichen des Logos (bilder/marke/logo-zeichen.svg, ohne Schutzrand), Höhe wie die Zeile des Namens */
+.kopfzeile-marke-zeichen {
+	display: block;
+	width: 24px;
+	height: 24px;
 }
 
 .kopfzeile-marke-name {
